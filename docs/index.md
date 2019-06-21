@@ -109,7 +109,7 @@ unter folgender URL verfügbar:
 
 <https://daten.berlin.de/datenbereitsteller>
 
-# Das Berliner Datenportal
+# <a name="datenportal">Das Berliner Datenportal</a>
 
 Das Berliner Datenportal [daten.berlin.de](https://daten.berlin.de)
 (online seit 2011) macht die Datenbestände der Berliner Verwaltung für
@@ -170,7 +170,7 @@ ins Datenportal überführen.
 Datenportal](../images/offene_daten_uebersicht.png
 "Der Weg der Metadaten im Berliner Datenportal – Datenbereitsteller, Datenportal, Datennutzer")
 
-# Schritt für Schritt zur Veröffentlichung
+# <a name="schritt_fuer_schritt">Schritt für Schritt zur Veröffentlichung</a>
 
 Die Veröffentlichung von offenen Daten ist ein mehrstufiger Prozess (s.
 Abb. ). Aber es sind weniger Schritte nötig als Sie denken, um
@@ -493,7 +493,7 @@ Seite zu stellen.
 
 -----
 
-#### Excel-Formate
+#### <a name="excel-formate">Excel-Formate</a>
 
 **Datenstruktur**: Tabelle<br/> **Anwendungsgebiet**: beliebig<br/>
 **Offenheitskriterien**: maschinenlesbar, offen, standardisiert<br/>
@@ -515,7 +515,7 @@ Excel-Formate korrekt verarbeiten können.<br/> **Spezifikation**: Seit
 2007 ist das Excel Format `.xlsx` offen standardisiert. Dies gilt nicht
 für ältere Excel-Formate.
 
-#### OpenDocument Spreadsheet
+#### <a name="open_document_spreadsheet">OpenDocument Spreadsheet</a>
 
 **Datenstruktur**: Tabelle<br/> **Anwendungsgebiet**: beliebig<br/>
 **Offenheitskriterien**: maschinenlesbar, offen, standardisiert<br/>
@@ -1018,7 +1018,7 @@ zusammengefasst:
     etc.) in den Daten genutzt werden. Idealerweise können diese Codes
     als Linked Data aufgelöst werden.
 
-## Lizenz festlegen
+## <a name="lizenzen">Lizenz festlegen</a>
 
 Die Bedingungen, unter welchen veröffentlichte Datensätze oder Dokumente
 genutzt werden können, werden durch Nutzungsbestimmungen (Lizenzen)
@@ -1127,7 +1127,7 @@ Nutzungsbestimmungen wurden im Juni 2019 allerdings durch die
 *Datenlizenz Deutschland – Namensnennung* (Version 2.0) ersetzt, um so
 einen Beitrag zur Vereinheitlichung des Lizenzwesens zu leisten.
 
-# Wege der Veröffentlichung
+# <a name="wege_der_veroeffentlichung">Wege der Veröffentlichung</a>
 
 Es gibt verschiedene Möglichkeiten, offene Daten im Berliner Datenportal
 zu veröffentlichen. Je nach Situation und Ausgangslage in Ihrer Behörde
@@ -1164,7 +1164,7 @@ gibt es einige Aspekte, die allen gemeinsam sind.
 Twitter](../images/twitter-neuer-datensatz.png
 "Ankündigung des Datensatzes 'Kriminalitätsatlas Berlin' auf Twitter, mit Likes und Retweets")
 
-## Imperia Datenrubrik
+## <a name="datenrubrik">Imperia Datenrubrik</a>
 
 Wählen Sie diesen Weg wenn:
 
@@ -1334,7 +1334,7 @@ dass lediglich Datensätze angezeigt werden, die bereits freigeschaltet
 sind. Bei neu freigeschalteten Datensätze kann es bis zu 60 Minuten
 dauern, bis diese im Datenportal zur Verfügung stehen.
 
-## Imperia SimpleSearch
+## <a name="simplesearch">Imperia SimpleSearch</a>
 
 Wählen Sie diesen Weg wenn:
 
@@ -1394,7 +1394,7 @@ Data](../images/opendata-sise-imperia.png
     aufeinander zugreifen (s. [*Das Berliner
     Datenportal*](#datenportal)).
 
-## Datenregister manuell
+## <a name="datenregister_manuell">Datenregister manuell</a>
 
 Wählen Sie diesen Weg wenn:
 
@@ -1549,7 +1549,7 @@ stellt sicher, dass Datensätze, die über diese Veröffentlichungswege in
 das Datenregister gelangen, auch nur auf diesem Wege geändert oder
 gelöscht werden können.
 
-### Datensatz anlegen
+### <a name="datenregister_datensatz_anlegen">Datensatz anlegen</a>
 
 Um einen neuen Datensatz im Datenregister anzulegen, klicken Sie im
 Bereich [*Datensätze*](https://datenregister.berlin.de/dataset) den
@@ -1583,7 +1583,7 @@ hinzufügen](../images/screenshot_ressource_hinzufügen.png
 Weitere Angaben zur Bedeutung der anderen Metadatenfelder s. auch das
 Kapitel [*Metadaten*](#metadaten).
 
-## CKAN Harvester
+## <a name="harvester">CKAN Harvester</a>
 
 Wählen Sie diesen Weg wenn:
 
@@ -1633,7 +1633,7 @@ Als Einstiegspunkte zu weiterer Information dienen folgende Ressourcen:
     Metadatenfelder auf ihre formale Richtigkeit hin überprüft werden
     können. <https://github.com/berlinonline/ckanext-validationapi>
 
-# Metadaten
+# <a name="metadaten">Metadaten</a>
 
 Dieser Abschnitt dokumentiert das Metadatenschema des Berliner
 Datenportals. Die Beschreibungen hier sind rein informativ; verbindliche
@@ -1677,7 +1677,7 @@ Kategorie in DCAT-AP.de haben. Insbesondere nicht-thematische Kategorien
 wie *Geodaten*, *Sonstiges* oder *Protokolle* wird es in Zukunft nicht
 mehr geben.
 
-### Veröffentlichende Stelle
+### <a name="metadaten-vö-stelle">Veröffentlichende Stelle</a>
 
 Auch „Datenbereitsteller“ genannt. Bitte geben Sie hier den korrekten
 Namen der Einrichtung an, in deren Namen Sie das Dokument
@@ -1879,7 +1879,7 @@ verpacken (ZIP oder ähnliches) und dieses anschließend hochladen. In
 diesem Fall sollten Sie das eigentliche Format in der Beschreibung der
 Ressource angeben.
 
-# Schnittstellen
+# <a name="schnittstellen">Schnittstellen</a>
 
 Das Berliner Datenportal bietet zwei unterschiedliche APIs
 (Programmierschnittstellen), um es in automatisierte Prozesse einbinden
@@ -1888,7 +1888,7 @@ Schnittstellen im Detail nicht vertraut sein. Um ein vollständiges Bild
 des Datenportals zu geben, wollen wir hier trotzdem beide kurz
 vorstellen.
 
-## CKAN API
+## <a name="schnittstelle_ckan">CKAN API</a>
 
 Das Datenregister, das für die Eingabe und Speicherung aller Datensätze
 zuständig ist, basiert auf der weit verbreiteten Software
@@ -2003,7 +2003,7 @@ mit dem Thema CKAN API dienen.
     Validierung von Metadaten. Dokumentation dazu finden Sie unter:
     <https://github.com/berlinonline/ckanext-validationapi>
 
-## DCAT-AP.de
+## <a name="schnittstelle_dcat">DCAT-AP.de</a>
 
 CKAN ist Open Source Software, weit verbreitet und kann als
 defacto-Standard im Bereich Open Data Portale angesehen werden. Trotzdem
@@ -2224,7 +2224,7 @@ dem Thema DCAT-AP.de dienen.
   - Die Europäische Kommission hat einen Foliensatz zum Thema Linked
     Data und öffentliche Daten veröffentlicht: \[EC2013\].
 
-# Weitere Beratung
+# <a name="beratung">Weitere Beratung</a>
 
 Das Ziel dieser Broschüre ist es, auf möglichst viele Fragen rund um das
 Thema Open Data möglichst detaillierte Antworten zu geben. Es ist aber
