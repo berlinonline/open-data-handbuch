@@ -1,30 +1,3 @@
-# Grußwort
-
-Open Data bedeutet, dass Daten zur freien Verwendung geöffnet, also
-zugänglich gemacht werden. Die Berliner Verwaltung verfügt über enorme
-Datenbestände. Viele dieser Daten sind von öffentlichem Interesse,
-nützlich und müssen nicht besonders geschützt werden. Sie können dabei
-helfen, die Stadt besser zu verstehen, neue Dienste für Bürger\*innen zu
-entwickeln und Geschäftsideen zu initiieren. Zahlreiche Studien haben in
-den letzten Jahren die großen Potenziale offener Verwaltungsdaten für
-Gesellschaft und Wirtschaft beleuchtet. Diese Potentiale wollen wir noch
-stärker nutzen.
-
-Mit diesem Handbuch wollen wir der Berliner Verwaltung und allen
-Interessierten eine Anleitung für Veröffentlichungsmöglichkeiten von
-Informationen auf dem Berliner Datenportal
-[daten.berlin.de](https://daten.berlin.de) an die Hand geben. Sie
-erhalten nützliche Tipps dazu, welche Daten Sie wie veröffentlichen, und
-aus welchen verschiedenen Dateiformaten Sie dabei wählen können.
-
-Ich würde mich freuen, wenn sie das Open Data Handbuch intensiv nutzen,
-um sich zu informieren und um ins Öffnen von Daten einzusteigen.
-
-**Christian Rickerts**
-
-Staatssekretär in der Senatsverwaltung für Wirtschaft, Energie und
-Betriebe
-
 # Einleitung
 
 Seit der Veröffentlichung der [Berliner Open Data
@@ -124,8 +97,7 @@ lediglich, dass sie im Internet verfügbar sind, damit sie vom Datensatz
 aus verlinkt werden können (s. Abb. ). Man spricht daher auch von einem
 **Metadatenportal**.
 
-![Datensätze, Metadaten und
-Datenressourcen](../images/metadaten_daten.png
+![Datensätze, Metadaten und Datenressourcen](images/metadaten_daten.png
 "Datensätze im Datenportal verlinken zu Datenressourcen im Internet")
 
 Das Datenportal besteht aus zwei Teilen: zum einen gibt es das
@@ -167,7 +139,7 @@ aus anderen Portalen des Landes (z.B. aus dem
 ins Datenportal überführen.
 
 ![Der Weg der Metadaten im Berliner
-Datenportal](../images/offene_daten_uebersicht.png
+Datenportal](images/offene_daten_uebersicht.png
 "Der Weg der Metadaten im Berliner Datenportal – Datenbereitsteller, Datenportal, Datennutzer")
 
 # <a name="schritt_fuer_schritt">Schritt für Schritt zur Veröffentlichung</a>
@@ -190,7 +162,7 @@ Informationsstelle](https://www.odis-berlin.de) des Landes Berlin (s.
 auch das Kapitel [*Weitere Beratung*](#beratung)).
 
 ![Schritt für Schritt zur
-Veröffentlichung](../images/schritt-für-schritt.png
+Veröffentlichung](images/schritt-für-schritt.png
 "Übersicht über die Schritte, die zu einer Veröffentlichung eines Datensatzes im Berliner Datenportal führen")
 
 ## Datenauswahl
@@ -416,7 +388,7 @@ Daten zulässt, oder indem man mit mehreren verknüpften Tabellen arbeitet
 – das Endergebnis wäre in seiner Komplexität mit einer Datenbank
 vergleichbar.
 
-![Die LOR-Hierarchie Berlins](../images/format-example-tree.png
+![Die LOR-Hierarchie Berlins](images/format-example-tree.png
 "Ausschnitt aus der LOR-Hierarchie Berlins. Gezeigt wird, wie sich Berlin in Bezirke aufspaltet, Bezirke in Prognoseräume – am Beipspiel des Bezirks Neukölln (08) –, Prognoseräume in Bezirksregionen – am Beispiel Neukölln (0801) – und Bezirksregionen in Planungsräume – am Beispiel Schillerpromenade (080101).")
 
 -----
@@ -880,7 +852,7 @@ Standards folgen. Konkrete Beispiele sind:
     genutzt werden, also `YYYY-MM-DD`, bzw. `JJJJ-MM-TT`. Der 10. Juni
     2013 wäre demnach `2013-06-10`.
 
-![xkcd comic ‘ISO 8601’](../images/xkcd_iso_8601.png
+![xkcd comic ‘ISO 8601’](images/xkcd_iso_8601.png
 "Comic zum ISO 8601 Standard für Datumsangaben, der zeigt, warum ein einheitliches Datumsformat sinnvoll ist.")
 
 -----
@@ -975,7 +947,7 @@ Datensatz/Bezirk) steht der Tatsache entgegen, dass die Daten aller
 Bezirke gesammelt vom LABO veröffentlicht werden.
 
 ![Die Zeitreihe der Berliner
-Vornamensdaten](../images/datensaetze_vornamen.png
+Vornamensdaten](images/datensaetze_vornamen.png
 "Die Detailseiten der drei Datensätze 'Liste der häufigen Vornamen …' für 2015, 2016 und 2017 nebeneinander")
 
 In Zukunft wird das Datenportal Funktionalität enthalten, mit der
@@ -1137,7 +1109,7 @@ dienen. Im Anschluss werden die einzelnen Veröffentlichungswege
 detailliert vorgestellt.
 
 ![Flussdiagramm zur Auswahl eines Veröffentlichungsweges für das
-Berliner Datenportal](../images/veroeffentlichungsweg_waehlen_90.png
+Berliner Datenportal](images/veroeffentlichungsweg_waehlen_90.png
 "Flussdiagramm zur Auswahl eines Veröffentlichungsweges für das Berliner Datenportal")
 
 ## Grundsätzliches
@@ -1161,7 +1133,7 @@ gibt es einige Aspekte, die allen gemeinsam sind.
     Datenportal importiert wurden (s. Abb. ).
 
 ![Ankündigung eines neuen Datensatzes auf
-Twitter](../images/twitter-neuer-datensatz.png
+Twitter](images/twitter-neuer-datensatz.png
 "Ankündigung des Datensatzes 'Kriminalitätsatlas Berlin' auf Twitter, mit Likes und Retweets")
 
 ## <a name="datenrubrik">Imperia Datenrubrik</a>
@@ -1188,7 +1160,7 @@ nach Unterkategorien. Für jeden Datensatz wird dort ein Link aufgeführt,
 der die Nutzer zu der entsprechenden Seite im Datenportal führt.
 
 ![Output eines Imperia Datenrubrik
-Formulars](../images/output_datenrubrik.png
+Formulars](images/output_datenrubrik.png
 "Aus den Eingaben im Datenrubrik-Formular wird ein Eintrag in der Datenrubrik und ein Datensatz im Datenportal erzeugt")
 
 Aktuelle und detaillierte [Dokumentation zur
@@ -1226,7 +1198,7 @@ Auftritts die Datenrubrik auswählen und dort ein neues Dokument
 erstellen (s. Abb. ).
 
 ![Erzeugen eines neuen
-Datensatzes](../images/datenrubrik-dokument-erzeugen.png
+Datensatzes](images/datenrubrik-dokument-erzeugen.png
 "Erzeugen eines neuen Datensatzes über den Rubrikenbaum in Imperia")
 
 Im folgenden Schritt wählen Sie das Template *Datenrubrik-Datensatz* aus
@@ -1234,7 +1206,7 @@ und vergeben einen Titel. Dann gelangen sie zum Datensatz-Template (s.
 Abb. ).
 
 ![Datensatz-Template der Imperia Datenrubrik für
-berlin.de](../images/datenrubrik-01.png
+berlin.de](images/datenrubrik-01.png
 "Das Template zum Anlegen eines Datensatzes für einen berlin.de-Imperia-Auftritt")
 
 Das Formular gleicht im Wesentlichen dem entsprechenden [Formular im
@@ -1292,7 +1264,7 @@ innerhalb des *Media-Asset-Managements* (MAM) von Imperia liegen. Sie
 können darüber Dateien hochladen und als Ressource bereitstellen (s.
 Abb. ).
 
-![Flexmodul Download](../images/datenrubrik-hochladen.png
+![Flexmodul Download](images/datenrubrik-hochladen.png
 "Das Flexmodul für das Hochladen einer Datei als Datensatz-Ressource")
 
 In der Beschreibung können Sie Informationen und Hinweise zur Nutzung
@@ -1306,7 +1278,7 @@ unterschiedlichen Sprachen beim Datensatz zu hinterlegen.
 Nutzen Sie dieses Modul, wenn Sie eine externe Quelle, z.B. eine
 Schnittstelle als Ressource hinzufügen möchten (s. Abb. ).
 
-![Flexmodul Verlinkung](../images/datenrubrik-verlinkung.png
+![Flexmodul Verlinkung](images/datenrubrik-verlinkung.png
 "Das Flexmodul für das Verlinken einer Datensatz-Ressource")
 
 ### Startseite
@@ -1321,7 +1293,7 @@ Bitte beachten Sie, dass auf der Startseite nur Datensätze angezeigt
 werden, die über den Veröffentlichungsweg *Datenrubrik* erstellt wurden.
 Datensätze aus anderen Veröffentlichungswegen erscheinen hier nicht.
 
-![Startseite der Datenrubrik](../images/datenrubrik-startseite.png
+![Startseite der Datenrubrik](images/datenrubrik-startseite.png
 "Screenshot der alphabetischen Übersicht aller Datensätze in der Datenrubrik")
 
 In der A-Z-Liste werden alle Datensätze aus allen Rubriken angezeigt.
@@ -1355,7 +1327,7 @@ in verschiedenen Formaten (CSV, JSON, XML und evtl. andere) online
 verfügbar und werden als Datensatz im Datenportal veröffentlicht.
 
 ![Output des Imperia
-SimpleSearch-Baukastens](../images/output_simplesearch.png
+SimpleSearch-Baukastens](images/output_simplesearch.png
 "Aus dem SimpleSearch-Baukasten wird eine Datenbankanwendung und ein Datensatz im Datenportal erzeugt")
 
 ### Datensatz aus SimpleSearch-Anwendung erzeugen
@@ -1369,7 +1341,7 @@ aus einer bestehenden SimpleSearch-Anwendung einen Datensatz für das
 Datenportal zu erzeugen.
 
 ![Veröffentlichung einer SimpleSearch-Anwendung als Open
-Data](../images/opendata-sise-imperia.png
+Data](images/opendata-sise-imperia.png
 "Veröffentlichung einer SimpleSearch-Anwendung als Open Data")
 
   - Wählen Sie zunächst den Unterreiter *Zusatzinformationen für
@@ -1382,7 +1354,7 @@ Data](../images/opendata-sise-imperia.png
     Reiter *Allgemeine Angaben* übernommen.
   - Füllen Sie die Informationen in den weiteren Formularfeldern aus.
     Zur Bedeutung der einzelnen Felder s. das Kapitel
-    [Metadaten](#metadaten).
+    *[Metadaten](#metadaten)*.
   - Wie oben erwähnt erlaubt die SimpleSearch API den Export der Daten
     in verschiedenen Formaten (welche Formate dies sind, definieren Sie
     im Reiter *Erweitert*). Diese werden im Zuge der Veröffentlichung
@@ -1434,14 +1406,14 @@ beantragen und zu aktivieren, gehen Sie folgendermaßen vor:
     Benutzernamen und Passwort ein (s. Abb. ).
 
 ![Eingabemaske zum Anfordern eines
-Passworts](../images/screenshot_pw_zuruecksetzen_anfordern.png
+Passworts](images/screenshot_pw_zuruecksetzen_anfordern.png
 "Eingabemaske zum Anfordern eines Passworts")
 
 ![Eingabemaske zum Zurücksetzen des
-Passworts](../images/screenshot_pw_zuruecksetzen.png
+Passworts](images/screenshot_pw_zuruecksetzen.png
 "Eingabemaske zum Zurücksetzen des Passworts")
 
-![Anmelden beim Datenregister](../images/screenshot_einloggen.png
+![Anmelden beim Datenregister](images/screenshot_einloggen.png
 "Anmeldung mit Benutzername und Passwort im Berliner Datenregister")
 
 ### Navigation
@@ -1449,7 +1421,7 @@ Passworts](../images/screenshot_pw_zuruecksetzen.png
 Sobald Sie eingeloggt sind, können Sie die Funktionen des Datenregisters
 nutzen (s. Abb. ).
 
-![Navigation](../images/screenshot_menue.png
+![Navigation](images/screenshot_menue.png
 "Die Navigationselemente des Berliner Datenregisters")
 
 #### Nutzermenü
@@ -1490,7 +1462,7 @@ Hauptbereiche des Datenregisters navigieren:
 Das Dashboard bietet einen Nachrichtenfeed, der Ereignisse von Objekten
 anzeigt, denen Sie folgen (s. Abb. ).
 
-![Das Dashboard](../images/screenshot_dashboard.png
+![Das Dashboard](images/screenshot_dashboard.png
 "Das Dashboard eines Nutzers, mit einer Liste von Ereignissen.")
 
 Sie können z.B. Organisationen oder Kategorien folgen und erfahren dann
@@ -1500,7 +1472,7 @@ einer Kategorie zu folgen, öffnen Sie deren Seite über den
 *Kategorien*-Reiter im Hauptmenü und klicken Sie dann den *Folgen*
 Button (s. Abb. ).
 
-![Einer Kategorie folgen](../images/screenshot_follow_category.png
+![Einer Kategorie folgen](images/screenshot_follow_category.png
 "Einer Kategorie folgen über den Follow Button")
 
 Sie öffnen das Dashboard entweder über das [Nutzermenü](#nutzermenu)
@@ -1521,7 +1493,7 @@ zugeordnet wurde.
 Der API-Schlüssel wird benötigt, um die API des Datenregisters zu
 nutzen, spielt aber für die meisten Nutzer keine Rolle.
 
-![Benutzerprofil](../images/screenshot_user_profile.png
+![Benutzerprofil](images/screenshot_user_profile.png
 "Benutzerprofil der Beispiel-Persona Vera Musterer")
 
 (Das Avatarbild wird übrigens nicht im Datenregister direkt gesetzt.
@@ -1558,7 +1530,7 @@ hinzufügen*](https://datenregister.berlin.de/dataset/new). Auf diese
 Weise gelangen Sie zum Eingabeformular für einen neuen Datensatz (s.
 Abb. ).
 
-![Formular Datensatz anlegen](../images/screenshot_neuer_datensatz.png
+![Formular Datensatz anlegen](images/screenshot_neuer_datensatz.png
 "Ausgefülltes Formular zum Anlegen eines neuen Datensatzes")
 
 Im ersten Schritt geben Sie die allgemeinen Metadaten zu ihrem Datensatz
@@ -1577,7 +1549,7 @@ hier über das Feld *URL* auf eine bereits online verfügbare
 Datenressource.
 
 ![Formular Datenressource
-hinzufügen](../images/screenshot_ressource_hinzufügen.png
+hinzufügen](images/screenshot_ressource_hinzufügen.png
 "Ausgefülltes Formular zum Hinzufügen einer Datenressource")
 
 Weitere Angaben zur Bedeutung der anderen Metadatenfelder s. auch das
