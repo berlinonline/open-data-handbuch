@@ -8,4 +8,6 @@
 **Lizenz**: Der Text des Handbuchs ist unter einer [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0) veröffentlicht.
 Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenommen.
 [Quellenverzeichnis](#quellenverzeichnis) und [Bildverzeichnis](#bildverzeichnis) mit entsprechenden Urheberrechtsangaben finden sich im Anhang.
+**Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: https://github.com/berlinonline/open-data-handbuch.
+Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github Account erforderlich). Wer mag, kann auch gleich einen Pull Request stellen!
 
