@@ -1,7 +1,9 @@
 .PHONY: pdf
-pdf: clean | temp 
+pdf: clean | temp
+	@echo "combining parts ..."
+	@cat parts/latex_preamble.md parts/grusswort.md handreichung_opendata.md > temp/pdf_source.md
 	@echo "replacing <br/> with double space ..."
-	@sed 's:<br/>:  :g' handreichung_opendata.md > temp/handreichung_opendata_01.md
+	@sed 's:<br/>:  :g' temp/pdf_source.md > temp/handreichung_opendata_01.md
 	@echo "creating pdf ..."
 	@pandoc --listings -H template/listings-setup.tex -V lang=de --template=template/default.latex --variable urlcolor=cyan temp/handreichung_opendata_01.md template/metadata.yml --pdf-engine=pdflatex --toc -o handreichung_opendata.pdf
 
