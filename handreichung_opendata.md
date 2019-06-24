@@ -836,7 +836,7 @@ An dieser Stelle soll nur kurz erläutert werden, welche Schritte nötig sind, u
 - Wählen Sie zunächst den Unterreiter _Zusatzinformationen für Schnittstellen_ im Reiter _Metadaten_ des SimpleSearch-Baukastens aus (s. Abb.&nbsp;\ref{fig:simplesearch_template}).
 - Stellen Sie sicher, dass bei _Schnittstelle&hellip;_ die Auswahl _&hellip; bei daten.berlin.de veröffentlichen_ aktiviert ist.
 - In den weiteren Formularfeldern bestimmen Sie die Metadaten Ihres Datensatzes. Für den Titel des Datensatzes wird der Titel aus dem Reiter _Allgemeine Angaben_ übernommen.
-- Füllen Sie die Informationen in den weiteren Formularfeldern aus. Zur Bedeutung der einzelnen Felder s. das Kapitel [Metadaten](#metadaten).
+- Füllen Sie die Informationen in den weiteren Formularfeldern aus. Zur Bedeutung der einzelnen Felder s. das Kapitel _[Metadaten](#metadaten)_.
 - Wie oben erwähnt erlaubt die SimpleSearch API den Export der Daten in verschiedenen Formaten (welche Formate dies sind, definieren Sie im Reiter _Erweitert_). Diese werden im Zuge der Veröffentlichung als Open Data im Datenportal als Datenressourcen übernommen.
 - Nach dem Freischalten Ihrer Anwendung wird der Datensatz im Datenportal veröffentlicht. Es kann bis zu einer Stunde dauern, bis der Datensatz dort zu sehen ist, da der Veröffentlichungsprozess über mehrere Systeme erfolgt, die in regelmäßigen Abständen aufeinander zugreifen (s. [_Das Berliner Datenportal_](#datenportal)).
 
