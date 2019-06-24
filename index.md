@@ -2640,8 +2640,8 @@ veröffentlicht. Bilder und andere Elemente, deren Urheberrecht bei
 Dritten liegen, sind ausgenommen.
 [Quellenverzeichnis](#quellenverzeichnis) und
 [Bildverzeichnis](#bildverzeichnis) mit entsprechenden
-Urheberrechtsangaben finden sich im Anhang. **Quelle**: Der Quelltext
-für das Handbuch befindet sich in folgendem Repository:
+Urheberrechtsangaben finden sich im Anhang.<br/> **Quelle**: Der
+Quelltext für das Handbuch befindet sich in folgendem Repository:
 https://github.com/berlinonline/open-data-handbuch. Dort können über die
 *Issue*-Funktion auch Anregungen gemacht oder Fehler gemeldet werden
 (github Account erforderlich). Wer mag, kann auch gleich einen Pull
