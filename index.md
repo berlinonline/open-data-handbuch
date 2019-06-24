@@ -1,5 +1,8 @@
-![Titelbild Berliner Open Data Handbuch](images/pages_title.jpg
-"Das Titelbild des Berliner Open Data Handbuchs, mit einer stilisierten Karte Berlins im Hintergrund")
+---
+title: Das Berliner Open Data Handbuch
+---
+
+![Titelbild Berliner Open Data Handbuch](images/pages_title.jpg "Das Titelbild des Berliner Open Data Handbuchs, mit einer stilisierten Karte Berlins im Hintergrund")
 
 # Einleitung
 
@@ -2627,3 +2630,18 @@ Version 2.0](https://www.govdata.de/dl-de/zero-2-0).
 Namensnennung-Nicht
 kommerziell 2.5](https://creativecommons.org/licenses/by-nc/2.5/deed.de):
 <https://xkcd.com/1179/>
+
+# Impressum
+
+**Herausgeber:** Land Berlin, Senatsverwaltung für Wirtschaft, Energie
+und Betriebe<br/> **Text:** Knud Hinnerk Möller (BerlinOnline
+Stadtportal GmbH & Co. KG)<br/> **Grafiken:** Nadine Wohlfahrt
+(BerlinOnline Stadtportal GmbH & Co. KG)<br/> **Stand**: Juni 2019<br/>
+**Lizenz**: Der Text des Handbuchs ist unter einer [Creative Commons
+Namensnennung 4.0 International
+Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0)
+veröffentlicht. Bilder und andere Elemente, deren Urheberrecht bei
+Dritten liegen, sind ausgenommen.
+[Quellenverzeichnis](#quellenverzeichnis) und
+[Bildverzeichnis](#bildverzeichnis) mit entsprechenden
+Urheberrechtsangaben finden sich im Anhang.

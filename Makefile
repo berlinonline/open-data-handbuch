@@ -16,14 +16,14 @@ indesign: clean temp/handreichung_opendata.nolatex.md | temp
 
 .PHONY: gfm
 gfm: clean | temp
-	# @echo "rewrite image paths ..."
-	# @sed 's:(images:(..\/images:' handreichung_opendata.md > temp/handreichung_opendata_01.md
 	@echo "combining parts ..."
-	@cat parts/pages_title.md handreichung_opendata.md > temp/handreichung_opendata_01.md
+	@cat handreichung_opendata.md parts/pages_impressum.md > temp/handreichung_opendata_01.md
 	@echo "rewrite anchors ..."
 	@sed -E 's/^(#+ )(.+) {#(.+)}$$/\1<a name="\3">\2<\/a>/' temp/handreichung_opendata_01.md > temp/handreichung_opendata_02.md
 	@echo "generate gfm output ..."
-	@pandoc --to=gfm temp/handreichung_opendata_02.md > index.md
+	@pandoc --to=gfm temp/handreichung_opendata_02.md > temp/handreichung_opendata_03.md
+	@echo "add title matter ..."
+	@cat parts/pages_title.md temp/handreichung_opendata_03.md > index.md
 
 .PHONY: temp/handreichung_opendata.nolatex.md
 temp/handreichung_opendata.nolatex.md: | temp
