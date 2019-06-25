@@ -1,9 +1,9 @@
 ---
 documentclass: book
 language: de
-date: 2019-06-21
+date: 2019-06-24
 title: 'Das Berliner Open Data Handbuch'
-cover-image: images/Logo-BerlinOpenData-POS-MAIN-cmyk
+cover-image: images/title.jpg
 numbersections: true
 fontfamily: arev
 papersize: a4
