@@ -420,7 +420,7 @@ $title$
 
 \nbvspace[2]
 
-\includegraphics[width=3in]{$cover-image$}
+\includegraphics{$cover-image$}
 \nbvspace[3]
 \normalsize
 

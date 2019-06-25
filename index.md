@@ -1,4 +1,4 @@
-![Titelbild Berliner Open Data Handbuch](images/pages_title.jpg "Das Titelbild des Berliner Open Data Handbuchs, mit einer stilisierten Karte Berlins im Hintergrund")
+![Titelbild Berliner Open Data Handbuch](images/title.jpg "Das Titelbild des Berliner Open Data Handbuchs, mit einer stilisierten Karte Berlins im Hintergrund")
 
 # Einleitung
 
@@ -2640,9 +2640,9 @@ veröffentlicht. Bilder und andere Elemente, deren Urheberrecht bei
 Dritten liegen, sind ausgenommen.
 [Quellenverzeichnis](#quellenverzeichnis) und
 [Bildverzeichnis](#bildverzeichnis) mit entsprechenden
-Urheberrechtsangaben finden sich im Anhang.<br/> **Quelle**: Der
+Urheberrechtsangaben sind im Handbuch enthalten.<br/> **Quelle**: Der
 Quelltext für das Handbuch befindet sich in folgendem Repository:
-https://github.com/berlinonline/open-data-handbuch. Dort können über die
-*Issue*-Funktion auch Anregungen gemacht oder Fehler gemeldet werden
-(github Account erforderlich). Wer mag, kann auch gleich einen Pull
+<https://github.com/berlinonline/open-data-handbuch>. Dort können über
+die *Issue*-Funktion auch Anregungen gemacht oder Fehler gemeldet werden
+(github-Account erforderlich). Wer mag, kann auch gleich einen Pull
 Request stellen\!

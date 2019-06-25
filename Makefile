@@ -41,6 +41,11 @@ clean:
 	@echo "emptying temp folder ..."
 	@rm -rf temp
 
+.PHONY: serve-gfm
+serve-gfm: gfm
+	@echo "serving local version of online handbook ..."
+	@bundle exec jekyll serve
+
 temp:
 	@echo "creating temp directory ..."
 	@mkdir -p temp
