@@ -391,7 +391,7 @@ Der Standard beschränkt sich auf das Datenformat selber; verwandte Standards zu
 **Media Type**: `text/turtle` (Turtle), `application/n-triples` (N-Triples), `application/ld+json` (JSON-LD), `application/rdf+xml` (RDF/XML)<br/>
 **Beschreibung**: _Resource Description Framework_ (RDF) ist ein graph-basiertes Datenmodell, mit dem sich Netzwerkstrukturen besonders gut abbilden lassen.
 Das RDF Modell selber ist abstrakt gehalten, kann aber auf verschiedene Weisen geschrieben werden.
-So gibt es etwa eine JSON-Serialisierung (JSON-LD), eine XML-Serialisierung (RDF-XML), sowie die Turtle-Serialisierung (kompakt und gut lesbar) und die N-Triples-Serialisierung (gut zu verarbeiten).<br/>
+So gibt es etwa eine JSON-Serialisierung (JSON-LD), eine XML-Serialisierung (RDF-XML), sowie die Turtle-Serialisierung (kompakt und gut lesbar) und die N-Triples-Serialisierung (effizient zu verarbeiten).<br/>
 **Spezifikation**: [RDF 1.1 Concepts and Abstract Syntax](http://www.w3.org/TR/rdf11-concepts/) – dies ist die Spezifikation des grundlegenden Datenmodells.
 Die verschiedenen Schreibweisen sind gesondert definiert: z.B. [RDF 1.1 Turtle](https://www.w3.org/TR/turtle/), [RDF 1.1 N-Triples](https://www.w3.org/TR/n-triples/), [JSON-LD 1.0](https://www.w3.org/TR/json-ld/) oder [RDF 1.1 XML Syntax](https://www.w3.org/TR/rdf-syntax-grammar/). Dazu kommen ein Vokabular zur Datenmodellierung [RDF Schema 1.1](https://www.w3.org/TR/rdf-schema/), eine Abfragesprache [SPARQL 1.1. Query Language](https://www.w3.org/TR/sparql11-query/) und weitere Standards.<br/>
 
