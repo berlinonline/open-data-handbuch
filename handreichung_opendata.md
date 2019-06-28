@@ -276,7 +276,7 @@ Ein geeignetes Open Data Format für Netzwerkstrukturen ist z.B. [RDF](#rdf).
 
 ### Generische Formate
 
-Generische Formate wie die hier aufgelisteten können grundsätzlich für jede Art von Daten genutzt werden: alles lässt sich irgendwie als Tabelle, Baum oder Graph abbilden. 
+Generische Formate, wie die hier aufgelisteten, können grundsätzlich für jede Art von Daten genutzt werden: Alles lässt sich irgendwie als Tabelle, Baum oder Graph abbilden. 
 
 #### CSV
 
@@ -288,13 +288,13 @@ Generische Formate wie die hier aufgelisteten können grundsätzlich für jede A
 **Beschreibung**: _Comma-separated values_ (CSV) ist ein einfaches, text-basiertes, tabellarisches Format und möglicherweise das gebräuchlichste Datenformat für offene Daten.
 Man kann davon ausgehen, dass so gut wie jede Programmiersprache Werkzeuge mitbringt, um CSV-Dateien zu verarbeiten und zu schreiben.
 Zudem lassen sich CSV-Dateien von jeder gängigen Tabellenkalkulationssoftware und auch von vielen anderen Applikationen öffnen.<br/>
-Im eLearning-Kurs des Europäischen Datenportals wird CSV als „der kleinste gemeinsame Nenner“ für offene Daten bezeichnet.
-[EDP2019b]<br/>
+Im E-Learning-Kurs des Europäischen Datenportals wird CSV als „der kleinste gemeinsame Nenner“
+[EDP2019b] für offene Daten bezeichnet.<br/>
 Es gibt viele verschiedene Ausprägungen des CSV-Formats.
 Schon das Trennzeichen zwischen Zellen ist nicht einheitlich: neben dem namensgebenden Komma `,` wird oft (gerade in Deutschland) das Semikolon `;` verwendet.
 Ebenso werden Tabulator, Pipe `|` oder beliebige andere Zeichen verwendet.
 Um die Les- und Nutzbarkeit in jedem Fall zu garantieren, sollte der Definition in RFC4180 (s. unten) so weit wie möglich gefolgt werden.<br/>
-**Spezifikation**: [RFC4180](https://tools.ietf.org/html/rfc4180) – Es handelt sich hier nicht um einen offiziellen Standard, sondern um die formale Beschreibung der „best-practice“ (ein „informational memo“). 
+**Spezifikation**: [RFC4180](https://tools.ietf.org/html/rfc4180) – Es handelt sich nicht um einen offiziellen Standard, sondern um die formale Beschreibung der „best-practice“ (ein „informational memo“). 
 Beispielsweise werden die Kodierung in UTF-8 und die Nutzung des Kommas als Trennzeichen festgeschrieben.
 CSV wurde allerdings nie offiziell standardisiert.
 
