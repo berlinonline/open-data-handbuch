@@ -76,7 +76,7 @@ Schließlich gibt es sog. [**Harvester**](#harvester)-Erweiterungen zum Datenreg
 # Schritt für Schritt zur Veröffentlichung {#schritt_fuer_schritt}
 
 Die Veröffentlichung von offenen Daten ist ein mehrstufiger Prozess (s. Abb.&nbsp;\ref{fig:veroeffentlichungsschritte}).
-Aber es sind weniger Schritte nötig als Sie denken, um gemeinsames Wissen zu schaffen.
+Es sind jedoch weniger Schritte nötig als Sie denken, um gemeinsames Wissen zu schaffen.
 Suchen Sie sich Unterstützung oder Mitstreitende beim Durchlaufen der Schritte.
 Gibt es in Ihrer Einrichtung eine Open Data-Beauftragte oder einen Open Data-Beauftragten?
 Haben Kolleg*innen in Ihrer Einrichtung bereits Daten veröffentlicht?
@@ -92,14 +92,14 @@ In den Anfängen der Open Data Initiative in Berlin war die Veröffentlichung vo
 Es stand den Behörden frei, ob und welche Daten sie veröffentlichen.
 Mit dem Berliner E-Government Gesetz (EGovG Bln) hat sich dies geändert:
 Es gilt nun, dass grundsätzlich alle Behörden, die zur unmittelbaren Landesverwaltung gehören, die von ihnen erhobenen oder verarbeiteten Daten als Open Data veröffentlichen sollen.
-Die Veröffentlichung soll unverzüglich, ohne Zeitverzögerung geschehen.
+Die Veröffentlichung soll ohne Zeitverzögerung geschehen.
 Auch verwaltungsnahe Einrichtungen, die nicht zur unmittelbaren Landesverwaltung gehören, sind eingeladen, im Datenportal zu veröffentlichen.
-
 Die Frage nach einer Vorauswahl oder Priorisierung bei der Veröffentlichung stellt sich also nicht mehr.
 
 Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc.  liefert die Rechtsverordnung zu [§13 EGovG Bln](http://gesetze.berlin.de/jportal/portal/t/lkc/page/bsbeprod.psml?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=1&numberofresults=1&fromdoctodoc=yes&doc.id=jlr-EGovGBEpP13#focuspoint).
 
-Um trotzdem einen Eindruck davon zu vermitteln, welche Daten erwartet werden, werden im Folgenden Beispiele für Datenarten und Themenfelder gegeben. Auch diese Beispiele werden in der Rechtsverordnung näher ausgeführt.
+Die folgenden Beispiele für Datenarten und Themenfelder sollen einen Eindruck davon vermitteln, welche Daten erwartet werden. 
+Auch diese Beispiele werden in der Rechtsverordnung näher ausgeführt.
 
 ### Beispiele Datenarten
 
@@ -108,7 +108,7 @@ Um trotzdem einen Eindruck davon zu vermitteln, welche Daten erwartet werden, we
 - Haushaltspläne u.ä.
 - Amtsblätter
 - Satzungen und Richtlinien
-- bestimmte Gutachten und Studien
+- Bestimmte Gutachten und Studien
 - Messergebnisse
 
 ### Beispiele Themenfelder
@@ -143,11 +143,12 @@ Beim Datenmonitoring geht es um die **Prüfung von Zuständigkeit** und um **rec
 Bei der Prüfung der Zuständigkeit stellen sich folgende Fragen:
 
 - Fallen die Daten tatsächlich unter den öffentlichen Auftrag Ihrer Behörde oder Einrichtung? Wenn nicht, sollten Sie die Veröffentlichung überdenken.
-- Falls Ihre Behörde Daten nutzt, die von einer anderen Behörde erstellt wurden: wurden die Daten von Ihrer Behörde so verarbeitet, dass dadurch ein Mehrwert entstanden ist (etwa durch Interpretation oder Integration mit anderen Daten)? 
+- Falls Ihre Behörde Daten nutzt, die von einer anderen Behörde erstellt wurden: Wurden die Daten von Ihrer Behörde so verarbeitet, dass dadurch ein Mehrwert entstanden ist (etwa durch Interpretation oder Integration mit anderen Daten)? 
 Wenn Sie dies bejahen können, sollten die Daten von Ihrer Behörde veröffentlicht werden. 
 Wenn nicht, sollten die Daten von der ursprünglichen Behörde veröffentlicht werden.
 
-Rechtliche Aspekte, die die allgemeine Veröffentlichungspflicht einschränken, sind insbesondere verschiedene Ausnahmebedingungen, die im Detail der Rechtsverordnung zu entnehmen sind.
+Verschiedene Ausnahmebedingungen schränken die allgemeine Veröffentlichungspflicht ein.
+Diese rechtlichen Aspekte sind im Detail der Rechtsverordnung zu entnehmen.
 Die hier angeführten Ausnahmen sollen nur einen ersten Eindruck vermitteln.
 Folgende Sachverhalte stehen einer Veröffentlichung entgegen:
 
@@ -160,13 +161,13 @@ Folgende Sachverhalte stehen einer Veröffentlichung entgegen:
 ## Formatwahl
 
 In diesem Kapitel geht es um die Form der Datenressourcen.
-Dabei wird auf grundlegende Fragen wie „Was zeichnet gute Open Data Formate aus?“ oder „Welches Format ist für meine Daten geeignet?“ eingegangen, aber auch auf Detailfragen nach der Formatierung einzelner Werte in den Daten.
+Dabei wird auf grundlegende Fragen wie „Was zeichnet gute Open Data-Formate aus?“ oder „Welches Format ist für meine Daten geeignet?“ eingegangen, aber auch auf Detailfragen zur Formatierung einzelner Werte in den Daten.
 
 ---
 
 **In Box:**
 
-Nicht alle hier beschriebenen Formate und Anforderungen werden ohne weiteres von jeder Mitarbeiter\*in der Verwaltung mit den in der Verwaltung zur Verfügung stehenden Werkzeugen umgesetzt werden können.
+Nicht alle hier beschriebenen Formate und Anforderungen werden ohne Weiteres von jeder Mitarbeiter\*in der Verwaltung mit den in der Verwaltung zur Verfügung stehenden Werkzeugen umgesetzt werden können.
 Teilweise ist spezielle Software und/oder besonderes technisches Wissen nötig.
 In solchen Fällen sollte [Beratung](#beratung) hinzugezogen werden, um eine effiziente, nachhaltige und nach Open Data-Gesichtspunkten gute Lösung zu entwickeln.
 
@@ -178,19 +179,20 @@ Alle Formate, die für Offene Daten in Frage kommen, sollten folgende Grundeigen
 
 **Maschinenlesbarkeit** ist das wichtigste Kriterium bei der Wahl eines Daten- bzw. Dateiformats. Formate gelten dann als maschinenlesbar (auch: **strukturiert**), wenn sie die softwaregestützte Erkennung und Verarbeitung von Daten erlauben.
 Denn erst wenn Ihre Daten maschinenlesbar sind, können sie mit entsprechendem Spezialwissen zur Dateninterpretation, -analyse und -visualisierung verarbeitet, aufbereitet und nutzbar gemacht werden.
-Tabellarische Daten zum Beispiel sind zwar im PDF gut für Menschen lesbar, jedoch schwierig für Maschinen zu interpretieren.
+Tabellarische Daten zum Beispiel sind zwar im PDF gut für Menschen lesbar, jedoch für Maschinen schwierig zu interpretieren.
 
-**Standardisierung**: Neben der Maschinenlesbarkeit ist die Standardisierung eines Formats ein wichtiges Kriterium: das Format sollte nach Möglichkeit in Form eines offen und unentgeltlich nutzbaren Standards präzise definiert und dokumentiert sein.
+**Standardisierung**: Neben der Maschinenlesbarkeit ist die Standardisierung eines Formats ein wichtiges Kriterium: Das Format sollte nach Möglichkeit in Form eines offen und unentgeltlich nutzbaren Standards präzise definiert und dokumentiert sein.
 Das Vorhandensein eines offenen Standards garantiert, dass Daten in diesem Format jederzeit und von jedem korrekt verarbeitet werden können.
 
 **Offenheit**: Schließlich hat die Offenheit eines Formats großes Gewicht.
 Statt eines proprietären Formats sollte nach Möglichkeit immer ein offenes gewählt werden, um die Verarbeitung der Daten nicht zu erschweren.
 
-Soll eine möglichst breite Zielgruppe die Verwaltungsdaten verwenden können, müssen die Daten in Formaten bereitgestellt werden, die diese Kriterien erfüllen.
+Offene Verwaltungsdaten sollen von einer möglichst breiten Zielgruppe verwendet werden können.
+Um dieses Ziel zu erreichen, müssen die Daten in Formaten bereitgestellt werden, die die oben genannten Kriterien erfüllen.
 
 ### Struktur der Daten
 
-Ein weiterer Punkt, den man bei der Wahl eines geeigneten Formats berücksichtigen muss, ist die Struktur der Daten.
+Bei der Wahl eines geeigneten Formats, muss zudem die Struktur der Daten berücksichtigt werden.
 Bestimmte Formate eignen sich besonders gut für bestimmte Arten von Daten.
 Dabei werden typischerweise **Tabellen**, **Baumstrukturen** und **Netzwerk**- bzw. **Graphstrukturen** unterschieden.
 Die Struktur der Daten ist dabei unabhängig vom inhaltlichen Bezug oder Anwendungsgebiet.
@@ -207,7 +209,7 @@ Daten eignen sich dann besonders gut für eine tabellarische Darstellung, wenn f
 
 Wenn diese Bedingungen nicht erfüllt sind, sollten Sie eine andere Datenstruktur (Baum- oder Graph) in Erwägung ziehen.
 
-Geeignete Open Data Formate für tabellarische Daten sind [CSV](#csv) und mit Einschränkungen (s.u.) [Excel-](#excel-formate) bzw. [OpenDocument-Formate](#open_document_spreadsheet).
+Geeignete Open Data-Formate für tabellarische Daten sind [CSV](#csv) und mit Einschränkungen (s.u.) [Excel-](#excel-formate) bzw. [OpenDocument-Formate](#open_document_spreadsheet).
 
 -------------------------------------------------------
 jahr      ausfuhr_    ausfuhr_     einfuhr_    einfuhr_
@@ -247,7 +249,7 @@ Quelle: [SENWEB2019]
 
 Daten mit hierarchischer Struktur wie Organigramme, Stammbäume oder geografische Gliederungen (etwa das Berliner LOR-Bezugssystem) lassen sich besonders gut als Baumstruktur darstellen.
 
-Geeignete Open Data Formate für Baum- bzw. hierarchische Strukturen sind insbesondere [JSON](#json) und [XML](#xml).
+Geeignete Open Data-Formate für Baum- bzw. hierarchische Strukturen sind insbesondere [JSON](#json) und [XML](#xml).
 Baumstrukturen erlauben es auch, tabellarische Daten abzubilden.
 Daher lassen sich tabellarische Daten immer auch in JSON oder XML übersetzen.
 Andersherum ist es zwar möglich, Baumstrukturen mit Werkzeugen wie Excel in eine Tabelle zu pressen.
