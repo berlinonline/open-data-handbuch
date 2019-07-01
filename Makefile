@@ -15,7 +15,7 @@ indesign: clean temp/handreichung_opendata.nolatex.md | temp
 	@pandoc temp/handreichung_opendata.nolatex_01.md -s -o handreichung_opendata.icml
 
 .PHONY: gfm
-gfm: clean | temp
+gfm: clean images/format-example-tree.png images/metadaten_daten.png images/offene_daten_uebersicht.png images/output_datenrubrik.png images/output_simplesearch.png images/schritt-für-schritt.png images/veroeffentlichungsweg_waehlen.png | temp
 	@echo "combining parts ..."
 	@cat handreichung_opendata.md parts/pages_impressum.md > temp/handreichung_opendata_01.md
 	@echo "rewrite anchors ..."
@@ -35,6 +35,35 @@ temp/images.csv: | temp
 	@echo "extracting images from markdown ..."
 	@echo "path,Title,Description" > temp/images.csv
 	@grep '!\[' handreichung_opendata.md | sed -E 's/^!\[(.+)\]\((.+) (".+")\).*$$/"\2","\1",\3/' >> temp/images.csv
+
+images/format-example-tree.png: images/format-example-tree.pdf
+	@echo "converting images/format-example-tree.pdf ..."
+	@automator -i images/format-example-tree.pdf -D OUTPATH=images bin/pdf2png.workflow
+
+images/metadaten_daten.png: images/metadaten_daten.pdf
+	@echo "converting images/metadaten_daten.pdf ..."
+	@automator -i images/metadaten_daten.pdf -D OUTPATH=images bin/pdf2png.workflow
+
+images/offene_daten_uebersicht.png: images/offene_daten_uebersicht.pdf
+	@echo "converting images/offene_daten_uebersicht.pdf ..."
+	@automator -i images/offene_daten_uebersicht.pdf -D OUTPATH=images bin/pdf2png.workflow
+
+images/output_datenrubrik.png: images/output_datenrubrik.pdf
+	@echo "converting images/output_datenrubrik.pdf ..."
+	@automator -i images/output_datenrubrik.pdf -D OUTPATH=images bin/pdf2png.workflow
+
+images/output_simplesearch.png: images/output_simplesearch.pdf
+	@echo "converting images/output_simplesearch.pdf ..."
+	@automator -i images/output_simplesearch.pdf -D OUTPATH=images bin/pdf2png.workflow
+
+images/schritt-für-schritt.png: images/schritt-für-schritt.pdf
+	@echo "converting images/schritt-für-schritt.pdf ..."
+	@automator -i images/schritt-für-schritt.pdf -D OUTPATH=images bin/pdf2png.workflow
+
+images/veroeffentlichungsweg_waehlen.png: images/veroeffentlichungsweg_waehlen.pdf
+	@echo "converting images/veroeffentlichungsweg_waehlen.pdf ..."
+	@automator -i images/veroeffentlichungsweg_waehlen.pdf -D OUTPATH=images bin/pdf2png.workflow
+
 
 .PHONY: clean
 clean: 
