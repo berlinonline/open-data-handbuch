@@ -595,7 +595,7 @@ besonders gut abbilden lassen. Das RDF Modell selber ist abstrakt
 gehalten, kann aber auf verschiedene Weisen geschrieben werden. So gibt
 es etwa eine JSON-Serialisierung (JSON-LD), eine XML-Serialisierung
 (RDF-XML), sowie die Turtle-Serialisierung (kompakt und gut lesbar) und
-die N-Triples-Serialisierung (gut zu verarbeiten).<br/>
+die N-Triples-Serialisierung (effizient zu verarbeiten).<br/>
 **Spezifikation**: [RDF 1.1 Concepts and Abstract
 Syntax](http://www.w3.org/TR/rdf11-concepts/) – dies ist die
 Spezifikation des grundlegenden Datenmodells. Die verschiedenen
