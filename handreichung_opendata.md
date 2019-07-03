@@ -54,7 +54,7 @@ Dabei werden die Datenressourcen selber nicht ins Datenportal importiert, sonder
 Voraussetzung ist lediglich, dass sie im Internet verfügbar sind, damit sie vom Datensatz aus verlinkt werden können (s. Abb.&nbsp;\ref{fig:datensaetze_metadaten_ressourcen}).
 Man spricht daher auch von einem **Metadatenportal**.
 
-![Datensätze, Metadaten und Datenressourcen\label{fig:datensaetze_metadaten_ressourcen}](images/metadaten_daten.png "Datensätze im Datenportal verlinken zu Datenressourcen im Internet"){width=250px}
+![Datensätze, Metadaten und Datenressourcen\label{fig:datensaetze_metadaten_ressourcen}](images/metadaten_daten.png "Datensätze im Datenportal verlinken zu Datenressourcen im Internet"){width=250px}{:width="400px"}{: .centered }
 
 Das Datenportal besteht aus zwei Teilen: zum einen gibt es das öffentlich sichtbare eigentliche Portal, das unter <https://daten.berlin.de> zu erreichen ist.
 Das Portal wird von  Nutzer*innen für Suche und Browsen im Inhalt des Datenportals genutzt.
@@ -85,7 +85,7 @@ Werfen Sie über das Open Data-Portal auch einen Blick in andere Behörden: Jede
 
 Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsakademie](https://www.berlin.de/vak/), oder Veranstaltungen und Beratungsangebote der [Open Data Informationsstelle](https://www.odis-berlin.de) des Landes Berlin (s. auch das Kapitel [_Weitere Beratung_](#beratung)).
 
-![Schritt für Schritt zur Veröffentlichung\label{fig:veroeffentlichungsschritte}](images/schritt-für-schritt.png "Übersicht über die Schritte, die zu einer Veröffentlichung eines Datensatzes im Berliner Datenportal führen")
+![Schritt für Schritt zur Veröffentlichung\label{fig:veroeffentlichungsschritte}](images/schritt-für-schritt.png "Übersicht über die Schritte, die zu einer Veröffentlichung eines Datensatzes im Berliner Datenportal führen"){:width="700px"}{: .centered }
 
 ## Datenauswahl
 
@@ -705,7 +705,7 @@ Obwohl sich alle Veröffentlichungswege in ihren Details unterscheiden, gibt es 
 - **Zeitliche Verzögerung**: Mit der Speicherung bzw. Freischaltung eines neuen Datensatzes oder einer Änderung im Eingabesystem (Imperia, Datenregister, etc.), ist der Datensatz nicht unmittelbar im Datenportal auf daten.berlin.de zu sehen. Dies liegt daran, dass das Datenportal in regelmäßigen Abständen (aktuell stündlich) das Datenregister nach Änderung und neuen Datensätzen abfragt, und diese erst dann importiert und sichtbar macht. Dies kann sich dann noch verlängern, wenn mehrere Systeme hintereinandergeschaltet sind (z.B. Imperia Datenrubrik → Datenregister → Datenportal).
 - **Ankündigung neuer Datensätze**: Das Berliner Datenportal verfügt über einen eigenen Twitter-Account [\@OpenDataBerlin](https://twitter.com/OpenDataBerlin), auf dem automatisch neue Datensätze angekündigt werden, sobald Sie vom Datenportal importiert wurden (s. Abb.&nbsp;\ref{fig:twitter_neuer_datensatz}).
 
-![Ankündigung eines neuen Datensatzes auf Twitter\label{fig:twitter_neuer_datensatz}](images/twitter-neuer-datensatz.png "Ankündigung des Datensatzes 'Kriminalitätsatlas Berlin' auf Twitter, mit Likes und Retweets"){width=400px}
+![Ankündigung eines neuen Datensatzes auf Twitter\label{fig:twitter_neuer_datensatz}](images/twitter-neuer-datensatz.png "Ankündigung des Datensatzes 'Kriminalitätsatlas Berlin' auf Twitter, mit Likes und Retweets"){width=400px}{:width="500px"}{: .centered }
 
 ## Imperia Datenrubrik {#datenrubrik}
 
@@ -743,7 +743,7 @@ Die Einrichtung kann nur vom hauptverantwortlichen Imperia-Redakteur (_CvD_) ang
 
 Um einen Datensatz anzulegen, können Sie über den Rubrikenbaum Ihres Auftritts die Datenrubrik auswählen und dort ein neues Dokument erstellen (s. Abb.&nbsp;\ref{fig:datenrubrik_neues_dokument}).
 
-![Erzeugen eines neuen Datensatzes\label{fig:datenrubrik_neues_dokument}](images/datenrubrik-dokument-erzeugen.png "Erzeugen eines neuen Datensatzes über den Rubrikenbaum in Imperia"){width=250px}
+![Erzeugen eines neuen Datensatzes\label{fig:datenrubrik_neues_dokument}](images/datenrubrik-dokument-erzeugen.png "Erzeugen eines neuen Datensatzes über den Rubrikenbaum in Imperia"){width=250px}{:width="400px"}{: .centered }
 
 Im folgenden Schritt wählen Sie das Template _Datenrubrik-Datensatz_ aus und vergeben einen Titel. Dann gelangen sie zum Datensatz-Template (s. Abb.&nbsp;\ref{fig:datenrubrik_datensatz_template}).
 
@@ -909,7 +909,7 @@ Sie können z.B. Organisationen oder Kategorien folgen und erfahren dann über d
 Sie können auch einzelnen Datensätzen folgen.
 Um etwa einer Kategorie zu folgen, öffnen Sie deren Seite über den _Kategorien_-Reiter im Hauptmenü und klicken Sie dann den _Folgen_ Button (s. Abb.&nbsp;\ref{fig:datenregister_folgen}).
 
-![Einer Kategorie folgen\label{fig:datenregister_folgen}](images/screenshot_follow_category.png "Einer Kategorie folgen über den Follow Button"){width=250px}
+![Einer Kategorie folgen\label{fig:datenregister_folgen}](images/screenshot_follow_category.png "Einer Kategorie folgen über den Follow Button"){width=250px}{:width="300px"}{: .centered }
 
 Sie öffnen das Dashboard entweder über das [Nutzermenü](#nutzermenu) oder direkt über den Link <https://datenregister.berlin.de/dashboard>. 
 Auf ihrer Profilseite haben Sie außerdem die Möglichkeit, eine E-Mail-Benachrichtigung über neue Ereignisse auf Ihrem Dashboard zu abonnieren (unter _Bearbeiten_).
