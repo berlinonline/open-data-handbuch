@@ -562,7 +562,7 @@ Der 10. Juni 2013 wäre demnach `2013-06-10`.
 
 ---
 
-Attribution xkcd Comic (s. Abb. \ref{fig:xkcd_iso8601}): Comic _ISO 8601_, veröffentlicht unter [Creative Commons Namensnennung-Nicht kommerziell 2.5](https://creativecommons.org/licenses/by-nc/2.5/deed.de): <https://xkcd.com/1179/>
+Attribution xkcd Comic (s. Abb.&nbsp;\ref{fig:xkcd_iso8601}): Comic _ISO 8601_, veröffentlicht unter [Creative Commons Namensnennung-Nicht kommerziell 2.5](https://creativecommons.org/licenses/by-nc/2.5/deed.de): <https://xkcd.com/1179/>
 
 ---
 
@@ -682,8 +682,7 @@ Weitere Informationen finden Sie unter <https://www.govdata.de/lizenzen>.
 
 ### Geodatennutzungsverordnung
 
-Die _Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes_ (GeoNutzV) vom
-19. März 2013 (BGBl. I S. 547) gilt formell nur für die geodatenhaltenden Stellen des Bundes und der bundesunmittelbaren juristischen Personen des öffentlichen Rechts in Bezug auf Geodaten, Geodatendienste sowie dazugehörige Metadaten.
+Die _Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes_ (GeoNutzV) vom 19. März 2013 (BGBl. I S. 547) gilt formell nur für die geodatenhaltenden Stellen des Bundes und der bundesunmittelbaren juristischen Personen des öffentlichen Rechts in Bezug auf Geodaten, Geodatendienste sowie dazugehörige Metadaten.
 Die Nutzungsbestimmungen sind in kurzer, übersichtlicher und leicht verständlicher Form dargestellt.
 Sie lassen auch die kommerzielle Nutzung zu.
 
