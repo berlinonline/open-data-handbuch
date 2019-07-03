@@ -18,12 +18,21 @@ indesign: clean temp/handreichung_opendata.nolatex.md | temp
 gfm: clean images/format-example-tree.png images/metadaten_daten.png images/offene_daten_uebersicht.png images/output_datenrubrik.png images/output_simplesearch.png images/schritt-für-schritt.png images/veroeffentlichungsweg_waehlen.png | temp
 	@echo "combining parts ..."
 	@cat handreichung_opendata.md parts/pages_impressum.md > temp/handreichung_opendata_01.md
-	@echo "rewrite anchors ..."
+	@echo "rewrite header anchors ..."
 	@sed -E 's/^(#+ )(.+) {#(.+)}$$/\1<a name="\3">\2<\/a>/' temp/handreichung_opendata_01.md > temp/handreichung_opendata_02.md
-	@echo "generate gfm output ..."
-	@pandoc --to=gfm temp/handreichung_opendata_02.md > temp/handreichung_opendata_03.md
+	@echo "rewrite image references ..."
+	@sed -e 's: (s\. Abb\.&nbsp;\\ref{fig\:.*}): (s. Abbildung):' temp/handreichung_opendata_02.md > temp/handreichung_opendata_03.md
+	@echo "remove image labels ..."
+	@sed -e 's:\\label{fig\:.*}]:]:' temp/handreichung_opendata_03.md > temp/handreichung_opendata_04.md
+	@echo "remove pdf image widths ..."
+	@sed -e 's:{width=.*px}::' temp/handreichung_opendata_04.md > temp/handreichung_opendata_05.md
+	@echo "remove image references from Bildverzeichnis ..."
+	@sed -e 's:\*\*Abb\. \\ref{fig\:.*}\:\*\*:-:' temp/handreichung_opendata_05.md > temp/handreichung_opendata_06.md
+	@echo "remove suppress numbering commands from headings ..."
+	@sed -e 's: {-}::' temp/handreichung_opendata_06.md > temp/handreichung_opendata_07.md
+
 	@echo "add title matter ..."
-	@cat parts/pages_title.md temp/handreichung_opendata_03.md > index.md
+	@cat parts/pages_title.md temp/handreichung_opendata_07.md > index.md
 
 .PHONY: temp/handreichung_opendata.nolatex.md
 temp/handreichung_opendata.nolatex.md: | temp
