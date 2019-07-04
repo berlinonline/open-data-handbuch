@@ -1,2 +1,3 @@
 title: Das Berliner Open Data-Handbuch
 description: Nachschlagewerk zum Thema Offene Daten für die Berliner Verwaltung
+exclude: [ bin, parts, temp, template, handreichung_opendata.md, Makefile, CHANGELOG.md, README.md, Gemfile, Gemfile.lock ]
