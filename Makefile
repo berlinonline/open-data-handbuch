@@ -6,6 +6,8 @@ pdf: clean temp/date.txt | temp
 	@cat parts/latex_preamble.md parts/grusswort.md handreichung_opendata.md > temp/pdf_source.md
 	@echo "replacing <br/> with double space ..."
 	@sed 's:<br/>:  :g' temp/pdf_source.md > temp/handreichung_opendata_01.md
+	@echo "remove gfm image widths and centering ..."
+	@sed -e 's:{\:width=".*px"}{\: \.centered }::' temp/handreichung_opendata_01.md > temp/handreichung_opendata_02.md
 	@echo "include markdown snippets ..."
 	@ruby bin/include_mardown.rb -p temp/handreichung_opendata_02.md -s pandoc > temp/handreichung_opendata_03.md
 	@echo "creating pdf ..."
@@ -31,9 +33,7 @@ gfm: clean images/format-example-tree.png images/metadaten_daten.png images/offe
 	@echo "remove image labels ..."
 	@sed -e 's:\\label{fig\:.*}]:]:' temp/handreichung_opendata_03.md > temp/handreichung_opendata_04.md
 	@echo "remove pdf image widths ..."
-	@sed -e 's:{width=.*px}::' temp/handreichung_opendata_04.md > temp/handreichung_opendata_05.md
-	@echo "remove image references from Bildverzeichnis ..."
-	@sed -e 's:\*\*Abb\. \\ref{fig\:.*}\:\*\*:-:' temp/handreichung_opendata_05.md > temp/handreichung_opendata_06.md
+	@sed -e 's:{width=.*px}::' temp/handreichung_opendata_04.md > temp/handreichung_opendata_06.md
 	@echo "remove suppress numbering commands from headings ..."
 	@sed -e 's: {-}::' temp/handreichung_opendata_06.md > temp/handreichung_opendata_07.md
 	@echo "include markdown snippets ..."
