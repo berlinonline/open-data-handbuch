@@ -1,6 +1,6 @@
 # Einleitung
 
-Seit der Veröffentlichung der [Berliner Open Data Strategie](https://www.berlin.de/sen/inneres/service/publikationen/strategie-studie_zur_umsetzung_des_open-data-gedankens_in_der___ffentlichen_verwaltung.pdf) und dem Start des Berliner Datenportals im Jahr 2011 ist das Angebot an offenen Verwaltungsdaten in Berlin kontinuierlich gewachsen.
+Seit der Veröffentlichung der [Berliner Open Data-Strategie](https://www.berlin.de/sen/inneres/service/publikationen/strategie-studie_zur_umsetzung_des_open-data-gedankens_in_der___ffentlichen_verwaltung.pdf) und dem Start des Berliner Datenportals im Jahr 2011 ist das Angebot an offenen Verwaltungsdaten in Berlin kontinuierlich gewachsen.
 Viele Verwaltungen und deren Beschäftigte haben sich in den letzten Jahren erstmals mit den Potenzialen offener Daten auseinandergesetzt, einige auch mit der Veröffentlichung begonnen.
 Mit der Verabschiedung des [E-Government-Gesetzes Berlin](http://gesetze.berlin.de/jportal/?quelle=jlink&query=EGovG+BE&psml=bsbeprod.psml&max=true&aiz=true) im Juni 2016 ist das Thema Open Data fest auf Landesebene verankert.
 Denn nach [§&nbsp;13](http://gesetze.berlin.de/jportal/portal/t/lkc/page/bsbeprod.psml?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=1&numberofresults=1&fromdoctodoc=yes&doc.id=jlr-EGovGBEpP13#focuspoint) des E-Government-Gesetzes müssen die Behörden der Berliner Verwaltung in einem zentralen Datenportal Informationen bereitstellen, die sie in Erfüllung ihres öffentlichen Auftrags im Rahmen ihrer jeweiligen Zuständigkeit erstellt haben und die in maschinenlesbaren Formaten darstellbar sind.
@@ -9,14 +9,14 @@ Wenn Informationen in anderen Datenportalen maschinenlesbar bereitgestellt werde
 
 ## Ziele von Open Data
 
-Bürger\*innen, Unternehmen und zivilgesellschaftliche Akteure können mit offenen Daten innovative Anwendungen und neue Geschäftsmodelle erschließen, die unseren Alltag erleichtern können.
-Die Nutzung und Auswertung der offenen Daten kann auch das Vertrauen zwischen Politik, Zivilgesellschaft und Verwaltung stärken.
-Offene Daten sind ein wichtiger Baustein dafür, Entscheidungsprozesse der Verwaltung transparenter zu machen und eine Beteiligung der Bürger\*innen an den Entscheidungsprozessen zu ermöglichen.
-
+Bürger\*innen, Unternehmen und zivilgesellschaftliche Akteure können mit offenen Daten innovative Anwendungen entwickeln und neue Geschäftsmodelle erschließen, die unseren Alltag erleichtern.
+Die Nutzung und Auswertung der offenen Daten kann zudem das Vertrauen zwischen Politik, Zivilgesellschaft und Verwaltung stärken.
+Offene Daten sind ein wichtiger Baustein dafür, Entscheidungsprozesse der Verwaltung transparenter zu machen und eine Beteiligung der Bürger\*innen an diesen zu ermöglichen.
 Auch die Verwaltung selbst kann von offenen Daten profitieren: 
-Dadurch dass Behörden die Daten anderer Behörden einfacher finden, können sie diese auch für ihre eigenen Aufgaben nutzen.
+Dadurch dass Behörden die Daten anderer Behörden einfacher finden, können sie diese auch besser für ihre eigenen Aufgaben nutzen.
 
-Daher ist es uns ein wichtiges Anliegen, Ihnen mit dieser Anleitung Tipps für die Veröffentlichung von Verwaltungsdaten zu geben.
+Neue wirtschaftliche Impulse, mehr Transparenz und Partizipation,  eine effektivere Verwaltung – dies sind die Ziele von offenen Daten in Berlin.
+Das Open Data-Handbuch gibt Anleitung und Tipps für die Veröffentlichung von Verwaltungsdaten, um diese Ziele zu erreichen.
 
 ## Kapitelübersicht
 
@@ -24,22 +24,22 @@ Im Kapitel [_Das Berliner Datenportal_](#datenportal) geben wir Ihnen eine knapp
 Auch Begriffe wie **Datensatz**, **Datenressource** und **Metadaten** werden hier eingeführt.
 
 Bevor ein Datensatz veröffentlicht werden kann, müssen bestimmte Vorarbeiten geleistet werden.
-Dies beginnt mit der Auswahl der zu veröffentlichenden Daten, und geht über Datenmonitoring und die Entscheidung für eine passende Nutzungslizenz, bis hin zur Wahl geeigneter Formate.
+Der Prozess beginnt mit der Auswahl der zu veröffentlichenden Daten, und geht über Datenmonitoring und die Entscheidung für eine passende Nutzungslizenz, bis hin zur Wahl geeigneter Formate.
 Die einzelnen Arbeitsschritte werden im Kapitel [_Schritt für Schritt zur Veröffentlichung_](#schritt_fuer_schritt) erläutert.
 Das Thema Formate erfährt hier besondere Berücksichtigung und wird detailliert behandelt.
 
-Es gibt verschiedene technische Möglichkeiten, einen Datensatz im Datenportal zu veröffentlichen.
+Es gibt unterschiedliche technische Möglichkeiten, einen Datensatz im Datenportal zu veröffentlichen.
 Je nach Ausgangslage eignen sich diese mehr oder weniger für einen Datenbereitsteller.
 Das Kapitel [_Wege der Veröffentlichung_](#wege_der_veroeffentlichung) gibt Ihnen für jede Option detaillierte Anweisungen.
 
 Metadaten helfen den Nutzer\*innen offener Daten, Ihren Datensatz besser finden und einordnen zu können.
 Im Kapitel [_Metadaten_](#metadaten) werden die verschiedenen Angaben genau beschrieben.
 
-Abschließend stellen wir in [_Schnittstellen_](#schnittstellen) kurz zwei verschiedene Möglichkeiten des automatischen Zugriffs auf das Datenportal vor und verweisen in [_Weitere Beratung_](#beratung) auf Ansprechpartner, die Sie bei weiteren Fragen zu Rate ziehen können.
+Abschließend stellen wir im Kapitel [_Schnittstellen_](#schnittstellen) kurz zwei verschiedene Möglichkeiten des automatischen Zugriffs auf das Datenportal vor und verweisen daran anschließend in [_Weitere Beratung_](#beratung) auf Ansprechpartner, die Sie bei weiteren Fragen zu Rate ziehen können.
 
 <hr/>
 
-Das Berliner Open Data Handbuch existiert in zwei Formen: als gedruckte Version, die Sie immer griffbereit am Schreibtisch haben können, und als „lebendes“ digitales Dokument, das Aktualisierungen und Neuerungen schnell aufnehmen kann. Diese akuelle Version des Handbuchs ist immer unter folgender URL verfügbar:
+Das Berliner Open Data-Handbuch existiert in zwei Formen: als gedruckte Version, die Sie immer griffbereit am Schreibtisch haben können, und als „lebendiges“ digitales Dokument, das Aktualisierungen und Neuerungen schnell aufnehmen kann. Diese akuelle Version des Handbuchs ist immer unter folgender URL verfügbar:
 
 <https://daten.berlin.de/datenbereitsteller>
 
@@ -48,26 +48,25 @@ Das Berliner Open Data Handbuch existiert in zwei Formen: als gedruckte Version,
 # Das Berliner Datenportal {#datenportal}
 
 Das Berliner Datenportal [daten.berlin.de](https://daten.berlin.de) (online seit 2011) macht die Datenbestände der Berliner Verwaltung für die Öffentlichkeit auffindbar. 
-Jede **Datenressource** – Dateien, Datenbanken, etc. – wird dafür durch eine Reihe von **Metadaten** – Titel, Beschreibung, geografischer und zeitlicher Bezug, etc. – beschrieben.
-Datenressource und Metadaten zusammen bilden jeweils einen **Datensatz**, der im Datenportal seine eigene Seite und URL erhält.
-Dabei werden die Datenressourcen selber nicht ins Datenportal importiert, sondern bleiben an Ort und Stelle.
+Jede **Datenressource** – Dateien, Datenbanken etc. – wird dafür durch eine Reihe von **Metadaten** – Titel, Beschreibung, geografischer und zeitlicher Bezug etc. – beschrieben.
+Datenressource und Metadaten bilden jeweils gemeinsam einen **Datensatz**, der im Datenportal seine eigene Seite und URL erhält.
+Dabei werden die Datenressourcen selbst nicht ins Datenportal importiert, sondern bleiben an Ort und Stelle.
 Voraussetzung ist lediglich, dass sie im Internet verfügbar sind, damit sie vom Datensatz aus verlinkt werden können (s. Abb.&nbsp;\ref{fig:datensaetze_metadaten_ressourcen}).
-Man spricht daher auch von einem **Metadatenportal**.
+Man spricht deshalb auch von einem **Metadatenportal**.
 
 ![Datensätze, Metadaten und Datenressourcen\label{fig:datensaetze_metadaten_ressourcen}](images/metadaten_daten.png "Datensätze im Datenportal verlinken zu Datenressourcen im Internet"){width=250px}{:width="400px"}{: .centered }
 
-Das Datenportal besteht aus zwei Teilen: zum einen gibt es das öffentlich sichtbare eigentliche Portal, das unter <https://daten.berlin.de> zu erreichen ist.
-Das Portal wird von  Nutzer*innen für Suche und Browsen im Inhalt des Datenportals genutzt.
-Jeder Datensatz hat hier eine Detailseite, die im Browser angesehen werden kann, und von der aus die Datenressourcen verlinkt sind.
-Die Zielgruppe des Datenportals ist sehr offen gehalten, und umfasst Zivilgesellschaft, Presse und Wirtschaft, aber auch die Verwaltung selber.
+Das Datenportal besteht aus zwei Teilen: Zum einen gibt es das öffentlich sichtbare eigentliche **Portal**, das unter <https://daten.berlin.de> zu erreichen ist.
+Das Portal wird von  Nutzer*innen für die Suche und das Browsen im Inhalt des Datenportals genutzt.
+Jeder Datensatz hat hier eine Detailseite, die im Browser angesehen werden kann und von der aus die Datenressourcen verlinkt sind.
+Die Zielgruppe des Datenportals ist offen gehalten, und umfasst Zivilgesellschaft, Presse und Wirtschaft, aber auch die Verwaltung selbst.
 
-Dazu kommt das nicht-öffentliche **Datenregister**: dies ist gewissermaßen das Redaktionssystem des Datenportals, über das Verwaltungsmitarbeiter\*innen Datensätze einstellen oder ändern können. Es ist unter <https://datenregister.berlin.de> zu erreichen. 
+Parallel existiert das nicht-öffentliche **Datenregister**. Bei diesem handelt es sich gewissermaßen um das Redaktionssystem des Datenportals, über das Verwaltungsmitarbeiter\*innen Datensätze einstellen oder ändern können. Es ist unter <https://datenregister.berlin.de> zu erreichen. 
 
 Das Datenregister verfügt über mehrere Schnittstellen (s. Abb.&nbsp;\ref{fig:uebersicht_datenportal}): zum einen gibt es die Möglichkeit, Datensätze über ein Web-Formular direkt im Browser anzulegen oder zu bearbeiten (s. Kapitel [_Datenregister manuell_](#datenregister_manuell)). 
+Dazu gibt es noch zwei Schnittstellen für den automatischen Zugriff, nämlich die sog. [**CKAN API**](#schnittstelle_ckan) und die [**DCAT-AP.de**](#schnittstelle_dcat) Schnittstelle. Diese Schnittstellen werden z.B. für automatische Abfragen durch das bundesweite Datenportal govdata.de genutzt, stehen aber auch anderen Nutzern für automatische Auswertungen oder Analysen zur Verfügung. Insbesondere die CKAN API wird auch von Imperia-Werkzeugen wie der [**Datenrubrik**](#datenrubrik) oder dem [**SimpleSearch**](#simplesearch)-Baukasten für die Erstellung von Datensätzen genutzt. Andere Datenportale können die CKAN API ebenfalls zu diesem Zweck nutzen.
 
-Dazu gibt es noch zwei Schnittstellen für den automatischen Zugriff, nämlich die sog. [**CKAN API**](#schnittstelle_ckan) und die [**DCAT-AP.de**](#schnittstelle_dcat) Schnittstelle. Diese Schnittstellen werden z.B. für automatische Abfragen durch das bundesweite Datenportal govdata.de genutzt, stehen aber auch anderen Nutzern für automatische Auswertungen oder Analysen zur Verfügung. Insbesondere die CKAN API wird aber auch von Imperia-Werkzeugen wie der [**Datenrubrik**](#datenrubrik) oder dem [**SimpleSearch**](#simplesearch)-Baukasten für die Erstellung von Datensätzen genutzt. Auch andere, bereits bestehende Datenportale können die CKAN API zu diesem Zweck nutzen.
-
-Schließlich gibt es noch sog. [**Harvester**](#harvester)-Erweiterungen zum Datenregister, die in regelmäßigen Abständen automatisch Datensätze aus anderen Portalen des Landes (z.B. aus dem [FIS-Broker](https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/)) ins Datenportal überführen.
+Schließlich gibt es sog. [**Harvester**](#harvester)-Erweiterungen zum Datenregister, die in regelmäßigen Abständen Datensätze automatisch aus anderen Portalen des Landes (z.B. aus dem [FIS-Broker](https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/)) ins Datenportal überführen.
 
 ![Der Weg der Metadaten im Berliner Datenportal\label{fig:uebersicht_datenportal}](images/offene_daten_uebersicht.png "Der Weg der Metadaten im Berliner Datenportal – Datenbereitsteller, Datenportal, Datennutzer")
 
@@ -77,30 +76,30 @@ Schließlich gibt es noch sog. [**Harvester**](#harvester)-Erweiterungen zum Dat
 # Schritt für Schritt zur Veröffentlichung {#schritt_fuer_schritt}
 
 Die Veröffentlichung von offenen Daten ist ein mehrstufiger Prozess (s. Abb.&nbsp;\ref{fig:veroeffentlichungsschritte}).
-Aber es sind weniger Schritte nötig als Sie denken, um gemeinsames Wissen zu schaffen.
+Es sind jedoch weniger Schritte nötig als Sie denken, um gemeinsames Wissen zu schaffen.
 Suchen Sie sich Unterstützung oder Mitstreitende beim Durchlaufen der Schritte.
 Gibt es in Ihrer Einrichtung eine Open Data-Beauftragte oder einen Open Data-Beauftragten?
 Haben Kolleg*innen in Ihrer Einrichtung bereits Daten veröffentlicht?
 Werfen Sie über das Open Data-Portal auch einen Blick in andere Behörden: Jeder im Datenportal veröffentlichte Datensatz nennt eine E-Mail-Adresse, über die Sie weiteren Kontakt zum Thema finden können.
 
-Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsakademie](https://www.berlin.de/vak/), oder Veranstaltungen und Beratungsangebote der [Open Data Informationsstelle](https://www.odis-berlin.de) des Landes Berlin (s. auch das Kapitel [_Weitere Beratung_](#beratung)).
+Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsakademie](https://www.berlin.de/vak/), oder Veranstaltungen und Beratungsangebote der [Open Data-Informationsstelle](https://www.odis-berlin.de) des Landes Berlin (s. auch das Kapitel [_Weitere Beratung_](#beratung)).
 
 ![Schritt für Schritt zur Veröffentlichung\label{fig:veroeffentlichungsschritte}](images/schritt-für-schritt.png "Übersicht über die Schritte, die zu einer Veröffentlichung eines Datensatzes im Berliner Datenportal führen"){:width="700px"}{: .centered }
 
 ## Datenauswahl
 
-In den Anfängen der Open Data Initiative in Berlin war die Veröffentlichung von Verwaltungsdaten freiwillig.
+In den Anfängen der Open Data-Initiative in Berlin war die Veröffentlichung von Verwaltungsdaten freiwillig.
 Es stand den Behörden frei, ob und welche Daten sie veröffentlichen.
 Mit dem Berliner E-Government Gesetz (EGovG Bln) hat sich dies geändert:
 Es gilt nun, dass grundsätzlich alle Behörden, die zur unmittelbaren Landesverwaltung gehören, die von ihnen erhobenen oder verarbeiteten Daten als Open Data veröffentlichen sollen.
-Die Veröffentlichung soll unverzüglich, ohne Zeitverzögerung geschehen.
+Die Veröffentlichung soll ohne Zeitverzögerung geschehen.
 Auch verwaltungsnahe Einrichtungen, die nicht zur unmittelbaren Landesverwaltung gehören, sind eingeladen, im Datenportal zu veröffentlichen.
-
 Die Frage nach einer Vorauswahl oder Priorisierung bei der Veröffentlichung stellt sich also nicht mehr.
 
-Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung, etc.  liefert die Rechtsverordnung zu [§13 EGovG Bln](http://gesetze.berlin.de/jportal/portal/t/lkc/page/bsbeprod.psml?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=1&numberofresults=1&fromdoctodoc=yes&doc.id=jlr-EGovGBEpP13#focuspoint).
+Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc.  liefert die Rechtsverordnung zu [§13 EGovG Bln](http://gesetze.berlin.de/jportal/portal/t/lkc/page/bsbeprod.psml?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=1&numberofresults=1&fromdoctodoc=yes&doc.id=jlr-EGovGBEpP13#focuspoint).
 
-Um trotzdem einen Eindruck davon zu vermitteln, welche Daten erwartet werden, werden im Folgenden Beispiele für Datenarten und Themenfelder gegeben. Auch diese Beispiele werden in der Rechtsverordnung näher ausgeführt.
+Die folgenden Beispiele für Datenarten und Themenfelder sollen einen Eindruck davon vermitteln, welche Daten erwartet werden. 
+Auch diese Beispiele werden in der Rechtsverordnung näher ausgeführt.
 
 ### Beispiele Datenarten
 
@@ -109,13 +108,13 @@ Um trotzdem einen Eindruck davon zu vermitteln, welche Daten erwartet werden, we
 - Haushaltspläne u.ä.
 - Amtsblätter
 - Satzungen und Richtlinien
-- bestimmte Gutachten und Studien
+- Bestimmte Gutachten und Studien
 - Messergebnisse
 
 ### Beispiele Themenfelder
 
 - Bevölkerung und Gesellschaft
-- Arbeit (Tarife, Arbeitslosigkeit, etc.)
+- Arbeit (Tarife, Arbeitslosigkeit etc.)
 - Bildung, Kultur, Sport
 - Energie
 - Entsorgung
@@ -126,7 +125,7 @@ Um trotzdem einen Eindruck davon zu vermitteln, welche Daten erwartet werden, we
 - Gleichstellung
 - Integration
 - Infrastruktur
-- Kontrolle (Gewässer, Lebensmittel, etc.)
+- Kontrolle (Gewässer, Lebensmittel etc.)
 - Kriminalität
 - Soziales
 - Stadtplanung
@@ -144,11 +143,12 @@ Beim Datenmonitoring geht es um die **Prüfung von Zuständigkeit** und um **rec
 Bei der Prüfung der Zuständigkeit stellen sich folgende Fragen:
 
 - Fallen die Daten tatsächlich unter den öffentlichen Auftrag Ihrer Behörde oder Einrichtung? Wenn nicht, sollten Sie die Veröffentlichung überdenken.
-- Falls Ihre Behörde Daten nutzt, die von einer anderen Behörde erstellt wurden: wurden die Daten von Ihrer Behörde so verarbeitet, dass dadurch ein Mehrwert entstanden ist (etwa durch Interpretation oder Integration mit anderen Daten)? 
+- Falls Ihre Behörde Daten nutzt, die von einer anderen Behörde erstellt wurden: Wurden die Daten von Ihrer Behörde so verarbeitet, dass dadurch ein Mehrwert entstanden ist (etwa durch Interpretation oder Integration mit anderen Daten)? 
 Wenn Sie dies bejahen können, sollten die Daten von Ihrer Behörde veröffentlicht werden. 
 Wenn nicht, sollten die Daten von der ursprünglichen Behörde veröffentlicht werden.
 
-Rechtliche Aspekte, die die allgemeine Veröffentlichungspflicht einschränken, sind insbesondere verschiedene Ausnahmebedingungen, die im Detail der Rechtsverordnung zu entnehmen sind.
+Verschiedene Ausnahmebedingungen schränken die allgemeine Veröffentlichungspflicht ein.
+Diese rechtlichen Aspekte sind im Detail der Rechtsverordnung zu entnehmen.
 Die hier angeführten Ausnahmen sollen nur einen ersten Eindruck vermitteln.
 Folgende Sachverhalte stehen einer Veröffentlichung entgegen:
 
@@ -156,16 +156,16 @@ Folgende Sachverhalte stehen einer Veröffentlichung entgegen:
 - Die Veröffentlichung würde Betriebs- oder Geschäftsgeheimnisse offenbaren.
 - Die Veröffentlichung würde Urheberrechte o.ä. verletzen.
 - Die Veröffentlichung würde sich nachteilig auf die öffentliche Sicherheit, Informationssicherheit, die Durchführung von Gerichtsverfahren o.ä. auswirken.
-- Die Daten haben einen Personenbezug. Hier gibt es Ausnahmen wie z.B. die Namen der Verfasser\*innen von Gutachten oder Studien, Empfänger\*innen von Förderungen, etc.
+- Die Daten haben einen Personenbezug. Hier gibt es Ausnahmen wie z.B. die Namen der Verfasser\*innen von Gutachten oder Studien, Empfänger\*innen von Förderungen etc.
 
 ## Formatwahl
 
 In diesem Kapitel geht es um die Form der Datenressourcen.
-Dabei wird auf grundlegende Fragen wie „Was zeichnet gute Open Data Formate aus?“ oder „Welches Format ist für meine Daten geeignet?“ eingegangen, aber auch auf Detailfragen nach der Formatierung einzelner Werte in den Daten.
+Dabei wird auf grundlegende Fragen wie „Was zeichnet gute Open Data-Formate aus?“ oder „Welches Format ist für meine Daten geeignet?“ eingegangen, aber auch auf Detailfragen zur Formatierung einzelner Werte in den Daten.
 
 @include(box_prefix)
 
-Nicht alle hier beschriebenen Formate und Anforderungen werden ohne weiteres von jeder Mitarbeiter\*in der Verwaltung mit den in der Verwaltung zur Verfügung stehenden Werkzeugen umgesetzt werden können.
+Nicht alle hier beschriebenen Formate und Anforderungen werden ohne Weiteres von jeder Mitarbeiter\*in der Verwaltung mit den in der Verwaltung zur Verfügung stehenden Werkzeugen umgesetzt werden können.
 Teilweise ist spezielle Software und/oder besonderes technisches Wissen nötig.
 In solchen Fällen sollte [Beratung](#beratung) hinzugezogen werden, um eine effiziente, nachhaltige und nach Open Data-Gesichtspunkten gute Lösung zu entwickeln.
 
@@ -177,26 +177,27 @@ Alle Formate, die für Offene Daten in Frage kommen, sollten folgende Grundeigen
 
 **Maschinenlesbarkeit** ist das wichtigste Kriterium bei der Wahl eines Daten- bzw. Dateiformats. Formate gelten dann als maschinenlesbar (auch: **strukturiert**), wenn sie die softwaregestützte Erkennung und Verarbeitung von Daten erlauben.
 Denn erst wenn Ihre Daten maschinenlesbar sind, können sie mit entsprechendem Spezialwissen zur Dateninterpretation, -analyse und -visualisierung verarbeitet, aufbereitet und nutzbar gemacht werden.
-Tabellarische Daten zum Beispiel sind zwar im PDF gut für Menschen lesbar, jedoch schwierig für Maschinen zu interpretieren.
+Tabellarische Daten zum Beispiel sind zwar im PDF gut für Menschen lesbar, jedoch für Maschinen schwierig zu interpretieren.
 
-**Standardisierung**: Neben der Maschinenlesbarkeit ist die Standardisierung eines Formats ein wichtiges Kriterium: das Format sollte nach Möglichkeit in Form eines offen und unentgeltlich nutzbaren Standards präzise definiert und dokumentiert sein.
+**Standardisierung**: Neben der Maschinenlesbarkeit ist die Standardisierung eines Formats ein wichtiges Kriterium: Das Format sollte nach Möglichkeit in Form eines offen und unentgeltlich nutzbaren Standards präzise definiert und dokumentiert sein.
 Das Vorhandensein eines offenen Standards garantiert, dass Daten in diesem Format jederzeit und von jedem korrekt verarbeitet werden können.
 
 **Offenheit**: Schließlich hat die Offenheit eines Formats großes Gewicht.
 Statt eines proprietären Formats sollte nach Möglichkeit immer ein offenes gewählt werden, um die Verarbeitung der Daten nicht zu erschweren.
 
-Soll eine möglichst breite Zielgruppe die Verwaltungsdaten verwenden können, müssen die Daten in Formaten bereitgestellt werden, die diese Kriterien erfüllen.
+Offene Verwaltungsdaten sollen von einer möglichst breiten Zielgruppe verwendet werden können.
+Um dieses Ziel zu erreichen, müssen die Daten in Formaten bereitgestellt werden, die die oben genannten Kriterien erfüllen.
 
 ### Struktur der Daten
 
-Ein weiterer Punkt, den man bei der Wahl eines geeigneten Formats berücksichtigen muss, ist die Struktur der Daten.
+Bei der Wahl eines geeigneten Formats, muss zudem die Struktur der Daten berücksichtigt werden.
 Bestimmte Formate eignen sich besonders gut für bestimmte Arten von Daten.
 Dabei werden typischerweise **Tabellen**, **Baumstrukturen** und **Netzwerk**- bzw. **Graphstrukturen** unterschieden.
 Die Struktur der Daten ist dabei unabhängig vom inhaltlichen Bezug oder Anwendungsgebiet.
 
 #### Tabelle
 
-Tabellarische Daten sind eine sehr häufige Form von Daten im Open Data Bereich, da sie einfach zu verstehen und Werkzeuge zur Bearbeitung beinahe überall verfügbar sind.
+Tabellarische Daten sind eine sehr häufige Form von Daten im Bereich Open Data, da sie einfach zu verstehen und Werkzeuge zur Bearbeitung beinahe überall verfügbar sind.
 Die Daten sind in Zeilen und Spalten organisiert, wobei jede Zeile üblicherweise ein Objekt oder eine Beobachtung beschreibt und die Spalten die verschiedenen Eigenschaften oder Werte dieser Objekte enthalten.
 Daten eignen sich dann besonders gut für eine tabellarische Darstellung, wenn folgende Bedingungen erfüllt sind:
 
@@ -206,7 +207,7 @@ Daten eignen sich dann besonders gut für eine tabellarische Darstellung, wenn f
 
 Wenn diese Bedingungen nicht erfüllt sind, sollten Sie eine andere Datenstruktur (Baum- oder Graph) in Erwägung ziehen.
 
-Geeignete Open Data Formate für tabellarische Daten sind [CSV](#csv) und mit Einschränkungen (s.u.) [Excel-](#excel-formate) bzw. [OpenDocument-Formate](#open_document_spreadsheet).
+Geeignete Open Data-Formate für tabellarische Daten sind [CSV](#csv) und mit Einschränkungen (s.u.) [Excel-](#excel-formate) bzw. [OpenDocument-Formate](#open_document_spreadsheet).
 
 @include(example_tabular_data)
 
@@ -223,7 +224,7 @@ Quelle: [SENWEB2019]
 
 Daten mit hierarchischer Struktur wie Organigramme, Stammbäume oder geografische Gliederungen (etwa das Berliner LOR-Bezugssystem) lassen sich besonders gut als Baumstruktur darstellen.
 
-Geeignete Open Data Formate für Baum- bzw. hierarchische Strukturen sind insbesondere [JSON](#json) und [XML](#xml).
+Geeignete Open Data-Formate für Baum- bzw. hierarchische Strukturen sind insbesondere [JSON](#json) und [XML](#xml).
 Baumstrukturen erlauben es auch, tabellarische Daten abzubilden.
 Daher lassen sich tabellarische Daten immer auch in JSON oder XML übersetzen.
 Andersherum ist es zwar möglich, Baumstrukturen mit Werkzeugen wie Excel in eine Tabelle zu pressen.
@@ -246,11 +247,11 @@ In einem Netzwerk oder Graphen kann jedes Element mit jedem anderen in Beziehung
 Typische Beispiele für Graphen sind etwa Soziale Netzwerke, das Web oder Verkehrsnetze.
 Von den hier vorgestellten Datenstrukturen ist das Netzwerk das allgemeinste: Tabellen und Bäume lassen sich immer auch als Netzwerk abbilden.
 
-Ein geeignetes Open Data Format für Netzwerkstrukturen ist z.B. [RDF](#rdf).
+Ein geeignetes Open Data-Format für Netzwerkstrukturen ist z.B. [RDF](#rdf).
 
 ### Generische Formate
 
-Generische Formate wie die hier aufgelisteten können grundsätzlich für jede Art von Daten genutzt werden: alles lässt sich irgendwie als Tabelle, Baum oder Graph abbilden. 
+Generische Formate, wie die hier aufgelisteten, können grundsätzlich für jede Art von Daten genutzt werden: Alles lässt sich irgendwie als Tabelle, Baum oder Graph abbilden. 
 
 #### CSV
 
@@ -262,19 +263,19 @@ Generische Formate wie die hier aufgelisteten können grundsätzlich für jede A
 **Beschreibung**: _Comma-separated values_ (CSV) ist ein einfaches, text-basiertes, tabellarisches Format und möglicherweise das gebräuchlichste Datenformat für offene Daten.
 Man kann davon ausgehen, dass so gut wie jede Programmiersprache Werkzeuge mitbringt, um CSV-Dateien zu verarbeiten und zu schreiben.
 Zudem lassen sich CSV-Dateien von jeder gängigen Tabellenkalkulationssoftware und auch von vielen anderen Applikationen öffnen.<br/>
-Im eLearning-Kurs des Europäischen Datenportals wird CSV als „der kleinste gemeinsame Nenner“ für offene Daten bezeichnet.
-[EDP2019b]<br/>
+Im E-Learning-Kurs des Europäischen Datenportals wird CSV als „der kleinste gemeinsame Nenner“
+[EDP2019b] für offene Daten bezeichnet.<br/>
 Es gibt viele verschiedene Ausprägungen des CSV-Formats.
 Schon das Trennzeichen zwischen Zellen ist nicht einheitlich: neben dem namensgebenden Komma `,` wird oft (gerade in Deutschland) das Semikolon `;` verwendet.
 Ebenso werden Tabulator, Pipe `|` oder beliebige andere Zeichen verwendet.
 Um die Les- und Nutzbarkeit in jedem Fall zu garantieren, sollte der Definition in RFC4180 (s. unten) so weit wie möglich gefolgt werden.<br/>
-**Spezifikation**: [RFC4180](https://tools.ietf.org/html/rfc4180) – Es handelt sich hier nicht um einen offiziellen Standard, sondern um die formale Beschreibung der „best-practice“ (ein „informational memo“). 
+**Spezifikation**: [RFC4180](https://tools.ietf.org/html/rfc4180) – Es handelt sich nicht um einen offiziellen Standard, sondern um die formale Beschreibung der „best-practice“ (ein „informational memo“). 
 Beispielsweise werden die Kodierung in UTF-8 und die Nutzung des Kommas als Trennzeichen festgeschrieben.
 CSV wurde allerdings nie offiziell standardisiert.
 
 @include(box_prefix)
 
-Abgesehen von den Spaltennamen ermöglicht CSV keine Definition eines Datenschemas (Datentypen der Spalten, etc.).
+Abgesehen von den Spaltennamen ermöglicht CSV keine Definition eines Datenschemas (Datentypen der Spalten etc.).
 Einerseits erleichtert dies die Nutzung des Formats bei der Erstellung und Verarbeitung der Daten, andererseits kann es zu Problemen bei der Intepretation der Daten führen.
 Die Projekte [_CSV on the Web_](https://www.w3.org/TR/tabular-data-primer/) und [_Frictionless Data_](https://frictionlessdata.io) schlagen unterschiedliche Verfahren vor, um CSV-Dateien ein Datenschema und andere Interpretationshilfen zur Seite zu stellen.
 
@@ -373,7 +374,7 @@ Die verschiedenen Schreibweisen sind gesondert definiert: z.B. [RDF 1.1 Turtle](
 **Offenheitskriterien**: (eingeschränkt) maschinenlesbar, offen, ~~standardisiert~~<br/>
 **Dateiendung**: `.txt` – Spezialisierte Plain Text-Formate können eigene Dateiendungen haben.<br/>
 **Media Type**: `text/plain` – Spezialisierte Plain Text-Formate können eigene Media Types haben.<br/>
-**Beschreibung**: Der Begriff „plain text“ soll hier als Gegensatz zu „Binärformat“ verstanden werden: eine Datei, die ausschließlich aus darstellbaren Zeichen in einem bestimmten Encoding (UTF-8, etc.) besteht.
+**Beschreibung**: Der Begriff „plain text“ soll hier als Gegensatz zu „Binärformat“ verstanden werden: eine Datei, die ausschließlich aus darstellbaren Zeichen in einem bestimmten Encoding (UTF-8 etc.) besteht.
 Hinzu kommen Steuerzeichen wie Tabulatoren oder Zeilenumbrüche, die klar definieren, was von der verarbeitenden Software als Zeile interpretiert werden soll.<br/>
 Auch strukturierte Formate wie CSV, XML, JSON, HTML und verschiedene RDF Schreibweisen gelten nach diesem Verständnis als Plain Text.
 Aber auch, wenn Plain Text ohne weitere (oder ohne bekannte) Struktur verwendet wird, hat es dennoch Eigenschaften, die es für den Einsatz im Bereich Offene Daten geeignet machen:
@@ -389,7 +390,7 @@ Aber auch, wenn Plain Text ohne weitere (oder ohne bekannte) Struktur verwendet 
 Neben generischen Formaten, die grundsätzlich für jedes Anwendungsgebiet geeignet sind, gibt es auch spezialisierte Formate für bestimmte Aufgabengebiete.
 Diese spezialisierten Formate sollten, wenn Sie die anderen Kriterien erfüllen, bevorzugt werden.
 
-Es gibt für jeden nur erdenklichen Anwendungsfall spezialisierte Formate. Diese alle hier zu listen, würde den Rahmen des Open Data Handbuchs sprengen.
+Es gibt für jeden nur erdenklichen Anwendungsfall spezialisierte Formate. Diese alle hier zu listen, würde den Rahmen des Open Data-Handbuchs sprengen.
 Die folgenden Formate sollen daher nur als Beispiele dienen.
 
 #### GeoJSON
@@ -447,7 +448,7 @@ Die hier aufgeführten Textformate stehen exemplarisch für vergleichbare Format
 **Media Type**: `application/pdf`<br/>
 **Beschreibung**: Das _Portable Document Format_ (PDF) ist ein plattformunabhängiges Format zum Austausch von Dokumenten – insbesondere von Dokumenten, die nicht weiter bearbeitet werden sollen.
 PDF Dokumente können beliebige Text-, Layout-, Bild- und sogar Multimediaelemente enthalten. PDF Dokumente sind in ihrer Struktur am Druck orientiert und gliedern sich demzufolge in Seiten (im Gegensatz etwa zu HTML), die am Bildschirm und auf Papier identisch erscheinen sollen.<br/>
-Obwohl PDF kein maschinenlesbares Format im Sinne von offenen Daten ist, gibt es doch bestimmte Punkte, die man berücksichtigen sollte, um möglichst gut zu verarbeitende und zu verstehende Dokumente zu erstellen. Insbesondere sollten PDF Dokumente korrekt formatiert und gliedert sein (z.B. durch Nutzung von Bookmarks und Tags). Auch Metadaten zur Herkunft des Dokuments (Autor, etc.) sollten gesetzt sein. Grundsätzlich sollten PDF Dokumente barrierefrei sein.<br/>
+Obwohl PDF kein maschinenlesbares Format im Sinne von offenen Daten ist, gibt es doch bestimmte Punkte, die man berücksichtigen sollte, um möglichst gut zu verarbeitende und zu verstehende Dokumente zu erstellen. Insbesondere sollten PDF Dokumente korrekt formatiert und gliedert sein (z.B. durch Nutzung von Bookmarks und Tags). Auch Metadaten zur Herkunft des Dokuments (Autor etc.) sollten gesetzt sein. Grundsätzlich sollten PDF Dokumente barrierefrei sein.<br/>
 PDF wurde ursprünglich von der Firma Adobe entwickelt, ist inzwischen aber in einen ISO-Standard überführt worden.<br/>
 **Spezifikation**: [ISO 32000-2:2017](https://www.iso.org/standard/63534.html) (kostenpflichtig) bzw.  [PDF 32000-1:2008](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf)<br/>
 
@@ -458,7 +459,7 @@ PDF wurde ursprünglich von der Firma Adobe entwickelt, ist inzwischen aber in e
 **Offenheitskriterien**: ~~maschinenlesbar~~, offen, standardisiert<br/>
 **Dateiendung**: `.docx`<br/>
 **Media Type**: `application/vnd.openxmlformats-officedocument.wordprocessingml.document`<br/>
-**Beschreibung**: Gemeint sind hier die verschiedenen Formate von Microsofts _Word_ Textverarbeitung. Word Dokumente eignen insbesondere zur Dokumentenerstellung, und sollten daher nicht im Open Data Bereich als Datenressource eingesetzt werden. Wird zur Dokumentation ein Textdokument benötigt, sollte stattdessen ein PDF erzeugt werden.<br/>
+**Beschreibung**: Gemeint sind hier die verschiedenen Formate von Microsofts _Word_ Textverarbeitung. Word Dokumente eignen insbesondere zur Dokumentenerstellung, und sollten daher nicht im Open Data-Bereich als Datenressource eingesetzt werden. Wird zur Dokumentation ein Textdokument benötigt, sollte stattdessen ein PDF erzeugt werden.<br/>
 **Spezifikation**: Seit 2006 ([ECM-376](https://www.ecma-international.org/publications/standards/Ecma-376.htm), [ISO/IEC 29500](https://www.iso.org/standard/71691.html)) bzw. MS Office 2007 ist das Word Format `.docx` offen standardisiert. Dies gilt nicht für ältere Word-Formate.
 
 #### OpenDocument Text
@@ -499,7 +500,7 @@ Auf Grund der Art der verwendeten Kompression eignet sich JPG besonders für fot
 **Dateiendung**: `.png`<br/>
 **Media Type**: `image/png`<br/>
 **Beschreibung**: Das _Portable Network Graphics_ (PNG) Format ist ein Standard für Rastergrafiken.
-Im Gegensatz zu JPG ist die Komprimierung verlustfrei. PNG Grafiken brauchen daher mehr Platz, sind aber besser für nicht-fotografische Grafiken geeignet, insbesondere für Grafiken mit Schriftelementen, Linien, starken Kontrasten, etc.<br/>
+Im Gegensatz zu JPG ist die Komprimierung verlustfrei. PNG Grafiken brauchen daher mehr Platz, sind aber besser für nicht-fotografische Grafiken geeignet, insbesondere für Grafiken mit Schriftelementen, Linien, starken Kontrasten etc.<br/>
 **Spezifikation**: [ISO/IEC 15948](https://www.iso.org/standard/29581.html) bzw. [RFC2084](https://tools.ietf.org/html/rfc2083)
 
 #### SVG
@@ -565,8 +566,8 @@ Die Rohdaten sind also eine CSV-Datei pro Bezirk pro Jahr.
 Man könnte diese Daten nun auf folgende Weisen veröffentlichen:
 
 1. Ein großer Datensatz (_Vornamen in Berlin_) mit Datenressourcen für jede Kombination aus Jahr und Bezirk (also etwa _Vornamen Mitte 2015_ oder _Vornamen Reinickendorf 2018_).
-1. Ein Datensatz für jeden Bezirk (_Vornamen in Mitte_) mit Datenressourcen für jedes Jahr (_Vornamen 2015_, _Vornamen 2018_, etc.).
-1. Ein Datensatz für jedes Jahr (_Vornamen 2015_), mit Datenressourcen für jeden Bezirk (_Vornamen Mitte_, _Vornamen Reinickendorf_, etc.).
+1. Ein Datensatz für jeden Bezirk (_Vornamen in Mitte_) mit Datenressourcen für jedes Jahr (_Vornamen 2015_, _Vornamen 2018_ etc.).
+1. Ein Datensatz für jedes Jahr (_Vornamen 2015_), mit Datenressourcen für jeden Bezirk (_Vornamen Mitte_, _Vornamen Reinickendorf_ etc.).
 1. Ein Datensatz für jede Kombination aus Jahr und Bezirk mit jeweils einer Datenressource (_Vornamen Mitte 2015_ oder _Vornamen Reinickendorf 2018_).
 
 Grundsätzlich wären alle vier Optionen möglich.
@@ -577,7 +578,7 @@ Option 2 (ein Datensatz/Bezirk) steht der Tatsache entgegen, dass die Daten alle
 ![Die Zeitreihe der Berliner Vornamensdaten\label{fig:zeitreihe_vornamen}](images/datensaetze_vornamen.png "Die Detailseiten der drei Datensätze 'Liste der häufigen Vornamen &hellip;' für 2015, 2016 und 2017 nebeneinander")
 
 In Zukunft wird das Datenportal Funktionalität enthalten, mit der inhaltlich zusammenhängende Datensätze wie die Zeitreihe der Vornamensdaten auch explizit als Gruppe gekennzeichnet werden kann.
-Es wird dann möglich sein, von einem Datensatz der Gruppe (z.B. _Liste der häufigen Vornamen 2015_) gleich zu allen anderen Datensätzen der Gruppe (_Liste der häufigen Vornamen 2012_, _&hellip; 2018_, etc.) zu gelangen.
+Es wird dann möglich sein, von einem Datensatz der Gruppe (z.B. _Liste der häufigen Vornamen 2015_) gleich zu allen anderen Datensätzen der Gruppe (_Liste der häufigen Vornamen 2012_, _&hellip; 2018_ etc.) zu gelangen.
 
 ### Weitere Informationen
 
@@ -596,7 +597,7 @@ Die Vorteile sind:
 - CSV ist ein offenes und maschinenlesbares Format, das darüberhinaus sehr einfach und verbreitet ist, und sich für viele Anwendungsfälle eignet.
 - Unstrukturierte, nicht-maschinenlesbare Formate sollten nur als zusätzliche Dokumentation veröffentlicht werden, und nie für sich stehen.
 - Neben dem Format müssen auch die Werte selber bei der Maschinenlesbarkeit beachtet werden. Die Formatierung sollte internationalen, in der IT üblichen Standards folgen.
-- Nach Möglichkeit sollten eindeutige Bezeichner (Codes, Identifier, etc.) in den Daten genutzt werden. Idealerweise können diese Codes als Linked Data aufgelöst werden.
+- Nach Möglichkeit sollten eindeutige Bezeichner (Codes, Identifier etc.) in den Daten genutzt werden. Idealerweise können diese Codes als Linked Data aufgelöst werden.
 
 
 ## Lizenz festlegen {#lizenzen}
@@ -672,7 +673,7 @@ Im Anschluss werden die einzelnen Veröffentlichungswege detailliert vorgestellt
 
 Obwohl sich alle Veröffentlichungswege in ihren Details unterscheiden, gibt es einige Aspekte, die allen gemeinsam sind.
 
-- **Zeitliche Verzögerung**: Mit der Speicherung bzw. Freischaltung eines neuen Datensatzes oder einer Änderung im Eingabesystem (Imperia, Datenregister, etc.), ist der Datensatz nicht unmittelbar im Datenportal auf daten.berlin.de zu sehen. Dies liegt daran, dass das Datenportal in regelmäßigen Abständen (aktuell stündlich) das Datenregister nach Änderung und neuen Datensätzen abfragt, und diese erst dann importiert und sichtbar macht. Dies kann sich dann noch verlängern, wenn mehrere Systeme hintereinandergeschaltet sind (z.B. Imperia Datenrubrik → Datenregister → Datenportal).
+- **Zeitliche Verzögerung**: Mit der Speicherung bzw. Freischaltung eines neuen Datensatzes oder einer Änderung im Eingabesystem (Imperia, Datenregister etc.), ist der Datensatz nicht unmittelbar im Datenportal auf daten.berlin.de zu sehen. Dies liegt daran, dass das Datenportal in regelmäßigen Abständen (aktuell stündlich) das Datenregister nach Änderung und neuen Datensätzen abfragt, und diese erst dann importiert und sichtbar macht. Dies kann sich dann noch verlängern, wenn mehrere Systeme hintereinandergeschaltet sind (z.B. Imperia Datenrubrik → Datenregister → Datenportal).
 - **Ankündigung neuer Datensätze**: Das Berliner Datenportal verfügt über einen eigenen Twitter-Account [\@OpenDataBerlin](https://twitter.com/OpenDataBerlin), auf dem automatisch neue Datensätze angekündigt werden, sobald Sie vom Datenportal importiert wurden (s. Abb.&nbsp;\ref{fig:twitter_neuer_datensatz}).
 
 ![Ankündigung eines neuen Datensatzes auf Twitter\label{fig:twitter_neuer_datensatz}](images/twitter-neuer-datensatz.png "Ankündigung des Datensatzes 'Kriminalitätsatlas Berlin' auf Twitter, mit Likes und Retweets"){width=400px}{:width="500px"}{: .centered }
@@ -827,7 +828,7 @@ Das Datenregister ist nicht-öffentlich.
 Vorraussetzung für die Nutzung ist daher, dass Sie über ein Benutzerkonto verfügen (das Benutzerkonto ist unabhängig von Ihrem Imperia-Zugang).
 Um ein Benutzerkonto zu beantragen und zu aktivieren, gehen Sie folgendermaßen vor:
 
-- Beantragen Sie das Benutzerkonto per E-Mail an opendata@berlin.de, Betreff „Zugang Datenregister {NAME}“. Geben Sie dabei Ihren vollen Namen und zugehörige Organisation (Verwaltung, Abteilung, etc.) an. Das Benutzerkonto ist personalisiert.
+- Beantragen Sie das Benutzerkonto per E-Mail an opendata@berlin.de, Betreff „Zugang Datenregister {NAME}“. Geben Sie dabei Ihren vollen Namen und zugehörige Organisation (Verwaltung, Abteilung etc.) an. Das Benutzerkonto ist personalisiert.
 - Wenn mehrere Zugänge beantragt werden, muss für jede Person eine gültige E-Mail-Adresse angegeben werden.
 - Sobald Ihr Antrag bearbeitet ist, erhalten Sie eine E-Mail mit Ihrem Benutzernamen.
 - Öffnen Sie die Seite <https://datenregister.berlin.de/user/reset>.
@@ -887,7 +888,7 @@ Auf ihrer Profilseite haben Sie außerdem die Möglichkeit, eine E-Mail-Benachri
 ### Nutzerprofil
 
 Im Nutzerprofil können Sie die Daten, die das Datenregister zu Ihnen speichert, ansehen und bearbeiten (s. Abb.&nbsp;\ref{fig:datenregister_nutzerprofil}).
-Dazu gehören Name, E-Mail-Adresse und optional ein kurzer Beschreibungstext, etwa Ihre Position, weitere Kontaktdaten, etc.
+Dazu gehören Name, E-Mail-Adresse und optional ein kurzer Beschreibungstext, etwa Ihre Position, weitere Kontaktdaten etc.
 Außerdem ist hier ein Link zu der Organisation zu finden, der man bei der Erstellung des Nutzeraccounts zugeordnet wurde. 
 
 Der API-Schlüssel wird benötigt, um die API des Datenregisters zu nutzen, spielt aber für die meisten Nutzer keine Rolle.
@@ -973,8 +974,8 @@ Anmerkung: Nicht alle Metadatenfelder kommen bei allen Veröffentlichungswegen z
 
 Eine kurze, prägnante, aber informative Bezeichnung des Datensatzes. Um inhaltlich ähnliche Datensätze bei einer Auflistung schnell unterscheiden zu können, sollten schon im Titel folgende Angaben enthalten sein:
 
-- geografischer/politischer Bezug („&hellip; des Landes Berlin“, „&hellip; des Bezirks Pankow“, etc.)
-- zeitlicher Bezug („&hellip; 2017“, „&hellip; 2011–2016“, etc.)
+- geografischer/politischer Bezug („&hellip; des Landes Berlin“, „&hellip; des Bezirks Pankow“ etc.)
+- zeitlicher Bezug („&hellip; 2017“, „&hellip; 2011–2016“ etc.)
 
 ### Art
 
@@ -1028,7 +1029,7 @@ Im Umkehrschluss macht eine restriktive Lizenz die Nutzung unwahrscheinlicher un
 Am problematischsten sind fehlende oder obskure Lizenzen, da potentielle Nutzer so verunsichert werden.
 Siehe auch den ausführlicheren Abschnitt zu [Lizenzen](#lizenzen).
 
-Damit die Frage nach der Lizenz nicht für jeden Datensatz neu entschieden werden muss, ist es sinnvoll, hier eine einheitliche Regelung für jeden Datenbereitsteller (Verwaltung, Bezirksamt, etc.) festzulegen. 
+Damit die Frage nach der Lizenz nicht für jeden Datensatz neu entschieden werden muss, ist es sinnvoll, hier eine einheitliche Regelung für jeden Datenbereitsteller (Verwaltung, Bezirksamt etc.) festzulegen. 
 
 ### Text für Namensnennung
 
@@ -1059,7 +1060,7 @@ Falls es sich um einen Zeitpunkt (Stichtag o.ä.) handelt, so geben Sie einen Ze
 ### Geographische Auflösung
 
 Wie fein oder grob sind Ihre Daten geographisch aufgelöst?
-Werden Angaben über das Land als ganzes gemacht, oder sind die Daten nach Bezirken, Bezirksregionen, etc. aufgeschlüsselt?
+Werden Angaben über das Land als ganzes gemacht, oder sind die Daten nach Bezirken, Bezirksregionen etc. aufgeschlüsselt?
 Wird vielleicht sogar auf präzise GPS-Koordinaten oder Hausadressen Bezug genommen?
 
 ### Geographische Abdeckung
@@ -1082,7 +1083,7 @@ Allerdings sollte man sich bei der Vergabe von Tags einschränken, um Widerholun
 Nicht geeignet sind:
 
 - Tags wie „Berlin“ oder „Open Data“, die für alle Datensätze im Datenportal gelten.
-- Tags mit Zeit- und Ortsangaben („2017“, „Pankow“, etc.), da diese Information bereits über die Metadatenfelder zu geografischer und zeitlicher Abdeckung gegeben ist.
+- Tags mit Zeit- und Ortsangaben („2017“, „Pankow“ etc.), da diese Information bereits über die Metadatenfelder zu geografischer und zeitlicher Abdeckung gegeben ist.
 - Tags, die lediglich Titel oder Beschreibung wiedergeben.
 
 ### Organisation
@@ -1122,7 +1123,7 @@ Hier können Angaben zum Datenschema (z.B. Spaltennamen bei tabellarischen Daten
 
 ### Format
 
-Im Falle einer Datei ist diese Angabein der Regel übereinstimmend mit der Dateieindung der Ressource (also `csv`, `json`, `xlsx`, etc.).
+Im Falle einer Datei ist diese Angabein der Regel übereinstimmend mit der Dateieindung der Ressource (also `csv`, `json`, `xlsx` etc.).
 Für eine API kann hier _API_ angegeben werden.
 Bei einigen Veröffentlichungswegen wird diese Angabe über eine Auswahlliste eingeschränkt.
 Falls Ihnen hier ein Format fehlt, melden Sie sich bitte beim [berlin.de Support](https://support.berlin.de/wiki/Hilfe_und_Support).
@@ -1143,7 +1144,7 @@ Um ein vollständiges Bild des Datenportals zu geben, wollen wir hier trotzdem b
 Das Datenregister, das für die Eingabe und Speicherung aller Datensätze zuständig ist, basiert auf der weit verbreiteten Software [CKAN](https://ckan.org) (_Comprehensive Knowledge Archive Network_).
 CKAN bietet von Haus aus eine sog. **API**, also eine Schnittstelle zur Programmierung von Anwendungen.
 Mit dieser API lassen sich etwa das Erzeugen oder Modifizieren von Datensätzen steuern, oder die Inhalte des Datenregisters auslesen, ohne dass man dazu einen Browser öffnen muss.
-Die CKAN API des Datenregisters ist so konfiguriert, dass bestimmte lesende Zugriffe (Liste aller Datensätze, Metadaten eines Datensatzes, Suche nach Datensätzen, etc.) offen zugänglich sind, während andere Zugriffe (insbesondere alle schreibenden Zugriffe) ein Nutzerkonto mit den entsprechenden Rechten erfordern.
+Die CKAN API des Datenregisters ist so konfiguriert, dass bestimmte lesende Zugriffe (Liste aller Datensätze, Metadaten eines Datensatzes, Suche nach Datensätzen etc.) offen zugänglich sind, während andere Zugriffe (insbesondere alle schreibenden Zugriffe) ein Nutzerkonto mit den entsprechenden Rechten erfordern.
 
 Die CKAN API wird beispielsweise von der Imperia Datenrubrik und dem Imperia SimpleSearch Modul zur Kommunikation mit dem Datenregister genutzt.
 Ebenso können Verwaltungen, die große Mengen an Datensätzen automatisch ins Datenportal integrieren wollen, die CKAN API benutzen, um diesen Vorgang zu automatisieren.
@@ -1233,7 +1234,7 @@ Folgende Links können als Einstiegspunkte für die weitere Beschäftigung mit d
 
 ## DCAT-AP.de {#schnittstelle_dcat}
 
-CKAN ist Open Source Software, weit verbreitet und kann als defacto-Standard im Bereich Open Data Portale angesehen werden.
+CKAN ist Open Source Software, weit verbreitet und kann als defacto-Standard im Bereich Open Data-Portale angesehen werden.
 Trotzdem ist die CKAN API eine proprietäre Schnittstelle, die nicht von allen Datenportalen unterstützt wird.
 Um die Interoperabilität zwischen Datenportalen in Europa zu gewährleisten, wurde [DCAT-AP](https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe) als europaweiter Standard definiert.
 Alle Datenportale, die über die nationalen Portale letztendlich im [Europäischen Datenportal](https://www.europeandataportal.eu) aggregiert werden, sollen diesen Standard als Austauschformat implementieren.
@@ -1244,9 +1245,9 @@ DCAT-AP wiederum basiert auf dem internationalen W3C-Standard [DCAT](https://www
 Eine zentrale Idee von DCAT-AP ist, die Metadaten des Datenportals als **Linked Data** bereitzustellen, um so die Daten aus allen Portalen integrierbar und vergleichbar zu machen.
 
 Linked Data ist eine Technologie, mit deren Hilfe Daten leicht miteinander in Beziehung gebracht werden können – in diesem Fall die Metadaten aller öffentlichen europäischen Datenportale.
-Die Grundidee von Linked Data ist es, jede in den Daten beschriebene Entität – ein Datenportal, ein Datensatz, eine Datenressource, eine Person, eine Organisation, ein Land, eine Stadt, eine thematische Kategorie, etc. – mit einer URL zu versehen.
+Die Grundidee von Linked Data ist es, jede in den Daten beschriebene Entität – ein Datenportal, ein Datensatz, eine Datenressource, eine Person, eine Organisation, ein Land, eine Stadt, eine thematische Kategorie etc. – mit einer URL zu versehen.
 Diese URL kann im Browser oder anderweitig geöffnet werden, um weitere Informationen über die Entität zu bekommen. 
-Alle Beziehungen zwischen Entitäten – ein Datenportal enthält Datensätze, Datensätze haben Datenressourcen, Personen sind Ansprechpartner für Datensätze, Städte befinden sich in Ländern, etc. – werden mit der Beschreibungssprache [RDF](https://www.w3.org/TR/rdf11-concepts/) ausgedrückt.
+Alle Beziehungen zwischen Entitäten – ein Datenportal enthält Datensätze, Datensätze haben Datenressourcen, Personen sind Ansprechpartner für Datensätze, Städte befinden sich in Ländern etc. – werden mit der Beschreibungssprache [RDF](https://www.w3.org/TR/rdf11-concepts/) ausgedrückt.
 
 Grundsätzlich kann DCAT-AP.de sowohl für Lese- als auch für Schreiboperationen von Daten aus einem Datenportal genutzt werden. Im Berliner Datenportal ist allerdings nur der lesende Zugriff freigeschaltet. Über diesen Weg greift das bundesweite Datenportal [govdata.de](https://govdata.de) auf die Metadaten des Berliner Datenportals zu. Die Schnittstelle steht aber auch allen anderen Nutzern zur Verfügung.
 
@@ -1407,7 +1408,7 @@ mdrlang:DEU
 
 Folgende Links können als Einstiegspunkte für die weitere Vertiefung mit dem Thema DCAT-AP.de dienen.
 
-- Unter <https://dcat-ap.de> finden sich alle offiziellen Dokumente (Spezifikation, Konventionenhandbuch, etc.), Beispiele und Vokabulare des Standards.
+- Unter <https://dcat-ap.de> finden sich alle offiziellen Dokumente (Spezifikation, Konventionenhandbuch etc.), Beispiele und Vokabulare des Standards.
 - Der zentrale Einstiegspunkt für den übergeordneten, europaweiten Standard DCAT-AP ist <https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe>.
 - Die Spezifikation des vom W3C standardisierten DCAT-Formats befindet sich bei <https://www.w3.org/TR/vocab-dcat/>.
 - Die Europäische Kommission hat einen Foliensatz zum Thema Linked Data und öffentliche Daten veröffentlicht: [EC2013].
@@ -1419,12 +1420,12 @@ Es ist aber natürlich klar, dass nicht alle Fragen vorhergesehen, und nicht jed
 
 Falls Sie daher Beratung zum Thema Open Data wünschen, der über den Inhalt dieser Broschüre hinausgeht, gibt es folgende Beratungsmöglichkeiten:
 
-- **Open Data Strategie:** Für die Open Data Strategie des Landes Berlin ist Sebastian Askar, Open Data Beauftragter des Landes Berlin (sebastian.askar@senweb.berlin.de) von der Senatsverwaltung für Wirtschaft, Energie und Betriebe zuständig. 
-- **Inhaltliche Fragen:** „Welche Lizenz soll man wählen?“, „Wie erzeugt man eine CSV-Datei?“, „Welche Daten sollen veröffentlicht werden?“, „Haben meine Daten einen Personenbezug?“ – bei solchen und ähnlichen Fragen können Sie sich an die [Open Data Informationsstelle](https://www.odis-berlin.de) des Landes Berlin wenden.
-- **Technische Fragen:** „Wir brauchen einen Nutzeraccount für das Datenregister“, „Der File-Upload bei Imperia funktioniert nicht“ – bei solchen technischen Fragen, die sich direkt auf die Open Data Infrastruktur des Landes beziehen, kann Ihnen am ehesten das Team des Open Data-Portals (opendata@berlin.de) weiterhelfen.
+- **Open Data-Strategie:** Für die Open Data-Strategie des Landes Berlin ist Sebastian Askar, Open Data-Beauftragter des Landes Berlin (sebastian.askar@senweb.berlin.de) von der Senatsverwaltung für Wirtschaft, Energie und Betriebe zuständig. 
+- **Inhaltliche Fragen:** „Welche Lizenz soll man wählen?“, „Wie erzeugt man eine CSV-Datei?“, „Welche Daten sollen veröffentlicht werden?“, „Haben meine Daten einen Personenbezug?“ – bei solchen und ähnlichen Fragen können Sie sich an die [Open Data-Informationsstelle](https://www.odis-berlin.de) des Landes Berlin wenden.
+- **Technische Fragen:** „Wir brauchen einen Nutzeraccount für das Datenregister“, „Der File-Upload bei Imperia funktioniert nicht“ – bei solchen technischen Fragen, die sich direkt auf die Open Data-Infrastruktur des Landes beziehen, kann Ihnen am ehesten das Team des Open Data-Portals (opendata@berlin.de) weiterhelfen.
 - **Schulung:** In der Vergangenheit wurden über die [Verwaltungsakademie](https://www.berlin.de/vak/) Schulungen zum Thema Open Data angeboten. Dies soll in Zukunft fortgeführt und ausgebaut werden.
-- **Open Data Networking:** Zwei Mal jährlich werden Open Data Lunches von der Senatsverwaltung für Wirtschaft, Energie und Betriebe mit aktuellen Vorträgen zu den Herausforderungen der Open Data Strategie Berlins durchgeführt.
-Ansprechpartnerin für das Programm und die Anmeldung ist die Open Data Beauftragte der Senatsverwaltung für Wirtschaft, Energie und Betriebe: Betül Özdemir (betuel.oezdemir@senweb.berlin.de).
+- **Open Data-Networking:** Zwei Mal jährlich werden Open Data-Lunches von der Senatsverwaltung für Wirtschaft, Energie und Betriebe mit aktuellen Vorträgen zu den Herausforderungen der Open Data-Strategie Berlins durchgeführt.
+Ansprechpartnerin für das Programm und die Anmeldung ist die Open DataBeauftragte der Senatsverwaltung für Wirtschaft, Energie und Betriebe: Betül Özdemir (betuel.oezdemir@senweb.berlin.de).
 
 # Glossar {-}
 
@@ -1433,7 +1434,7 @@ Plattformen wie das Datenportal werden in der Regel händisch von Menschen bedie
 Eine API dient dazu, es Programmen zu ermöglichen, solche Plattformen automatisch zu bedienen, um etwa im Datenportal zu suchen, Datensätze anzulegen oder zu modifizieren.
 In anderen Fällen ist eine API auch die einzige Möglichkeit, ein System zu bedienen.
 
-Im Rahmen des Berliner Open Data Ökosystems treten APIs an verschiedenen Stellen auf: zum einen hat das Datenportal selber verschiedene APIs (s. [_Schnittstellen_](#schnittstellen)).
+Im Rahmen des Berliner Open Data-Ökosystems treten APIs an verschiedenen Stellen auf: zum einen hat das Datenportal selber verschiedene APIs (s. [_Schnittstellen_](#schnittstellen)).
 Zum anderen kann es sich auch bei den Datenressourcen eines Datensatzes um APIs handeln.
 Beispiele sind die API für die [Fahrplandaten des VBB](https://daten.berlin.de/datensaetze/vbb-fahrplandaten-api) oder viele Datensätze aus dem Berliner Geoinformationssystem [FIS-Broker](https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/).
 
@@ -1452,13 +1453,13 @@ Auch das Berliner Datenportal basiert auf CKAN.
 API und **Metadatenschema** des Berliner Datenportals sind Erweiterungen der API und des Metadatenschemas von CKAN.
 
 **CSV** _Comma-separated Values_ (CSV) ist ein einfaches tabellarisches Datenformat.
-CSV verzichtet sowohl auf visuelle Aspekte wie Formatierungen oder Grafiken, als auch auf komplexe Features wie Formeln, Makros, etc. Stattdessen beschränkt sich CSV auf die reinen Daten, gegliedert in Zeilen (eine Zeile je Objekt) und Spalten (eine Spalte je Eigenschaft).
+CSV verzichtet sowohl auf visuelle Aspekte wie Formatierungen oder Grafiken, als auch auf komplexe Features wie Formeln, Makros etc. Stattdessen beschränkt sich CSV auf die reinen Daten, gegliedert in Zeilen (eine Zeile je Objekt) und Spalten (eine Spalte je Eigenschaft).
 Aus diesen Gründen sind CSV-Daten vergleichsweise einfach zu verarbeiten, von allen Programmiersprachen unterstützt und daher für Open Data i.d.R. sehr gut geeignet.
-Trotzdem eignet sich CSV nicht für alle Daten: in bestimmten Fällen sind hierarchische Formate (JSON, XML, etc.) oder auch spezialisierte Formate (Geodaten, etc.) sinnvoller.
+Trotzdem eignet sich CSV nicht für alle Daten: in bestimmten Fällen sind hierarchische Formate (JSON, XML etc.) oder auch spezialisierte Formate (Geodaten etc.) sinnvoller.
 CSV ist nicht offiziell standardisiert, aber es gibt weithin akzeptierte best-practices, die befolgt werden sollten (s. [_CSV_](#csv) und [_Werteformatierung_](#werteformatierung)).
 
 **Datenformat** Mit Datenformat ist hier eine bestimmte Art und Weise gemeint, wie Daten bei Speicherung oder Austausch strukturiert werden.
-Dies geht über die allgemeine **Datenstruktur** hinaus und betrifft Details wie die Auszeichnung einzelner Datenelemente, deren Relationen, Zeichencodierung, etc.
+Dies geht über die allgemeine **Datenstruktur** hinaus und betrifft Details wie die Auszeichnung einzelner Datenelemente, deren Relationen, Zeichencodierung etc.
 Für Open Data geeignete Datenformate sollten nach Möglichkeit offen standardisiert sein. 
 Beispiele für Datenformate sind CSV, JSON, XML, RDF oder das Excel-Format XLSX.
 Für weitere Details s. das Kapitel [_Formatwahl_](#formatwahl).
@@ -1500,7 +1501,7 @@ Das Schema einer Tabelle könnte beispielsweise die Namen und Datentypen der Spa
 
 **Datenstruktur** Maschinenlesbare bzw. strukturierte Daten lassen sich grob nach der Art ihrer Gliederung unterscheiden.
 Diese grundsätzlichen Arten der Gliederung sind mit dem Begriff „Datenstruktur“ gemeint.
-Im Open Data Handbuch werden tabellarische Daten (**Tabelle**), hierarchische Daten (**Baumstruktur**) und Graphen (**Graphstruktur**) unterschieden.
+Im Open Data-Handbuch werden tabellarische Daten (**Tabelle**), hierarchische Daten (**Baumstruktur**) und Graphen (**Graphstruktur**) unterschieden.
 Für jede Datenstruktur gibt es verschiedene **Datenformate**.
 Im Veröffentlichungsprozess sollte die Datenstruktur mit Bedacht gewählt werden, da sich z.B. nicht alle Daten sinnvoll als Tabelle strukturieren lassen.
 
@@ -1530,10 +1531,10 @@ GovData wiederum wird vom [European Data Portal](https://www.europeandataportal.
 **Graphstruktur** Eine Graphstruktur ist eine sehr allgemeine Datenstruktur.
 Bestandteile eines Graphen sind Knoten, die über Kanten miteinander verbunden sind.
 Jeder Knoten und jede Kante kann dabei mit Informationen versehen sein.
-Typische Anwendungsfälle für Graphstrukturen sind soziale Netzwerke jeder Art, Verkehrsnetze, etc. Grundsätzlich können aber die meisten Daten als Graph abgebildet werden. 
+Typische Anwendungsfälle für Graphstrukturen sind soziale Netzwerke jeder Art, Verkehrsnetze etc. Grundsätzlich können aber die meisten Daten als Graph abgebildet werden. 
 Ein geeignetes Datenformat für Graphstrukturen ist RDF.
 
-**Harvester** Der Begriff „Harvester“ kommt vom englischen Begriff „to harvest“, also „ernten“. Im Kontext des Open Data Handbuchs ist ein spezielles Plugin für **CKAN** gemeint, mit dessen Hilfe andere Datenportale sozusagen abgeerntet werden können, um die darin enthaltenen Datensätze (alle oder bestimmte) in CKAN zu überführen. Im CKAN-basierten **Datenregister** des Berliner Datenportals laufen derzeit Harvester für den **FIS-Broker** und das Datenportal von [Stromnetz Berlin](https://www.stromnetz.berlin).
+**Harvester** Der Begriff „Harvester“ kommt vom englischen Begriff „to harvest“, also „ernten“. Im Kontext des Open Data-Handbuchs ist ein spezielles Plugin für **CKAN** gemeint, mit dessen Hilfe andere Datenportale sozusagen abgeerntet werden können, um die darin enthaltenen Datensätze (alle oder bestimmte) in CKAN zu überführen. Im CKAN-basierten **Datenregister** des Berliner Datenportals laufen derzeit Harvester für den **FIS-Broker** und das Datenportal von [Stromnetz Berlin](https://www.stromnetz.berlin).
 
 **Hierarchische Daten** → _Baumstruktur_
 
@@ -1553,10 +1554,10 @@ So wird die Integration von Daten erleichtert, neue Sichten werden ermöglicht, 
 Dies wird erreicht, indem alle wichtigen Begriffe in den Datensätzen mit eindeutigen **URL**-Bezeichnern versehen werden.
 Diese URLs können mit einem Browser oder anderweitig besucht werden, um dort sofort weitere Informationen zu einem Begriff zu erhalten.
 Wenn zwei oder mehr Datensätze dieselben URL-Bezeichner verwenden, entstehen die besagten Links, also Verknüpfungen.
-Linked Data ist die höchste Stufe des [5-Star Open Data Bewertungssystems](https://5stardata.info/de/) und wurde bereits 2012 in der [Berliner Open Data-Strategie](https://www.berlin.de/sen/inneres/service/publikationen/strategie-studie_zur_umsetzung_des_open-data-gedankens_in_der___ffentlichen_verwaltung.pdf) als Ziel definiert [BOTH2012].
+Linked Data ist die höchste Stufe des [5-Star Open Data-Bewertungssystems](https://5stardata.info/de/) und wurde bereits 2012 in der [Berliner Open Data-Strategie](https://www.berlin.de/sen/inneres/service/publikationen/strategie-studie_zur_umsetzung_des_open-data-gedankens_in_der___ffentlichen_verwaltung.pdf) als Ziel definiert [BOTH2012].
 
 **Lizenz** Die Lizenz im Kontext von Offenen Daten bezeichnet die Nutzungsbedingungen für einen Datensatz, bzw. eine Datenressource.
-Sie schreibt vor, unter welchen Bedingungen, von wem, zu welchem Zweck, etc. ein Datensatz genutzt werden kann.
+Sie schreibt vor, unter welchen Bedingungen, von wem, zu welchem Zweck etc. ein Datensatz genutzt werden kann.
 Für Offene Daten in Deutschland werden z.B. die [Datenlizenz Deutschland](ttps://www.govdata.de/lizenzen), aber vielfach auch die verschiedenen [Creative Commons-Lizenzen](https://creativecommons.org/licenses) genutzt.
 S. auch das Kapitel [_Lizenz festlegen_](#lizenzen).
 
@@ -1598,14 +1599,14 @@ S. auch das Kapitel [_Imperia SimpleSearch_](#simplesearch).
 
 **Tabelle** Eine Tabelle im Kontext von Offenen Daten meint eine weitverbreitete Datenstruktur, die Daten in ein zwei-dimensionales Raster aus Zeilen und Spalten gliedert.
 In der Regel wird dabei jede Zeile als ein Objekt, jede Spalte als eine Eigenschaft des Objekts verstanden.
-Im Sinne einer hohen **Maschinenlesbarkeit** sollten tabellarische Daten von dieser Interpretation nicht abweichen (etwa durch Leerzeilen oder -spalten, Summenzeilen, etc.). S. auch das Kapitel [_Tabelle_](#tabelle).
+Im Sinne einer hohen **Maschinenlesbarkeit** sollten tabellarische Daten von dieser Interpretation nicht abweichen (etwa durch Leerzeilen oder -spalten, Summenzeilen etc.). S. auch das Kapitel [_Tabelle_](#tabelle).
 Ein gebräuchliches und gut zu verarbeitendes Format für tabellarische Daten ist **CSV**.
 Auch Excel-Formate sind mit Einschränkungen geeignet (s. auch [_Excel-Formate_](#excel-formate)).
 
 **URL** Der Begriff _Uniform Resource Locator_ (URL) deckt sich größtenteils mit dem, was gemeinhin als „Webadresse“ bezeichnet wird. 
 Es handelt sich also um eine eindeutige Adresse für eine Informationsressource wie z.B. eine Webseite, ein Bild oder eine beliebige andere Datei.
 Im Web-Kontext beginnen alle URLs mit `http://` bzw. `https://`.
-Es gibt aber noch zahlreiche andere sog. Protokolle, die sich nicht auf das Web beziehen, wie z.B. `ftp://`, `ssh://`, `mailto:`, etc.
+Es gibt aber noch zahlreiche andere sog. Protokolle, die sich nicht auf das Web beziehen, wie z.B. `ftp://`, `ssh://`, `mailto:` etc.
 
 Bei einer URL wird angenommen, dass sie aufgelöst werden kann.
 Das heißt, wenn man einen Browser oder eine andere Software diese URL öffnen lässt, erhält man als Antwort die entsprechende Ressource.
@@ -1630,7 +1631,7 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[OKF2019]** Open Knowledge Foundation. _Open Definition 2.1_. Webseite, gesehen 04.06.2019. <https://opendefinition.org/od/2.1/en/>
 
-**[OKI2019]** Open Knowledge International. _Datenformate_, Kapitel aus „Das Open Data Handbuch“. Webseite, gesehen 18.02.2019. <https://opendatahandbook.org/guide/de/appendices/file-formats/>
+**[OKI2019]** Open Knowledge International. _Datenformate_, Kapitel aus „Das Open Data-Handbuch“. Webseite, gesehen 18.02.2019. <https://opendatahandbook.org/guide/de/appendices/file-formats/>
 
 **[SENSTADTUM2019]** Senatsverwaltung für Stadtentwicklung und Umwelt Berlin, _Lebensweltlich orientierte Räume (LOR) in Berlin_. Datensatz, gesehen 05.05.2019. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin>. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
