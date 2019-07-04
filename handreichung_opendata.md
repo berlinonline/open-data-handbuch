@@ -163,15 +163,13 @@ Folgende Sachverhalte stehen einer Veröffentlichung entgegen:
 In diesem Kapitel geht es um die Form der Datenressourcen.
 Dabei wird auf grundlegende Fragen wie „Was zeichnet gute Open Data Formate aus?“ oder „Welches Format ist für meine Daten geeignet?“ eingegangen, aber auch auf Detailfragen nach der Formatierung einzelner Werte in den Daten.
 
----
-
-**In Box:**
+@include(box_prefix)
 
 Nicht alle hier beschriebenen Formate und Anforderungen werden ohne weiteres von jeder Mitarbeiter\*in der Verwaltung mit den in der Verwaltung zur Verfügung stehenden Werkzeugen umgesetzt werden können.
 Teilweise ist spezielle Software und/oder besonderes technisches Wissen nötig.
 In solchen Fällen sollte [Beratung](#beratung) hinzugezogen werden, um eine effiziente, nachhaltige und nach Open Data-Gesichtspunkten gute Lösung zu entwickeln.
 
----
+@include(box_suffix)
 
 ### Grundeigenschaften
 
@@ -212,14 +210,14 @@ Geeignete Open Data Formate für tabellarische Daten sind [CSV](#csv) und mit Ei
 
 @include(example_tabular_data)
 
----
+@include(box_prefix)
 
 **Beispiel tabellarische Daten: Aus- und Einfuhr (Außenhandel) Berlin**
 
 Jede Zeile repräsentiert ein Jahr, jede Spalte einen für ein Jahr erhobenen Wert.
 Quelle: [SENWEB2019]
 
----
+@include(box_suffix)
 
 #### Baumstruktur (hierarchische Daten)
 
@@ -233,14 +231,14 @@ Allerdings nur, indem man ein hohes Maß an Redundanz in den Daten zulässt, ode
 
 ![Die LOR-Hierarchie Berlins\label{fig:lor_hierarchie}](images/format-example-tree.png "Ausschnitt aus der LOR-Hierarchie Berlins. Gezeigt wird, wie sich Berlin in Bezirke aufspaltet, Bezirke in Prognoseräume – am Beipspiel des Bezirks Neukölln (08) –, Prognoseräume in Bezirksregionen – am Beispiel Neukölln (0801) – und Bezirksregionen in Planungsräume – am Beispiel Schillerpromenade (080101).")
 
----
+@include(box_prefix)
 
 **Beispiel Baumstruktur: Die lebensweltlich orientierten Räume (LOR) Berlins**
 
 Die lebensweltlich orientierten Räume (LOR) Berlins sind ein typisches Beispiel für eine Baumstruktur (s. Abb.&nbsp;\ref{fig:lor_hierarchie}). Ausgehend von der Wurzel Berlin verzweigt sich der Baum über die Bezirke, Prognoseräume, Bezirksregionen und schließlich in die Planungsräume.
 Quelle: [SENSTADTUM2019]
 
----
+@include(box_suffix)
 
 #### Netzwerkstruktur (Graphstruktur)
 
@@ -274,15 +272,13 @@ Um die Les- und Nutzbarkeit in jedem Fall zu garantieren, sollte der Definition 
 Beispielsweise werden die Kodierung in UTF-8 und die Nutzung des Kommas als Trennzeichen festgeschrieben.
 CSV wurde allerdings nie offiziell standardisiert.
 
----
-
-**in Box**
+@include(box_prefix)
 
 Abgesehen von den Spaltennamen ermöglicht CSV keine Definition eines Datenschemas (Datentypen der Spalten, etc.).
 Einerseits erleichtert dies die Nutzung des Formats bei der Erstellung und Verarbeitung der Daten, andererseits kann es zu Problemen bei der Intepretation der Daten führen.
 Die Projekte [_CSV on the Web_](https://www.w3.org/TR/tabular-data-primer/) und [_Frictionless Data_](https://frictionlessdata.io) schlagen unterschiedliche Verfahren vor, um CSV-Dateien ein Datenschema und andere Interpretationshilfen zur Seite zu stellen.
 
----
+@include(box_suffix)
 
 
 #### Excel-Formate {#excel-formate}
@@ -312,9 +308,7 @@ Im Bezug auf offene Daten sind die Probleme hier dieselben wie bei Excel-Formate
 **Spezifikation**: durch ISO/IEC ([ISO/IEC 26300](https://www.iso.org/standard/66363.html)) und [OASIS](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office)
 
 
----
-
-**in Box**
+@include(box_prefix)
 
 Eine Veröffentlichung in einem Excel-Format oder als OpenDocument-Spreadheet kann sinnvoll sein, wenn die Daten intern in diesem Format erzeugt und genutzt werden; wenn es sich also um das Format der Rohdaten handelt.
 In diesem Fall sollten die Daten aber zusätzlich als CSV-Datei veröffentlicht werden.<br/>
@@ -331,7 +325,7 @@ Um die Maschinenlesbarkeit und Konvertierung in CSV aus Excel/OpenDocument zu un
     - mehrere Tabellen auf einem Tabellenblatt
     - Summen und andere Formeln - besonders, wenn diese mit dem Prinzip _eine Zeile pro Objekt_ brechen.
 
----
+@include(box_suffix)
 
 #### XML
 
