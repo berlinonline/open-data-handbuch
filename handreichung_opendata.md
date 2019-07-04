@@ -667,7 +667,7 @@ Es gibt verschiedene Möglichkeiten, offene Daten im Berliner Datenportal zu ver
 Die folgende Grafik (s. Abb.&nbsp;\ref{fig:flussdiagramm_veroeffentlichungsweg}) kann bei der Auswahl des Weges als grobe Entscheidungshilfe dienen. 
 Im Anschluss werden die einzelnen Veröffentlichungswege detailliert vorgestellt.
 
-![Flussdiagramm zur Auswahl eines Veröffentlichungsweges für das Berliner Datenportal\label{fig:flussdiagramm_veroeffentlichungsweg}](images/veroeffentlichungsweg_waehlen_90.png "Flussdiagramm zur Auswahl eines Veröffentlichungsweges für das Berliner Datenportal")
+@include(grafik_veroeffentlichungsweg)
 
 ## Grundsätzliches
 
