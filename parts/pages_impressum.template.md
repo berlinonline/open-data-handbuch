@@ -1,9 +1,9 @@
 
 # Impressum {-}
 
-**Herausgeber:** Land Berlin, Senatsverwaltung für Wirtschaft, Energie und Betriebe<br/>
-**Text:** Knud Hinnerk Möller (BerlinOnline Stadtportal GmbH & Co. KG)<br/>
-**Grafiken:** Nadine Wohlfahrt (BerlinOnline Stadtportal GmbH & Co. KG)<br/>
+**Herausgeber:** Land Berlin, [Senatsverwaltung für Wirtschaft, Energie und Betriebe](https://www.berlin.de/sen/wirtschaft/)<br/>
+**Text:** Knud Hinnerk Möller ([BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net))<br/>
+**Grafiken:** Nadine Wohlfahrt ([BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net))<br/>
 **Lizenz**: Der Text des Handbuchs ist unter einer [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0) veröffentlicht.
 Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenommen.
 [Quellenverzeichnis](#quellenverzeichnis) und [Bildverzeichnis](#bildverzeichnis) mit entsprechenden Urheberrechtsangaben sind im Handbuch enthalten.<br/>

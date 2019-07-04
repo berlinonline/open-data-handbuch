@@ -1665,7 +1665,7 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 # Bildverzeichnis
 
-- **Karte Titelbild:** © hebstreit.com – stock.adobe.com 
+- **Karte Titelbild:** © [hebstreit.com](https://hebstreit.com) – [stock.adobe.com](https://stock.adobe.com) 
 
 - **Comic _ISO 8601_:** veröffentlicht unter [Creative Commons Namensnennung-Nicht kommerziell 2.5](https://creativecommons.org/licenses/by-nc/2.5/deed.de) (CC BY-NC 2.5): <https://xkcd.com/1179/>
 
@@ -1674,9 +1674,9 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 # Impressum
 
-**Herausgeber:** Land Berlin, Senatsverwaltung für Wirtschaft, Energie und Betriebe<br/>
-**Text:** Knud Hinnerk Möller (BerlinOnline Stadtportal GmbH & Co. KG)<br/>
-**Grafiken:** Nadine Wohlfahrt (BerlinOnline Stadtportal GmbH & Co. KG)<br/>
+**Herausgeber:** Land Berlin, [Senatsverwaltung für Wirtschaft, Energie und Betriebe](https://www.berlin.de/sen/wirtschaft/)<br/>
+**Text:** Knud Hinnerk Möller ([BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net))<br/>
+**Grafiken:** Nadine Wohlfahrt ([BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net))<br/>
 **Lizenz**: Der Text des Handbuchs ist unter einer [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0) veröffentlicht.
 Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenommen.
 [Quellenverzeichnis](#quellenverzeichnis) und [Bildverzeichnis](#bildverzeichnis) mit entsprechenden Urheberrechtsangaben sind im Handbuch enthalten.<br/>
