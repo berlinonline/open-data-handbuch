@@ -210,30 +210,7 @@ Wenn diese Bedingungen nicht erfüllt sind, sollten Sie eine andere Datenstruktu
 
 Geeignete Open Data Formate für tabellarische Daten sind [CSV](#csv) und mit Einschränkungen (s.u.) [Excel-](#excel-formate) bzw. [OpenDocument-Formate](#open_document_spreadsheet).
 
--------------------------------------------------------
-jahr      ausfuhr_    ausfuhr_     einfuhr_    einfuhr_
-         gewicht_t    wert_tsd    gewicht_t    wert_tsd
------ ------------ ----------- ------------ -----------
-2008     1906249.0    11575460    3726000.7     8836354
-
-2009     1520285.5    10460872    3280393.0     8332920
-
-2010     1768526.6    12041296    3788885.2     9504931
-
-2011     1843390.3    12995735    3990575.7    10247531
-
-2012     1866142.5    13630766    3386676.5     9885480
-
-2013     1812326.6    12926404    3508760.0     9729719
-
-2014     1969493.1    13307452    4285590.9     9910714
-
-2015     2036349.9    14077861    3539258.2    11728684
-
-2016     2463796.3    15147156    4010693.6    12113675
--------------------------------------------------------
-
-: Aus- und Einfuhr (Außenhandel) Berlin 
+@include(example_tabular_data)
 
 ---
 
@@ -1667,4 +1644,4 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 # Bildverzeichnis {-}
 
-**Abb. \ref{fig:xkcd_iso8601}:** Comic _ISO 8601_, veröffentlicht unter [Creative Commons Namensnennung-Nicht kommerziell 2.5](https://creativecommons.org/licenses/by-nc/2.5/deed.de): <https://xkcd.com/1179/>
+@include(bildverzeichnis)

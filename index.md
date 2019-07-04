@@ -212,30 +212,20 @@ Wenn diese Bedingungen nicht erfüllt sind, sollten Sie eine andere Datenstruktu
 
 Geeignete Open Data Formate für tabellarische Daten sind [CSV](#csv) und mit Einschränkungen (s.u.) [Excel-](#excel-formate) bzw. [OpenDocument-Formate](#open_document_spreadsheet).
 
--------------------------------------------------------
-jahr      ausfuhr_    ausfuhr_     einfuhr_    einfuhr_
-         gewicht_t    wert_tsd    gewicht_t    wert_tsd
------ ------------ ----------- ------------ -----------
-2008     1906249.0    11575460    3726000.7     8836354
+| jahr | ausfuhr\_gewicht\_t | ausfuhr\_wert\_tsd | einfuhr\_gewicht\_t | einfuhr\_wert\_tsd |
+| :--- | -------------------: | ------------------: | -------------------: | ------------------: |
+| 2008 |            1906249.0 |            11575460 |            3726000.7 |             8836354 |
+| 2009 |            1520285.5 |            10460872 |            3280393.0 |             8332920 |
+| 2010 |            1768526.6 |            12041296 |            3788885.2 |             9504931 |
+| 2011 |            1843390.3 |            12995735 |            3990575.7 |            10247531 |
+| 2012 |            1866142.5 |            13630766 |            3386676.5 |             9885480 |
+| 2013 |            1812326.6 |            12926404 |            3508760.0 |             9729719 |
+| 2014 |            1969493.1 |            13307452 |            4285590.9 |             9910714 |
+| 2015 |            2036349.9 |            14077861 |            3539258.2 |            11728684 |
+| 2016 |            2463796.3 |            15147156 |            4010693.6 |            12113675 |
 
-2009     1520285.5    10460872    3280393.0     8332920
+Aus- und Einfuhr (Außenhandel) Berlin
 
-2010     1768526.6    12041296    3788885.2     9504931
-
-2011     1843390.3    12995735    3990575.7    10247531
-
-2012     1866142.5    13630766    3386676.5     9885480
-
-2013     1812326.6    12926404    3508760.0     9729719
-
-2014     1969493.1    13307452    4285590.9     9910714
-
-2015     2036349.9    14077861    3539258.2    11728684
-
-2016     2463796.3    15147156    4010693.6    12113675
--------------------------------------------------------
-
-: Aus- und Einfuhr (Außenhandel) Berlin 
 
 ---
 
@@ -1665,21 +1655,25 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[SENSTADTUM2019]** Senatsverwaltung für Stadtentwicklung und Umwelt Berlin, _Lebensweltlich orientierte Räume (LOR) in Berlin_. Datensatz, gesehen 05.05.2019. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin>. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
-**[SENWEB2019]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin, _Aus- und Einfuhr (Außenhandel)_. Datensatz, gesehen 25.02.2019. \href{https://daten.berlin.de/datensaetze/aus-und-einfuhr-au\%C3\%9Fenhandel}{https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel}. Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
+**[SENWEB2019]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin, _Aus- und Einfuhr (Außenhandel)_. Datensatz, gesehen 25.02.2019. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
 
 # Bildverzeichnis
 
-- Comic _ISO 8601_, veröffentlicht unter [Creative Commons Namensnennung-Nicht kommerziell 2.5](https://creativecommons.org/licenses/by-nc/2.5/deed.de): <https://xkcd.com/1179/>
+
+- **Comic _ISO 8601_**, veröffentlicht unter [Creative Commons Namensnennung-Nicht kommerziell 2.5](https://creativecommons.org/licenses/by-nc/2.5/deed.de) (CC BY-NC 2.5): <https://xkcd.com/1179/>
+
+- **Alle nicht einzeln genannten Grafiken und Screenshots:** BerlinOnline Stadtportal GmbH & Co. KG, veröffentlicht unter [Creative Commons Namensnennung 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0)
+
 
 # Impressum
 
 **Herausgeber:** Land Berlin, Senatsverwaltung für Wirtschaft, Energie und Betriebe<br/>
 **Text:** Knud Hinnerk Möller (BerlinOnline Stadtportal GmbH & Co. KG)<br/>
 **Grafiken:** Nadine Wohlfahrt (BerlinOnline Stadtportal GmbH & Co. KG)<br/>
-**Stand**: Juni 2019<br/>
 **Lizenz**: Der Text des Handbuchs ist unter einer [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0) veröffentlicht.
 Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenommen.
 [Quellenverzeichnis](#quellenverzeichnis) und [Bildverzeichnis](#bildverzeichnis) mit entsprechenden Urheberrechtsangaben sind im Handbuch enthalten.<br/>
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
-Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). Wer mag, kann auch gleich einen Pull Request stellen!
-
+Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
+Wer mag, kann auch gleich einen Pull Request stellen!<br/>
+**Stand**: 2019-07-03
