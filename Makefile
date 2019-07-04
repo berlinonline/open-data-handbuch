@@ -1,9 +1,9 @@
 .PHONY: pdf
-pdf: clean temp/date.txt | temp
+pdf: clean temp/date.txt parts/pages_impressum.md | temp
 	@echo "generate metadata ..."
 	@ruby bin/include_mardown.rb -s txt -f temp -p template/metadata_yml.template > template/metadata.yml
 	@echo "combining parts ..."
-	@cat parts/latex_preamble.md parts/grusswort.md handreichung_opendata.md > temp/pdf_source.md
+	@cat parts/latex_preamble.md parts/grusswort.md handreichung_opendata.md parts/pages_impressum.md > temp/pdf_source.md
 	@echo "replacing <br/> with double space ..."
 	@sed 's:<br/>:  :g' temp/pdf_source.md > temp/handreichung_opendata_01.md
 	@echo "remove gfm image widths and centering ..."
@@ -21,9 +21,7 @@ indesign: clean temp/handreichung_opendata.nolatex.md | temp
 	@pandoc temp/handreichung_opendata.nolatex_01.md -s -o handreichung_opendata.icml
 
 .PHONY: gfm
-gfm: clean images/format-example-tree.png images/metadaten_daten.png images/offene_daten_uebersicht.png images/output_datenrubrik.png images/output_simplesearch.png images/schritt-für-schritt.png images/veroeffentlichungsweg_waehlen.png parts/example_tabular_data.gfm temp/date.txt | temp
-	@echo "generate impressum ..."
-	@ruby bin/include_mardown.rb -s txt -f temp -p parts/pages_impressum.template.md > parts/pages_impressum.md
+gfm: clean images/format-example-tree.png images/metadaten_daten.png images/offene_daten_uebersicht.png images/output_datenrubrik.png images/output_simplesearch.png images/schritt-für-schritt.png images/veroeffentlichungsweg_waehlen.png parts/example_tabular_data.gfm parts/pages_impressum.md | temp
 	@echo "combining parts ..."
 	@cat handreichung_opendata.md parts/pages_impressum.md > temp/handreichung_opendata_01.md
 	@echo "rewrite header anchors ..."
@@ -86,6 +84,10 @@ images/veroeffentlichungsweg_waehlen.png: images/veroeffentlichungsweg_waehlen.p
 parts/example_tabular_data.gfm: parts/example_tabular_data.pandoc
 	@echo "converting parts/example_tabular_data.pandoc to gfm ..."
 	@pandoc --to=gfm parts/example_tabular_data.pandoc > parts/example_tabular_data.gfm
+
+parts/pages_impressum.md: temp/date.txt
+	@echo "generate impressum ..."
+	@ruby bin/include_mardown.rb -s txt -f temp -p parts/pages_impressum.template.md > parts/pages_impressum.md
 
 .PHONY: temp/date.txt
 temp/date.txt: | temp
