@@ -6,6 +6,8 @@ pdf: clean temp/date.txt | temp
 	@cat parts/latex_preamble.md parts/grusswort.md handreichung_opendata.md > temp/pdf_source.md
 	@echo "replacing <br/> with double space ..."
 	@sed 's:<br/>:  :g' temp/pdf_source.md > temp/handreichung_opendata_01.md
+	@echo "include markdown snippets ..."
+	@ruby bin/include_mardown.rb -p temp/handreichung_opendata_02.md -s pandoc > temp/handreichung_opendata_03.md
 	@echo "creating pdf ..."
 	@pandoc --listings -H template/listings-setup.tex -V lang=de --template=template/default.latex --variable urlcolor=cyan temp/handreichung_opendata_01.md template/metadata.yml --pdf-engine=pdflatex --toc -o handreichung_opendata.pdf
 
@@ -34,6 +36,10 @@ gfm: clean images/format-example-tree.png images/metadaten_daten.png images/offe
 	@sed -e 's:\*\*Abb\. \\ref{fig\:.*}\:\*\*:-:' temp/handreichung_opendata_05.md > temp/handreichung_opendata_06.md
 	@echo "remove suppress numbering commands from headings ..."
 	@sed -e 's: {-}::' temp/handreichung_opendata_06.md > temp/handreichung_opendata_07.md
+	@echo "include markdown snippets ..."
+	@ruby bin/include_mardown.rb -p temp/handreichung_opendata_07.md -s gfm > temp/handreichung_opendata_08.md
+	@echo "join header parts of multiline tables ..."
+	@sed 's:\\_ :\\_:g' temp/handreichung_opendata_08.md > temp/handreichung_opendata_09.md
 
 	@echo "add title matter ..."
 	@cat parts/pages_title.md temp/handreichung_opendata_07.md > index.md
@@ -76,6 +82,10 @@ images/schritt-für-schritt.png: images/schritt-für-schritt.pdf
 images/veroeffentlichungsweg_waehlen.png: images/veroeffentlichungsweg_waehlen.pdf
 	@echo "converting images/veroeffentlichungsweg_waehlen.pdf ..."
 	@automator -i images/veroeffentlichungsweg_waehlen.pdf -D OUTPATH=images bin/pdf2png.workflow
+
+parts/example_tabular_data.gfm: parts/example_tabular_data.pandoc
+	@echo "converting parts/example_tabular_data.pandoc to gfm ..."
+	@pandoc --to=gfm parts/example_tabular_data.pandoc > parts/example_tabular_data.gfm
 
 .PHONY: temp/date.txt
 temp/date.txt: | temp
