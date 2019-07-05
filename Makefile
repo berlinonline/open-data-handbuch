@@ -35,7 +35,9 @@ gfm: clean images/format-example-tree.png images/metadaten_daten.png images/offe
 	@echo "remove image labels ..."
 	@sed -e 's:\\label{fig\:.*}]:]:' temp/handreichung_opendata_03.md > temp/handreichung_opendata_04.md
 	@echo "remove pdf image widths ..."
-	@sed -e 's:{width=.*px}::' temp/handreichung_opendata_04.md > temp/handreichung_opendata_06.md
+	@sed -e 's:{width=.*px}::' temp/handreichung_opendata_04.md > temp/handreichung_opendata_05.md
+	@echo "remove pdf image heights ..."
+	@sed -e 's:{height=.*}::' temp/handreichung_opendata_05.md > temp/handreichung_opendata_06.md
 	@echo "remove suppress numbering commands from headings ..."
 	@sed -e 's: {-}::' temp/handreichung_opendata_06.md > temp/handreichung_opendata_07.md
 	@echo "include markdown snippets ..."
@@ -46,9 +48,11 @@ gfm: clean images/format-example-tree.png images/metadaten_daten.png images/offe
 	@sed -E 's/@linktarget\(([^)]+)\)/<a name="\1">\1<\/a>/' temp/handreichung_opendata_09.md > temp/handreichung_opendata_10.md
 	@echo "rewrite links ..."
 	@sed -E 's/@link\(([^)]+)\)/[\1](#\1)/g' temp/handreichung_opendata_10.md > temp/handreichung_opendata_11.md
+	@echo "unescape at-signs ..."
+	@sed 's/\\@/@/' temp/handreichung_opendata_11.md > temp/handreichung_opendata_12.md
 
 	@echo "add title matter ..."
-	@cat parts/pages_title.md temp/handreichung_opendata_11.md > index.md
+	@cat parts/pages_title.md temp/handreichung_opendata_12.md > index.md
 
 .PHONY: temp/handreichung_opendata.nolatex.md
 temp/handreichung_opendata.nolatex.md: | temp

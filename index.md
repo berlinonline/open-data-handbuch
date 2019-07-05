@@ -704,7 +704,7 @@ Im Anschluss werden die einzelnen Veröffentlichungswege detailliert vorgestellt
 Obwohl sich alle Veröffentlichungswege in ihren Details unterscheiden, gibt es einige Aspekte, die allen gemeinsam sind.
 
 - **Zeitliche Verzögerung**: Mit der Speicherung bzw. Freischaltung eines neuen Datensatzes oder einer Änderung im Eingabesystem (Imperia, Datenregister etc.), ist der Datensatz nicht unmittelbar im Datenportal auf daten.berlin.de zu sehen. Das liegt daran, dass das Datenportal in regelmäßigen Abständen (aktuell stündlich) das Datenregister nach Änderung und neuen Datensätzen abfragt und diese erst anschließend importiert und sichtbar macht. Weitere Verzögerungen könen auftreten, wenn mehrere Systeme hintereinandergeschaltet sind (z.&nbsp;B. Imperia Datenrubrik → Datenregister → Datenportal).
-- **Ankündigung neuer Datensätze**: Das Berliner Datenportal verfügt über einen eigenen Twitter-Account [\@OpenDataBerlin](https://twitter.com/OpenDataBerlin), auf dem neue Datensätze automatisch angekündigt werden, sobald Sie vom Datenportal importiert wurden (s. Abbildung).
+- **Ankündigung neuer Datensätze**: Das Berliner Datenportal verfügt über einen eigenen Twitter-Account [@OpenDataBerlin](https://twitter.com/OpenDataBerlin), auf dem neue Datensätze automatisch angekündigt werden, sobald Sie vom Datenportal importiert wurden (s. Abbildung).
 
 ![Ankündigung eines neuen Datensatzes auf Twitter](images/twitter-neuer-datensatz.png "Ankündigung des Datensatzes 'Kriminalitätsatlas Berlin' auf Twitter, mit Likes und Retweets"){:width="500px"}{: .centered }
 
@@ -943,7 +943,7 @@ Dies stellt sicher, dass Datensätze, die über diese Veröffentlichungswege in 
 Um einen neuen Datensatz im Datenregister anzulegen, klicken Sie im Bereich [_Datensätze_](https://datenregister.berlin.de/dataset) den Button [_Datensatz hinzufügen_](https://datenregister.berlin.de/dataset/new).
 Auf diese Weise gelangen Sie zum Eingabeformular für einen neuen Datensatz (s. Abbildung).
 
-![Formular Datensatz anlegen](images/screenshot_neuer_datensatz.png "Ausgefülltes Formular zum Anlegen eines neuen Datensatzes"){height=97%}
+![Formular Datensatz anlegen](images/screenshot_neuer_datensatz.png "Ausgefülltes Formular zum Anlegen eines neuen Datensatzes")
 
 Im ersten Schritt geben Sie die allgemeinen Metadaten zu ihrem Datensatz ein. 
 Zur Bedeutung der verschiedenen Metadatenfelder siehe auch das Kapitel [_Metadaten_](#metadaten).
