@@ -4,5 +4,5 @@
 
 ## 1.0.0
 
-- Initial version.
-- Content is equal to the printed version.
+- Initial version with HTML and PDF targets.
+- Content is equal to the printed book.
