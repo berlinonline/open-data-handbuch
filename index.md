@@ -234,7 +234,7 @@ Aus- und Einfuhr (Außenhandel) Berlin
 **Beispiel tabellarische Daten: Aus- und Einfuhr (Außenhandel) Berlin**
 
 Jede Zeile repräsentiert ein Jahr, jede Spalte einen für ein Jahr erhobenen Wert.
-Quelle: [SENWEB2019]
+Quelle: [[SENWEB2019](#SENWEB2019)]
 
 </div>
 {::options parse_block_html="false" /}
@@ -257,7 +257,7 @@ Allerdings nur, indem man ein hohes Maß an Redundanz in den Daten zulässt, ode
 **Beispiel Baumstruktur: Die lebensweltlich orientierten Räume (LOR) Berlins**
 
 Die lebensweltlich orientierten Räume (LOR) Berlins sind ein typisches Beispiel für eine Baumstruktur (s. Abbildung). Ausgehend von der Wurzel Berlin verzweigt sich der Baum über die Bezirke, Prognoseräume, Bezirksregionen und schließlich in die Planungsräume.
-Quelle: [SENSTADTUM2019]
+Quelle: [[SENSTADTUM2019](#SENSTADTUM2019)]
 
 </div>
 {::options parse_block_html="false" /}
@@ -285,7 +285,7 @@ Generische Formate, wie die hier aufgelisteten, können grundsätzlich für jede
 Man kann davon ausgehen, dass so gut wie jede Programmiersprache Werkzeuge mitbringt, um CSV-Dateien zu verarbeiten und zu schreiben.
 Zudem lassen sich CSV-Dateien von jeder gängigen Tabellenkalkulationssoftware und auch von vielen anderen Applikationen öffnen.<br/>
 Im E-Learning-Kurs des Europäischen Datenportals wird CSV als „der kleinste gemeinsame Nenner“
-[EDP2019b] für offene Daten bezeichnet.<br/>
+[[EDP2019b](#EDP2019b)] für offene Daten bezeichnet.<br/>
 Es gibt viele verschiedene Ausprägungen des CSV-Formats.
 Schon das Trennzeichen zwischen Zellen ist nicht einheitlich: neben dem namensgebenden Komma `,` wird oft (gerade in Deutschland) das Semikolon `;` verwendet.
 Ebenso werden Tabulator, Pipe `|` oder beliebige andere Zeichen verwendet.
@@ -610,7 +610,7 @@ Es wird dann möglich sein, von einem Datensatz der Gruppe (z.&nbsp;B. _Liste de
 
 ### Weitere Informationen
 
-Weitere Informationen zum Thema Datenformate können Sie z.&nbsp;B. in folgenden Quellen finden: [OKI2019], [EDP2019b]
+Weitere Informationen zum Thema Datenformate können Sie z.&nbsp;B. in folgenden Quellen finden: [[OKI2019](#OKI2019)], [[EDP2019b](#EDP2019b)]
 
 ### Zusammenfassung
 
@@ -1439,7 +1439,7 @@ Folgende Links können als Einstiegspunkte für die weitere Vertiefung mit des T
 - Unter <https://dcat-ap.de> finden sich alle offiziellen Dokumente (Spezifikation, Konventionenhandbuch etc.), Beispiele und Vokabulare des Standards.
 - Der zentrale Einstiegspunkt für den übergeordneten, europaweiten Standard DCAT-AP ist <https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe>.
 - Die Spezifikation des vom W3C standardisierten DCAT-Formats befindet sich bei <https://www.w3.org/TR/vocab-dcat/>.
-- Die Europäische Kommission hat einen Foliensatz zum Thema Linked Data und öffentliche Daten veröffentlicht: [EC2013].
+- Die Europäische Kommission hat einen Foliensatz zum Thema Linked Data und öffentliche Daten veröffentlicht: [[EC2013](#EC2013)].
 
 # <a name="beratung">Weitere Beratung</a>
 
@@ -1582,7 +1582,7 @@ So wird die Integration von Daten erleichtert, neue Sichten werden ermöglicht, 
 Dies wird erreicht, indem alle wichtigen Begriffe in den Datensätzen mit eindeutigen **URL**-Bezeichnern versehen werden.
 Diese URLs können mit einem Browser oder anderweitig besucht werden, um dort sofort weitere Informationen zu einem Begriff zu erhalten.
 Wenn zwei oder mehr Datensätze dieselben URL-Bezeichner verwenden, entstehen die besagten Links, also Verknüpfungen.
-Linked Data ist die höchste Stufe des [5-Star Open Data-Bewertungssystems](https://5stardata.info/de/) und wurde bereits 2012 in der [Berliner Open Data-Strategie](https://www.berlin.de/sen/inneres/service/publikationen/strategie-studie_zur_umsetzung_des_open-data-gedankens_in_der___ffentlichen_verwaltung.pdf) als Ziel definiert [BOTH2012].
+Linked Data ist die höchste Stufe des [5-Star Open Data-Bewertungssystems](https://5stardata.info/de/) und wurde bereits 2012 in der [Berliner Open Data-Strategie](https://www.berlin.de/sen/inneres/service/publikationen/strategie-studie_zur_umsetzung_des_open-data-gedankens_in_der___ffentlichen_verwaltung.pdf) als Ziel definiert [[BOTH2012](#BOTH2012)].
 
 **Lizenz** Die Lizenz im Kontext von Offenen Daten bezeichnet die Nutzungsbedingungen für einen Datensatz, bzw. eine Datenressource.
 Sie schreibt vor, unter welchen Bedingungen, von wem, zu welchem Zweck etc. ein Datensatz genutzt werden kann.
@@ -1604,9 +1604,9 @@ Details zum Metadatenschema des Berliner Datenportals sind im Kapitel [_Metadate
 
 **Netzwerkstruktur** → _Graphstruktur_
 
-**Offene Daten** Daten gelten dann als offen, wenn Sie von jedem ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen ([EDP2019a]).
+**Offene Daten** Daten gelten dann als offen, wenn Sie von jedem ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen ([[EDP2019a](#EDP2019a)]).
 Dies schließt kommerzielle Nutzung explizit ein.
-„Ohne Einschränkung“ kann höchstens durch Maßnahmen abgemildert werden, die Ursprung und Offenheit der Daten bewahren, etwa durch Attribution ([OKF2019]).
+„Ohne Einschränkung“ kann höchstens durch Maßnahmen abgemildert werden, die Ursprung und Offenheit der Daten bewahren, etwa durch Attribution ([[OKF2019](#OKF2019)]).
 Zwar kann es offene Daten auch in der Wirtschaft oder anderen Bereichen geben, in diesem Handbuch sind aber in der Regel offene Verwaltungsdaten gemeint.
 Die Offenheit von Daten wird den Nutzenden durch eine entsprechende **Lizenz** signalisiert und garantiert.
 
@@ -1649,21 +1649,21 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 # Quellenverzeichnis
 
-**[BOTH2012]** Both, Wolfgang und Ina Schieferdecker (Hrsg.), 2012. _Berliner Open Data-Strategie : organisatorische, rechtliche und technische Aspekte offener Daten in Berlin ; Konzept, Pilot und Handlungsempfehlungen_. Stuttgart: Fraunhofer Verlag.
+**[<a name="BOTH2012">BOTH2012</a>]** Both, Wolfgang und Ina Schieferdecker (Hrsg.), 2012. _Berliner Open Data-Strategie : organisatorische, rechtliche und technische Aspekte offener Daten in Berlin ; Konzept, Pilot und Handlungsempfehlungen_. Stuttgart: Fraunhofer Verlag.
 
-**[EC2013]** Europäische Kommission, 2013. _Einführung in Linked Data_, Open Data Support, Trainingsmodul 1.2. Webseite, gesehen 05.07.2019. <https://www.europeandataportal.eu/sites/default/files/d2.1.2_training_module_1.2_introduction_to_linked_data_de_edp.pdf>
+**[<a name="EC2013">EC2013</a>]** Europäische Kommission, 2013. _Einführung in Linked Data_, Open Data Support, Trainingsmodul 1.2. Webseite, gesehen 05.07.2019. <https://www.europeandataportal.eu/sites/default/files/d2.1.2_training_module_1.2_introduction_to_linked_data_de_edp.pdf>
 
-**[EDP2019a]** Europäische Kommission. _Was sind offene Daten?_, Modul 1 von „Discovering Open Data“. Webseite, gesehen 05.07.2019. <https://www.europeandataportal.eu/elearning/de/module1>
+**[<a name="EDP2019a">EDP2019a</a>]** Europäische Kommission. _Was sind offene Daten?_, Modul 1 von „Discovering Open Data“. Webseite, gesehen 05.07.2019. <https://www.europeandataportal.eu/elearning/de/module1>
 
-**[EDP2019b]** Europäische Kommission. _Wie wählt man das richtige Format für Open Data_, Modul 9 von „Discovering Open Data“. Webseite, gesehen 05.07.2019. <https://www.europeandataportal.eu/elearning/de/module9>
+**[<a name="EDP2019b">EDP2019b</a>]** Europäische Kommission. _Wie wählt man das richtige Format für Open Data_, Modul 9 von „Discovering Open Data“. Webseite, gesehen 05.07.2019. <https://www.europeandataportal.eu/elearning/de/module9>
 
-**[OKF2019]** Open Knowledge Foundation. _Open Definition 2.1_. Webseite, gesehen 05.07.2019. <https://opendefinition.org/od/2.1/en/>
+**[<a name="OKF2019">OKF2019</a>]** Open Knowledge Foundation. _Open Definition 2.1_. Webseite, gesehen 05.07.2019. <https://opendefinition.org/od/2.1/en/>
 
-**[OKI2019]** Open Knowledge International. _Datenformate_, Kapitel aus „Das Open Data-Handbuch“. Webseite, gesehen 05.07.2019. <https://opendatahandbook.org/guide/de/appendices/file-formats/>
+**[<a name="OKI2019">OKI2019</a>]** Open Knowledge International. _Datenformate_, Kapitel aus „Das Open Data-Handbuch“. Webseite, gesehen 05.07.2019. <https://opendatahandbook.org/guide/de/appendices/file-formats/>
 
-**[SENSTADTUM2019]** Senatsverwaltung für Stadtentwicklung und Umwelt Berlin. _Lebensweltlich orientierte Räume (LOR) in Berlin_. Datensatz, gesehen 05.07.2019. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin>. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+**[<a name="SENSTADTUM2019">SENSTADTUM2019</a>]** Senatsverwaltung für Stadtentwicklung und Umwelt Berlin. _Lebensweltlich orientierte Räume (LOR) in Berlin_. Datensatz, gesehen 05.07.2019. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin>. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
-**[SENWEB2019]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. Datensatz, gesehen 05.07.2019. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
+**[<a name="SENWEB2019">SENWEB2019</a>]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. Datensatz, gesehen 05.07.2019. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
 
 # Bildverzeichnis
 

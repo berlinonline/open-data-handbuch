@@ -10,8 +10,12 @@ pdf: clean temp/date.txt parts/pages_impressum.md | temp
 	@sed -e 's:{\:width=".*px"}{\: \.centered }::' temp/handreichung_opendata_01.md > temp/handreichung_opendata_02.md
 	@echo "include markdown snippets ..."
 	@ruby bin/include_mardown.rb -p temp/handreichung_opendata_02.md -s pandoc > temp/handreichung_opendata_03.md
+	@echo "rewrite link targets ..."
+	@sed -E 's/@linktarget\(([^)]+)\)/\\hypertarget{\1}{\1}/' temp/handreichung_opendata_03.md > temp/handreichung_opendata_04.md
+	@echo "rewrite links ..."
+	@sed -E 's/@link\(([^)]+)\)/\\hyperlink{\1}{\1}/g' temp/handreichung_opendata_04.md > temp/handreichung_opendata_05.md
 	@echo "creating pdf ..."
-	@pandoc --listings -H template/listings-setup.tex -V lang=de --template=template/default.latex --variable urlcolor=cyan temp/handreichung_opendata_03.md template/metadata.yml --pdf-engine=pdflatex --toc -o handreichung_opendata.pdf
+	@pandoc --listings -H template/listings-setup.tex -V lang=de --template=template/default.latex --variable urlcolor=cyan temp/handreichung_opendata_05.md template/metadata.yml --pdf-engine=pdflatex --toc -o handreichung_opendata.pdf
 
 .PHONY: indesign
 indesign: clean temp/handreichung_opendata.nolatex.md | temp
@@ -38,9 +42,13 @@ gfm: clean images/format-example-tree.png images/metadaten_daten.png images/offe
 	@ruby bin/include_mardown.rb -p temp/handreichung_opendata_07.md -s gfm > temp/handreichung_opendata_08.md
 	@echo "join header parts of multiline tables ..."
 	@sed 's:\\_ :\\_:g' temp/handreichung_opendata_08.md > temp/handreichung_opendata_09.md
+	@echo "rewrite link targets ..."
+	@sed -E 's/@linktarget\(([^)]+)\)/<a name="\1">\1<\/a>/' temp/handreichung_opendata_09.md > temp/handreichung_opendata_10.md
+	@echo "rewrite links ..."
+	@sed -E 's/@link\(([^)]+)\)/[\1](#\1)/g' temp/handreichung_opendata_10.md > temp/handreichung_opendata_11.md
 
 	@echo "add title matter ..."
-	@cat parts/pages_title.md temp/handreichung_opendata_09.md > index.md
+	@cat parts/pages_title.md temp/handreichung_opendata_11.md > index.md
 
 .PHONY: temp/handreichung_opendata.nolatex.md
 temp/handreichung_opendata.nolatex.md: | temp
