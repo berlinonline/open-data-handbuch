@@ -1561,13 +1561,13 @@ Linked Data ist die höchste Stufe des [5-Star Open Data-Bewertungssystems](http
 **Lizenz** Die Lizenz im Kontext von Offenen Daten bezeichnet die Nutzungsbedingungen für einen Datensatz, bzw. eine Datenressource.
 Sie schreibt vor, unter welchen Bedingungen, von wem, zu welchem Zweck etc. ein Datensatz genutzt werden kann.
 Für Offene Daten in Deutschland werden z.&nbsp;B. die [Datenlizenz Deutschland](ttps://www.govdata.de/lizenzen), aber vielfach auch die verschiedenen [Creative Commons-Lizenzen](https://creativecommons.org/licenses) genutzt.
-siehe auch das Kapitel [_Lizenz festlegen_](#lizenzen).
+Siehe auch das Kapitel [_Lizenz festlegen_](#lizenzen).
 
 **Maschinenlesbarkeit** Der Begriff Maschinenlesbarkeit im Zusammenhang mit Offenen Daten bedeutet, dass Daten formal strukturiert sind und somit von Computern direkt verarbeitet und „verstanden“ werden können.
 Natürlich lassen sich auch PDF-Dateien oder ein gescanntes Dokument vom Computer lesen – es ist aber nicht möglich, die Struktur, einzelne Werte und deren Beziehungen zueinander direkt aus dem Dokument herauszulesen.
 Konkret bedeutet Maschinenlesbarkeit, dass ein strukturiertes **Datenformat** genutzt wird.
 Maschinenlesbarkeit ist eine zentrale Bedingung für **Offene Daten**.
-siehe auch das Kapitel [_Formatwahl_](#formatwahl).
+Siehe auch das Kapitel [_Formatwahl_](#formatwahl).
 
 **Metadaten** Metadaten sind Daten über Daten.
 Im Kontext von Open Data sind konkret die Metadaten eines Datensatzes oder einer Datenressource gemeint.
