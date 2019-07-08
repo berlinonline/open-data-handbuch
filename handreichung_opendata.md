@@ -519,7 +519,7 @@ Ein besonderes Kennzeichen von Vektorgrafiken ist, dass man verlustfrei in die G
 
 ### Werteformatierung
 
-Unabhängig vom Dateiformat sollte auch die  Formatierung von einzelnen Werten wie Zahlen oder Datumsangaben bedacht werden.
+Unabhängig vom Dateiformat sollte auch die  Formatierung von einzelnen Werten, wie Zahlen oder Datumsangaben, bedacht werden.
 Formatierungen, die dem menschlichen Leser helfen, können für die automatische Auswertung hinderlich sein, insbesondere wenn sie keinen international üblichen Standards folgen.
 Konkrete Beispiele sind:
 
@@ -580,7 +580,7 @@ Option 2 (ein Datensatz/Bezirk) steht der Tatsache entgegen, dass die Daten alle
 
 ![Die Zeitreihe der Berliner Vornamensdaten\label{fig:zeitreihe_vornamen}](images/datensaetze_vornamen.png "Die Detailseiten der drei Datensätze 'Liste der häufigen Vornamen &hellip;' für 2015, 2016 und 2017 nebeneinander")
 
-In Zukunft wird das Datenportal Funktionalität enthalten, mit der inhaltlich zusammenhängende Datensätze wie die Zeitreihe der Vornamensdaten auch explizit als Gruppe gekennzeichnet werden kann.
+In Zukunft wird das Datenportal Funktionalität enthalten, mit der inhaltlich zusammenhängende Datensätze, wie die Zeitreihe der Vornamensdaten, auch explizit als Gruppe gekennzeichnet werden kann.
 Es wird dann möglich sein, von einem Datensatz der Gruppe (z.&nbsp;B. _Liste der häufigen Vornamen 2015_) gleich zu allen anderen Datensätzen der Gruppe (_Liste der häufigen Vornamen 2012_, _&hellip; 2018_ etc.) zu gelangen.
 
 ### Weitere Informationen
