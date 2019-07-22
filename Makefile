@@ -3,7 +3,7 @@ pdf: clean temp/date.txt parts/pages_impressum.md | temp
 	@echo "generate metadata ..."
 	@ruby bin/include_mardown.rb -s txt -f temp -p template/metadata_yml.template > template/metadata.yml
 	@echo "combining parts ..."
-	@cat parts/latex_preamble.md parts/grusswort.md handreichung_opendata.md parts/pages_impressum.md > temp/pdf_source.md
+	@cat parts/latex_preamble.md handreichung_opendata.md parts/pages_impressum.md > temp/pdf_source.md
 	@echo "replacing <br/> with double space ..."
 	@sed 's:<br/>:  :g' temp/pdf_source.md > temp/handreichung_opendata_01.md
 	@echo "remove gfm image widths and centering ..."
