@@ -372,7 +372,7 @@ Die verschiedenen Schreibweisen sind gesondert definiert: z.&nbsp;B. [RDF 1.1 Tu
 
 **Datenstruktur**: unstrukturiert bzw. unbekannt<br/>
 **Anwendungsgebiet**: beliebig<br/>
-**Offenheitskriterien**: (eingeschränkt) maschinenlesbar, offen, ~~standardisiert~~<br/>
+**Offenheitskriterien**: (eingeschränkt) maschinenlesbar, offen, nicht standardisiert<br/>
 **Dateiendung**: `.txt` – Spezialisierte Plain-Text-Formate können eigene Dateiendungen haben.<br/>
 **Media Type**: `text/plain` – Spezialisierte Plain-Text-Formate können eigene Media Types haben.<br/>
 **Beschreibung**: Der Begriff „Plain Text“ soll hier als Gegensatz zum Begriff „Binärformat“ verstanden werden: eine Datei, die ausschließlich aus darstellbaren Zeichen in einem bestimmten Encoding (UTF-8 etc.) besteht.
@@ -445,7 +445,7 @@ Die hier aufgeführten Textformate stehen exemplarisch für vergleichbare Format
 
 **Datenstruktur**: unstrukturiert<br/>
 **Anwendungsgebiet**: beliebig<br/>
-**Offenheitskriterien**: ~~maschinenlesbar~~, offen, standardisiert<br/>
+**Offenheitskriterien**: offen, standardisiert, nicht maschinenlesbar<br/>
 **Dateiendung**: `.pdf`<br/>
 **Media Type**: `application/pdf`<br/>
 **Beschreibung**: Das _Portable Document Format_ (PDF) ist ein plattformunabhängiges Format zum Austausch von Dokumenten – insbesondere von Dokumenten, die nicht weiter bearbeitet werden sollen.
@@ -458,7 +458,7 @@ PDF wurde ursprünglich von der Firma Adobe entwickelt, ist inzwischen aber in e
 
 **Datenstruktur**: unstrukturiert<br/>
 **Anwendungsgebiet**: beliebig<br/>
-**Offenheitskriterien**: ~~maschinenlesbar~~, offen, standardisiert<br/>
+**Offenheitskriterien**: offen, standardisiert, nicht maschinenlesbar<br/>
 **Dateiendung**: `.docx`<br/>
 **Media Type**: `application/vnd.openxmlformats-officedocument.wordprocessingml.document`<br/>
 **Beschreibung**: Gemeint sind hier die verschiedenen Formate von Microsofts _Word_ Textverarbeitung.
@@ -469,7 +469,7 @@ Word Dokumente eignen sich insbesondere zur Dokumentenerstellung, und sollten da
 
 **Datenstruktur**: unstrukturiert<br/>
 **Anwendungsgebiet**: beliebig<br/>
-**Offenheitskriterien**: ~~maschinenlesbar~~, offen, standardisiert<br/>
+**Offenheitskriterien**: offen, standardisiert, nicht maschinenlesbar<br/>
 **Dateiendung**: `.odt`<br/>
 **Media Type**: `application/vnd.oasis.opendocument.text`<br/>
 **Beschreibung**: OpenDocument Text (`.odt`) ist das Format für Textdokumente des XML-basierten OpenDocument Standards.
@@ -488,7 +488,7 @@ Die hier aufgeführten Bildformate stehen exemplarisch für vergleichbare Format
 
 **Datenstruktur**: Rastergrafik<br/>
 **Anwendungsgebiet**: beliebig<br/>
-**Offenheitskriterien**: ~~maschinenlesbar~~, offen, standardisiert<br/>
+**Offenheitskriterien**: offen, standardisiert, nicht maschinenlesbar<br/>
 **Dateiendung**: `.jpg`, `.jpeg`<br/>
 **Media Type**: `image/jpg`<br/>
 **Beschreibung**: JPG, bzw. das _JPEG File Interchange Format_ (JFIF) ist ein Standard für Rastergrafiken (auch Pixel- oder Bitmapgrafik).
@@ -499,7 +499,7 @@ Auf Grund der Art der verwendeten Kompression eignet sich JPG besonders für fot
 
 **Datenstruktur**: Rastergrafik<br/>
 **Anwendungsgebiet**: beliebig<br/>
-**Offenheitskriterien**: ~~maschinenlesbar~~, offen, standardisiert<br/>
+**Offenheitskriterien**: offen, standardisiert, nicht maschinenlesbar<br/>
 **Dateiendung**: `.png`<br/>
 **Media Type**: `image/png`<br/>
 **Beschreibung**: Das _Portable Network Graphics_ (PNG) Format ist ein Standard für Rastergrafiken.
@@ -510,7 +510,7 @@ Im Gegensatz zu JPG ist die Komprimierung verlustfrei. PNG Grafiken brauchen dah
 
 **Datenstruktur**: Vektorgrafik<br/>
 **Anwendungsgebiet**: beliebig<br/>
-**Offenheitskriterien**: ~~maschinenlesbar~~, offen, standardisiert<br/>
+**Offenheitskriterien**: offen, standardisiert, nicht maschinenlesbar<br/>
 **Dateiendung**: `.svg`<br/>
 **Media Type**: `image/svg+xml`<br/>
 **Beschreibung**: _Scalable Vector Graphics_ (SVG) ist ein Standard für Vektorgrafiken (also linien-basierte Grafiken), der im Web sehr vebreitet ist und in jedem modernen Browser dargestellt werden kann.
