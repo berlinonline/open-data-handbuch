@@ -623,9 +623,10 @@ Momentan stehen folgende Lizenzen in den verschiedenen Veröffentlichungswegen z
 - [CC BY-NC 4.0: Creative Commons Namensnennung-Nicht kommerziell 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/deed.de)
 - [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0)
 - [Datenlizenz Deutschland – Namensnennung – Version 2.0](https://www.govdata.de/dl-de/by-2-0)
-- [GeoNutzV (19.03.2013)](https://www.gesetze-im-internet.de/geonutzv/BJNR054700013.html)
-- [GeoNutzV-Berlin](https://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf)
 - [ODbL: ODC Open Database License](https://opendatacommons.org/licenses/odbl/summary/)
+
+Die [GeoNutzV (19.03.2013)](https://www.gesetze-im-internet.de/geonutzv/BJNR054700013.html) bzw. [GeoNutzV-Berlin](https://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf) stehen seit Juni 2019 in Berlin nicht mehr zur Verfügung. Siehe dazu auch [_Geodatennutzungsverordnung_](#geodatennutzungsverordnung).
+
 
 Es sollte nach Möglichkeit immer die aktuelle Version einer Lizenz gewählt werden. In begründeten Ausnahmen kann auch eine ältere Version einer Lizenz genutzt werden.
 
@@ -662,8 +663,12 @@ Die _Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung 
 Die Nutzungsbestimmungen sind in kurzer, übersichtlicher und leicht verständlicher Form dargestellt.
 Sie lassen auch die kommerzielle Nutzung zu.
 
+@include(box_prefix)
+
 Für das Land Berlin wurde eine angepasste Form der GeoNutzV durch die Senatsverwaltung für Stadtentwicklung und Wohnen (ehemals Stadtentwicklung und Umwelt) veröffentlicht.
-Diese berlinspezifischen Nutzungsbestimmungen wurden im Juni 2019 allerdings durch die _Datenlizenz Deutschland – Namensnennung_ (Version 2.0) ersetzt, um so einen Beitrag zur Vereinheitlichung des Lizenzwesens zu leisten.
+**Diese berlinspezifischen Nutzungsbestimmungen sind inzwischen veraltet und wurden im Juni 2019 durch die _Datenlizenz Deutschland – Namensnennung_ (Version 2.0) ersetzt,** um so einen Beitrag zur Vereinheitlichung des Lizenzwesens zu leisten.
+
+@include(box_suffix)
 
 # Wege der Veröffentlichung {#wege_der_veroeffentlichung}
 
