@@ -2766,11 +2766,9 @@ pre { margin-top: 0; margin-bottom: 0; font-family: "SFMono-Regular", Consolas, 
 .highlight { background-color: #f8f8f8; }
 
 .bo-box {
-  background-color: #e2e3e5;
-  border-color: #d6d8db;
-  padding: .75rem 1.25rem;
+  background: no-repeat url(/assets/img/info-box-icon_small.png) rgb(224, 239, 249);
+  padding: 50px 15px 20px;
   margin-bottom: 1rem;
-  border: 1px solid transparent;
   border-radius: .25rem;
 }
 
