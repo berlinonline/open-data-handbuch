@@ -635,7 +635,7 @@ Sie ersetzen nicht eine genaue Auseinandersetzung mit den tatsächlichen Lizenzt
 
 ### Creative Commons Namensnennung
 
-Die Lizenz _Creative Commons Namensnennung 4.0 International_ (CC BY 4.0) ist eine international bekannte und weit verbreiteten Lizenz für schöpferische Werke.
+Die Lizenz _Creative Commons Namensnennung 4.0 International_ (CC BY 4.0) ist eine international bekannte und weit verbreitete Lizenz für schöpferische Werke.
 Dies umfasst etwa Texte, Musikstücke, Bilder oder Videos und – insbesondere seit der Version 4.0 – auch Datenbanken.
 
 In ihrer _BY_-Ausprägung ist die Datennutzung entgeltfrei unter Nennung der Datenquelle für nicht-kommerzielle ebenso wie für kommerzielle Zwecke zulässig.
