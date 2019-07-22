@@ -2766,7 +2766,7 @@ pre { margin-top: 0; margin-bottom: 0; font-family: "SFMono-Regular", Consolas, 
 .highlight { background-color: #f8f8f8; }
 
 .bo-box {
-  background: no-repeat url(/assets/img/info-box-icon_small.png) rgb(224, 239, 249);
+  background: no-repeat url(../img/info-box-icon_small.png) rgb(224, 239, 249);
   padding: 50px 15px 20px;
   margin-bottom: 1rem;
   border-radius: .25rem;
