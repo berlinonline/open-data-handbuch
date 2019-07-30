@@ -585,7 +585,7 @@ Es wird dann möglich sein, von einem Datensatz der Gruppe (z.&nbsp;B. _Liste de
 
 ### Weitere Informationen
 
-Weitere Informationen zum Thema Datenformate können Sie z.&nbsp;B. in folgenden Quellen finden: [@link(OKI2019)], [@link(EDP2019b)]
+Weitere Informationen zum Thema Datenformate können Sie z.&nbsp;B. in folgenden Quellen finden: [@link(OKF2019b)], [@link(EDP2019b)]
 
 ### Zusammenfassung
 
@@ -1628,21 +1628,21 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 # Quellenverzeichnis {-}
 
-**[@linktarget(BOTH2012)]** Both, Wolfgang und Ina Schieferdecker (Hrsg.), 2012. _Berliner Open Data-Strategie : organisatorische, rechtliche und technische Aspekte offener Daten in Berlin ; Konzept, Pilot und Handlungsempfehlungen_. Stuttgart: Fraunhofer Verlag.
+**[@linktarget(BOTH2012)]** W. Both und I. Schieferdecker (Hrsg.). _Berliner Open Data-Strategie: organisatorische, rechtliche und technische Aspekte offener Daten in Berlin; Konzept, Pilot und Handlungsempfehlungen_. Stuttgart: Fraunhofer Verlag, 2012.
 
-**[@linktarget(EC2013)]** Europäische Kommission, 2013. _Einführung in Linked Data_, Open Data Support, Trainingsmodul 1.2. Webseite, gesehen 05.07.2019. <https://www.europeandataportal.eu/sites/default/files/d2.1.2_training_module_1.2_introduction_to_linked_data_de_edp.pdf>
+**[@linktarget(EC2013)]** Europäische Kommission. _Einführung in Linked Data_. (Zugl. Open Data Support, Trainingsmodul 1.2). 2013. PDF. <https://www.europeandataportal.eu/sites/default/files/d2.1.2_training_module_1.2_introduction_to_linked_data_de_edp.pdf>. [Gesehen 05.07.2019].
 
-**[@linktarget(EDP2019a)]** Europäische Kommission. _Was sind offene Daten?_, Modul 1 von „Discovering Open Data“. Webseite, gesehen 05.07.2019. <https://www.europeandataportal.eu/elearning/de/module1>
+**[@linktarget(EDP2019a)]** Europäische Kommission. „Was sind offene Daten?“ in _Discovering Open Data_. Webseite. <https://www.europeandataportal.eu/elearning/de/module1>. [Gesehen 05.07.2019].
 
-**[@linktarget(EDP2019b)]** Europäische Kommission. _Wie wählt man das richtige Format für Open Data_, Modul 9 von „Discovering Open Data“. Webseite, gesehen 05.07.2019. <https://www.europeandataportal.eu/elearning/de/module9>
+**[@linktarget(EDP2019b)]** Europäische Kommission. „Wie wählt man das richtige Format für Open Data“ in _Discovering Open Data_. Webseite. <https://www.europeandataportal.eu/elearning/de/module9>. [Gesehen 05.07.2019].
 
-**[@linktarget(OKF2019)]** Open Knowledge Foundation. _Open Definition 2.1_. Webseite, gesehen 05.07.2019. <https://opendefinition.org/od/2.1/en/>
+**[@linktarget(OKF2019)]** Open Knowledge Foundation. _Open Definition 2.1_. 2017. Webseite. <https://opendefinition.org/od/2.1/en/>. [Gesehen 05.07.2019].
 
-**[@linktarget(OKI2019)]** Open Knowledge International. _Datenformate_, Kapitel aus „Das Open-Data-Handbuch“. Webseite, gesehen 05.07.2019. <https://opendatahandbook.org/guide/de/appendices/file-formats/>
+**[@linktarget(OKF2019b)]** Open Knowledge Foundation. „Datenformate“ in _Das Open Data Handbuch_. Webseite. <https://opendatahandbook.org/guide/de/appendices/file-formats/>. [Gesehen 05.07.2019].
 
-**[@linktarget(SENSTADTUM2019)]** Senatsverwaltung für Stadtentwicklung und Umwelt Berlin. _Lebensweltlich orientierte Räume (LOR) in Berlin_. Datensatz, gesehen 05.07.2019. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin>. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+**[@linktarget(SENSTADTUM2019)]** Senatsverwaltung für Stadtentwicklung und Umwelt Berlin. _Lebensweltlich orientierte Räume (LOR) in Berlin_. 2011. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin>. [Gesehen 05.07.2019]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
-**[@linktarget(SENWEB2019)]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. Datensatz, gesehen 05.07.2019. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
+**[@linktarget(SENWEB2019)]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. Datensatz. 2018. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). [Gesehen 05.07.2019]. Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
 
 # Bildverzeichnis {-}
 
