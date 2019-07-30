@@ -1670,7 +1670,7 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[<a name="SENSTADTUM2019">SENSTADTUM2019</a>]** Senatsverwaltung für Stadtentwicklung und Umwelt Berlin. _Lebensweltlich orientierte Räume (LOR) in Berlin_. 2011. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin>. [Gesehen 05.07.2019]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
-**[<a name="SENWEB2019">SENWEB2019</a>]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. Datensatz. 2018. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). [Gesehen 05.07.2019]. Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
+**[<a name="SENWEB2019">SENWEB2019</a>]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. 2018. Datensatz. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). [Gesehen 05.07.2019]. Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
 
 # Bildverzeichnis
 
