@@ -472,7 +472,7 @@ Word Dokumente eignen sich insbesondere zur Dokumentenerstellung, und sollten da
 **Offenheitskriterien**: offen, standardisiert, nicht maschinenlesbar<br/>
 **Dateiendung**: `.odt`<br/>
 **Media Type**: `application/vnd.oasis.opendocument.text`<br/>
-**Beschreibung**: OpenDocument Text (`.odt`) ist das Format für Textdokumente des XML-basierten OpenDocument Standards.
+**Beschreibung**: OpenDocument Text (ODT) ist das Format für Textdokumente des XML-basierten OpenDocument Standards.
 Im Bezug auf offene Daten gilt hier dasselbe wie für Word-Formate: Wenn zur Dokumentation ein Textdokument benötigt wird, sollte stattdessen ein PDF erzeugt werden.<br/>
 **Spezifikation**: durch ISO/IEC ([ISO/IEC 26300](https://www.iso.org/standard/66363.html)) und [OASIS](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office)
 
@@ -729,7 +729,7 @@ Im folgenden Schritt wählen Sie das Template _Datenrubrik-Datensatz_ aus und ve
 
 ![Datensatz-Template der Imperia Datenrubrik für berlin.de\label{fig:datenrubrik_datensatz_template}](images/datenrubrik-01.png "Das Template zum Anlegen eines Datensatzes für einen berlin.de-Imperia-Auftritt")
 
-Das Formular gleicht im Wesentlichen dem entsprechenden [Formular im Datenregister](#datenregister_datensatz_anlegen). Pflichtfelder sind mit einem Asterisk markiert; außerdem ist für alle Felder auch im Formular selbt die Dokumentation über die `i`-Links verfügbar.
+Das Formular gleicht im Wesentlichen dem entsprechenden [Formular im Datenregister](#datenregister_datensatz_anlegen). Pflichtfelder sind mit einem Asterisk markiert; außerdem ist für alle Felder auch im Formular selbst die Dokumentation über die `i`-Links verfügbar.
 
 Die Bedeutung der einzelnen Metadaten-Felder ist im Abschnitt [Metadaten](#metadaten) beschrieben. An dieser Stelle sind lediglich zusätzliche Informationen aufgeführt, die sich auf den Kontext der Datenrubrik beziehen:
 
@@ -813,7 +813,7 @@ An dieser Stelle soll nur kurz erläutert werden, welche Schritte nötig sind, u
 ![Veröffentlichung einer SimpleSearch-Anwendung als Open Data\label{fig:simplesearch_template}](images/opendata-sise-imperia.png "Veröffentlichung einer SimpleSearch-Anwendung als Open Data")
 
 - Wählen Sie zunächst den Unterreiter _Zusatzinformationen für Schnittstellen_ im Reiter _Metadaten_ des SimpleSearch-Baukastens aus (s. Abb.&nbsp;\ref{fig:simplesearch_template}).
-- Stellen Sie sicher, dass bei _Schnittstelle&hellip;_ die Auswahl _&hellip; bei daten.berlin.de veröffentlichen_ aktiviert ist.
+- Stellen Sie sicher, dass bei _Schnittstelle &hellip;_ die Auswahl _&hellip; bei daten.berlin.de veröffentlichen_ aktiviert ist.
 - In den weiteren Formularfeldern bestimmen Sie die Metadaten Ihres Datensatzes. Für den Titel des Datensatzes wird der Titel aus dem Reiter _Allgemeine Angaben_ übernommen.
 - Füllen Sie die Informationen in den weiteren Formularfeldern aus. Details zur Bedeutung der einzelnen Felder finden Sie im Kapitel _[Metadaten](#metadaten)_.
 - Wie oben erwähnt, erlaubt die SimpleSearch API den Export der Daten in verschiedenen Formaten (welche Formate dies sind, definieren Sie im Reiter _Erweitert_). Im Zuge der Veröffentlichung des Datensatzes im Datenportal wird dort für jedes Format eine Datenressource angelegt.
@@ -1234,7 +1234,7 @@ Zum Testen können die Beispiel-URLs im Browser eingegeben werden.
 
 ### Weitere Informationen
 
-Folgende Links können als Einstiegspunkte für die weitere Beschäftigung mit des Themas CKAN API dienen.
+Folgende Links können als Einstiegspunkte für die weitere Beschäftigung mit dem Thema CKAN API dienen.
 
 - Eine detaillierte Anleitung zur Nutzung der CKAN API finden Sie als Teil der CKAN Dokumentation: <https://docs.ckan.org/en/latest/api>
 - Das Metadatenschema, das zur Nutzung der API mit dem Datenregister benötigt wird, finden Sie unter: <https://datenregister.berlin.de/schema/>
@@ -1486,7 +1486,7 @@ Das Datenregister ist unter <https://datenregister.berlin.de> erreichbar (Nutzun
 **Datenressource** Eine Datenressource (auch kurz **Ressource**) ist die physische Form eines Datensatzes, z.&nbsp;B. eine Datei oder eine API.
 Die Datenressource wird dabei von den Metadaten unterschieden, die die Ressource und den Datensatz beschreiben.
 Ein Datensatz kann mehrere Datenressourcen beinhalten.
-Dabei können die verschiedenen Ressourcen entweder diesselben Daten in verschiedenen Formaten enthalten, oder auch verschiedenen Unterteilungen der Daten.
+Dabei können die verschiedenen Ressourcen entweder dieselben Daten in verschiedenen Formaten enthalten, oder auch verschiedenen Unterteilungen der Daten.
 Datenressourcen sollten immer maschinenlesbare, also strukturierte Daten enthalten.
 Eine Ausnahme sind Ressourcen, die als Dokumentation zu den eigentlichen Datenressourcen dienen. 
 
@@ -1561,7 +1561,7 @@ So wird die Integration von Daten erleichtert, neue Sichten werden ermöglicht, 
 Dies wird erreicht, indem alle wichtigen Begriffe in den Datensätzen mit eindeutigen **URL**-Bezeichnern versehen werden.
 Diese URLs können mit einem Browser oder anderweitig besucht werden, um dort sofort weitere Informationen zu einem Begriff zu erhalten.
 Wenn zwei oder mehr Datensätze dieselben URL-Bezeichner verwenden, entstehen die besagten Links, also Verknüpfungen.
-Linked Data ist die höchste Stufe des [5-Star Open-Data-Bewertungssystems](https://5stardata.info/de/) und wurde bereits 2012 in der [_Berliner Open Data-Strategie_](https://www.berlin.de/sen/inneres/service/publikationen/strategie-studie_zur_umsetzung_des_open-data-gedankens_in_der___ffentlichen_verwaltung.pdf) als Ziel definiert [@link(BOTH2012)].
+Linked Data ist die höchste Stufe des [5-Sterne-Modells für Offene Daten](https://5stardata.info/de/) und wurde bereits 2012 in der [_Berliner Open Data-Strategie_](https://www.berlin.de/sen/inneres/service/publikationen/strategie-studie_zur_umsetzung_des_open-data-gedankens_in_der___ffentlichen_verwaltung.pdf) als Ziel definiert [@link(BOTH2012)].
 
 **Lizenz** Die Lizenz im Kontext von Offenen Daten bezeichnet die Nutzungsbedingungen für einen Datensatz, bzw. eine Datenressource.
 Sie schreibt vor, unter welchen Bedingungen, von wem, zu welchem Zweck etc. ein Datensatz genutzt werden kann.
@@ -1604,7 +1604,7 @@ Die so erzeugte Anwendung kann auch über eine API angesteuert werden, die Daten
 Es ist möglich, auf einfache Weise aus einer SimpleSearch-Anwendung einen Datensatz für das Berliner Datenportal zu erzeugen.
 Siehe auch das Kapitel [_Imperia SimpleSearch_](#simplesearch).
 
-**Tabelle** Eine Tabelle im Kontext von Offenen Daten meint eine weitverbreitete Datenstruktur, die Daten in ein zwei-dimensionales Raster aus Zeilen und Spalten gliedert.
+**Tabelle** Eine Tabelle im Kontext von Offenen Daten meint eine weitverbreitete Datenstruktur, die Daten in ein zweidimensionales Raster aus Zeilen und Spalten gliedert.
 In der Regel wird dabei jede Zeile als ein Objekt und jede Spalte als eine Eigenschaft des Objekts verstanden.
 Im Sinne einer hohen **Maschinenlesbarkeit** sollten tabellarische Daten von dieser Interpretation nicht abweichen (etwa durch Leerzeilen oder -spalten, Summenzeilen etc.). Siehe auch das Kapitel [_Tabelle_](#tabelle).
 Ein gebräuchliches und gut zu verarbeitendes Format für tabellarische Daten ist **CSV**.
