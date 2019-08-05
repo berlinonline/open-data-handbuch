@@ -1692,6 +1692,6 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2019-07-30
+**Stand**: 2019-08-05
 
 
