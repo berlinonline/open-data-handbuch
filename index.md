@@ -234,7 +234,7 @@ Aus- und Einfuhr (Außenhandel) Berlin
 **Beispiel tabellarische Daten: Aus- und Einfuhr (Außenhandel) Berlin**
 
 Jede Zeile repräsentiert ein Jahr, jede Spalte einen für ein Jahr erhobenen Wert.
-Quelle: [[SENWEB2019](#SENWEB2019)]
+Quelle: [[SENWEB2018](#SENWEB2018)]
 
 </div>
 {::options parse_block_html="false" /}
@@ -257,7 +257,7 @@ Allerdings nur, indem man ein hohes Maß an Redundanz in den Daten zulässt, ode
 **Beispiel Baumstruktur: Die lebensweltlich orientierten Räume (LOR) Berlins**
 
 Die lebensweltlich orientierten Räume (LOR) Berlins sind ein typisches Beispiel für eine Baumstruktur (s. Abbildung). Ausgehend von der Wurzel Berlin verzweigt sich der Baum über die Bezirke, Prognoseräume, Bezirksregionen und schließlich in die Planungsräume.
-Quelle: [[SENSTADTUM2019](#SENSTADTUM2019)]
+Quelle: [[SENSTADTUM2011](#SENSTADTUM2011)]
 
 </div>
 {::options parse_block_html="false" /}
@@ -339,7 +339,7 @@ Eine Veröffentlichung in einem Excel-Format oder als OpenDocument-Spreadheet ka
 In diesem Fall sollten die Daten aber zusätzlich als CSV-Datei veröffentlicht werden.<br/>
 Um die Maschinenlesbarkeit und Konvertierung in CSV aus Excel/OpenDocument zu unterstützen, sollten folgende Dinge beachtet werden:
 
-- CSV-Datei im UTF-8 Encoding abspeichern.
+- CSV-Datei im UTF-8-Encoding abspeichern.
 - Nach Möglichkeit das Komma `,` als Trennzeichen nutzen. Dies wird von vielen Applikationen erwartet, wohingegen das Semikolon `;` oft nicht verstanden wird.
 - Elemente vermeiden, die zwar der Lesbarkeit für menschliche Leser dienen, die für die automatische Verarbeitung aber hinderlich sind. Dazu zählen:
     - zusammengeführte Zellen
@@ -388,7 +388,7 @@ Es gibt aber inoffizielle, nicht standardisierte Lösungen von Dritten.<br/>
 **Dateiendung**: `.ttl` (Turtle), `.nt` (N-Triples), `.jsonld` (JSON-LD), `.rdf` (RDF/XML)<br/>
 **Media Type**: `text/turtle` (Turtle), `application/n-triples` (N-Triples), `application/ld+json` (JSON-LD), `application/rdf+xml` (RDF/XML)<br/>
 **Beschreibung**: _Resource Description Framework_ (RDF) ist ein graph-basiertes Datenmodell, mit dem sich Netzwerkstrukturen besonders gut abbilden lassen.
-Das RDF Modell selbst ist abstrakt gehalten, kann aber auf verschiedene Weisen geschrieben werden.
+Das RDF-Modell selbst ist abstrakt gehalten, kann aber auf verschiedene Weisen geschrieben werden.
 So gibt es etwa eine JSON-Serialisierung (JSON-LD), eine XML-Serialisierung (RDF-XML), sowie die Turtle-Serialisierung (kompakt und gut lesbar) und die N-Triples-Serialisierung (effizient zu verarbeiten).<br/>
 **Spezifikation**: [RDF 1.1 Concepts and Abstract Syntax](http://www.w3.org/TR/rdf11-concepts/) – dies ist die Spezifikation des grundlegenden Datenmodells.
 Die verschiedenen Schreibweisen sind gesondert definiert: z.&nbsp;B. [RDF 1.1 Turtle](https://www.w3.org/TR/turtle/), [RDF 1.1 N-Triples](https://www.w3.org/TR/n-triples/), [JSON-LD 1.0](https://www.w3.org/TR/json-ld/) oder [RDF 1.1 XML Syntax](https://www.w3.org/TR/rdf-syntax-grammar/). Zudem gibt es ein Vokabular zur Datenmodellierung [RDF Schema 1.1](https://www.w3.org/TR/rdf-schema/), eine Abfragesprache [SPARQL 1.1. Query Language](https://www.w3.org/TR/sparql11-query/) und weitere Standards.<br/>
@@ -572,7 +572,7 @@ Dies erleichtert die automatische Einordnung der Daten und die Verknüpfung mit 
   - **Lebensweltlich orientierte Räume (LOR)**: Berlin ist geografisch in eine vierstufige Hierarchie von sogenannten [_Lebensweltlich orientierten Räumen_](https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin) gegliedert, von Bezirken über Prognoseräume und Bezirksregionen bis hin zu Planungsräumen.
   Jeder LOR hat einen Schlüssel, der als eindeutiger Bezeichner dient.
   So hat zum Beispiel der Planungsraum _Oranienplatz_ den Schlüssel `02010103` und der Prognoseraum _Tegel_ den Schlüssel `1221`.
-  Wenn in einem Datensatz auf einen LOR (z.&nbsp;B. einen Bezirk) Bezug genommen wird, sollte immer auch der Schlüssel als gesonderter Wert (z.&nbsp;B. in einer Spalte `LOR Schlüssel`) mit angegeben werden, nicht nur der Name.
+  Wenn in einem Datensatz auf einen LOR (z.&nbsp;B. einen Bezirk) Bezug genommen wird, sollte immer auch der Schlüssel als gesonderter Wert (z.&nbsp;B. in einer Spalte `LOR-Schlüssel`) mit angegeben werden, nicht nur der Name.
   - **Klassifikationen**: In vielen Datensätzen werden Daten thematisch oder anderweitig bestimmten Kategorien zugeordnet.
   In diesem Fall sollten möglichst weit verbreitete, standardisierte Klassifikationen genutzt werden.
   Ein Beispiel ist die von destatis veröffentlichte [Klassifikation der Wirtschaftszweige (WZ2008)](https://www.destatis.de/DE/Methoden/Klassifikationen/GueterWirtschaftklassifikationen/Content75/KlassifikationWZ08.html). Hier hat z.&nbsp;B. die Kategorie _Entwicklung und Programmierung von Internetpräsentationen_ den Code `62.01.1` während _Theater- und Konzertveranstalter_ den Code `90.04.1` hat.
@@ -992,9 +992,9 @@ Sollten Sie Interesse an dieser Art der Veröffentlichung haben, kontaktieren Si
 
 Als Einstiegspunkte zu weiterer Information dienen folgende Ressourcen:
 
-* **Dokumentation der CKAN API**: Das Datenregister basiert auf der CKAN Software. Die CKAN API ermöglicht Lese- und Schreibzugriffe. <https://docs.ckan.org/en/latest/api/index.html>
+* **Dokumentation der CKAN API**: Das Datenregister basiert auf der CKAN-Software. Die CKAN API ermöglicht Lese- und Schreibzugriffe. <https://docs.ckan.org/en/latest/api/index.html>
 * **Metadatenschema**: Die formale Definition des Metadatenschemas des Datenregisters, das bei der Kommunikation über die CKAN API befolgt werden muss. <https://datenregister.berlin.de/schema/>
-* **Validierungs-API**: Neben der CKAN API verfügt das Datenregister auch über eine Validierungs API, über die die Werte einzelner Metadatenfelder auf ihre formale Richtigkeit hin überprüft werden können. <https://github.com/berlinonline/ckanext-validationapi>
+* **Validierungs-API**: Neben der CKAN API verfügt das Datenregister auch über eine Validierungs-API, über die die Werte einzelner Metadatenfelder auf ihre formale Richtigkeit hin überprüft werden können. <https://github.com/berlinonline/ckanext-validationapi>
 
 
 
@@ -1613,7 +1613,7 @@ Details zum Metadatenschema des Berliner Datenportals sind im Kapitel [_Metadate
 
 **Offene Daten** Daten gelten dann als offen, wenn Sie von jedem ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen ([[EDP2019a](#EDP2019a)]).
 Dies schließt kommerzielle Nutzung explizit ein.
-„Ohne Einschränkung“ kann höchstens durch Maßnahmen abgemildert werden, die Ursprung und Offenheit der Daten bewahren, etwa durch Attribution ([[OKF2019](#OKF2019)]).
+„Ohne Einschränkung“ kann höchstens durch Maßnahmen abgemildert werden, die Ursprung und Offenheit der Daten bewahren, etwa durch Attribution ([[OKF2017](#OKF2017)]).
 Zwar kann es offene Daten auch in der Wirtschaft oder anderen Bereichen geben, in diesem Handbuch sind aber in der Regel offene Verwaltungsdaten gemeint.
 Die Offenheit von Daten wird den Nutzenden durch eine entsprechende **Lizenz** signalisiert und garantiert.
 
@@ -1664,13 +1664,13 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[<a name="EDP2019b">EDP2019b</a>]** Europäische Kommission. „Wie wählt man das richtige Format für Open Data“ in _Discovering Open Data_. Webseite. <https://www.europeandataportal.eu/elearning/de/module9>. [Gesehen 05.07.2019].
 
-**[<a name="OKF2019">OKF2019</a>]** Open Knowledge Foundation. _Open Definition 2.1_. 2017. Webseite. <https://opendefinition.org/od/2.1/en/>. [Gesehen 05.07.2019].
+**[<a name="OKF2017">OKF2017</a>]** Open Knowledge Foundation. _Open Definition 2.1_. 2017. Webseite. <https://opendefinition.org/od/2.1/en/>. [Gesehen 05.07.2019].
 
 **[<a name="OKF2019b">OKF2019b</a>]** Open Knowledge Foundation. „Datenformate“ in _Das Open Data Handbuch_. Webseite. <https://opendatahandbook.org/guide/de/appendices/file-formats/>. [Gesehen 05.07.2019].
 
-**[<a name="SENSTADTUM2019">SENSTADTUM2019</a>]** Senatsverwaltung für Stadtentwicklung und Umwelt Berlin. _Lebensweltlich orientierte Räume (LOR) in Berlin_. 2011. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin>. [Gesehen 05.07.2019]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+**[<a name="SENSTADTUM2011">SENSTADTUM2011</a>]** Senatsverwaltung für Stadtentwicklung und Umwelt Berlin. _Lebensweltlich orientierte Räume (LOR) in Berlin_. 2011. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin>. [Gesehen 05.07.2019]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
-**[<a name="SENWEB2019">SENWEB2019</a>]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. 2018. Datensatz. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). [Gesehen 05.07.2019]. Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
+**[<a name="SENWEB2018">SENWEB2018</a>]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. 2018. Datensatz. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). [Gesehen 05.07.2019]. Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
 
 # Bildverzeichnis
 
@@ -1692,6 +1692,6 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2019-08-05
+**Stand**: 2019-08-06
 
 
