@@ -585,7 +585,7 @@ Es wird dann möglich sein, von einem Datensatz der Gruppe (z.&nbsp;B. _Liste de
 
 ### Weitere Informationen
 
-Weitere Informationen zum Thema Datenformate können Sie z.&nbsp;B. in folgenden Quellen finden: [@link(OKF2019b)], [@link(EDP2019b)]
+Weitere Informationen zum Thema Datenformate können Sie z.&nbsp;B. in folgenden Quellen finden: [@link(OKF2019)], [@link(EDP2019b)]
 
 ### Zusammenfassung
 
@@ -1638,7 +1638,7 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[@linktarget(OKF2017)]** Open Knowledge Foundation. _Open Definition 2.1_. 2017. Webseite. <https://opendefinition.org/od/2.1/en/>. [Gesehen 05.07.2019].
 
-**[@linktarget(OKF2019b)]** Open Knowledge Foundation. „Datenformate“ in _Das Open Data Handbuch_. Webseite. <https://opendatahandbook.org/guide/de/appendices/file-formats/>. [Gesehen 05.07.2019].
+**[@linktarget(OKF2019)]** Open Knowledge Foundation. „Datenformate“ in _Das Open Data Handbuch_. Webseite. <https://opendatahandbook.org/guide/de/appendices/file-formats/>. [Gesehen 05.07.2019].
 
 **[@linktarget(SENSTADTUM2011)]** Senatsverwaltung für Stadtentwicklung und Umwelt Berlin. _Lebensweltlich orientierte Räume (LOR) in Berlin_. 2011. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin>. [Gesehen 05.07.2019]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
