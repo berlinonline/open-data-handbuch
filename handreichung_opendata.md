@@ -429,7 +429,7 @@ Seit 2008 ist KML ein offener Standard des Open Geospatial Consortium (OGC).<br/
 **Offenheitskriterien**: maschinenlesbar, offen, standardisiert<br/>
 **Dateiendung**: siehe [RDF](#rdf)<br/>
 **Media Type**: siehe [RDF](#rdf)<br/>
-**Beschreibung**: _RDF Data Cube_ ist ein vom W3C standardisiertes RDF-Vokabular für statistische Daten. RDF Cube seinerseits implementiert die [SDMX](http://sdmx.org/) ISO-Norm. Nach dem Cube-Modell werden statistische Daten in einzelne **Beobachtungen** aufgeteilt, die jeweils durch einen **Messwert**, sowie eine oder mehrere **Dimensionen** und **Attribute** definiert sind. Durch den Einsatz von RDF als Datenmodell können die Daten direkt mit anderen Datensätzen oder Konzepten in Verbindung gebracht werden.<br/>
+**Beschreibung**: _RDF Data Cube_ ist ein vom W3C standardisiertes RDF-Vokabular für statistische Daten. RDF Cube seinerseits implementiert die [SDMX](http://sdmx.org/)-ISO-Norm. Nach dem Cube-Modell werden statistische Daten in einzelne **Beobachtungen** aufgeteilt, die jeweils durch einen **Messwert**, sowie eine oder mehrere **Dimensionen** und **Attribute** definiert sind. Durch den Einsatz von RDF als Datenmodell können die Daten direkt mit anderen Datensätzen oder Konzepten in Verbindung gebracht werden.<br/>
 Strenggenommen ist RDF Data Cube kein Dateiformat, sondern ein Vokabular, das in RDF-Daten genutzt werden kann. Daher gibt es auch keine gesonderte Dateiendung und keinen gesonderten Media Type für RDF Data Cube.<br/>
 **Spezifikation**: [The RDF Data Cube Vocabulary](https://www.w3.org/TR/vocab-data-cube/)<br/>
 
@@ -689,7 +689,7 @@ Obwohl sich alle Veröffentlichungswege in ihren Details unterscheiden, gibt es 
 
 ## Imperia: Datenrubrik {#datenrubrik}
 
-Wählen Sie diesen Weg wenn:
+Wählen Sie diesen Weg, wenn:
 
 * Sie einzelne Datensätze manuell veröffentlichen wollen.
 * Ihre Datenressource bisher noch nicht online verfügbar ist.
@@ -790,7 +790,7 @@ Bei neu freigeschalteten Datensätzen kann es bis zu 60 Minuten dauern, bis dies
 
 ## Imperia: SimpleSearch {#simplesearch}
 
-Wählen Sie diesen Weg wenn:
+Wählen Sie diesen Weg, wenn:
 
 * Sie einzelne Datensätze manuell veröffentlichen wollen.
 * Sie einen Imperia-Zugang haben.
@@ -821,7 +821,7 @@ An dieser Stelle soll nur kurz erläutert werden, welche Schritte nötig sind, u
 
 ## Datenregister manuell {#datenregister_manuell}
 
-Wählen Sie diesen Weg wenn:
+Wählen Sie diesen Weg, wenn:
 
 * Sie einzelne Datensätze manuell veröffentlichen wollen.
 * Ihre Datenressourcen bereits online verfügbar sind.
@@ -941,7 +941,7 @@ Angaben zur Bedeutung der anderen Metadatenfelder finden Sie im Kapitel [_Metada
 
 ## CKAN-Harvester {#harvester}
 
-Wählen Sie diesen Weg wenn:
+Wählen Sie diesen Weg, wenn:
 
 * Ihre Daten bereits online in einem anderen Datenportal verfügbar sind.
 * Die Daten dort über eine gut dokumentierte API regelmäßig abgegriffen werden können.
@@ -952,7 +952,7 @@ Sollten Sie Interesse an dieser Art der Veröffentlichung haben, kontaktieren Si
 
 ## CKAN-API
 
-Wählen Sie diesen Weg wenn:
+Wählen Sie diesen Weg, wenn:
 
 * Ihre Daten bereits online verfügbar sind.
 * Sie große Mengen an Daten automatisch im Datenportal veröffentlichen wollen.
@@ -1413,7 +1413,7 @@ mdrlang:DEU
 
 ### Weitere Informationen
 
-Folgende Links können als Einstiegspunkte für die weitere Vertiefung mit dem Thema DCAT-AP.de dienen.
+Folgende Links können als Einstiegspunkte für die weitere Vertiefung des Themas DCAT-AP.de dienen.
 
 - Unter <https://dcat-ap.de> finden sich alle offiziellen Dokumente (Spezifikation, Konventionenhandbuch etc.), Beispiele und Vokabulare des Standards.
 - Der zentrale Einstiegspunkt für den übergeordneten, europaweiten Standard DCAT-AP ist <https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe>.
@@ -1583,9 +1583,9 @@ Details zum Metadatenschema des Berliner Datenportals sind im Kapitel [_Metadate
 
 **Netzwerkstruktur** → _Graphstruktur_
 
-**Offene Daten** Daten gelten dann als offen, wenn Sie von jedem ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen ([@link(EDP2019a)]).
+**Offene Daten** Daten gelten dann als offen, wenn Sie von jedem ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen [@link(EDP2019a)].
 Dies schließt kommerzielle Nutzung explizit ein.
-„Ohne Einschränkung“ kann höchstens durch Maßnahmen abgemildert werden, die Ursprung und Offenheit der Daten bewahren, etwa durch Attribution ([@link(OKF2017)]).
+„Ohne Einschränkung“ kann höchstens durch Maßnahmen abgemildert werden, die Ursprung und Offenheit der Daten bewahren, etwa durch Attribution [@link(OKF2017)].
 Zwar kann es offene Daten auch in der Wirtschaft oder anderen Bereichen geben, in diesem Handbuch sind aber in der Regel offene Verwaltungsdaten gemeint.
 Die Offenheit von Daten wird den Nutzenden durch eine entsprechende **Lizenz** signalisiert und garantiert.
 
