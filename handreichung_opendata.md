@@ -429,8 +429,8 @@ Seit 2008 ist KML ein offener Standard des Open Geospatial Consortium (OGC).<br/
 **Offenheitskriterien**: maschinenlesbar, offen, standardisiert<br/>
 **Dateiendung**: siehe [RDF](#rdf)<br/>
 **Media Type**: siehe [RDF](#rdf)<br/>
-**Beschreibung**: _RDF Data Cube_ ist ein vom W3C standardisiertes RDF Vokabular für statistische Daten. RDF Cube seinerseits implementiert den [SDMX](http://sdmx.org/) ISO Standard. Nach dem Cube Modell werden statistische Daten in einzelne **Beobachtungen** aufgeteilt, die jeweils durch einen **Messwert**, sowie eine oder mehrere **Dimensionen** und **Attribute** definiert sind. Durch den Einsatz von RDF als Datenmodell können die Daten direkt mit anderen Datensätzen oder Konzepten in Verbindung gebracht werden.<br/>
-Strenggenommen ist RDF Data Cube kein Dateiformat, sondern ein Vokabular, das in RDF Daten genutzt werden kann. Daher gibt es auch keine gesonderte Dateiendung und keinen gesonderten Media Type für RDF Data Cube.<br/>
+**Beschreibung**: _RDF Data Cube_ ist ein vom W3C standardisiertes RDF-Vokabular für statistische Daten. RDF Cube seinerseits implementiert die [SDMX](http://sdmx.org/) ISO-Norm. Nach dem Cube-Modell werden statistische Daten in einzelne **Beobachtungen** aufgeteilt, die jeweils durch einen **Messwert**, sowie eine oder mehrere **Dimensionen** und **Attribute** definiert sind. Durch den Einsatz von RDF als Datenmodell können die Daten direkt mit anderen Datensätzen oder Konzepten in Verbindung gebracht werden.<br/>
+Strenggenommen ist RDF Data Cube kein Dateiformat, sondern ein Vokabular, das in RDF-Daten genutzt werden kann. Daher gibt es auch keine gesonderte Dateiendung und keinen gesonderten Media Type für RDF Data Cube.<br/>
 **Spezifikation**: [The RDF Data Cube Vocabulary](https://www.w3.org/TR/vocab-data-cube/)<br/>
 
 ### Textformate
@@ -449,9 +449,9 @@ Die hier aufgeführten Textformate stehen exemplarisch für vergleichbare Format
 **Dateiendung**: `.pdf`<br/>
 **Media Type**: `application/pdf`<br/>
 **Beschreibung**: Das _Portable Document Format_ (PDF) ist ein plattformunabhängiges Format zum Austausch von Dokumenten – insbesondere von Dokumenten, die nicht weiter bearbeitet werden sollen.
-PDF Dokumente können beliebige Text-, Layout-, Bild- und sogar Multimediaelemente enthalten. PDF Dokumente sind in ihrer Struktur am Druck orientiert und gliedern sich demzufolge in Seiten (im Gegensatz etwa zu HTML), die am Bildschirm und auf Papier identisch erscheinen sollen.<br/>
-Obwohl PDF kein maschinenlesbares Format im Sinne von offenen Daten ist, gibt es doch bestimmte Punkte, die man berücksichtigen sollte, um möglichst gut zu verarbeitende und zu verstehende Dokumente zu erstellen. Insbesondere sollten PDF Dokumente korrekt formatiert und gliedert sein (z.&nbsp;B. durch Nutzung von Bookmarks und Tags). Auch Metadaten zur Herkunft des Dokuments (Autor etc.) sollten gesetzt sein. Grundsätzlich sollten PDF Dokumente barrierefrei sein.<br/>
-PDF wurde ursprünglich von der Firma Adobe entwickelt, ist inzwischen aber in einen ISO-Standard überführt worden.<br/>
+PDF-Dokumente können beliebige Text-, Layout-, Bild- und sogar Multimediaelemente enthalten. PDF-Dokumente sind in ihrer Struktur am Druck orientiert und gliedern sich demzufolge in Seiten (im Gegensatz etwa zu HTML), die am Bildschirm und auf Papier identisch erscheinen sollen.<br/>
+Obwohl PDF kein maschinenlesbares Format im Sinne von offenen Daten ist, gibt es doch bestimmte Punkte, die man berücksichtigen sollte, um möglichst gut zu verarbeitende und zu verstehende Dokumente zu erstellen. Insbesondere sollten PDF-Dokumente korrekt formatiert und gliedert sein (z.&nbsp;B. durch Nutzung von Bookmarks und Tags). Auch Metadaten zur Herkunft des Dokuments (Autor etc.) sollten gesetzt sein. Grundsätzlich sollten PDF-Dokumente barrierefrei sein.<br/>
+PDF wurde ursprünglich von der Firma Adobe entwickelt, ist inzwischen aber in eine ISO-Norm überführt worden.<br/>
 **Spezifikation**: [ISO 32000-2:2017](https://www.iso.org/standard/63534.html) (kostenpflichtig) bzw.  [PDF 32000-1:2008](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf)<br/>
 
 #### Word-Formate
@@ -462,8 +462,8 @@ PDF wurde ursprünglich von der Firma Adobe entwickelt, ist inzwischen aber in e
 **Dateiendung**: `.docx`<br/>
 **Media Type**: `application/vnd.openxmlformats-officedocument.wordprocessingml.document`<br/>
 **Beschreibung**: Gemeint sind hier die verschiedenen Formate von Microsofts _Word_ Textverarbeitung.
-Word Dokumente eignen sich insbesondere zur Dokumentenerstellung, und sollten daher nicht im Open-Data-Bereich als Datenressource eingesetzt werden. Wird zur Dokumentation ein Textdokument benötigt, sollte stattdessen ein PDF erzeugt werden.<br/>
-**Spezifikation**: Seit 2006 ([ECM-376](https://www.ecma-international.org/publications/standards/Ecma-376.htm), [ISO/IEC 29500](https://www.iso.org/standard/71691.html)) bzw. ab MS Office 2007 ist das Word Format `.docx` offen standardisiert. Dies gilt nicht für ältere Word-Formate.
+Word-Dokumente eignen sich insbesondere zur Dokumentenerstellung, und sollten daher nicht im Open-Data-Bereich als Datenressource eingesetzt werden. Wird zur Dokumentation ein Textdokument benötigt, sollte stattdessen ein PDF erzeugt werden.<br/>
+**Spezifikation**: Seit 2006 ([ECM-376](https://www.ecma-international.org/publications/standards/Ecma-376.htm), [ISO/IEC 29500](https://www.iso.org/standard/71691.html)) bzw. ab MS Office 2007 ist das Word-Format `.docx` offen standardisiert. Dies gilt nicht für ältere Word-Formate.
 
 #### OpenDocument Text
 
@@ -828,7 +828,7 @@ Wählen Sie diesen Weg wenn:
 * Eine Veröffentlichung über Imperia in der Datenrubrik oder als SimpleSearch-Anwendung nicht möglich oder erwünscht ist.
 
 Unabhängig vom Veröffentlichungsweg gelangen letztendlich alle Datensätze ins Datenregister, und von dort aus ins Datenportal.
-Falls kein Imperia-Zugang vorhanden ist und automatisierte Wege wie der CKAN Harvester oder ein Upload über die CKAN-API nicht in Frage kommen, besteht auch die Möglichkeit, Datensätze direkt im Datenregister anzulegen.
+Falls kein Imperia-Zugang vorhanden ist und automatisierte Wege wie der CKAN-Harvester oder ein Upload über die CKAN-API nicht in Frage kommen, besteht auch die Möglichkeit, Datensätze direkt im Datenregister anzulegen.
 
 ### Benutzerkonto
 
@@ -939,7 +939,7 @@ Da Sie beim Anlegen des Datensatzes im Datenregister keine Datei hochladen könn
 Angaben zur Bedeutung der anderen Metadatenfelder finden Sie im Kapitel [_Metadaten_](#metadaten).
 
 
-## CKAN Harvester {#harvester}
+## CKAN-Harvester {#harvester}
 
 Wählen Sie diesen Weg wenn:
 
@@ -948,7 +948,7 @@ Wählen Sie diesen Weg wenn:
 
 Bei dieser Art der Veröffentlichung wird dem Datenregister ein sogenanntes **Harvester-Plugin** hinzugefügt, welches in regelmäßigen Abständen automatisch  neue oder geänderte Datensätze in einem bestehenden zweiten Datenportal abfragt.
 Der Entwicklungsaufwand, der dazu betrieben werden muss, hängt dabei von der Art des Portals ab.
-Sollten Sie Interesse an dieser Art der Veröffentlichung haben, kontaktieren Sie gerne opendata@berlin.de, um weitere Informationen zu erhalten.
+Sollten Sie Interesse an dieser Art der Veröffentlichung haben, kontaktieren Sie gerne <a href="mailto:opendata@berlin.de">opendata@berlin.de</a>, um weitere Informationen zu erhalten.
 
 ## CKAN-API
 
@@ -956,7 +956,7 @@ Wählen Sie diesen Weg wenn:
 
 * Ihre Daten bereits online verfügbar sind.
 * Sie große Mengen an Daten automatisch im Datenportal veröffentlichen wollen.
-* Der Weg über einen CKAN Harvester nicht gangbar ist.
+* Der Weg über einen CKAN-Harvester nicht gangbar ist.
 
 Bei dieser Art der Veröffentlichung setzt der Datenbereitsteller selbst auf eigenen Servern Software ein, die aus eigenen Datenbeständen JSON-Beschreibungen erzeugt und diese über die CKAN-API des Datenregisters automatisch veröffentlicht.
 Da dieser Veröffentlichungsweg spezialisierte Softwareentwicklung erfordert, die je nach Situation sehr unterschiedlich ausfallen kann, kann an dieser Stelle nicht weiter auf diesen Weg eingegangen werden.
@@ -1087,7 +1087,7 @@ Diese können sich zum Beispiel beziehen auf:
 - Gesetze und Richtlinien
 - Themenbereiche (z.&nbsp;B. Spaltennamen Ihrer Datei)
 
-Allerdings sollte man sich bei der Vergabe von Tags einschränken, um Widerholungen und Redundanz zu vermeiden. 
+Allerdings sollte man sich bei der Vergabe von Tags einschränken, um Wiederholungen und Redundanz zu vermeiden. 
 Nicht geeignet sind:
 
 - Tags wie „Berlin“ oder „Open Data“, die für alle Datensätze im Datenportal gelten.
@@ -1236,13 +1236,13 @@ Zum Testen können die Beispiel-URLs im Browser eingegeben werden.
 
 Folgende Links können als Einstiegspunkte für die weitere Beschäftigung mit dem Thema CKAN-API dienen.
 
-- Eine detaillierte Anleitung zur Nutzung der CKAN-API finden Sie als Teil der CKAN Dokumentation: <https://docs.ckan.org/en/latest/api>
+- Eine detaillierte Anleitung zur Nutzung der CKAN-API finden Sie als Teil der CKAN-Dokumentation: <https://docs.ckan.org/en/latest/api>
 - Das Metadatenschema, das zur Nutzung der API mit dem Datenregister benötigt wird, finden Sie unter: <https://datenregister.berlin.de/schema/>
 - Das Datenregister erweitert die CKAN-API mit einer API zur Validierung von Metadaten. Die Dokumentation dazu finden Sie unter: <https://github.com/berlinonline/ckanext-validationapi>
 
 ## DCAT-AP.de {#schnittstelle_dcat}
 
-CKAN ist Open Source-Software, weit verbreitet und kann als De-facto-Standard im Bereich Open-Data-Portale angesehen werden.
+CKAN ist Open-Source-Software, weit verbreitet und kann als De-facto-Standard im Bereich Open-Data-Portale angesehen werden.
 Trotzdem ist die CKAN-API eine proprietäre Schnittstelle, die nicht von allen Datenportalen unterstützt wird.
 Um die Interoperabilität zwischen Datenportalen in Europa zu gewährleisten, wurde [DCAT-AP](https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe) als europaweiter Standard definiert.
 Alle Datenportale, die über die nationalen Portale letztendlich im [Europäischen Datenportal](https://www.europeandataportal.eu) aggregiert werden, sollen diesen Standard als Austauschformat implementieren.
@@ -1260,7 +1260,7 @@ Grundsätzlich kann DCAT-AP.de sowohl für Lese- als auch für Schreiboperatione
 
 ### Beispiele
 
-Das Datenregister bietet zwei Endpunkte, um (Meta-)Daten im DCAT-AP.de-Format zu beziehen. Auch hier können die Beispiel-URLs zum Ausprobieren im Browser eingegeben werden. Die Antwort-Daten sind hier jeweils in gekürzter Form als [RDF im Turtle Format](https://www.w3.org/TR/turtle/) angegeben.
+Das Datenregister bietet zwei Endpunkte, um (Meta-)Daten im DCAT-AP.de-Format zu beziehen. Auch hier können die Beispiel-URLs zum Ausprobieren im Browser eingegeben werden. Die Antwort-Daten sind hier jeweils in gekürzter Form als [RDF im Turtle-Format](https://www.w3.org/TR/turtle/) angegeben.
 
 #### Endpunkt: Katalog
 
@@ -1413,7 +1413,7 @@ mdrlang:DEU
 
 ### Weitere Informationen
 
-Folgende Links können als Einstiegspunkte für die weitere Vertiefung mit des Themas DCAT-AP.de dienen.
+Folgende Links können als Einstiegspunkte für die weitere Vertiefung mit dem Thema DCAT-AP.de dienen.
 
 - Unter <https://dcat-ap.de> finden sich alle offiziellen Dokumente (Spezifikation, Konventionenhandbuch etc.), Beispiele und Vokabulare des Standards.
 - Der zentrale Einstiegspunkt für den übergeordneten, europaweiten Standard DCAT-AP ist <https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe>.
@@ -1427,12 +1427,12 @@ Es ist jedoch selbstverständlich, dass nicht alle Fragen vorhergesehen werden k
 
 Falls Sie daher Beratung zum Thema Open Data wünschen, der über den Inhalt dieser Broschüre hinausgeht, gibt es folgende Beratungsmöglichkeiten:
 
-- **Open-Data-Strategie:** Für die Open-Data-Strategie des Landes Berlin ist Sebastian Askar von der Senatsverwaltung für Wirtschaft, Energie und Betriebe als Open-Data-Beauftragter des Landes Berlin (sebastian.askar@senweb.berlin.de) zuständig. 
+- **Open-Data-Strategie:** Für die Open-Data-Strategie des Landes Berlin ist Sebastian Askar von der Senatsverwaltung für Wirtschaft, Energie und Betriebe als Open-Data-Beauftragter des Landes Berlin (<a href="mailto:sebastian.askar@senweb.berlin.de">sebastian.askar@senweb.berlin.de</a>) zuständig. 
 - **Inhaltliche Fragen:** „Welche Lizenz soll man wählen?“, „Wie erzeugt man eine CSV-Datei?“, „Welche Daten sollen veröffentlicht werden?“, „Haben meine Daten einen Personenbezug?“ – bei solchen und ähnlichen Fragen können Sie sich an die [Open-Data-Informationsstelle](https://www.odis-berlin.de) des Landes Berlin wenden.
 - **Technische Fragen:** „Wir brauchen einen Nutzeraccount für das Datenregister“, „Der File-Upload bei Imperia funktioniert nicht“ – bei solchen technischen Fragen, die sich direkt auf die Open-Data-Infrastruktur des Landes beziehen, kann Ihnen am ehesten das Team des Open-Data-Portals (opendata@berlin.de) weiterhelfen.
 - **Schulung:** In der Vergangenheit wurden über die [Verwaltungsakademie](https://www.berlin.de/vak/) Schulungen zum Thema Open Data angeboten. Diese soll in Zukunft fortgeführt und ausgebaut werden.
 - **Open-Data-Networking:** Zwei Mal jährlich werden Open-Data-Lunches von der Senatsverwaltung für Wirtschaft, Energie und Betriebe mit aktuellen Vorträgen zu den Herausforderungen der Open-Data-Strategie Berlins durchgeführt.
-Ansprechpartnerin für das Programm und die Anmeldung ist die Open-Data-Beauftragte der Senatsverwaltung für Wirtschaft, Energie und Betriebe: Betül Özdemir (betuel.oezdemir@senweb.berlin.de).
+Ansprechpartnerin für das Programm und die Anmeldung ist die Open-Data-Beauftragte der Senatsverwaltung für Wirtschaft, Energie und Betriebe: Betül Özdemir (<a href="mailto:betuel.oezdemir@senweb.berlin.de">betuel.oezdemir@senweb.berlin.de</a>).
 
 # Glossar {-}
 
@@ -1452,7 +1452,7 @@ Die Relationen (die Bedeutung der Verzweigungen) zwischen den Knoten im Baum sin
 Es können alle Relationen gleichbedeutend sein (z.&nbsp;B. _enthalten-in_ für geografische Gliederungen oder _unter/-übergeordnet_ für Organigramme) oder auch von Fall zu Fall unterschiedlich (etwa bei JSON und XML).
 Baumstrukturen sind eine Sonderform der **Graphstruktur**. 
 
-**CKAN** Das _Comprehensive Knowledge Archive Network_ ([CKAN](https://ckan.org)) ist eine Open Source Software zum Betrieb von Datenportalen.
+**CKAN** Das _Comprehensive Knowledge Archive Network_ ([CKAN](https://ckan.org)) ist eine Open-Source-Software zum Betrieb von Datenportalen.
 Man könnte CKAN auch als „Content-Management-System für Daten“ umschreiben.
 Konzeptioniert und entwickelt wird CKAN von der [Open Knowledge Foundation (OKFN)](https://okfn.org), einer NGO, die sich für Offene Daten und Offenes Wissen einsetzt.
 CKAN hat eine große Entwicklergemeinde (für ein Projekt mit vergleichbar speziellem Einsatzgebiet) und wird weltweit in zahlreichen Datenportalen eingesetzt.
@@ -1463,7 +1463,7 @@ API und **Metadatenschema** des Berliner Datenportals sind Erweiterungen der API
 CSV verzichtet sowohl auf visuelle Aspekte wie Formatierungen oder Grafiken, als auch auf komplexe Features wie Formeln, Makros etc. Stattdessen beschränkt sich CSV auf die reinen Daten, gegliedert in Zeilen (eine Zeile je Objekt) und Spalten (eine Spalte je Eigenschaft).
 Aus diesen Gründen sind CSV-Daten vergleichsweise einfach zu verarbeiten, von allen Programmiersprachen unterstützt und daher für Open Data in der Regel sehr gut geeignet.
 Trotzdem eignet sich CSV nicht für alle Daten: in bestimmten Fällen sind hierarchische Formate (JSON, XML etc.) oder auch spezialisierte Formate (Geodaten etc.) sinnvoller.
-CSV ist nicht offiziell standardisiert, aber es gibt weithin akzeptierte best-practices, die befolgt werden sollten (siehe auch [_CSV_](#csv) und [_Werteformatierung_](#werteformatierung)).
+CSV ist nicht offiziell standardisiert, aber es gibt weithin akzeptierte Best Practices, die befolgt werden sollten (siehe auch [_CSV_](#csv) und [_Werteformatierung_](#werteformatierung)).
 
 **Datenformat** Mit Datenformat ist hier eine bestimmte Art und Weise gemeint, wie Daten bei Speicherung oder Austausch strukturiert werden.
 Dies geht über die allgemeine **Datenstruktur** hinaus und betrifft Details wie die Auszeichnung einzelner Datenelemente, deren Relationen, Zeichencodierung etc.
