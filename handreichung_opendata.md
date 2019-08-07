@@ -64,7 +64,7 @@ Die Zielgruppe des Datenportals ist offen gehalten, und umfasst Zivilgesellschaf
 Parallel existiert das nicht-öffentliche **Datenregister**. Bei diesem handelt es sich gewissermaßen um das Redaktionssystem des Datenportals, über das Verwaltungsmitarbeiter\*innen Datensätze einstellen oder ändern können. Es ist unter <https://datenregister.berlin.de> zu erreichen. 
 
 Das Datenregister verfügt über mehrere Schnittstellen (s. Abb.&nbsp;\ref{fig:uebersicht_datenportal}): zum einen gibt es die Möglichkeit, Datensätze über ein Web-Formular direkt im Browser anzulegen oder zu bearbeiten (siehe Kapitel [_Datenregister manuell_](#datenregister_manuell)). 
-Dazu gibt es noch zwei Schnittstellen für den automatischen Zugriff, nämlich die sogenannte [**CKAN API**](#schnittstelle_ckan) und die [**DCAT-AP.de**](#schnittstelle_dcat) Schnittstelle. Diese Schnittstellen werden z.&nbsp;B. für automatische Abfragen durch das bundesweite Datenportal govdata.de genutzt, stehen aber auch anderen Nutzern für automatische Auswertungen oder Analysen zur Verfügung. Insbesondere die CKAN API wird auch von Imperia-Werkzeugen wie der [**Datenrubrik**](#datenrubrik) oder dem [**SimpleSearch**](#simplesearch)-Baukasten für die Erstellung von Datensätzen genutzt. Andere Datenportale können die CKAN API ebenfalls zu diesem Zweck nutzen.
+Dazu gibt es noch zwei Schnittstellen für den automatischen Zugriff, nämlich die sogenannte [**CKAN-API**](#schnittstelle_ckan) und die [**DCAT-AP.de**](#schnittstelle_dcat) Schnittstelle. Diese Schnittstellen werden z.&nbsp;B. für automatische Abfragen durch das bundesweite Datenportal govdata.de genutzt, stehen aber auch anderen Nutzern für automatische Auswertungen oder Analysen zur Verfügung. Insbesondere die CKAN-API wird auch von Imperia-Werkzeugen wie der [**Datenrubrik**](#datenrubrik) oder dem [**SimpleSearch**](#simplesearch)-Baukasten für die Erstellung von Datensätzen genutzt. Andere Datenportale können die CKAN-API ebenfalls zu diesem Zweck nutzen.
 
 Schließlich gibt es sogenannte [**Harvester**](#harvester)-Erweiterungen zum Datenregister, die in regelmäßigen Abständen Datensätze automatisch aus anderen Portalen des Landes (z.&nbsp;B. aus dem [FIS-Broker](https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/)) ins Datenportal überführen.
 
@@ -682,12 +682,12 @@ Im Anschluss werden die einzelnen Veröffentlichungswege detailliert vorgestellt
 
 Obwohl sich alle Veröffentlichungswege in ihren Details unterscheiden, gibt es einige Aspekte, die allen gemeinsam sind.
 
-- **Zeitliche Verzögerung**: Mit der Speicherung bzw. Freischaltung eines neuen Datensatzes oder einer Änderung im Eingabesystem (Imperia, Datenregister etc.), ist der Datensatz nicht unmittelbar im Datenportal auf daten.berlin.de zu sehen. Das liegt daran, dass das Datenportal in regelmäßigen Abständen (aktuell stündlich) das Datenregister nach Änderung und neuen Datensätzen abfragt und diese erst anschließend importiert und sichtbar macht. Weitere Verzögerungen könen auftreten, wenn mehrere Systeme hintereinandergeschaltet sind (z.&nbsp;B. Imperia Datenrubrik → Datenregister → Datenportal).
+- **Zeitliche Verzögerung**: Mit der Speicherung bzw. Freischaltung eines neuen Datensatzes oder einer Änderung im Eingabesystem (Imperia, Datenregister etc.), ist der Datensatz nicht unmittelbar im Datenportal auf daten.berlin.de zu sehen. Das liegt daran, dass das Datenportal in regelmäßigen Abständen (aktuell stündlich) das Datenregister nach Änderung und neuen Datensätzen abfragt und diese erst anschließend importiert und sichtbar macht. Weitere Verzögerungen könen auftreten, wenn mehrere Systeme hintereinandergeschaltet sind (z.&nbsp;B. Datenrubrik in Imperia → Datenregister → Datenportal).
 - **Ankündigung neuer Datensätze**: Das Berliner Datenportal verfügt über einen eigenen Twitter-Account [\@OpenDataBerlin](https://twitter.com/OpenDataBerlin), auf dem neue Datensätze automatisch angekündigt werden, sobald Sie vom Datenportal importiert wurden (s. Abb.&nbsp;\ref{fig:twitter_neuer_datensatz}).
 
 ![Ankündigung eines neuen Datensatzes auf Twitter\label{fig:twitter_neuer_datensatz}](images/twitter-neuer-datensatz.png "Ankündigung des Datensatzes 'Kriminalitätsatlas Berlin' auf Twitter, mit Likes und Retweets"){width=400px}{:width="500px"}{: .centered }
 
-## Imperia Datenrubrik {#datenrubrik}
+## Imperia: Datenrubrik {#datenrubrik}
 
 Wählen Sie diesen Weg wenn:
 
@@ -703,9 +703,9 @@ Schließlich wird der Datensatz automatisch ans Datenportal übergeben und kann 
 Alle so erzeugten Datensätze erscheinen außerdem gesammelt in einer alphabetischen Liste in einem gesonderten Bereich Ihres Imperia-Auftritts, evtl. gegliedert nach Unterkategorien.
 Für jeden Datensatz wird dort ein Link aufgeführt, der die Nutzer zu der entsprechenden Seite im Datenportal führt.
 
-![Output eines Imperia Datenrubrik Formulars\label{fig:datenrubrik_uebersicht}](images/output_datenrubrik.png "Aus den Eingaben im Datenrubrik-Formular wird ein Eintrag in der Datenrubrik und ein Datensatz im Datenportal erzeugt")
+![Output des Datenrubrik-Formulars in Imperia\label{fig:datenrubrik_uebersicht}](images/output_datenrubrik.png "Aus den Eingaben im Datenrubrik-Formular wird ein Eintrag in der Datenrubrik und ein Datensatz im Datenportal erzeugt")
 
-Die aktuelle [Dokumentation zur Datenrubrik](https://support.berlin.de/wiki/Datenrubrik_für_die_Veröffentlichung_im_Berliner_Datenportal) finden Sie im Imperia Support Wiki. Im Folgenden werden die wichtigsten Aspekte zusammenfassend wiedergegeben.
+Die aktuelle [Dokumentation zur Datenrubrik](https://support.berlin.de/wiki/Datenrubrik_für_die_Veröffentlichung_im_Berliner_Datenportal) finden Sie im Support-Wiki von Imperia. Im Folgenden werden die wichtigsten Aspekte zusammenfassend wiedergegeben.
 
 ### Datenrubrik einrichten
 
@@ -727,7 +727,7 @@ Um einen Datensatz anzulegen, können Sie über den Rubrikenbaum Ihres Auftritts
 
 Im folgenden Schritt wählen Sie das Template _Datenrubrik-Datensatz_ aus und vergeben einen Titel. Dann gelangen sie zum Datensatz-Template (s. Abb.&nbsp;\ref{fig:datenrubrik_datensatz_template}).
 
-![Datensatz-Template der Imperia Datenrubrik für berlin.de\label{fig:datenrubrik_datensatz_template}](images/datenrubrik-01.png "Das Template zum Anlegen eines Datensatzes für einen berlin.de-Imperia-Auftritt")
+![Datensatz-Template der Datenrubrik in Imperia\label{fig:datenrubrik_datensatz_template}](images/datenrubrik-01.png "Das Template zum Anlegen eines Datensatzes für einen berlin.de-Imperia-Auftritt")
 
 Das Formular gleicht im Wesentlichen dem entsprechenden [Formular im Datenregister](#datenregister_datensatz_anlegen). Pflichtfelder sind mit einem Asterisk markiert; außerdem ist für alle Felder auch im Formular selbst die Dokumentation über die `i`-Links verfügbar.
 
@@ -788,7 +788,7 @@ Die Datensätze verlinken direkt ins Datenportal.
 Bitte beachten Sie, dass lediglich Datensätze angezeigt werden, die bereits freigeschaltet sind.
 Bei neu freigeschalteten Datensätzen kann es bis zu 60 Minuten dauern, bis diese im Datenportal zur Verfügung stehen.
 
-## Imperia SimpleSearch {#simplesearch}
+## Imperia: SimpleSearch {#simplesearch}
 
 Wählen Sie diesen Weg wenn:
 
@@ -797,17 +797,17 @@ Wählen Sie diesen Weg wenn:
 * Ihre Daten tabellarische Form (CSV) haben.
 * Sie eine Datenbankanwendung im Imperia-Auftritt Ihrer Verwaltung erstellen wollen.
 
-Mit dem Imperia SimpleSearch-Baukasten können Sie einfache Datenbankanwendungen im Imperia-Auftritt Ihrer Verwaltung erstellen (s. Abb.&nbsp;\ref{fig:simplesearch_uebersicht}).
+Mit dem SimpleSearch-Baukasten in Imperia können Sie einfache Datenbankanwendungen im Imperia-Auftritt Ihrer Verwaltung erstellen (s. Abb.&nbsp;\ref{fig:simplesearch_uebersicht}).
 Vorraussetzung sind Daten in tabellarischer Form (als CSV-Datei).
 Um aus der SimpleSearch-Anwendung zusätzlich auch einen Datensatz im Datenportal zu machen, müssen Sie lediglich die entsprechende Option aktivieren und die relevanten [Metadaten](#metadaten) in ein Formular eingeben.
 Ihre Daten sind dann in verschiedenen Formaten (CSV, JSON, XML und evtl. andere) online verfügbar und werden als Datensatz im Datenportal veröffentlicht.
 
-![Output des Imperia SimpleSearch-Baukastens\label{fig:simplesearch_uebersicht}](images/output_simplesearch.png "Aus dem SimpleSearch-Baukasten wird eine Datenbankanwendung und ein Datensatz im Datenportal erzeugt")
+![Output des SimpleSearch-Baukastens\label{fig:simplesearch_uebersicht}](images/output_simplesearch.png "Aus dem SimpleSearch-Baukasten wird eine Datenbankanwendung und ein Datensatz im Datenportal erzeugt")
 
 ### Datensatz aus SimpleSearch-Anwendung erzeugen
 
 Die Details zum Erstellen einer SimpleSearch-Anwendung würden den Rahmen dieses Dokuments sprengen.
-Eine detaillierte Dokumentation zu diesem Thema finden Sie im [Imperia Support Wiki](https://support.berlin.de/wiki/SimpleSearch-Baukasten).
+Eine detaillierte Dokumentation zu diesem Thema finden Sie im [Support-Wiki](https://support.berlin.de/wiki/SimpleSearch-Baukasten) von Imperia.
 An dieser Stelle soll nur kurz erläutert werden, welche Schritte nötig sind, um aus einer bestehenden SimpleSearch-Anwendung einen Datensatz für das Datenportal zu erzeugen.
 
 ![Veröffentlichung einer SimpleSearch-Anwendung als Open Data\label{fig:simplesearch_template}](images/opendata-sise-imperia.png "Veröffentlichung einer SimpleSearch-Anwendung als Open Data")
@@ -816,7 +816,7 @@ An dieser Stelle soll nur kurz erläutert werden, welche Schritte nötig sind, u
 - Stellen Sie sicher, dass bei _Schnittstelle &hellip;_ die Auswahl _&hellip; bei daten.berlin.de veröffentlichen_ aktiviert ist.
 - In den weiteren Formularfeldern bestimmen Sie die Metadaten Ihres Datensatzes. Für den Titel des Datensatzes wird der Titel aus dem Reiter _Allgemeine Angaben_ übernommen.
 - Füllen Sie die Informationen in den weiteren Formularfeldern aus. Details zur Bedeutung der einzelnen Felder finden Sie im Kapitel _[Metadaten](#metadaten)_.
-- Wie oben erwähnt, erlaubt die SimpleSearch API den Export der Daten in verschiedenen Formaten (welche Formate dies sind, definieren Sie im Reiter _Erweitert_). Im Zuge der Veröffentlichung des Datensatzes im Datenportal wird dort für jedes Format eine Datenressource angelegt.
+- Wie oben erwähnt, erlaubt die SimpleSearch-API den Export der Daten in verschiedenen Formaten (welche Formate dies sind, definieren Sie im Reiter _Erweitert_). Im Zuge der Veröffentlichung des Datensatzes im Datenportal wird dort für jedes Format eine Datenressource angelegt.
 - Nach dem Freischalten Ihrer Anwendung wird der Datensatz im Datenportal veröffentlicht. Es kann bis zu einer Stunde dauern, bis der Datensatz dort zu sehen ist, da der Veröffentlichungsprozess über mehrere Systeme erfolgt, die in regelmäßigen Abständen aufeinander zugreifen (siehe [_Das Berliner Datenportal_](#datenportal)).
 
 ## Datenregister manuell {#datenregister_manuell}
@@ -825,10 +825,10 @@ Wählen Sie diesen Weg wenn:
 
 * Sie einzelne Datensätze manuell veröffentlichen wollen.
 * Ihre Datenressourcen bereits online verfügbar sind.
-* Eine Veröffentlichung über die Imperia Datenrubrik oder als SimpleSearch-Anwendung nicht möglich oder erwünscht ist.
+* Eine Veröffentlichung über Imperia in der Datenrubrik oder als SimpleSearch-Anwendung nicht möglich oder erwünscht ist.
 
 Unabhängig vom Veröffentlichungsweg gelangen letztendlich alle Datensätze ins Datenregister, und von dort aus ins Datenportal.
-Falls kein Imperia-Zugang vorhanden ist und automatisierte Wege wie der CKAN Harvester oder ein Upload über die CKAN API nicht in Frage kommen, besteht auch die Möglichkeit, Datensätze direkt im Datenregister anzulegen.
+Falls kein Imperia-Zugang vorhanden ist und automatisierte Wege wie der CKAN Harvester oder ein Upload über die CKAN-API nicht in Frage kommen, besteht auch die Möglichkeit, Datensätze direkt im Datenregister anzulegen.
 
 ### Benutzerkonto
 
@@ -914,7 +914,7 @@ Das Konzept der Organisation dient hauptsächlich der Steuerung der Zugriffsrech
 Die Organisation eines Datensatzes ist nicht gleichzusetzen mit der [**Veröffentlichenden Stelle**](#metadaten-vö-stelle): 
 in vielen Fällen stimmen beide Angaben zwar überein. 
 Dies ist insbesondere dann so, wenn der Datensatz direkt manuell im Datenregister erstellt wurde.
-Bei anderen Veröffentlichungswegen, z.&nbsp;B. [Imperia SimpleSearch](#simplesearch) oder [Datenrubrik](#datenrubrik), trifft dies jedoch nicht zu: hier bezeichnet die Organisation den jeweiligen Veröffentlichungsweg, also _SimpleSearch_ oder _Datenrubrik_.
+Bei anderen Veröffentlichungswegen, z.&nbsp;B. [SimpleSearch](#simplesearch) oder [Datenrubrik](#datenrubrik) in Imperia, trifft dies jedoch nicht zu: hier bezeichnet die Organisation den jeweiligen Veröffentlichungsweg, also _SimpleSearch_ oder _Datenrubrik_.
 Dies stellt sicher, dass Datensätze, die über diese Veröffentlichungswege in das Datenregister gelangen, auch nur auf diesem Wege geändert oder gelöscht werden können.
 
 ### Datensatz anlegen {#datenregister_datensatz_anlegen}
@@ -950,7 +950,7 @@ Bei dieser Art der Veröffentlichung wird dem Datenregister ein sogenanntes **Ha
 Der Entwicklungsaufwand, der dazu betrieben werden muss, hängt dabei von der Art des Portals ab.
 Sollten Sie Interesse an dieser Art der Veröffentlichung haben, kontaktieren Sie gerne opendata@berlin.de, um weitere Informationen zu erhalten.
 
-## CKAN API
+## CKAN-API
 
 Wählen Sie diesen Weg wenn:
 
@@ -958,21 +958,21 @@ Wählen Sie diesen Weg wenn:
 * Sie große Mengen an Daten automatisch im Datenportal veröffentlichen wollen.
 * Der Weg über einen CKAN Harvester nicht gangbar ist.
 
-Bei dieser Art der Veröffentlichung setzt der Datenbereitsteller selbst auf eigenen Servern Software ein, die aus eigenen Datenbeständen JSON-Beschreibungen erzeugt und diese über die CKAN API des Datenregisters automatisch veröffentlicht.
+Bei dieser Art der Veröffentlichung setzt der Datenbereitsteller selbst auf eigenen Servern Software ein, die aus eigenen Datenbeständen JSON-Beschreibungen erzeugt und diese über die CKAN-API des Datenregisters automatisch veröffentlicht.
 Da dieser Veröffentlichungsweg spezialisierte Softwareentwicklung erfordert, die je nach Situation sehr unterschiedlich ausfallen kann, kann an dieser Stelle nicht weiter auf diesen Weg eingegangen werden.
 Sollten Sie Interesse an dieser Art der Veröffentlichung haben, kontaktieren Sie gerne opendata@berlin.de, um weitere Informationen zu erhalten.
 
 Als Einstiegspunkte zu weiterer Information dienen folgende Ressourcen:
 
-* **Dokumentation der CKAN API**: Das Datenregister basiert auf der CKAN-Software. Die CKAN API ermöglicht Lese- und Schreibzugriffe. <https://docs.ckan.org/en/latest/api/index.html>
-* **Metadatenschema**: Die formale Definition des Metadatenschemas des Datenregisters, das bei der Kommunikation über die CKAN API befolgt werden muss. <https://datenregister.berlin.de/schema/>
-* **Validierungs-API**: Neben der CKAN API verfügt das Datenregister auch über eine Validierungs-API, über die die Werte einzelner Metadatenfelder auf ihre formale Richtigkeit hin überprüft werden können. <https://github.com/berlinonline/ckanext-validationapi>
+* **Dokumentation der CKAN-API**: Das Datenregister basiert auf der CKAN-Software. Die CKAN-API ermöglicht Lese- und Schreibzugriffe. <https://docs.ckan.org/en/latest/api/index.html>
+* **Metadatenschema**: Die formale Definition des Metadatenschemas des Datenregisters, das bei der Kommunikation über die CKAN-API befolgt werden muss. <https://datenregister.berlin.de/schema/>
+* **Validierungs-API**: Neben der CKAN-API verfügt das Datenregister auch über eine Validierungs-API, über die die Werte einzelner Metadatenfelder auf ihre formale Richtigkeit hin überprüft werden können. <https://github.com/berlinonline/ckanext-validationapi>
 
 
 
 # Metadaten {#metadaten}
 
-Dieser Abschnitt dokumentiert das Metadatenschema des Berliner Datenportals. Die Beschreibungen hier sind rein informativer Natur; verbindliche Definitionen (etwa für die Nutzung der CKAN API) gibt es jederzeit in aktuell gültiger Form unter <https://datenregister.berlin.de/schema>.
+Dieser Abschnitt dokumentiert das Metadatenschema des Berliner Datenportals. Die Beschreibungen hier sind rein informativer Natur; verbindliche Definitionen (etwa für die Nutzung der CKAN-API) gibt es jederzeit in aktuell gültiger Form unter <https://datenregister.berlin.de/schema>.
 
 ## Metadaten des Datensatzes
 
@@ -1147,20 +1147,20 @@ Das Berliner Datenportal bietet zwei unterschiedliche APIs (Programmierschnittst
 Als Datenbereitsteller müssen Sie mit der Funktionsweise der Schnittstellen im Detail nicht vertraut sein.
 Um ein vollständiges Bild des Datenportals zu geben, wollen wir hier trotzdem beide kurz vorstellen.
 
-## CKAN API {#schnittstelle_ckan}
+## CKAN-API {#schnittstelle_ckan}
 
 Das Datenregister, das für die Eingabe und Speicherung aller Datensätze zuständig ist, basiert auf der weit verbreiteten Software [CKAN](https://ckan.org) (_Comprehensive Knowledge Archive Network_).
 CKAN bietet von Haus aus eine sogennante **API**, also eine Schnittstelle zur Programmierung von Anwendungen.
 Mit dieser API lassen sich etwa das Erzeugen oder Modifizieren von Datensätzen steuern, oder die Inhalte des Datenregisters auslesen, ohne dass man dazu einen Browser öffnen muss.
-Die CKAN API des Datenregisters ist so konfiguriert, dass bestimmte lesende Zugriffe (Liste aller Datensätze, Metadaten eines Datensatzes, Suche nach Datensätzen etc.) offen zugänglich sind, während andere Zugriffe (insbesondere alle schreibenden Zugriffe) ein Nutzerkonto mit den entsprechenden Rechten erfordern.
+Die CKAN-API des Datenregisters ist so konfiguriert, dass bestimmte lesende Zugriffe (Liste aller Datensätze, Metadaten eines Datensatzes, Suche nach Datensätzen etc.) offen zugänglich sind, während andere Zugriffe (insbesondere alle schreibenden Zugriffe) ein Nutzerkonto mit den entsprechenden Rechten erfordern.
 
-Die CKAN API wird beispielsweise von der Imperia Datenrubrik und dem Imperia SimpleSearch Modul zur Kommunikation mit dem Datenregister genutzt.
-Ebenso können Verwaltungen, die große Mengen an Datensätzen automatisch ins Datenportal integrieren wollen, die CKAN API benutzen, um diesen Vorgang zu automatisieren.
+Die CKAN-API wird beispielsweise von Imperia bei der Arbeit mit der Datenrubrik oder dem SimpleSearch Modul zur Kommunikation mit dem Datenregister genutzt.
+Ebenso können Verwaltungen, die große Mengen an Datensätzen automatisch ins Datenportal integrieren wollen, die CKAN-API benutzen, um diesen Vorgang zu automatisieren.
 Auch Nutzer*innen mit dem entsprechenden technischen Verständnis können die API nutzen, um etwa eine Suche oder Analyse zu den Inhalten des Datenportals durchzuführen, die über die Möglichkeiten der Web-Oberfläche hinausgeht.
 
 ### Beispiele
 
-Die genaue Funktionsweise der CKAN API geht über den Umfang dieser Broschüre hinaus.
+Die genaue Funktionsweise der CKAN-API geht über den Umfang dieser Broschüre hinaus.
 Die folgenden zwei Beispiele sollen lediglich einen Eindruck verschaffen.
 Dazu wird jeweils die URL eines API-Befehls aufgerufen, woraufhin das Datenregister eine Antwort im JSON-Format zurücksendet (hier gekürzt wiedergegeben).
 Zum Testen können die Beispiel-URLs im Browser eingegeben werden.
@@ -1234,16 +1234,16 @@ Zum Testen können die Beispiel-URLs im Browser eingegeben werden.
 
 ### Weitere Informationen
 
-Folgende Links können als Einstiegspunkte für die weitere Beschäftigung mit dem Thema CKAN API dienen.
+Folgende Links können als Einstiegspunkte für die weitere Beschäftigung mit dem Thema CKAN-API dienen.
 
-- Eine detaillierte Anleitung zur Nutzung der CKAN API finden Sie als Teil der CKAN Dokumentation: <https://docs.ckan.org/en/latest/api>
+- Eine detaillierte Anleitung zur Nutzung der CKAN-API finden Sie als Teil der CKAN Dokumentation: <https://docs.ckan.org/en/latest/api>
 - Das Metadatenschema, das zur Nutzung der API mit dem Datenregister benötigt wird, finden Sie unter: <https://datenregister.berlin.de/schema/>
-- Das Datenregister erweitert die CKAN API mit einer API zur Validierung von Metadaten. Die Dokumentation dazu finden Sie unter: <https://github.com/berlinonline/ckanext-validationapi>
+- Das Datenregister erweitert die CKAN-API mit einer API zur Validierung von Metadaten. Die Dokumentation dazu finden Sie unter: <https://github.com/berlinonline/ckanext-validationapi>
 
 ## DCAT-AP.de {#schnittstelle_dcat}
 
 CKAN ist Open Source-Software, weit verbreitet und kann als De-facto-Standard im Bereich Open-Data-Portale angesehen werden.
-Trotzdem ist die CKAN API eine proprietäre Schnittstelle, die nicht von allen Datenportalen unterstützt wird.
+Trotzdem ist die CKAN-API eine proprietäre Schnittstelle, die nicht von allen Datenportalen unterstützt wird.
 Um die Interoperabilität zwischen Datenportalen in Europa zu gewährleisten, wurde [DCAT-AP](https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe) als europaweiter Standard definiert.
 Alle Datenportale, die über die nationalen Portale letztendlich im [Europäischen Datenportal](https://www.europeandataportal.eu) aggregiert werden, sollen diesen Standard als Austauschformat implementieren.
 Auf nationaler Ebene sind verschiedene Versionen des Standards definiert worden, die zwar kompatibel mit DCAT-AP sind, aber darüber hinaus gewisse nationale Besonderheiten berücksichtigen.
@@ -1495,7 +1495,7 @@ Ohne die Datenrubrik musste eine in Imperia hochgeladene Datenressource immer er
 Sollte die Ressource als Teil eines Datensatzes im Datenportal veröffentlicht werden, musste der Datensatz zudem händisch im Datenregister angelegt und die Ressource von dort verlinkt werden.
 Die Datenrubrik vereinfacht dies, indem das Hochladen der Ressource und das Anlegen des Datensatzes vor Ort in Imperia erfolgen können, und indem das Verlinken von anderer Stelle nicht länger notwendig ist.
 Es besteht zudem die Möglichkeit, eine alphabetische Übersicht aller per Datenrubrik erzeugten Datensätze im Imperia-Auftritt der Behörde einzubinden.
-Siehe auch [Imperia Datenrubrik](#datenrubrik).
+Siehe auch das Kapitel [_Imperia: Datenrubrik_](#datenrubrik).
 
 **Datensatz** Im Kontext von Open Data entspricht der Begriff „Datensatz“ dem englischen „dataset“, also einer Sammlung von (zusammengehörigen) Daten.
 Die Bedeutung unterscheidet sich daher von dem deutschen IT-Fachbegriff „Datensatz“.
@@ -1602,7 +1602,7 @@ Die Offenheit von Daten wird den Nutzenden durch eine entsprechende **Lizenz** s
 **SimpleSearch** Der SimpleSearch-Baukasten von **Imperia** erlaubt es, auf Basis einer CSV-Datei eine einfache, dynamische Datenbankanwendung für den Imperia-Auftritt einer Behörde zu erzeugen.
 Die so erzeugte Anwendung kann auch über eine API angesteuert werden, die Daten in verschiedenen Formaten bereitstellen kann.
 Es ist möglich, auf einfache Weise aus einer SimpleSearch-Anwendung einen Datensatz für das Berliner Datenportal zu erzeugen.
-Siehe auch das Kapitel [_Imperia SimpleSearch_](#simplesearch).
+Siehe auch das Kapitel [_Imperia: SimpleSearch_](#simplesearch).
 
 **Tabelle** Eine Tabelle im Kontext von Offenen Daten meint eine weitverbreitete Datenstruktur, die Daten in ein zweidimensionales Raster aus Zeilen und Spalten gliedert.
 In der Regel wird dabei jede Zeile als ein Objekt und jede Spalte als eine Eigenschaft des Objekts verstanden.
