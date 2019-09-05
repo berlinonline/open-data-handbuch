@@ -2,3 +2,6 @@
 .vscode
 _site
 temp
+
+parts/pages_impressum.md
+template/metadata.yml
