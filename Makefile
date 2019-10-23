@@ -1,7 +1,7 @@
 .PHONY: pdf
 pdf: clean temp/date.txt parts/pages_impressum.md | temp
 	@echo "generate metadata ..."
-	@ruby bin/include_mardown.rb -s txt -f temp -p template/metadata_yml.template > template/metadata.yml
+	@ruby bin/include_markdown.rb -s txt -f temp -p template/metadata_yml.template > template/metadata.yml
 	@echo "combining parts ..."
 	@cat parts/latex_preamble.md handreichung_opendata.md parts/pages_impressum.md > temp/pdf_source.md
 	@echo "replacing <br/> with double space ..."
@@ -9,7 +9,7 @@ pdf: clean temp/date.txt parts/pages_impressum.md | temp
 	@echo "remove gfm image widths and centering ..."
 	@sed -e 's:{\:width=".*px"}{\: \.centered }::' temp/handreichung_opendata_01.md > temp/handreichung_opendata_02.md
 	@echo "include markdown snippets ..."
-	@ruby bin/include_mardown.rb -p temp/handreichung_opendata_02.md -s pandoc > temp/handreichung_opendata_03.md
+	@ruby bin/include_markdown.rb -p temp/handreichung_opendata_02.md -s pandoc > temp/handreichung_opendata_03.md
 	@echo "rewrite link targets ..."
 	@sed -E 's/@linktarget\(([^)]+)\)/\\hypertarget{\1}{\1}/' temp/handreichung_opendata_03.md > temp/handreichung_opendata_04.md
 	@echo "rewrite links ..."
@@ -41,7 +41,7 @@ gfm: clean images/format-example-tree.png images/metadaten_daten.png images/offe
 	@echo "remove suppress numbering commands from headings ..."
 	@sed -e 's: {-}::' temp/handreichung_opendata_06.md > temp/handreichung_opendata_07.md
 	@echo "include markdown snippets ..."
-	@ruby bin/include_mardown.rb -p temp/handreichung_opendata_07.md -s gfm > temp/handreichung_opendata_08.md
+	@ruby bin/include_markdown.rb -p temp/handreichung_opendata_07.md -s gfm > temp/handreichung_opendata_08.md
 	@echo "join header parts of multiline tables ..."
 	@sed 's:\\_ :\\_:g' temp/handreichung_opendata_08.md > temp/handreichung_opendata_09.md
 	@echo "rewrite link targets ..."
@@ -99,7 +99,7 @@ parts/example_tabular_data.gfm: parts/example_tabular_data.pandoc
 
 parts/pages_impressum.md: temp/date.txt
 	@echo "generate impressum ..."
-	@ruby bin/include_mardown.rb -s txt -f temp -p parts/pages_impressum.template.md > parts/pages_impressum.md
+	@ruby bin/include_markdown.rb -s txt -f temp -p parts/pages_impressum.template.md > parts/pages_impressum.md
 
 .PHONY: temp/date.txt
 temp/date.txt: | temp
