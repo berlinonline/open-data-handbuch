@@ -63,7 +63,7 @@ temp/handreichung_opendata.nolatex.md: | temp
 temp/images.csv: | temp
 	@echo "extracting images from markdown ..."
 	@echo "path,Title,Description" > temp/images.csv
-	@grep '!\[' handreichung_opendata.md | sed -E 's/^!\[(.+)\]\((.+) (".+")\).*$$/"\2","\1",\3/' >> temp/images.csv
+	@grep '!\[' handreichung_opendata.md | sed -E 's/^!\[(.+)\\label\{fig.+}\]\((.+) (".+")\).*$$/"\2","\1",\3/' >> temp/images.csv
 
 images/format-example-tree.png: images/format-example-tree.pdf
 	@echo "converting images/format-example-tree.pdf ..."
