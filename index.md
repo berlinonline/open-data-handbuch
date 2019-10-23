@@ -55,7 +55,7 @@ Dabei werden die Datenressourcen selbst nicht ins Datenportal importiert, sonder
 Voraussetzung ist lediglich, dass sie im Internet verfügbar sind, damit sie vom Datensatz aus verlinkt werden können (s. Abbildung).
 Man spricht deshalb auch von einem **Metadatenportal**.
 
-![Datensätze, Metadaten und Datenressourcen](images/metadaten_daten.png "Datensätze im Datenportal verlinken zu Datenressourcen im Internet"){:width="400px"}{: .centered }
+![Datensätze, Metadaten und Datenressourcen](images/metadaten_daten.png "Datensätze im Datenportal verlinken zu Datenressourcen im Internet."){:width="400px"}{: .centered }
 
 Das Datenportal besteht aus zwei Teilen: Zum einen gibt es das öffentlich sichtbare eigentliche **Portal**, das unter <https://daten.berlin.de> zu erreichen ist.
 Das Portal wird von  Nutzer*innen für die Suche und das Browsen im Inhalt des Datenportals genutzt.
@@ -73,7 +73,7 @@ Insbesondere die CKAN-API wird auch von Imperia-Werkzeugen wie der [**Datenrubri
 Andere Datenportale können die CKAN-API ebenfalls zu diesem Zweck nutzen.
 Schließlich gibt es sogenannte [**Harvester**](#harvester)-Erweiterungen zum Datenregister, die in regelmäßigen Abständen Datensätze automatisch aus anderen Portalen des Landes (z.&nbsp;B. aus dem [FIS-Broker](https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/)) ins Datenportal überführen.
 
-![Der Weg der Metadaten im Berliner Datenportal](images/offene_daten_uebersicht.png "Der Weg der Metadaten im Berliner Datenportal – Datenbereitsteller, Datenportal, Datennutzer")
+![Der Weg der Metadaten im Berliner Datenportal](images/offene_daten_uebersicht.png "Die Grafik zeigt den Weg der Metadaten im Berliner Datenportal. Datenbereitsteller können Datensätze manuell über Imperia und Datenregister bereitstellen, oder automatisch über Harvester und API. Datennutzende können manuell suchen und browsen über das Datenportal, oder für automatische Auswertungen über die APIs gehen.")
 
 
 # <a name="schritt_fuer_schritt">Schritt für Schritt zur Veröffentlichung</a>
@@ -559,7 +559,7 @@ Insbesondere sollte folgendes beachtet werden:
 - **Datumsangaben**: Statt einer regional üblichen Datumsformatierung sollte immer die im IT-Bereich übliche Formatierung nach [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) genutzt werden, also `YYYY-MM-DD`, bzw. `JJJJ-MM-TT`.
 Der 10. Juni 2013 wäre demnach `2013-06-10`.
 
-![xkcd comic 'ISO 8601'](images/xkcd_iso_8601.png "Comic zum ISO 8601 Standard für Datumsangaben, der zeigt, warum ein einheitliches Datumsformat sinnvoll ist.")
+![xkcd comic „ISO 8601“](images/xkcd_iso_8601.png "Comic zum ISO 8601 Standard für Datumsangaben, der zeigt, warum ein einheitliches Datumsformat sinnvoll ist.")
 
 ---
 
@@ -604,7 +604,7 @@ In diesem Fall wurde jedoch Option 3 (ein Datensatz/Jahr) gewählt, da diese der
 Gegen Option 4 (ein Datensatz/Jahr+Bezirk) sprach, dass dies zu einer Inflation an Datensätzen geführt hätte, wohingegen Option 1 (ein Datensatz für alle Datenressourcen) zu einer unüberschaubaren Anzahl von Datenressourcen in einem einzigen Datensatz geführt hätte.
 Option 2 (ein Datensatz/Bezirk) steht der Tatsache entgegen, dass die Daten aller Bezirke gesammelt vom LABO veröffentlicht werden.
 
-![Die Zeitreihe der Berliner Vornamensdaten](images/datensaetze_vornamen.png "Die Detailseiten der drei Datensätze 'Liste der häufigen Vornamen &hellip;' für 2015, 2016 und 2017 nebeneinander")
+![Die Zeitreihe der Berliner Vornamensdaten](images/datensaetze_vornamen.png "Die Detailseiten der drei Datensätze „Liste der häufigen Vornamen …“ für 2015, 2016 und 2017 nebeneinander")
 
 In Zukunft wird das Datenportal Funktionalität enthalten, mit der inhaltlich zusammenhängende Datensätze, wie die Zeitreihe der Vornamensdaten, auch explizit als Gruppe gekennzeichnet werden kann.
 Es wird dann möglich sein, von einem Datensatz der Gruppe (z.&nbsp;B. _Liste der häufigen Vornamen 2015_) gleich zu allen anderen Datensätzen der Gruppe (_Liste der häufigen Vornamen 2012_, _&hellip; 2018_ etc.) zu gelangen.
@@ -714,7 +714,7 @@ Obwohl sich alle Veröffentlichungswege in ihren Details unterscheiden, gibt es 
 - **Zeitliche Verzögerung**: Mit der Speicherung bzw. Freischaltung eines neuen Datensatzes oder einer Änderung im Eingabesystem (Imperia, Datenregister etc.), ist der Datensatz nicht unmittelbar im Datenportal auf daten.berlin.de zu sehen. Das liegt daran, dass das Datenportal in regelmäßigen Abständen (aktuell stündlich) das Datenregister nach Änderung und neuen Datensätzen abfragt und diese erst anschließend importiert und sichtbar macht. Weitere Verzögerungen könen auftreten, wenn mehrere Systeme hintereinandergeschaltet sind (z.&nbsp;B. Datenrubrik in Imperia → Datenregister → Datenportal).
 - **Ankündigung neuer Datensätze**: Das Berliner Datenportal verfügt über einen eigenen Twitter-Account [@OpenDataBerlin](https://twitter.com/OpenDataBerlin), auf dem neue Datensätze automatisch angekündigt werden, sobald Sie vom Datenportal importiert wurden (s. Abbildung).
 
-![Ankündigung eines neuen Datensatzes auf Twitter](images/twitter-neuer-datensatz.png "Ankündigung des Datensatzes 'Kriminalitätsatlas Berlin' auf Twitter, mit Likes und Retweets"){:width="500px"}{: .centered }
+![Ankündigung eines neuen Datensatzes auf Twitter](images/twitter-neuer-datensatz.png "Ankündigung des Datensatzes „Kriminalitätsatlas Berlin“ auf Twitter, mit Likes und Retweets"){:width="500px"}{: .centered }
 
 ## <a name="datenrubrik">Imperia: Datenrubrik</a>
 
@@ -732,7 +732,7 @@ Schließlich wird der Datensatz automatisch ans Datenportal übergeben und kann 
 Alle so erzeugten Datensätze erscheinen außerdem gesammelt in einer alphabetischen Liste in einem gesonderten Bereich Ihres Imperia-Auftritts, evtl. gegliedert nach Unterkategorien.
 Für jeden Datensatz wird dort ein Link aufgeführt, der die Nutzer zu der entsprechenden Seite im Datenportal führt.
 
-![Output des Datenrubrik-Formulars in Imperia](images/output_datenrubrik.png "Aus den Eingaben im Datenrubrik-Formular wird ein Eintrag in der Datenrubrik und ein Datensatz im Datenportal erzeugt")
+![Output des Datenrubrik-Formulars in Imperia](images/output_datenrubrik.png "Aus den Eingaben im Datenrubrik-Formular wird ein Eintrag in der Datenrubrik und ein Datensatz im Datenportal erzeugt.")
 
 Die aktuelle [Dokumentation zur Datenrubrik](https://support.berlin.de/wiki/Datenrubrik_für_die_Veröffentlichung_im_Berliner_Datenportal) finden Sie im Support-Wiki von Imperia. Im Folgenden werden die wichtigsten Aspekte zusammenfassend wiedergegeben.
 
@@ -756,7 +756,7 @@ Um einen Datensatz anzulegen, können Sie über den Rubrikenbaum Ihres Auftritts
 
 Im folgenden Schritt wählen Sie das Template _Datenrubrik-Datensatz_ aus und vergeben einen Titel. Dann gelangen sie zum Datensatz-Template (s. Abbildung).
 
-![Datensatz-Template der Datenrubrik in Imperia](images/datenrubrik-01.png "Das Template zum Anlegen eines Datensatzes für einen berlin.de-Imperia-Auftritt")
+![Datensatz-Template der Datenrubrik in Imperia](images/datenrubrik-01.png "Das Template zum Anlegen eines Datensatzes über die Datenrubrik in Imperia")
 
 Das Formular gleicht im Wesentlichen dem entsprechenden [Formular im Datenregister](#datenregister_datensatz_anlegen). Pflichtfelder sind mit einem Asterisk markiert; außerdem ist für alle Felder auch im Formular selbst die Dokumentation über die `i`-Links verfügbar.
 
@@ -808,7 +808,7 @@ Zusätzlich können Sie ein Einleitungsbild und einen Einleitungstext hinzufüge
 Bitte beachten Sie, dass auf der Startseite nur Datensätze angezeigt werden, die über den Veröffentlichungsweg _Datenrubrik_ erstellt wurden.
 Datensätze aus anderen Veröffentlichungswegen erscheinen hier nicht.
 
-![Startseite der Datenrubrik](images/datenrubrik-startseite.png "Screenshot der alphabetischen Übersicht aller Datensätze in der Datenrubrik")
+![Startseite der Datenrubrik](images/datenrubrik-startseite.png "Screenshot der alphabetischen Übersicht aller Datensätze in der Datenrubrik in Imperia")
 
 In der A-Z-Liste werden alle Datensätze aus allen Rubriken angezeigt.
 Wenn Sie nur Datensätze einzelner Rubriken und gegebenenfalls deren Unterrubriken sehen möchten, können Sie in dieser Rubrik ebenfalls eine Datenrubrik-Startseite anlegen.
@@ -831,7 +831,7 @@ Vorraussetzung sind Daten in tabellarischer Form (als CSV-Datei).
 Um aus der SimpleSearch-Anwendung zusätzlich auch einen Datensatz im Datenportal zu machen, müssen Sie lediglich die entsprechende Option aktivieren und die relevanten [Metadaten](#metadaten) in ein Formular eingeben.
 Ihre Daten sind dann in verschiedenen Formaten (CSV, JSON, XML und evtl. andere) online verfügbar und werden als Datensatz im Datenportal veröffentlicht.
 
-![Output des SimpleSearch-Baukastens](images/output_simplesearch.png "Aus dem SimpleSearch-Baukasten wird eine Datenbankanwendung und ein Datensatz im Datenportal erzeugt")
+![Output des SimpleSearch-Baukastens](images/output_simplesearch.png "Aus dem SimpleSearch-Baukasten wird eine Datenbankanwendung und ein Datensatz im Datenportal erzeugt.")
 
 ### Datensatz aus SimpleSearch-Anwendung erzeugen
 
@@ -839,7 +839,7 @@ Die Details zum Erstellen einer SimpleSearch-Anwendung würden den Rahmen dieses
 Eine detaillierte Dokumentation zu diesem Thema finden Sie im [Support-Wiki](https://support.berlin.de/wiki/SimpleSearch-Baukasten) von Imperia.
 An dieser Stelle soll nur kurz erläutert werden, welche Schritte nötig sind, um aus einer bestehenden SimpleSearch-Anwendung einen Datensatz für das Datenportal zu erzeugen.
 
-![Veröffentlichung einer SimpleSearch-Anwendung als Open Data](images/opendata-sise-imperia.png "Veröffentlichung einer SimpleSearch-Anwendung als Open Data")
+![Veröffentlichung einer SimpleSearch-Anwendung als Open Data](images/opendata-sise-imperia.png "Das Formular zur Veröffentlichung einer SimpleSearch-Anwendung als Open Data")
 
 - Wählen Sie zunächst den Unterreiter _Zusatzinformationen für Schnittstellen_ im Reiter _Metadaten_ des SimpleSearch-Baukastens aus (s. Abbildung).
 - Stellen Sie sicher, dass bei _Schnittstelle &hellip;_ die Auswahl _&hellip; bei daten.berlin.de veröffentlichen_ aktiviert ist.
@@ -873,9 +873,9 @@ Um ein Benutzerkonto zu beantragen und zu aktivieren, gehen Sie folgendermaßen 
 - Sie erhalten eine E-Mail mit einem Link. Öffnen Sie diesen und geben Sie Ihr gewünschtes Passwort ein (s. Abbildung).
 - Zum Einloggen öffnen Sie die Seite <https://datenregister.berlin.de/user/login> und geben Ihren Benutzernamen und Passwort ein (s. Abbildung).
 
-![Eingabemaske zum Anfordern eines Passworts](images/screenshot_pw_zuruecksetzen_anfordern.png "Eingabemaske zum Anfordern eines Passworts")
+![Eingabemaske zum Anfordern eines Passworts](images/screenshot_pw_zuruecksetzen_anfordern.png "Eingabemaske zum Anfordern eines Passworts für das Datenregister")
 
-![Eingabemaske zum Zurücksetzen des Passworts](images/screenshot_pw_zuruecksetzen.png "Eingabemaske zum Zurücksetzen des Passworts")
+![Eingabemaske zum Zurücksetzen des Passworts](images/screenshot_pw_zuruecksetzen.png "Eingabemaske zum Zurücksetzen des Passworts im Datenregister")
 
 ![Anmelden beim Datenregister](images/screenshot_einloggen.png "Anmeldung mit Benutzername und Passwort im Berliner Datenregister")
 
@@ -911,7 +911,7 @@ Wählt man eine Kategorie aus, gelangt man zur Liste der Datensätze in dieser K
 
 Das Dashboard bietet einen Nachrichtenfeed, der Ereignisse von Objekten anzeigt, denen Sie folgen (s. Abbildung).
 
-![Das Dashboard](images/screenshot_dashboard.png "Das Dashboard eines Nutzers, mit einer Liste von Ereignissen.")
+![Das Dashboard](images/screenshot_dashboard.png "Das Dashboard eines Nutzers, mit einer Liste von Ereignissen")
 
 Sie können z.&nbsp;B. Organisationen oder Kategorien folgen und erfahren dann über das Dashboard, wenn neue Datensätze hinzugefügt oder bestehende geändert wurden.
 Sie können auch einzelnen Datensätzen folgen.
@@ -1693,6 +1693,6 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2019-09-05
+**Stand**: 2019-10-23
 
 
