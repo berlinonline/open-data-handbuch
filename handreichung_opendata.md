@@ -514,7 +514,7 @@ Im Gegensatz zu JPG ist die Komprimierung verlustfrei. PNG Grafiken brauchen dah
 **Offenheitskriterien**: offen, standardisiert, nicht maschinenlesbar<br/>
 **Dateiendung**: `.svg`<br/>
 **Media Type**: `image/svg+xml`<br/>
-**Beschreibung**: _Scalable Vector Graphics_ (SVG) ist ein Standard für Vektorgrafiken (also linien-basierte Grafiken), der im Web sehr vebreitet ist und in jedem modernen Browser dargestellt werden kann.
+**Beschreibung**: _Scalable Vector Graphics_ (SVG) ist ein Standard für Vektorgrafiken (also linien-basierte Grafiken), der im Web sehr verbreitet ist und in jedem modernen Browser dargestellt werden kann.
 Ein besonderes Kennzeichen von Vektorgrafiken ist, dass man verlustfrei in die Grafik hereinzoomen kann.<br/>
 **Spezifikation**: [Scalable Vector Graphics (SVG) 2](https://www.w3.org/TR/SVG/)
 
