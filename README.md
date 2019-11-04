@@ -16,5 +16,5 @@ The text, all markdown sources and PDF artifacts of the _Berliner Open-Data-Hand
 
 For the licenses to the images contained in the _Berliner Open-Data-Handbuch_, please refer to the [Bildverzeichnis](https://berlinonline.github.io/open-data-handbuch/#bildverzeichnis).
 
-All code is, including the `Makefile` and the source code in `/bin` is published under the [MIT License](/LICENSE).
+All code, including the `Makefile` and the source code in `/bin` is published under the [MIT License](/LICENSE).
 
