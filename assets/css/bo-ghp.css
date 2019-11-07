@@ -1,0 +1,18 @@
+.bo-box {
+    background: no-repeat url(../img/info-box-icon_small.png) rgb(224, 239, 249);
+    padding: 50px 15px 20px;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+}
+
+.bo-box p {
+    margin-bottom: 0px;
+}
+
+.bo-box ul {
+    margin-bottom: 8px;
+}
+
+.bo-box code {
+    background-color: rgba(250, 150, 0, 0.3);
+}
