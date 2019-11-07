@@ -37,6 +37,7 @@ appears on the left side of the page.
 
 #menu {
     margin-left: -200px; /* "#menu" width */
+    padding-top: 5px;
     width: 200px;
     position: fixed;
     top: 0;
@@ -70,8 +71,6 @@ All anchors inside the menu should be styled like this.
 .bo-menu-item-wrapper {
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #24292e;
-    /* height: 100%; */
 }
 
 /*
@@ -81,7 +80,7 @@ Remove all background/borders, since we are applying them to #menu.
 .pure-menu ul {
     border: none;
     background: transparent;
-    color: #24292e;
+    color: #777;
 }
 
 /*
@@ -90,6 +89,12 @@ Add that light border to separate items into groups.
 .pure-menu > ul > .pure-menu-item {
     margin-bottom: 15px;
 }
+
+.pure-menu > ul > .pure-menu-item > .bo-menu-item-wrapper {
+    color: #24292e;
+    font-weight: 500;
+}
+
 
 /*
 Change color of the anchor links on hover/focus.
