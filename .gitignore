@@ -2,6 +2,7 @@
 .vscode
 _site
 temp
+Gemfile.lock
 
 parts/pages_impressum.md
 template/metadata.yml

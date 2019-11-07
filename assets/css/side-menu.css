@@ -1,0 +1,214 @@
+/*
+Add transition to containers so they can push in and out.
+*/
+#layout,
+#menu,
+.menu-link,
+.menu-wrapper {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+/*
+This is the parent `<div>` that contains the menu and the content area.
+*/
+#layout {
+    position: relative;
+    left: 0;
+    padding-left: 0;
+}
+
+#layout.active #menu {
+    left: 200px;
+    width: 200px;
+}
+
+#layout.active .menu-wrapper {
+    left: 200px;
+}
+
+/*
+The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
+appears on the left side of the page.
+*/
+
+#menu {
+    margin-left: -200px; /* "#menu" width */
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000; /* so the menu or its navicon stays above all content */
+    background: #e1e4e8;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/*
+All anchors inside the menu should be styled like this.
+*/
+#menu a {
+    color: inherit;
+    border: none;
+    padding: 0.6em 0 0.6em 0.6em;
+    font-size: 16px;
+}
+
+
+.pure-menu {
+    white-space: nowrap;
+}
+
+.pure-menu-list {
+    list-style-type: none;
+}
+
+.bo-menu-item-wrapper {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #24292e;
+    /* height: 100%; */
+}
+
+/*
+Remove all background/borders, since we are applying them to #menu.
+*/
+.pure-menu,
+.pure-menu ul {
+    border: none;
+    background: transparent;
+    color: #24292e;
+}
+
+/*
+Add that light border to separate items into groups.
+*/
+.pure-menu > ul > .pure-menu-item {
+    margin-bottom: 15px;
+}
+
+/*
+Change color of the anchor links on hover/focus.
+*/
+.bo-menu-item-wrapper:hover,
+.bo-menu-item-wrapper:focus {
+    background: #0366d6;
+    color: #fff;
+}
+
+
+/* -- Dynamic Button For Responsive Menu -------------------------------------*/
+
+/*
+The button to open/close the Menu is custom-made and not part of Pure. Here's
+how it works:
+*/
+
+/*
+`.menu-link` represents the responsive menu toggle that shows/hides on
+small screens.
+*/
+.menu-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:  rgba(255, 255, 255, 0.7);
+}
+
+.menu-link {
+    display: block; /* show this only on small screens */
+    position: relative;
+    background: #000;
+    background: rgba(0,0,0,0.7);
+    font-size: 10px; /* change this value to increase/decrease button size */
+    z-index: 10;
+    width: 52px;
+    height: auto;
+    padding: 2.1em 1.6em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    background: #000;
+}
+
+.menu-link span {
+    position: relative;
+    display: block;
+}
+
+.menu-link span,
+.menu-link span:before,
+.menu-link span:after {
+    background-color: #fff;
+    width: 100%;
+    height: 0.2em;
+}
+
+.menu-link span:before,
+.menu-link span:after {
+    position: absolute;
+    margin-top: -0.6em;
+    content: " ";
+}
+
+
+
+.menu-link span:after {
+    margin-top: 0.6em;
+}
+
+
+/* -- Responsive Styles (Media Queries) ------------------------------------- */
+
+@media (min-width: 1012px) {
+
+    .header,
+    .content {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #layout {
+        padding-left: 200px; /* left col width "#menu" */
+        left: 0;
+    }
+    #menu {
+        left: 200px;
+    }
+
+    .menu-wrapper {
+        position: fixed;
+        left: 200px;
+        display: none;
+    }
+
+    #layout.active .menu-wrapper {
+        left: 200px;
+    }
+}
+
+@media (max-width: 1012px) {
+    /* Only apply this when the window is small. Otherwise, the following
+    case results in extra padding on the left:
+        * Make the window small.
+        * Tap the menu to trigger the active state.
+        * Make the window large again.
+    */
+    #layout.active {
+        position: relative;
+        left: 200px;
+    }
+}
+
+
+/* Override content container margin to make space for burger menu */
+
+#layout .my-5 {
+    margin-top: 44px !important;
+}
