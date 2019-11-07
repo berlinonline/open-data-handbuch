@@ -52,7 +52,6 @@ gfm: clean images/format-example-tree.png images/metadaten_daten.png images/offe
 	@sed -E 's/@link\(([^)]+)\)/[\1](#\1)/g' temp/handreichung_opendata_10.md > temp/handreichung_opendata_11.md
 	@echo "unescape at-signs ..."
 	@sed 's/\\@/@/' temp/handreichung_opendata_11.md > temp/handreichung_opendata_12.md
-
 	@echo "add title matter ..."
 	@cat parts/pages_title.md temp/handreichung_opendata_12.md > index.md
 
