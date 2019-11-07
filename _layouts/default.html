@@ -7,8 +7,8 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="/assets/css/bo-ghp.css">
-    <link rel="stylesheet" href="/assets/css/side-menu.css">
+    <link rel="stylesheet" href="{{ "/assets/css/bo-ghp.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/side-menu.css" | relative_url }}">
   </head>
   <body>
     <div id="layout">
@@ -39,7 +39,7 @@
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script src="/assets/js/ui.js"></script>
+    <script src="{{ "/assets/js/ui.js" | relative_url }}"></script>
     <script>anchors.add();</script>
     {% if site.google_analytics %}
     <script>
