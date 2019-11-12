@@ -1433,7 +1433,7 @@ Falls Sie daher Beratung zum Thema Open Data wünschen, der über den Inhalt die
 - **Technische Fragen:** „Wir brauchen einen Nutzeraccount für das Datenregister“, „Der File-Upload bei Imperia funktioniert nicht“ – bei solchen technischen Fragen, die sich direkt auf die Open-Data-Infrastruktur des Landes beziehen, kann Ihnen am ehesten das Team des Open-Data-Portals (<a href="mailto:opendata@berlin.de">opendata@berlin.de</a>) weiterhelfen.
 - **Schulung:** In der Vergangenheit wurden über die [Verwaltungsakademie](https://www.berlin.de/vak/) Schulungen zum Thema Open Data angeboten. Diese sollen in Zukunft fortgeführt und ausgebaut werden. Als Einführung in die Thematik wird es z.B. jährlich eine Schulung mit dem Titel _Crashkurs Open Data_ geben.
 - **Open-Data-Networking:** Zwei Mal jährlich werden Open-Data-Lunches von der Senatsverwaltung für Wirtschaft, Energie und Betriebe mit aktuellen Vorträgen zu den Herausforderungen der Open-Data-Strategie Berlins durchgeführt.
-Ansprechpartnerin für das Programm und die Anmeldung ist die Open-Data-Beauftragte der Senatsverwaltung für Wirtschaft, Energie und Betriebe: Betül Özdemir (<a href="mailto:betuel.oezdemir@senweb.berlin.de">betuel.oezdemir@senweb.berlin.de</a>).
+Ansprechpartnerin für das Programm und die Anmeldung ist die Open-Data-Beauftragte der Senatsverwaltung für Wirtschaft, Energie und Betriebe: Betül Özdemir (<a href="mailto:opendata@senweb.berlin.de">opendata@senweb.berlin.de</a>).
 
 # Glossar {-}
 

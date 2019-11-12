@@ -2,6 +2,8 @@
 
 ## Development
 
+- Change the address for "Open-Data-Networking" to opendata@senweb.berlin.de.
+
 ## 1.0.1
 
 - Fix LOR example graphic (all versions)
