@@ -39,7 +39,7 @@ Abschließend stellen wir im Kapitel [_Schnittstellen_](#schnittstellen) kurz zw
 
 <hr/>
 
-Das Berliner Open-Data-Handbuch existiert in zwei Formen: als gedruckte Version, die Sie immer griffbereit am Schreibtisch haben können, und als „lebendiges“ digitales Dokument, das Aktualisierungen und Neuerungen schnell aufnehmen kann. Diese akuelle Version des Handbuchs ist immer unter folgender URL verfügbar:
+Das Berliner Open-Data-Handbuch existiert in zwei Formen: als gedruckte Version, die Sie immer griffbereit am Schreibtisch haben können, und als „lebendiges“ digitales Dokument, das Aktualisierungen und Neuerungen schnell aufnehmen kann. Diese aktuelle Version des Handbuchs ist immer unter folgender URL verfügbar:
 
 <https://daten.berlin.de/datenbereitsteller>
 
