@@ -11,7 +11,7 @@
 
 - Fix LOR example graphic (all versions) – thanks [@tursics](https://github.com/tursics)
 - Add version number to document (all versions)
-- Fix icon in info boxes (print version)
+- Fix icon in info boxes (print-pdf version)
 - Add responsive table of contents (online version)
 - Move custom CSS to own stylesheet (online version)
 
