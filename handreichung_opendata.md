@@ -91,7 +91,7 @@ Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsa
 
 In den Anfängen der Open-Data-Initiative in Berlin war die Veröffentlichung von Verwaltungsdaten freiwillig.
 Es stand den Behörden frei, ob und welche Daten sie veröffentlichen.
-Mit dem Berliner E-Government Gesetz (EGovG Bln) hat sich dies geändert:
+Mit dem Berliner E-Government-Gesetz (EGovG Bln) hat sich dies geändert:
 Es gilt nun, dass grundsätzlich alle Behörden, die zur unmittelbaren Landesverwaltung gehören, die von ihnen erhobenen oder verarbeiteten Daten als Open Data veröffentlichen sollen.
 Die Veröffentlichung soll ohne Zeitverzögerung geschehen.
 Auch verwaltungsnahe Einrichtungen, die nicht zur unmittelbaren Landesverwaltung gehören, sind eingeladen, im Datenportal zu veröffentlichen.
@@ -1028,7 +1028,7 @@ Beantworten Sie bei der Beschreibung z.&nbsp;B. folgende Fragen:
 - Um welchen Datensatz handelt es sich?
 - Über welche Informationen gibt der Datensatz Auskunft?
 - Auf welchen Ort und auf welche Zeit beziehen sich die Daten?
-- Wer stellte diese Daten zur Verfügung?
+- Wer stellt diese Daten zur Verfügung?
 
 ### Lizenz
 
