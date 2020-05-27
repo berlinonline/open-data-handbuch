@@ -41,7 +41,7 @@ Abschließend stellen wir im Kapitel [_Schnittstellen_](#schnittstellen) kurz zw
 
 <hr/>
 
-Das Berliner Open-Data-Handbuch existiert in zwei Formen: als gedruckte Version, die Sie immer griffbereit am Schreibtisch haben können, und als „lebendiges“ digitales Dokument, das Aktualisierungen und Neuerungen schnell aufnehmen kann. Diese akuelle Version des Handbuchs ist immer unter folgender URL verfügbar:
+Das Berliner Open-Data-Handbuch existiert in zwei Formen: als gedruckte Version, die Sie immer griffbereit am Schreibtisch haben können, und als „lebendiges“ digitales Dokument, das Aktualisierungen und Neuerungen schnell aufnehmen kann. Diese aktuelle Version des Handbuchs ist immer unter folgender URL verfügbar:
 
 <https://daten.berlin.de/datenbereitsteller>
 
@@ -93,7 +93,7 @@ Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsa
 
 In den Anfängen der Open-Data-Initiative in Berlin war die Veröffentlichung von Verwaltungsdaten freiwillig.
 Es stand den Behörden frei, ob und welche Daten sie veröffentlichen.
-Mit dem Berliner E-Government Gesetz (EGovG Bln) hat sich dies geändert:
+Mit dem Berliner E-Government-Gesetz (EGovG Bln) hat sich dies geändert:
 Es gilt nun, dass grundsätzlich alle Behörden, die zur unmittelbaren Landesverwaltung gehören, die von ihnen erhobenen oder verarbeiteten Daten als Open Data veröffentlichen sollen.
 Die Veröffentlichung soll ohne Zeitverzögerung geschehen.
 Auch verwaltungsnahe Einrichtungen, die nicht zur unmittelbaren Landesverwaltung gehören, sind eingeladen, im Datenportal zu veröffentlichen.
@@ -1056,7 +1056,7 @@ Beantworten Sie bei der Beschreibung z.&nbsp;B. folgende Fragen:
 - Um welchen Datensatz handelt es sich?
 - Über welche Informationen gibt der Datensatz Auskunft?
 - Auf welchen Ort und auf welche Zeit beziehen sich die Daten?
-- Wer stellte diese Daten zur Verfügung?
+- Wer stellt diese Daten zur Verfügung?
 
 #### Lizenz
 
@@ -1461,7 +1461,7 @@ Falls Sie daher Beratung zum Thema Open Data wünschen, der über den Inhalt die
 - **Technische Fragen:** „Wir brauchen einen Nutzeraccount für das Datenregister“, „Der File-Upload bei Imperia funktioniert nicht“ – bei solchen technischen Fragen, die sich direkt auf die Open-Data-Infrastruktur des Landes beziehen, kann Ihnen am ehesten das Team des Open-Data-Portals (<a href="mailto:opendata@berlin.de">opendata@berlin.de</a>) weiterhelfen.
 - **Schulung:** In der Vergangenheit wurden über die [Verwaltungsakademie](https://www.berlin.de/vak/) Schulungen zum Thema Open Data angeboten. Diese sollen in Zukunft fortgeführt und ausgebaut werden. Als Einführung in die Thematik wird es z.B. jährlich eine Schulung mit dem Titel _Crashkurs Open Data_ geben.
 - **Open-Data-Networking:** Zwei Mal jährlich werden Open-Data-Lunches von der Senatsverwaltung für Wirtschaft, Energie und Betriebe mit aktuellen Vorträgen zu den Herausforderungen der Open-Data-Strategie Berlins durchgeführt.
-Ansprechpartnerin für das Programm und die Anmeldung ist die Open-Data-Beauftragte der Senatsverwaltung für Wirtschaft, Energie und Betriebe: Betül Özdemir (<a href="mailto:betuel.oezdemir@senweb.berlin.de">betuel.oezdemir@senweb.berlin.de</a>).
+Ansprechpartnerin für das Programm und die Anmeldung ist die Open-Data-Beauftragte der Senatsverwaltung für Wirtschaft, Energie und Betriebe: Betül Özdemir (<a href="mailto:opendata@senweb.berlin.de">opendata@senweb.berlin.de</a>).
 
 ## Glossar
 
@@ -1693,6 +1693,6 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2019-11-07
- ([1.0.1](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#101))
+**Stand**: 2020-05-27
+ ([1.0.2](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#102))
 
