@@ -918,6 +918,10 @@ Dies ist insbesondere dann so, wenn der Datensatz direkt manuell im Datenregiste
 Bei anderen Veröffentlichungswegen, z.&nbsp;B. [SimpleSearch](#imperia-simplesearch) oder [Datenrubrik](#imperia-datenrubrik) in Imperia, trifft dies jedoch nicht zu: hier bezeichnet die Organisation den jeweiligen Veröffentlichungsweg, also _SimpleSearch_ oder _Datenrubrik_.
 Dies stellt sicher, dass Datensätze, die über diese Veröffentlichungswege in das Datenregister gelangen, auch nur auf diesem Wege geändert oder gelöscht werden können.
 
+Organisationen können Beschreibungstexte und Logos haben.
+Diese sind aber im öffentlichen Datenportal nicht sichtbar und müssen daher auch nicht zwingend gesetzt werden.
+Beschreibungstext und Logo können nur vom Administrator des Datenregisters verändert werden (<a href="mailto:opendata@berlin.de">opendata@berlin.de</a>).
+
 ### Datensatz anlegen
 
 Um einen neuen Datensatz im Datenregister anzulegen, klicken Sie im Bereich [_Datensätze_](https://datenregister.berlin.de/dataset) den Button [_Datensatz hinzufügen_](https://datenregister.berlin.de/dataset/new).
