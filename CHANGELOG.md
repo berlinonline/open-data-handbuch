@@ -2,6 +2,8 @@
 
 ## Development
 
+## 1.0.3
+
 - Add some additional information about the concept of organizations in the Datenregister.
 - Turn some e-mail addresses into clickable links.
 
