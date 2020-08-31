@@ -865,7 +865,7 @@ Das Datenregister ist nicht-öffentlich.
 Vorraussetzung für die Nutzung ist daher, dass Sie über ein Benutzerkonto verfügen (das Benutzerkonto ist unabhängig von Ihrem Imperia-Zugang).
 Um ein Benutzerkonto zu beantragen und zu aktivieren, gehen Sie folgendermaßen vor:
 
-- Beantragen Sie das Benutzerkonto per E-Mail an opendata@berlin.de, Betreff „Zugang Datenregister {NAME}“. Geben Sie dabei Ihren vollen Namen und zugehörige Organisation (Verwaltung, Abteilung etc.) an. Das Benutzerkonto ist personalisiert.
+- Beantragen Sie das Benutzerkonto per E-Mail an <a href="mailto:opendata@berlin.de">opendata@berlin.de</a>, Betreff „Zugang Datenregister {NAME}“. Geben Sie dabei Ihren vollen Namen und zugehörige Organisation (Verwaltung, Abteilung etc.) an. Das Benutzerkonto ist personalisiert.
 - Wenn mehrere Zugänge beantragt werden, muss für jede Person eine gültige E-Mail-Adresse angegeben werden.
 - Sobald Ihr Antrag bearbeitet ist, erhalten Sie eine E-Mail mit Ihrem Benutzernamen.
 - Öffnen Sie die Seite <https://datenregister.berlin.de/user/reset>.
@@ -946,6 +946,10 @@ Dies ist insbesondere dann so, wenn der Datensatz direkt manuell im Datenregiste
 Bei anderen Veröffentlichungswegen, z.&nbsp;B. [SimpleSearch](#imperia-simplesearch) oder [Datenrubrik](#imperia-datenrubrik) in Imperia, trifft dies jedoch nicht zu: hier bezeichnet die Organisation den jeweiligen Veröffentlichungsweg, also _SimpleSearch_ oder _Datenrubrik_.
 Dies stellt sicher, dass Datensätze, die über diese Veröffentlichungswege in das Datenregister gelangen, auch nur auf diesem Wege geändert oder gelöscht werden können.
 
+Organisationen können Beschreibungstexte und Logos haben.
+Diese sind aber im öffentlichen Datenportal nicht sichtbar und müssen daher auch nicht zwingend gesetzt werden.
+Beschreibungstext und Logo können nur vom Administrator des Datenregisters verändert werden (<a href="mailto:opendata@berlin.de">opendata@berlin.de</a>).
+
 #### Datensatz anlegen
 
 Um einen neuen Datensatz im Datenregister anzulegen, klicken Sie im Bereich [_Datensätze_](https://datenregister.berlin.de/dataset) den Button [_Datensatz hinzufügen_](https://datenregister.berlin.de/dataset/new).
@@ -989,7 +993,7 @@ Wählen Sie diesen Weg, wenn:
 
 Bei dieser Art der Veröffentlichung setzt der Datenbereitsteller selbst auf eigenen Servern Software ein, die aus eigenen Datenbeständen JSON-Beschreibungen erzeugt und diese über die CKAN-API des Datenregisters automatisch veröffentlicht.
 Da dieser Veröffentlichungsweg spezialisierte Softwareentwicklung erfordert, die je nach Situation sehr unterschiedlich ausfallen kann, kann an dieser Stelle nicht weiter auf diesen Weg eingegangen werden.
-Sollten Sie Interesse an dieser Art der Veröffentlichung haben, kontaktieren Sie gerne opendata@berlin.de, um weitere Informationen zu erhalten.
+Sollten Sie Interesse an dieser Art der Veröffentlichung haben, kontaktieren Sie gerne <a href="mailto:opendata@berlin.de">opendata@berlin.de</a>, um weitere Informationen zu erhalten.
 
 Als Einstiegspunkte zu weiterer Information dienen folgende Ressourcen:
 
@@ -1693,6 +1697,6 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2020-05-27
- ([1.0.2](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#102))
+**Stand**: 2020-08-31
+ ([1.0.3](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#103))
 
