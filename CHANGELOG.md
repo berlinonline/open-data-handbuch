@@ -2,6 +2,7 @@
 
 ## Development
 
+- Turn some e-mail addresses into clickable links.
 ## 1.0.2
 
 - Change the address for "Open-Data-Networking" to opendata@senweb.berlin.de.
