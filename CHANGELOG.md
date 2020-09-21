@@ -2,6 +2,10 @@
 
 ## Development
 
+## 1.0.4
+
+- Add recommendation to use "verständliche Sprache" for dataset and resource descriptions and link to relevant standards and documents by Senatsverwaltung für Inneres und Sport.
+
 ## 1.0.3
 
 - Add some additional information about the concept of organizations in the Datenregister.

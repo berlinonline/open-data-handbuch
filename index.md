@@ -1062,6 +1062,16 @@ Beantworten Sie bei der Beschreibung z.&nbsp;B. folgende Fragen:
 - Auf welchen Ort und auf welche Zeit beziehen sich die Daten?
 - Wer stellt diese Daten zur Verfügung?
 
+{::options parse_block_html="true" /}
+<div class="bo-box">
+
+Damit die Beschreibungstexte für möglichst viele Nutzer\*innen zugänglich sind, sollten die Texte einfach strukturiert und formuliert sein, und auf Stolpersteine wie Amtsdeutsch, Fremdwörter oder über-komplexe Formulierungen verzichten.
+In der Berliner IKT-Architektur sind zu diesem Zweck die [_Berliner Standards für barrierefreie Sprache und Texte_](https://www.berlin.de/moderne-verwaltung/barrierefreie-it/fuer-verwaltungen/berliner-standards/sprache/artikel.982212.php) festgelegt.
+Dazu zählt auch der [_Leitfaden für Verständliche Sprache_](https://www.berlin.de/moderne-verwaltung/barrierefreie-it/fuer-verwaltungen/berliner-standards/sprache/artikel.982503.php), dem die Berliner Verwaltungen beim Schreiben ihrer digitalen Texte folgen sollen.
+
+</div>
+{::options parse_block_html="false" /}
+
 #### Lizenz
 
 Die Lizenz bestimmt, zu welchen Bedingungen der Datensatz genutzt werden darf.
@@ -1161,6 +1171,8 @@ Der Titel ist ein knapper, aussagekräftiger Titel für die Ressource. Oft tritt
 
 Mit der Beschreibung können Sie weitere Angaben zur Ressource machen.
 Ein Beispiel wäre etwa eine Information zum Datenschema (z.&nbsp;B. Spaltennamen bei tabellarischen Daten).
+
+Auch für die Beschreibung der Datenressourcen gilt, dass diese in verständlicher Sprache verfasst sein sollen (s. [Beschreibung des Datensatzes](#beschreibung)).
 
 #### Format
 
@@ -1697,6 +1709,6 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2020-08-31
- ([1.0.3](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#103))
+**Stand**: 2020-09-21
+ ([1.0.4](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#104))
 

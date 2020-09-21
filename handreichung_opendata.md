@@ -1034,6 +1034,14 @@ Beantworten Sie bei der Beschreibung z.&nbsp;B. folgende Fragen:
 - Auf welchen Ort und auf welche Zeit beziehen sich die Daten?
 - Wer stellt diese Daten zur Verfügung?
 
+@include(box_prefix)
+
+Damit die Beschreibungstexte für möglichst viele Nutzer\*innen zugänglich sind, sollten die Texte einfach strukturiert und formuliert sein, und auf Stolpersteine wie Amtsdeutsch, Fremdwörter oder über-komplexe Formulierungen verzichten.
+In der Berliner IKT-Architektur sind zu diesem Zweck die [_Berliner Standards für barrierefreie Sprache und Texte_](https://www.berlin.de/moderne-verwaltung/barrierefreie-it/fuer-verwaltungen/berliner-standards/sprache/artikel.982212.php) festgelegt.
+Dazu zählt auch der [_Leitfaden für Verständliche Sprache_](https://www.berlin.de/moderne-verwaltung/barrierefreie-it/fuer-verwaltungen/berliner-standards/sprache/artikel.982503.php), dem die Berliner Verwaltungen beim Schreiben ihrer digitalen Texte folgen sollen.
+
+@include(box_suffix)
+
 ### Lizenz
 
 Die Lizenz bestimmt, zu welchen Bedingungen der Datensatz genutzt werden darf.
@@ -1133,6 +1141,8 @@ Der Titel ist ein knapper, aussagekräftiger Titel für die Ressource. Oft tritt
 
 Mit der Beschreibung können Sie weitere Angaben zur Ressource machen.
 Ein Beispiel wäre etwa eine Information zum Datenschema (z.&nbsp;B. Spaltennamen bei tabellarischen Daten).
+
+Auch für die Beschreibung der Datenressourcen gilt, dass diese in verständlicher Sprache verfasst sein sollen (s. [Beschreibung des Datensatzes](#beschreibung)).
 
 ### Format
 
