@@ -1709,6 +1709,11 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2020-09-21
- ([1.0.4](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#104))
+**Stand**: 2020-11-20
+ ([1.0.5](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#105))
+
+---
+
+![Europäischer Fonds für regionale Entwicklung (EFRE)](images/eu_efre_zusatz_unten.png "Logo und Schriftzug 'Europäischer Fonds für regionale Entwicklung (EFRE)'"){:width="205px"}&nbsp;&nbsp;
+![Senatsverwaltung für Wirtschaft, Energie und Betriebe](images/Sen_WiEnBe_Logo_DE_v_p_4C_VORAB.png "Logo und Schriftzug 'Senatsverwaltung für Wirtschaft, Energie und Betriebe'"){:width="240px"}
 

@@ -5,4 +5,5 @@ temp
 Gemfile.lock
 
 parts/pages_impressum.md
+parts/latex_impressum.md
 template/metadata.yml

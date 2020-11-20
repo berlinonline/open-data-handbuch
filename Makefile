@@ -1,13 +1,13 @@
 .PHONY: pdf
-pdf: clean temp/date.txt parts/pages_impressum.md | temp
+pdf: clean temp/date.txt parts/latex_impressum.md | temp
 	@echo "generate metadata ..."
 	@ruby bin/include_markdown.rb -s txt -f temp -p template/metadata_yml.template > template/metadata.yml
 	@echo "combining parts ..."
-	@cat parts/latex_preamble.md handreichung_opendata.md parts/pages_impressum.md > temp/pdf_source.md
+	@cat parts/latex_preamble.md handreichung_opendata.md parts/latex_impressum.md > temp/pdf_source.md
 	@echo "replacing <br/> with double space ..."
 	@sed 's:<br/>:  :g' temp/pdf_source.md > temp/handreichung_opendata_01.md
 	@echo "remove gfm image widths and centering ..."
-	@sed -e 's:{\:width=".*px"}{\: \.centered }::' temp/handreichung_opendata_01.md > temp/handreichung_opendata_02.md
+	@sed -e 's:{\:width=".*px"}::' temp/handreichung_opendata_01.md | sed -e 's:{\: .centered }::' > temp/handreichung_opendata_02.md
 	@echo "include markdown snippets ..."
 	@ruby bin/include_markdown.rb -p temp/handreichung_opendata_02.md -s pandoc > temp/handreichung_opendata_03.md
 	@echo "rewrite link targets ..."
@@ -101,6 +101,10 @@ parts/example_tabular_data.gfm: parts/example_tabular_data.pandoc
 parts/pages_impressum.md: temp/date.txt
 	@echo "generate impressum ..."
 	@ruby bin/include_markdown.rb -s txt -f temp -p parts/pages_impressum.template.md > parts/pages_impressum.md
+
+parts/latex_impressum.md: temp/date.txt
+	@echo "generate impressum ..."
+	@ruby bin/include_markdown.rb -s txt -f temp -p parts/latex_impressum.template.md > $@
 
 .PHONY: temp/date.txt
 temp/date.txt: | temp

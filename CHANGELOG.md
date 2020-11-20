@@ -2,6 +2,10 @@
 
 ## Development
 
+## 1.0.5
+
+- Add funding logos for EFRE and SenWEB to impressum. 
+
 ## 1.0.4
 
 - Add recommendation to use "verständliche Sprache" for dataset and resource descriptions and link to relevant standards and documents by Senatsverwaltung für Inneres und Sport.
