@@ -4,8 +4,8 @@
 
 Seit der Veröffentlichung der [_Berliner Open Data-Strategie_](https://www.berlin.de/sen/inneres/service/publikationen/strategie-studie_zur_umsetzung_des_open-data-gedankens_in_der___ffentlichen_verwaltung.pdf) und dem Start des Berliner Datenportals im Jahr 2011 ist das Angebot an offenen Verwaltungsdaten in Berlin kontinuierlich gewachsen.
 Viele Verwaltungen und deren Beschäftigte haben sich in den letzten Jahren erstmals mit den Potenzialen offener Daten auseinandergesetzt, einige auch mit der Veröffentlichung begonnen.
-Mit der Verabschiedung des [E-Government-Gesetzes Berlin](http://gesetze.berlin.de/jportal/?quelle=jlink&query=EGovG+BE&psml=bsbeprod.psml&max=true&aiz=true) im Juni 2016 ist das Thema Open Data fest auf Landesebene verankert.
-Denn nach [§&nbsp;13](http://gesetze.berlin.de/jportal/portal/t/lkc/page/bsbeprod.psml?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=1&numberofresults=1&fromdoctodoc=yes&doc.id=jlr-EGovGBEpP13#focuspoint) des E-Government-Gesetzes müssen die Behörden der Berliner Verwaltung in einem zentralen Datenportal Informationen bereitstellen, die sie in Erfüllung ihres öffentlichen Auftrags im Rahmen ihrer jeweiligen Zuständigkeit erstellt haben und die in maschinenlesbaren Formaten darstellbar sind.
+Mit der Verabschiedung des [E-Government-Gesetzes Berlin](https://gesetze.berlin.de/perma?a=EGovG_BE) im Juni 2016 ist das Thema Open Data fest auf Landesebene verankert.
+Denn nach [§&nbsp;13](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) des E-Government-Gesetzes müssen die Behörden der Berliner Verwaltung in einem zentralen Datenportal Informationen bereitstellen, die sie in Erfüllung ihres öffentlichen Auftrags im Rahmen ihrer jeweiligen Zuständigkeit erstellt haben und die in maschinenlesbaren Formaten darstellbar sind.
 Das zentrale Datenportal ist Bestandteil des elektronischen Stadtinformationssystems für das Land Berlin.
 Wenn Informationen in anderen Datenportalen maschinenlesbar bereitgestellt werden, wird im zentralen Datenportal ein Verweis auf diese Informationen eingerichtet.
 
@@ -99,7 +99,7 @@ Die Veröffentlichung soll ohne Zeitverzögerung geschehen.
 Auch verwaltungsnahe Einrichtungen, die nicht zur unmittelbaren Landesverwaltung gehören, sind eingeladen, im Datenportal zu veröffentlichen.
 Die Frage nach einer Vorauswahl oder Priorisierung bei der Veröffentlichung stellt sich also nicht mehr.
 
-Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc.  liefert die Rechtsverordnung zu [§13 EGovG Bln](http://gesetze.berlin.de/jportal/portal/t/lkc/page/bsbeprod.psml?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=1&numberofresults=1&fromdoctodoc=yes&doc.id=jlr-EGovGBEpP13#focuspoint).
+Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc. liefert die Rechtsverordnung zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13).
 
 Die folgenden Beispiele für Datenarten und Themenfelder sollen einen Eindruck davon vermitteln, welche Daten erwartet werden. 
 Auch diese Beispiele werden in der Rechtsverordnung näher ausgeführt.
@@ -638,7 +638,7 @@ In das Open-Data-Portal können nur Datensätze und Dokumente mit klaren, eindeu
 Während des Schritts [_Datenmonitoring_](#datenmonitoring) haben Sie bereits die Datensätze herausgefiltert, zu welchen Sie die Rechte halten.
 Stellen Sie die Daten anschließend unter eine geeignete Lizenz, die den Nutzern größtmöglichen Spielraum beim Umgang mit den Daten einräumt und den Anforderungen an Offenheit genügt.
 Um den Open-Data-Gedanken nicht zu gefährden, sollen die Nutzungsbestimmungen die weitere kommerzielle und nichtkommerzielle Nutzung der veröffentlichten Daten möglichst wenig einschränken.
-Auch hier gibt die Rechtsverordnung zu [§13 EGovG Bln](http://gesetze.berlin.de/jportal/portal/t/lkc/page/bsbeprod.psml?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=1&numberofresults=1&fromdoctodoc=yes&doc.id=jlr-EGovGBEpP13#focuspoint) näher Auskunft.
+Auch hier gibt die Rechtsverordnung zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) näher Auskunft.
 Bei der Entscheidung, ob eine Lizenz als „offen“ einzustufen ist, kann die [Open Definition](https://opendefinition.org/od/2.0/de/) von [Open Knowledge International](https://okfn.org) hinzugezogen werden.
 
 Momentan stehen folgende Lizenzen in den verschiedenen Veröffentlichungswegen zur Verfügung:
@@ -1709,8 +1709,8 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2020-11-20
- ([1.0.5](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#105))
+**Stand**: 2021-06-09
+ ([1.0.6](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#106))
 
 ---
 
