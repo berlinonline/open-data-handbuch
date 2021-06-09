@@ -2,6 +2,12 @@
 
 ## Development
 
+## 1.0.6
+
+- Fix links to [EGovG Bln](https://gesetze.berlin.de/perma?a=EGovG_BE "Gesetz zur Förderung des E-Government (E-Government-Gesetz Berlin - EGovG Bln)").
+- Add `calc` and `array` packages to LaTeX-template to deal with broken table generation in new pandoc (see https://github.com/Zettlr/Zettlr/pull/1566).
+- Remove anchor in link to changelog from PDF, because some PDF viewers create broken links from that (see https://github.com/latex3/hyperref/issues/110).
+
 ## 1.0.5
 
 - Add funding logos for EFRE and SenWEB to impressum. 
