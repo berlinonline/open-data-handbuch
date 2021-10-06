@@ -5,10 +5,7 @@
     border-radius: .25rem;
 }
 
-.bo-box p {
-    margin-bottom: 0px;
-}
-
+.bo-box p,
 .bo-box ul {
     margin-bottom: 8px;
 }
