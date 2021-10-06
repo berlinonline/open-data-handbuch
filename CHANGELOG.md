@@ -2,6 +2,8 @@
 
 ## Development
 
+- Introduce a reference to Datenregister tutorial video produced by ODIS.
+
 ## [1.0.6](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.0.6)
 
 _(2021-06-09)_

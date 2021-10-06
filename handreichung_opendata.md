@@ -831,6 +831,15 @@ Wählen Sie diesen Weg, wenn:
 Unabhängig vom Veröffentlichungsweg gelangen letztendlich alle Datensätze ins Datenregister, und von dort aus ins Datenportal.
 Falls kein Imperia-Zugang vorhanden ist und automatisierte Wege wie der CKAN-Harvester oder ein Upload über die CKAN-API nicht in Frage kommen, besteht auch die Möglichkeit, Datensätze direkt im Datenregister anzulegen.
 
+@include(box_prefix)
+
+Zusätzlich zu der Dokumentation in den folgenden Abschnitten hat die [Open-Data-Informationsstelle](https://www.odis-berlin.de) (ODIS) ein Video-Tutorial produziert, das die Veröffentlichung von Datensätzen mit dem Datenregister sehr anschaulich zeigt.
+Das Video ist etwa 13 Minuten lang und behandelt alle Aspekte von der Anmeldung im Datenregister bis hin zum Anlegen des Datensatzes inklusive aller Metadaten und Ressourcen.
+
+[Hier kommen Sie zum Video-Tutorial zum Berliner Datenregister](https://odis-berlin.de/ressourcen/datenregister.html "Video-Tutorial zum Berliner Datenregister").
+
+@include(box_suffix)
+
 ### Benutzerkonto
 
 Das Datenregister ist nicht-öffentlich.
