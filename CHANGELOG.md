@@ -2,6 +2,7 @@
 
 ## Development
 
+- Update data and references regarding the LOR system (_Lebensweltlich Orientierte Räume_), to reflect the fact that new a new system of codes has been introduced on 1st January 2021, which replaces all codes except the ones for the _Bezirke_.
 - Introduce a reference to Datenregister tutorial video produced by ODIS.
 
 ## [1.0.6](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.0.6)
