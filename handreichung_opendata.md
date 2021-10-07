@@ -231,7 +231,7 @@ Daher lassen sich tabellarische Daten immer auch in JSON oder XML übersetzen.
 Andersherum ist es zwar möglich, Baumstrukturen mit Werkzeugen wie Excel in eine Tabelle zu pressen.
 Allerdings nur, indem man ein hohes Maß an Redundanz in den Daten zulässt, oder indem man mit mehreren verknüpften Tabellen arbeitet – das Endergebnis wäre in seiner Komplexität mit einer Datenbank vergleichbar.
 
-![Die LOR-Hierarchie Berlins\label{fig:lor_hierarchie}](images/format-example-tree_lor2021.png "Ausschnitt aus der LOR-Hierarchie Berlins. Gezeigt wird, wie sich Berlin in Bezirke aufspaltet, Bezirke in Prognoseräume, Prognoseräume in Bezirksregionen und Bezirksregionen in Planungsräume. Im Beispiel geht die Hierarchie vom Land Berlin zum Bezirk Neukölln (08), über den Prognoseraum Neukölln (0810) und die Bezirksregion Schillerpromenade (081001) bis hin zu den Planungsräumen, z.B. die Hasenheide (08100115).")
+![Die LOR-Hierarchie Berlins\label{fig:lor_hierarchie}](images/format-example-tree_lor2021.png "Ausschnitt aus der LOR-Hierarchie Berlins. Gezeigt wird, wie sich Berlin in Bezirke aufspaltet, Bezirke in Prognoseräume, Prognoseräume in Bezirksregionen und Bezirksregionen in Planungsräume. Im Beispiel geht die Hierarchie vom Land Berlin zum Bezirk Neukölln (08), über den Prognoseraum Neukölln (0810) und die Bezirksregion Schillerpromenade (081001) bis hin zu den Planungsräumen, z.B. die Hasenheide (08100101).")
 
 @include(box_prefix)
 
