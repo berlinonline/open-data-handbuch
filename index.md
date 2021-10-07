@@ -250,7 +250,7 @@ Daher lassen sich tabellarische Daten immer auch in JSON oder XML übersetzen.
 Andersherum ist es zwar möglich, Baumstrukturen mit Werkzeugen wie Excel in eine Tabelle zu pressen.
 Allerdings nur, indem man ein hohes Maß an Redundanz in den Daten zulässt, oder indem man mit mehreren verknüpften Tabellen arbeitet – das Endergebnis wäre in seiner Komplexität mit einer Datenbank vergleichbar.
 
-![Die LOR-Hierarchie Berlins](images/format-example-tree.png "Ausschnitt aus der LOR-Hierarchie Berlins. Gezeigt wird, wie sich Berlin in Bezirke aufspaltet, Bezirke in Prognoseräume – am Beipspiel des Bezirks Neukölln (08) –, Prognoseräume in Bezirksregionen – am Beispiel Neukölln (0801) – und Bezirksregionen in Planungsräume – am Beispiel Schillerpromenade (080101).")
+![Die LOR-Hierarchie Berlins](images/format-example-tree_lor2021.png "Ausschnitt aus der LOR-Hierarchie Berlins. Gezeigt wird, wie sich Berlin in Bezirke aufspaltet, Bezirke in Prognoseräume, Prognoseräume in Bezirksregionen und Bezirksregionen in Planungsräume. Im Beispiel geht die Hierarchie vom Land Berlin zum Bezirk Neukölln (08), über den Prognoseraum Neukölln (0810) und die Bezirksregion Schillerpromenade (081001) bis hin zu den Planungsräumen, z.B. die Hasenheide (08100101).")
 
 {::options parse_block_html="true" /}
 <div class="bo-box">
@@ -258,7 +258,16 @@ Allerdings nur, indem man ein hohes Maß an Redundanz in den Daten zulässt, ode
 **Beispiel Baumstruktur: Die lebensweltlich orientierten Räume (LOR) Berlins**
 
 Die lebensweltlich orientierten Räume (LOR) Berlins sind ein typisches Beispiel für eine Baumstruktur (s. Abbildung). Ausgehend von der Wurzel Berlin verzweigt sich der Baum über die Bezirke, Prognoseräume, Bezirksregionen und schließlich in die Planungsräume.
-Quelle: [[SENSTADTUM2011](#SENSTADTUM2011)]
+
+Das LOR-Code-System existiert in zwei Varianten:
+Zum einen gibt es die ursprüngliche Variante mit 447 Planungsräumen, die von 08.01.2006 – 31.12.2020 gültig war.
+Diese Variante wurde abgelöst von der aktualisierten Variante mit nun 542 Planungsräumen, die seit dem 01.01.2021 gültig ist.
+Die beiden Varianten sind nur in den Codes der Bezirke kompatibel.
+Auf allen anderen Ebenen haben sich die Codes zum Teil stark geändert.
+
+- Dokumentation zum LOR-System: [Lebensweltlich orientierte Räume (LOR) in Berlin](https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/) und [[SENSTADT2020](#SENSTADT2020)]
+- Datensatz zu LOR 2006: [[AFS2015](#AFS2015)]
+- Datensatz zu LOR 2021: [[AFS2020](#AFS2020)]
 
 </div>
 {::options parse_block_html="false" /}
@@ -570,10 +579,11 @@ Attribution xkcd Comic (s. Abbildung): Comic _ISO 8601_, veröffentlicht unter [
 - **Eindeutige Bezeichner**: Wann immer vorhanden, sollten eindeutige Bezeichner und Codes in den Daten verwendet werden.
 Diese Bezeichner sollten aus möglichst weit verbreiteten und als Standard genutzten Referenzdatensätzen entnommen sein.
 Dies erleichtert die automatische Einordnung der Daten und die Verknüpfung mit anderen Daten. Beispiele sind:
-  - **Lebensweltlich orientierte Räume (LOR)**: Berlin ist geografisch in eine vierstufige Hierarchie von sogenannten [_Lebensweltlich orientierten Räumen_](https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin) gegliedert, von Bezirken über Prognoseräume und Bezirksregionen bis hin zu Planungsräumen.
+  - **Lebensweltlich orientierte Räume (LOR)**: Berlin ist geografisch in eine vierstufige Hierarchie von sogenannten [_Lebensweltlich orientierten Räumen_](https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/) gegliedert, von Bezirken über Prognoseräume und Bezirksregionen bis hin zu Planungsräumen.
   Jeder LOR hat einen Schlüssel, der als eindeutiger Bezeichner dient.
-  So hat zum Beispiel der Planungsraum _Oranienplatz_ den Schlüssel `02010103` und der Prognoseraum _Tegel_ den Schlüssel `1221`.
+  So hat zum Beispiel der Planungsraum _Oranienplatz_ den Schlüssel `02300314` und der Prognoseraum _Tegel_ den Schlüssel `1220`.
   Wenn in einem Datensatz auf einen LOR (z.&nbsp;B. einen Bezirk) Bezug genommen wird, sollte immer auch der Schlüssel als gesonderter Wert (z.&nbsp;B. in einer Spalte `LOR-Schlüssel`) mit angegeben werden, nicht nur der Name.
+  Wie [oben](#baumstruktur-hierarchische-daten) ausgeführt, gibt es zwei LOR-Systeme (ein aktuelles und ein veraltetes), die bis auf die Bezirke nicht miteinander kompatibel sind.
   - **Klassifikationen**: In vielen Datensätzen werden Daten thematisch oder anderweitig bestimmten Kategorien zugeordnet.
   In diesem Fall sollten möglichst weit verbreitete, standardisierte Klassifikationen genutzt werden.
   Ein Beispiel ist die von destatis veröffentlichte [Klassifikation der Wirtschaftszweige (WZ2008)](https://www.destatis.de/DE/Methoden/Klassifikationen/GueterWirtschaftklassifikationen/Content75/KlassifikationWZ08.html). Hier hat z.&nbsp;B. die Kategorie _Entwicklung und Programmierung von Internetpräsentationen_ den Code `62.01.1` während _Theater- und Konzertveranstalter_ den Code `90.04.1` hat.
@@ -858,6 +868,17 @@ Wählen Sie diesen Weg, wenn:
 
 Unabhängig vom Veröffentlichungsweg gelangen letztendlich alle Datensätze ins Datenregister, und von dort aus ins Datenportal.
 Falls kein Imperia-Zugang vorhanden ist und automatisierte Wege wie der CKAN-Harvester oder ein Upload über die CKAN-API nicht in Frage kommen, besteht auch die Möglichkeit, Datensätze direkt im Datenregister anzulegen.
+
+{::options parse_block_html="true" /}
+<div class="bo-box">
+
+Zusätzlich zu der Dokumentation in den folgenden Abschnitten hat die [Open-Data-Informationsstelle](https://www.odis-berlin.de) (ODIS) ein Video-Tutorial produziert, das die Veröffentlichung von Datensätzen mit dem Datenregister sehr anschaulich zeigt.
+Das Video ist etwa 13 Minuten lang und behandelt alle Aspekte von der Anmeldung im Datenregister bis hin zum Anlegen des Datensatzes inklusive aller Metadaten und Ressourcen.
+
+[Hier kommen Sie zum Video-Tutorial zum Berliner Datenregister](https://odis-berlin.de/ressourcen/datenregister.html "Video-Tutorial zum Berliner Datenregister").
+
+</div>
+{::options parse_block_html="false" /}
 
 #### Benutzerkonto
 
@@ -1673,6 +1694,10 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 ## Quellenverzeichnis
 
+**[<a name="AFS2015">AFS2015</a>]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR)- Planungsräume - \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-wfs>. [Gesehen 06.10.2021]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+
+**[<a name="AFS2020">AFS2020</a>]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2021) - \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012021-wfs>. [Gesehen 06.10.2021]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+
 **[<a name="BOTH2012">BOTH2012</a>]** W. Both und I. Schieferdecker (Hrsg.). _Berliner Open Data-Strategie: organisatorische, rechtliche und technische Aspekte offener Daten in Berlin; Konzept, Pilot und Handlungsempfehlungen_. Stuttgart: Fraunhofer Verlag, 2012.
 
 **[<a name="EC2013">EC2013</a>]** Europäische Kommission. _Einführung in Linked Data_. (Zugl. Open Data Support, Trainingsmodul 1.2). 2013. PDF. <https://www.europeandataportal.eu/sites/default/files/d2.1.2_training_module_1.2_introduction_to_linked_data_de_edp.pdf>. [Gesehen 05.07.2019].
@@ -1685,7 +1710,7 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[<a name="OKF2019">OKF2019</a>]** Open Knowledge Foundation. „Datenformate“ in _Das Open Data Handbuch_. Webseite. <https://opendatahandbook.org/guide/de/appendices/file-formats/>. [Gesehen 05.07.2019].
 
-**[<a name="SENSTADTUM2011">SENSTADTUM2011</a>]** Senatsverwaltung für Stadtentwicklung und Umwelt Berlin. _Lebensweltlich orientierte Räume (LOR) in Berlin_. 2011. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-berlin>. [Gesehen 05.07.2019]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+**[<a name="SENSTADT2020">SENSTADT2020</a>]** Senatsverwaltung für Stadtentwicklung und Wohnen Berlin und Amt für Statistik Berlin-Brandenburg. _Dokumentation zur Modifikation der Lebensweltlich orientierten Räume (LOR)_. Onlinedokument. <https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/download/Dokumentation_zur_Modifikation_LOR_2020.pdf>. [Gesehen 06.10.2021].
 
 **[<a name="SENWEB2018">SENWEB2018</a>]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. 2018. Datensatz. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). [Gesehen 05.07.2019]. Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
 
@@ -1709,8 +1734,8 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2021-06-09
- ([1.0.6](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#106))
+**Stand**: 2021-10-07
+ ([1.0.7](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#107))
 
 ---
 
