@@ -2,6 +2,12 @@
 
 ## Development
 
+## [1.0.8](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.0.8)
+
+_(2021-10-25)_
+
+- Improve LOR example picture (fonts and shadows).
+
 ## [1.0.7](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.0.7)
 
 _(2021-10-07)_
