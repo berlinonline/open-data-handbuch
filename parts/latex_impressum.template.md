@@ -8,7 +8,7 @@
 Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenommen.
 [Quellenverzeichnis](#quellenverzeichnis) und [Bildverzeichnis](#bildverzeichnis) mit entsprechenden Urheberrechtsangaben sind im Handbuch enthalten.<br/>
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
-Dort können über die _Issue_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
+Dort können über die _[Issue](https://github.com/berlinonline/open-data-handbuch/issues)_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
 **Stand**: @include(date) ([1.0.8](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md))
 
