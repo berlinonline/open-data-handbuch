@@ -3,7 +3,7 @@ documentclass: book
 language: de
 date: @include(date)
 title: 'Das Berliner Open-Data-Handbuch'
-cover-image: images/title.jpg
+cover-image: images/title.png
 numbersections: true
 fontfamily: arev
 papersize: a4

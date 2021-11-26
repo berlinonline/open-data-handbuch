@@ -2,6 +2,8 @@
 
 ## Development
 
+- Update title graphic.
+
 ## [1.0.8](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.0.8)
 
 _(2021-10-25)_
