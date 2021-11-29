@@ -3,6 +3,8 @@
 ## Development
 
 - Update title graphic.
+- Add various references to ODIS-Resources.
+- Remove "improve this site"-link from template (it was wrong and not helpful), add link to issues in impressum.
 
 ## [1.0.8](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.0.8)
 

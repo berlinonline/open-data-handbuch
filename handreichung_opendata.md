@@ -83,7 +83,7 @@ Gibt es in Ihrer Einrichtung eine Open-Data-Beauftragte oder einen Open-Data-Bea
 Haben Kolleg*innen in Ihrer Einrichtung bereits Daten veröffentlicht?
 Werfen Sie über das Open-Data-Portal auch einen Blick in andere Behörden: Jeder im Datenportal veröffentlichte Datensatz nennt eine E-Mail-Adresse, über die Sie weiteren Kontakt zum Thema finden können.
 
-Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsakademie](https://www.berlin.de/vak/), oder Veranstaltungen und Beratungsangebote der [Open-Data-Informationsstelle](https://www.odis-berlin.de) des Landes Berlin (siehe auch das Kapitel [_Weitere Beratung_](#weitere-beratung)).
+Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsakademie](https://www.berlin.de/vak/), oder Veranstaltungen und Beratungsangebote der [Open-Data-Informationsstelle (ODIS)](https://www.odis-berlin.de) des Landes Berlin (siehe auch das Kapitel [_Weitere Beratung_](#weitere-beratung)).
 
 ![Schritt für Schritt zur Veröffentlichung\label{fig:veroeffentlichungsschritte}](images/schritt-für-schritt.png "Übersicht über die Schritte, die zu einer Veröffentlichung eines Datensatzes im Berliner Datenportal führen"){:width="700px"}{: .centered }
 
@@ -95,7 +95,10 @@ Mit dem Berliner E-Government-Gesetz (EGovG Bln) hat sich dies geändert:
 Es gilt nun, dass grundsätzlich alle Behörden, die zur unmittelbaren Landesverwaltung gehören, die von ihnen erhobenen oder verarbeiteten Daten als Open Data veröffentlichen sollen.
 Die Veröffentlichung soll ohne Zeitverzögerung geschehen.
 Auch verwaltungsnahe Einrichtungen, die nicht zur unmittelbaren Landesverwaltung gehören, sind eingeladen, im Datenportal zu veröffentlichen.
-Die Frage nach einer Vorauswahl oder Priorisierung bei der Veröffentlichung stellt sich also nicht mehr.
+Die Frage nach einer Vorauswahl oder Priorisierung bei der Veröffentlichung stellt sich also im Grunde genommen nicht mehr.
+Trotzdem kann es hilfreich sein, eine behördeninterne **Dateninventur** durchzuführen, um den Prozess der Veröffentlichung vorzubereiten und zu unterstützen.
+Die ODIS hat zu diesem Zweck ein _Handout zum Thema Dateninventur_ [@link(ODIS2021a)] erstellt, das alle wichtigen Informationen aufzeigt.
+Dazu gehört auch die _Vorlage für ein Dateninformationsblatt_ [@link(ODIS2021b)], mit dem die Datenbestände in der Behörde dokumentiert werden können.
 
 Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc. liefert die Rechtsverordnung zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13).
 
@@ -158,6 +161,14 @@ Folgende Sachverhalte stehen einer Veröffentlichung entgegen:
 - Die Veröffentlichung würde Urheberrechte o.&nbsp;ä. verletzen.
 - Die Veröffentlichung würde sich nachteilig auf die öffentliche Sicherheit, Informationssicherheit, die Durchführung von Gerichtsverfahren o.&nbsp;ä. auswirken.
 - Die Daten haben einen Personenbezug. Hier gibt es Ausnahmen wie z.&nbsp;B. die Namen der Verfasser\*innen von Gutachten oder Studien, Empfänger\*innen von Förderungen etc.
+
+@include(box_prefix)
+
+Zur Unterstützung dieses Prozesses und um den Einstieg zu erleichtern, hat die ODIS zwei Checklisten veröffentlicht.
+Zum einen den _Veröffentlichungs-Check_ [@link(ODIS2021e)], der neben Fragen des Monitorings auch die Qualität von Daten und Metadaten anspricht.
+Zum anderen die _Checkliste zur Datenschutzprüfung_ [@link(ODIS2021f)], mit der sich die verschiedenen Ausschlusskriterien zur Veröffentlichung von Daten prüfen lassen.
+
+@include(box_suffix)
 
 ## Formatwahl
 
@@ -998,6 +1009,12 @@ Als Einstiegspunkte zu weiterer Information dienen folgende Ressourcen:
 
 Dieser Abschnitt dokumentiert das Metadatenschema des Berliner Datenportals. Die Beschreibungen hier sind rein informativer Natur; verbindliche Definitionen (etwa für die Nutzung der CKAN-API) gibt es jederzeit in aktuell gültiger Form unter <https://datenregister.berlin.de/schema>.
 
+@include(box_prefix)
+
+Weitergehende Informationen zu Metadaten im Berliner Open-Data-Portal, ein ausführliches Beispiel zur Nutzung der unterschiedlichen Metadatenfelder sowie Vorlagen zur vorbereitenden Eingabe der Metadaten in einer Office-Software finden Sie auf der Seite _Was sind Metadaten?_ der Berliner Open-Data-Informationsstelle [@link(ODIS2021c)]. 
+
+@include(box_suffix)
+
 ## Metadaten des Datensatzes
 
 Anmerkung: Nicht alle Metadatenfelder kommen bei allen Veröffentlichungswegen zum Einsatz; einige kommen etwa nur bei der direkten Nutzung des Datenregisters vor.
@@ -1125,6 +1142,13 @@ Nicht geeignet sind:
 - Tags wie „Berlin“ oder „Open Data“, die für alle Datensätze im Datenportal gelten.
 - Tags mit Zeit- und Ortsangaben („2017“, „Pankow“ etc.), da diese Information bereits über die Metadatenfelder zu geografischer und zeitlicher Abdeckung gegeben ist.
 - Tags, die lediglich Titel oder Beschreibung wiedergeben.
+
+@include(box_prefix)
+
+Zum Thema Tags bzw. Schlüsselwörter hat die ODIS einen kurzen Ratgeber geschrieben, der über die hier aufgeführten Informationen hinaus mehr in die Tiefe geht.
+Neben Hinweisen zur Wahl von guten Tags findet man dort auch eine interaktive Analyse der im Datenportal genutzten Tags. [@link(ODIS2021d)]
+
+@include(box_suffix)
 
 ### Organisation
 
@@ -1673,6 +1697,18 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 **[@linktarget(EDP2019a)]** Europäische Kommission. „Was sind offene Daten?“ in _Discovering Open Data_. Webseite. <https://www.europeandataportal.eu/elearning/de/module1>. [Gesehen 05.07.2019].
 
 **[@linktarget(EDP2019b)]** Europäische Kommission. „Wie wählt man das richtige Format für Open Data“ in _Discovering Open Data_. Webseite. <https://www.europeandataportal.eu/elearning/de/module9>. [Gesehen 05.07.2019].
+
+**[@linktarget(ODIS2021a)]** Open Data Informationsstelle. _Handout zum Thema Dateninventur_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninventur>. [Gesehen 26.11.2021].
+
+**[@linktarget(ODIS2021b)]** Open Data Informationsstelle. _Vorlage für ein Dateninformationsblatt_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninformationsblatt>. [Gesehen 26.11.2021].
+
+**[@linktarget(ODIS2021c)]** Open Data Informationsstelle. _Was sind Metadaten?_ 2021. Webseite. <https://odis-berlin.de/ressourcen/metadaten>. [Gesehen 26.11.2021].
+
+**[@linktarget(ODIS2021d)]** Open Data Informationsstelle. _Metadaten-Tags_. 2021. Webseite. <https://odis-berlin.de/ressourcen/tag_analyse>. [Gesehen 26.11.2021].
+
+**[@linktarget(ODIS2021e)]** Open Data Informationsstelle. _Veröffentlichungs-Check_. 2021. Webseite. <https://odis-berlin.de/ressourcen/checkliste>. [Gesehen 29.11.2021].
+
+**[@linktarget(ODIS2021f)]** Open Data Informationsstelle. _Checkliste zur Datenschutzprüfung_. 2021. Webseite. <https://odis-berlin.de/ressourcen/datenschutz>. [Gesehen 29.11.2021].
 
 **[@linktarget(OKF2017)]** Open Knowledge Foundation. _Open Definition 2.1_. 2017. Webseite. <https://opendefinition.org/od/2.1/en/>. [Gesehen 05.07.2019].
 
