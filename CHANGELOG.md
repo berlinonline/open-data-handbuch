@@ -6,7 +6,7 @@
 
 _(2022-04-04)_
 
-- Fix link to Berlin Open Data strategy document by using DNB's URN service.
+- Fix link to Berlin Open Data strategy document by using DNB's URN service – thanks [@hejjoe](https://github.com/hejjoe).
 
 ## [1.0.9](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.0.9)
 
