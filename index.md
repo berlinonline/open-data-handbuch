@@ -1777,7 +1777,7 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 Dort können über die _[Issue](https://github.com/berlinonline/open-data-handbuch/issues)_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
 **Stand**: 2022-04-04
- ([1.0.9](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#109))
+ ([1.0.10](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#1010))
 
 ---
 
