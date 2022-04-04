@@ -2,6 +2,12 @@
 
 ## Development
 
+## [1.0.10](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.0.10)
+
+_(2022-04-04)_
+
+- Fix link to Berlin Open Data strategy document by using DNB's URN service.
+
 ## [1.0.9](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.0.9)
 
 _(2021-12-01)_

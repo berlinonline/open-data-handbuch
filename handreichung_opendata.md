@@ -1,6 +1,6 @@
 # Einleitung
 
-Seit der Veröffentlichung der [_Berliner Open Data-Strategie_](https://www.berlin.de/sen/inneres/service/publikationen/strategie-studie_zur_umsetzung_des_open-data-gedankens_in_der___ffentlichen_verwaltung.pdf) und dem Start des Berliner Datenportals im Jahr 2011 ist das Angebot an offenen Verwaltungsdaten in Berlin kontinuierlich gewachsen.
+Seit der Veröffentlichung der [_Berliner Open Data-Strategie_](https://nbn-resolving.org/urn:nbn:de:0011-n-1955071) und dem Start des Berliner Datenportals im Jahr 2011 ist das Angebot an offenen Verwaltungsdaten in Berlin kontinuierlich gewachsen.
 Viele Verwaltungen und deren Beschäftigte haben sich in den letzten Jahren erstmals mit den Potenzialen offener Daten auseinandergesetzt, einige auch mit der Veröffentlichung begonnen.
 Mit der Verabschiedung des [E-Government-Gesetzes Berlin](https://gesetze.berlin.de/perma?a=EGovG_BE) im Juni 2016 ist das Thema Open Data fest auf Landesebene verankert.
 Denn nach [§&nbsp;13](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) des E-Government-Gesetzes müssen die Behörden der Berliner Verwaltung in einem zentralen Datenportal Informationen bereitstellen, die sie in Erfüllung ihres öffentlichen Auftrags im Rahmen ihrer jeweiligen Zuständigkeit erstellt haben und die in maschinenlesbaren Formaten darstellbar sind.
@@ -1619,7 +1619,7 @@ So wird die Integration von Daten erleichtert, neue Sichten werden ermöglicht, 
 Dies wird erreicht, indem alle wichtigen Begriffe in den Datensätzen mit eindeutigen **URL**-Bezeichnern versehen werden.
 Diese URLs können mit einem Browser oder anderweitig besucht werden, um dort sofort weitere Informationen zu einem Begriff zu erhalten.
 Wenn zwei oder mehr Datensätze dieselben URL-Bezeichner verwenden, entstehen die besagten Links, also Verknüpfungen.
-Linked Data ist die höchste Stufe des [5-Sterne-Modells für Offene Daten](https://5stardata.info/de/) und wurde bereits 2012 in der [_Berliner Open Data-Strategie_](https://www.berlin.de/sen/inneres/service/publikationen/strategie-studie_zur_umsetzung_des_open-data-gedankens_in_der___ffentlichen_verwaltung.pdf) als Ziel definiert [@link(BOTH2012)].
+Linked Data ist die höchste Stufe des [5-Sterne-Modells für Offene Daten](https://5stardata.info/de/) und wurde bereits 2012 in der [_Berliner Open Data-Strategie_](https://nbn-resolving.org/urn:nbn:de:0011-n-1955071) als Ziel definiert [@link(BOTH2012)].
 
 **Lizenz** Die Lizenz im Kontext von Offenen Daten bezeichnet die Nutzungsbedingungen für einen Datensatz, bzw. eine Datenressource.
 Sie schreibt vor, unter welchen Bedingungen, von wem, zu welchem Zweck etc. ein Datensatz genutzt werden kann.
@@ -1690,7 +1690,7 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[@linktarget(AFS2020)]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2021) - \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012021-wfs>. [Gesehen 06.10.2021]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
-**[@linktarget(BOTH2012)]** W. Both und I. Schieferdecker (Hrsg.). _Berliner Open Data-Strategie: organisatorische, rechtliche und technische Aspekte offener Daten in Berlin; Konzept, Pilot und Handlungsempfehlungen_. Stuttgart: Fraunhofer Verlag, 2012.
+**[@linktarget(BOTH2012)]** W. Both und I. Schieferdecker (Hrsg.). _Berliner Open Data-Strategie: organisatorische, rechtliche und technische Aspekte offener Daten in Berlin; Konzept, Pilot und Handlungsempfehlungen_. <https://nbn-resolving.org/urn:nbn:de:0011-n-1955071>. Stuttgart: Fraunhofer Verlag, 2012.
 
 **[@linktarget(EC2013)]** Europäische Kommission. _Einführung in Linked Data_. (Zugl. Open Data Support, Trainingsmodul 1.2). 2013. PDF. <https://www.europeandataportal.eu/sites/default/files/d2.1.2_training_module_1.2_introduction_to_linked_data_de_edp.pdf>. [Gesehen 05.07.2019].
 
