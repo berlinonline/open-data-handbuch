@@ -2,6 +2,12 @@
 
 ## Development
 
+## [1.0.11](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.0.11)
+
+_(2022-11-16)_
+
+- Add links to _Open-Data-Verordnung_ (OpenDataV), add OpenDataV and EGovG Bln to reference section. 
+
 ## [1.0.10](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.0.10)
 
 _(2022-04-04)_

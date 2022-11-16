@@ -2,7 +2,7 @@
 
 Seit der Veröffentlichung der [_Berliner Open Data-Strategie_](https://nbn-resolving.org/urn:nbn:de:0011-n-1955071) und dem Start des Berliner Datenportals im Jahr 2011 ist das Angebot an offenen Verwaltungsdaten in Berlin kontinuierlich gewachsen.
 Viele Verwaltungen und deren Beschäftigte haben sich in den letzten Jahren erstmals mit den Potenzialen offener Daten auseinandergesetzt, einige auch mit der Veröffentlichung begonnen.
-Mit der Verabschiedung des [E-Government-Gesetzes Berlin](https://gesetze.berlin.de/perma?a=EGovG_BE) im Juni 2016 ist das Thema Open Data fest auf Landesebene verankert.
+Mit der Verabschiedung des [E-Government-Gesetzes Berlin](https://gesetze.berlin.de/perma?a=EGovG_BE) im Juni 2016 [@link(EGOVGBLN)] und der vertiefenden [Open-Data-Verordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) im Juli 2020 [@link(OPENDATAV)] ist das Thema Open Data fest auf Landesebene verankert.
 Denn nach [§&nbsp;13](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) des E-Government-Gesetzes müssen die Behörden der Berliner Verwaltung in einem zentralen Datenportal Informationen bereitstellen, die sie in Erfüllung ihres öffentlichen Auftrags im Rahmen ihrer jeweiligen Zuständigkeit erstellt haben und die in maschinenlesbaren Formaten darstellbar sind.
 Das zentrale Datenportal ist Bestandteil des elektronischen Stadtinformationssystems für das Land Berlin.
 Wenn Informationen in anderen Datenportalen maschinenlesbar bereitgestellt werden, wird im zentralen Datenportal ein Verweis auf diese Informationen eingerichtet.
@@ -100,7 +100,7 @@ Trotzdem kann es hilfreich sein, eine behördeninterne **Dateninventur** durchzu
 Die ODIS hat zu diesem Zweck ein _Handout zum Thema Dateninventur_ [@link(ODIS2021a)] erstellt, das alle wichtigen Informationen aufzeigt.
 Dazu gehört auch die _Vorlage für ein Dateninformationsblatt_ [@link(ODIS2021b)], mit dem die Datenbestände in der Behörde dokumentiert werden können.
 
-Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc. liefert die Rechtsverordnung zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13).
+Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc. liefert die [Rechtsverordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13).
 
 Die folgenden Beispiele für Datenarten und Themenfelder sollen einen Eindruck davon vermitteln, welche Daten erwartet werden. 
 Auch diese Beispiele werden in der Rechtsverordnung näher ausgeführt.
@@ -152,7 +152,7 @@ Wenn Sie dies bejahen können, sollten die Daten von Ihrer Behörde veröffentli
 Wenn nicht, sollten die Daten von der ursprünglichen Behörde veröffentlicht werden.
 
 Verschiedene Ausnahmebedingungen schränken die allgemeine Veröffentlichungspflicht ein.
-Diese rechtlichen Aspekte sind im Detail der Rechtsverordnung zu entnehmen.
+Diese rechtlichen Aspekte sind im Detail der [Rechtsverordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu entnehmen.
 Die hier angeführten Ausnahmen sollen nur einen ersten Eindruck vermitteln.
 Folgende Sachverhalte stehen einer Veröffentlichung entgegen:
 
@@ -634,7 +634,7 @@ In das Open-Data-Portal können nur Datensätze und Dokumente mit klaren, eindeu
 Während des Schritts [_Datenmonitoring_](#datenmonitoring) haben Sie bereits die Datensätze herausgefiltert, zu welchen Sie die Rechte halten.
 Stellen Sie die Daten anschließend unter eine geeignete Lizenz, die den Nutzern größtmöglichen Spielraum beim Umgang mit den Daten einräumt und den Anforderungen an Offenheit genügt.
 Um den Open-Data-Gedanken nicht zu gefährden, sollen die Nutzungsbestimmungen die weitere kommerzielle und nichtkommerzielle Nutzung der veröffentlichten Daten möglichst wenig einschränken.
-Auch hier gibt die Rechtsverordnung zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) näher Auskunft.
+Auch hier gibt die [Rechtsverordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) näher Auskunft.
 Bei der Entscheidung, ob eine Lizenz als „offen“ einzustufen ist, kann die [Open Definition](https://opendefinition.org/od/2.0/de/) von [Open Knowledge International](https://okfn.org) hinzugezogen werden.
 
 Momentan stehen folgende Lizenzen in den verschiedenen Veröffentlichungswegen zur Verfügung:
@@ -1698,6 +1698,8 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[@linktarget(EDP2019b)]** Europäische Kommission. „Wie wählt man das richtige Format für Open Data“ in _Discovering Open Data_. Webseite. <https://www.europeandataportal.eu/elearning/de/module9>. [Gesehen 05.07.2019].
 
+**[@linktarget(EGOVGBLN)]** _Gesetz zur Förderung des E-Government (E-Government-Gesetz Berlin - EGovG Bln)_. 2016. <https://gesetze.berlin.de/perma?a=EGovG_BE>.
+
 **[@linktarget(ODIS2021a)]** Open Data Informationsstelle. _Handout zum Thema Dateninventur_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninventur>. [Gesehen 26.11.2021].
 
 **[@linktarget(ODIS2021b)]** Open Data Informationsstelle. _Vorlage für ein Dateninformationsblatt_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninformationsblatt>. [Gesehen 26.11.2021].
@@ -1713,6 +1715,8 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 **[@linktarget(OKF2017)]** Open Knowledge Foundation. _Open Definition 2.1_. 2017. Webseite. <https://opendefinition.org/od/2.1/en/>. [Gesehen 05.07.2019].
 
 **[@linktarget(OKF2019)]** Open Knowledge Foundation. „Datenformate“ in _Das Open Data Handbuch_. Webseite. <https://opendatahandbook.org/guide/de/appendices/file-formats/>. [Gesehen 05.07.2019].
+
+**[@linktarget(OPENDATAV)]** _Verordnung zur Bereitstellung von allgemein zugänglichen Datenbeständen (Open Data) durch die Behörden der Berliner Verwaltung (Open Data Verordnung - OpenDataV)_. 2020. <https://gesetze.berlin.de/perma?a=OpenDataBerV_BE>.
 
 **[@linktarget(SENSTADT2020)]** Senatsverwaltung für Stadtentwicklung und Wohnen Berlin und Amt für Statistik Berlin-Brandenburg. _Dokumentation zur Modifikation der Lebensweltlich orientierten Räume (LOR)_. Onlinedokument. <https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/download/Dokumentation_zur_Modifikation_LOR_2020.pdf>. [Gesehen 06.10.2021].
 
