@@ -2,7 +2,7 @@
 
 ## Einleitung
 
-Seit der Veröffentlichung der [_Berliner Open Data-Strategie_](https://nbn-resolving.org/urn:nbn:de:0011-n-1955071) und dem Start des Berliner Datenportals im Jahr 2011 ist das Angebot an offenen Verwaltungsdaten in Berlin kontinuierlich gewachsen.
+Seit der Veröffentlichung der ersten [_Berliner Open Data-Strategie_](https://nbn-resolving.org/urn:nbn:de:0011-n-1955071) und dem Start des Berliner Datenportals im Jahr 2011 ist das Angebot an offenen Verwaltungsdaten in Berlin kontinuierlich gewachsen.
 Viele Verwaltungen und deren Beschäftigte haben sich in den letzten Jahren erstmals mit den Potenzialen offener Daten auseinandergesetzt, einige auch mit der Veröffentlichung begonnen.
 Mit der Verabschiedung des [E-Government-Gesetzes Berlin](https://gesetze.berlin.de/perma?a=EGovG_BE) im Juni 2016 [[EGOVGBLN](#EGOVGBLN)] und der vertiefenden [Open-Data-Verordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) im Juli 2020 [[OPENDATAV](#OPENDATAV)] ist das Thema Open Data fest auf Landesebene verankert.
 Denn nach [§&nbsp;13](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) des E-Government-Gesetzes müssen die Behörden der Berliner Verwaltung in einem zentralen Datenportal Informationen bereitstellen, die sie in Erfüllung ihres öffentlichen Auftrags im Rahmen ihrer jeweiligen Zuständigkeit erstellt haben und die in maschinenlesbaren Formaten darstellbar sind.
@@ -1523,12 +1523,12 @@ Es ist jedoch selbstverständlich, dass nicht alle Fragen vorhergesehen werden k
 
 Falls Sie daher Beratung zum Thema Open Data wünschen, der über den Inhalt dieser Broschüre hinausgeht, gibt es folgende Beratungsmöglichkeiten:
 
-- **Open-Data-Strategie:** Für die Open-Data-Strategie des Landes Berlin ist Sebastian Askar von der Senatsverwaltung für Wirtschaft, Energie und Betriebe als zentraler Verantwortlicher des Landes Berlin (<a href="mailto:sebastian.askar@senweb.berlin.de">sebastian.askar@senweb.berlin.de</a>) zuständig. 
+- **Open-Data-Strategie:** Für die Open-Data-Strategie des Landes Berlin ist Betül Özdemir von der Senatsverwaltung für Inneres, Digitalisierung und Sport als zentrale Verantwortliche des Landes Berlin (<a href="mailto:opendata@seninnds.berlin.de">opendata@seninnds.berlin.de</a>) zuständig. 
 - **Inhaltliche Fragen:** „Welche Lizenz soll man wählen?“, „Wie erzeugt man eine CSV-Datei?“, „Welche Daten sollen veröffentlicht werden?“, „Haben meine Daten einen Personenbezug?“ – bei solchen und ähnlichen Fragen können Sie sich an die [Open-Data-Informationsstelle](https://www.odis-berlin.de) des Landes Berlin wenden.
 - **Technische Fragen:** „Wir brauchen einen Nutzeraccount für das Datenregister“, „Der File-Upload bei Imperia funktioniert nicht“ – bei solchen technischen Fragen, die sich direkt auf die Open-Data-Infrastruktur des Landes beziehen, kann Ihnen am ehesten das Team des Open-Data-Portals (<a href="mailto:opendata@berlin.de">opendata@berlin.de</a>) weiterhelfen.
 - **Schulung:** In der Vergangenheit wurden über die [Verwaltungsakademie](https://www.berlin.de/vak/) Schulungen zum Thema Open Data angeboten. Diese sollen in Zukunft fortgeführt und ausgebaut werden. Als Einführung in die Thematik wird es z.B. jährlich eine Schulung mit dem Titel _Crashkurs Open Data_ geben.
-- **Open-Data-Networking:** Zwei Mal jährlich werden Open-Data-Lunches von der Senatsverwaltung für Wirtschaft, Energie und Betriebe mit aktuellen Vorträgen zu den Herausforderungen der Open-Data-Strategie Berlins durchgeführt.
-Ansprechpartnerin für das Programm und die Anmeldung ist die Open-Data-Beauftragte der Senatsverwaltung für Wirtschaft, Energie und Betriebe: Betül Özdemir (<a href="mailto:opendata@senweb.berlin.de">opendata@senweb.berlin.de</a>).
+- **Open-Data-Networking:** Zwei Mal jährlich werden Open-Data-Lunches von der Senatsverwaltung für Inneres, Digitalisierung und Sport mit aktuellen Vorträgen zu den Herausforderungen der Open-Data-Strategie Berlins durchgeführt.
+Ansprechpartnerin für das Programm und die Anmeldung ist auch hier die Open-Data-Beauftragte des Landes: Betül Özdemir (<a href="mailto:opendata@seninnds.berlin.de">opendata@seninnds.berlin.de</a>).
 
 ## Glossar
 
@@ -1771,7 +1771,7 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 ## Impressum
 
-**Herausgeber:** Land Berlin, [Senatsverwaltung für Wirtschaft, Energie und Betriebe](https://www.berlin.de/sen/wirtschaft/)<br/>
+**Herausgeber:** Land Berlin, [Senatsverwaltung für Inneres, Digitalisierung und Sport](https://www.berlin.de/sen/inneres/)<br/>
 **Text:** Knud Hinnerk Möller ([BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net))<br/>
 **Grafiken:** Nadine Wohlfahrt ([BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net))<br/>
 **Lizenz**: Der Text des Handbuchs ist unter einer [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0) veröffentlicht.
@@ -1780,11 +1780,11 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _[Issue](https://github.com/berlinonline/open-data-handbuch/issues)_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2022-11-16
- ([1.0.11](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#1011))
+**Stand**: 2023-03-07
+ ([1.1.0](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#110))
 
 ---
 
 ![Europäischer Fonds für regionale Entwicklung (EFRE)](images/eu_efre_zusatz_unten.png "Logo und Schriftzug 'Europäischer Fonds für regionale Entwicklung (EFRE)'"){:width="205px"}&nbsp;&nbsp;
-![Senatsverwaltung für Wirtschaft, Energie und Betriebe](images/Sen_WiEnBe_Logo_DE_v_p_4C_VORAB.png "Logo und Schriftzug 'Senatsverwaltung für Wirtschaft, Energie und Betriebe'"){:width="240px"}
+![Senatsverwaltung für Inneres, Digitalisierung und Sport](images/B_SEN_InnDS_Logo_DE_V_PW_RGB.png "Logo und Schriftzug 'Senatsverwaltung für Inneres, Digitalisierung und Sport'"){:width="240px"}
 

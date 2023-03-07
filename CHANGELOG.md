@@ -2,6 +2,12 @@
 
 ## Development
 
+## [1.1.0](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.1.0)
+
+_(2023-03-07)_
+
+- Publisher is now [Senatsverwaltung für Inneres, Digitalisierung und Sport](https://www.berlin.de/sen/inneres/): change links and logo.
+
 ## [1.0.11](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.0.11)
 
 _(2022-11-16)_
