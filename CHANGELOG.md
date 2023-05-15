@@ -2,6 +2,12 @@
 
 ## Development
 
+## [1.2.0](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.2.0)
+
+_(2023-05-15)_
+
+- Publisher is now [Senatskanzlei Berlin](https://www.berlin.de/rbmskzl/): change links and logo.
+
 ## [1.1.0](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.1.0)
 
 _(2023-03-07)_
