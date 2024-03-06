@@ -24,9 +24,11 @@
       </div>
       <div id="main">
         <div class="container-lg px-3 my-5 markdown-body">
-          {% if site.title and site.title != page.title %}
-          <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+          {% assign title = site.title %}
+          {% if page.title %}
+            {% assign title = page.title %}
           {% endif %}
+          <h1><a href="{{ "/" | absolute_url }}">{{ title }}</a></h1>
 
           {{ content }}
         </div>

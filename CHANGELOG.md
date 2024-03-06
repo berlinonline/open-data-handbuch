@@ -7,6 +7,7 @@
 _(2024-03-06)_
 
 - Include documentation for the SimpleSearch-API at [/simplesearch-api](/simplesearch-api/index.md).
+- Change default layout to show page title if present.
 
 ## [1.2.0](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.2.0)
 
