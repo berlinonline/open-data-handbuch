@@ -1,5 +1,6 @@
 ---
 title: SimpleSearch API
+path: /simplesearch-api
 ---
 
 [SimpleSearch-Anwendungen](https://support.berlin.de/wiki/SimpleSearch) machen einen tabellarischen Datenbestand (die „SimpleSearch-Tabelle“) auf einer Webseite durchsuchbar.
