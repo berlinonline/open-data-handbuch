@@ -106,6 +106,16 @@ parts/latex_impressum.md: temp/date.txt
 	@echo "generate impressum ..."
 	@ruby bin/include_markdown.rb -s txt -f temp -p parts/latex_impressum.template.md > $@
 
+simplesearch-api/index.md: parts/pages_impressum.md
+	@echo "generate Simplesearch API documentation ..."
+	@cat parts/simplesearch-api.md $< > $@
+	@echo "fix links ..."
+# mac-sed syntax:
+	@sed -i '' "s|# Impressum {-}|## Impressum|" $@
+	@sed -i '' "s|(images/|(../images/|g" $@
+	@sed -i '' "s|(#quellenverzeichnis)|(../#quellenverzeichnis)|" $@
+	@sed -i '' "s|(#bildverzeichnis)|(../#bildverzeichnis)|" $@
+
 .PHONY: temp/date.txt
 temp/date.txt: | temp
 	@echo "write current date ..."
