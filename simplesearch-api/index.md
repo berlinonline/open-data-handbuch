@@ -602,9 +602,10 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 Dort können über die _[Issue](https://github.com/berlinonline/open-data-handbuch/issues)_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
 **Stand**: 2024-03-07
- ([1.2.0](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#120))
+ ([1.2.1](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#121))
 
 ---
 
 ![Europäischer Fonds für regionale Entwicklung (EFRE)](../images/eu_efre_zusatz_unten.png "Logo und Schriftzug 'Europäischer Fonds für regionale Entwicklung (EFRE)'"){:width="205px"}&nbsp;&nbsp;
 ![Senatskanzlei Berlin](../images/B_RBm_Skzl_Logo_DE_V_PW_RGB.png "Logo und Schriftzug 'Der regierende Bürgermeister von Berlin, Senatskanzlei'"){:width="240px"}
+
