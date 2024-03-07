@@ -100,7 +100,7 @@ parts/example_tabular_data.gfm: parts/example_tabular_data.pandoc
 
 parts/pages_impressum.md: temp/date.txt
 	@echo "generate impressum ..."
-	@ruby bin/include_markdown.rb -s txt -f temp -p parts/pages_impressum.template.md > parts/pages_impressum.md
+	@ruby bin/include_markdown.rb -s txt -f temp -p parts/pages_impressum.template.md > $@
 
 parts/latex_impressum.md: temp/date.txt
 	@echo "generate impressum ..."
