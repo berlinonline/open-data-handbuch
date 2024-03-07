@@ -2,6 +2,7 @@
 .vscode
 _site
 temp
+material
 Gemfile.lock
 
 parts/pages_impressum.md
