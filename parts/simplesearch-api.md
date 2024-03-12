@@ -65,7 +65,8 @@ API-Dokumentation | `${API_ENDPOINT}/api` | [https://www.berlin.de/lageso/gesund
 
 ### Methoden
 
-Alle SimpleSearch-Anwendungen erlauben über ihre API Anfragen mit den Methoden [`index`](#index) und [`detail`](#detail).
+Alle SimpleSearch-Anwendungen erlauben über ihre API Suchanfragen mit der Methode [`index`](#index).
+Zusätzlich können die Redakteur\*innen Detailansichten freischalten, die dann über die Metbhode [`detail`](#detail) abrufbar sind.
 Beide Methoden bieten Ausgaben in verschiedenen Formaten, wobei das Default-Format jeweils HTML ist.
 Die HTML-Ausgaben sind vollständige HTML-Dokumente mit Header, Footer etc. im aktuellen berlin.de-Layout, und daher nur bedingt für externe Nutzer*innen sinnvoll einsetzbar.
 
@@ -122,7 +123,7 @@ Welche zusätzlichen Parameter verfügbar sind, lässt sich in der API-Dokumenta
 
 #### `detail`
 
-Mit der `detail`-Methode kann man einzelne Einträge des Datenbestandes aufrufen.
+Mit der `detail`-Methode kann man (wenn ihre Nutzung freigeschaltet wurde) einzelne Einträge des Datenbestandes aufrufen.
 
 ```bash
 ${API_ENDPOINT}/detail/${ITEM_ID}[.${FORMAT}]

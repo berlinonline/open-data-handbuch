@@ -2,6 +2,8 @@
 
 ## Development
 
+- Fix info about `detail`-method in SimpleSearch-docs (it's not always available).
+
 ## [1.2.1](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.2.1)
 
 _(2024-03-06)_
