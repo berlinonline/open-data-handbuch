@@ -2,6 +2,14 @@
 
 ## Development
 
+## [2.0.0](https://github.com/berlinonline/open-data-handbuch/releases/tag/2.0.0)
+
+_(2024-04-12)_
+
+- Screenshots have been changed to reflect the current berlin.de design system.
+- The font in all illustrations has been changed from BMFChange to Wir.Berlin to reflect the [Berlin corporate design](https://wir.berlin/kampagnen/die-typo).
+
+
 ## [1.2.0](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.2.0)
 
 _(2023-05-15)_
