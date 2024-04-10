@@ -767,7 +767,7 @@ Bitte wählen Sie daher die für Ihren Datensatz am ehesten passende Kategorie u
 
 ### Datenressourcen hinzufügen
 
-Im Bereich _Datenrubrik-Ressourcen_ können Sie Dateien oder Verlinkungen zum Datensatz hinzufügen.
+Hinter dem Reiter _Flex-Module_ finden Sie den Bereich _Datenrubrik-Ressourcen_, über den Sie Dateien oder Verlinkungen zum Datensatz hinzufügen können.
 Datensätze müssen mindestens eine Ressource enthalten.
 Die Ressource beinhaltet die eigentlichen Daten und sollte daher in einem [maschinenlesbaren Format](#formatwahl) oder in Form einer URL zu einer Schnittstelle hinterlegt werden.
 Sie können beliebig viele Ressourcen hinzufügen.
@@ -798,8 +798,13 @@ Auf der Datenrubrik-Startseite werden alle Datensätze angezeigt, die in dieser 
 Die Datensätze erscheinen automatisch in einer A–Z-Liste. 
 Zusätzlich können Sie ein Einleitungsbild und einen Einleitungstext hinzufügen, die oberhalb der A–Z-Liste angezeigt werden (s. Abb.&nbsp;\ref{fig:datenrubrik_startseite}).
 
+@include(box_prefix)
+
 Bitte beachten Sie, dass auf der Startseite nur Datensätze angezeigt werden, die über den Veröffentlichungsweg _Datenrubrik_ erstellt wurden.
 Datensätze aus anderen Veröffentlichungswegen erscheinen hier nicht.
+Es bietet sich daher an, im Einleitungstext der Datenrubrik einen Link zu den Daten ihrer Behörde im Datenportal zu hinterlegen.
+
+@include(box_suffix)
 
 ![Startseite der Datenrubrik\label{fig:datenrubrik_startseite}](images/datenrubrik-startseite.png "Screenshot der alphabetischen Übersicht aller Datensätze in der Datenrubrik in Imperia")
 
@@ -1686,9 +1691,9 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 # Quellenverzeichnis {-}
 
-**[@linktarget(AFS2015)]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR)- Planungsräume - \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-wfs>. [Gesehen 06.10.2021]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+**[@linktarget(AFS2015)]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2019) - \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012019-wfs>. [Gesehen 09.04.2024]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
-**[@linktarget(AFS2020)]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2021) - \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012021-wfs>. [Gesehen 06.10.2021]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+**[@linktarget(AFS2020)]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2021) - \[WFS\]_. 2020. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012021-wfs>. [Gesehen 06.10.2021]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
 **[@linktarget(BOTH2012)]** W. Both und I. Schieferdecker (Hrsg.). _Berliner Open Data-Strategie: organisatorische, rechtliche und technische Aspekte offener Daten in Berlin; Konzept, Pilot und Handlungsempfehlungen_. <https://nbn-resolving.org/urn:nbn:de:0011-n-1955071>. Stuttgart: Fraunhofer Verlag, 2012.
 
