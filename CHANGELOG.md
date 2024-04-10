@@ -10,7 +10,7 @@ _(2024-04-12)_
 - The font in all illustrations has been changed from BMFChange to Wir.Berlin to reflect the [Berlin corporate design](https://wir.berlin/kampagnen/die-typo).
 - Various small changes in the text to reflect e.g. changes in the Imperia CMS, changes in the workflow etc.
 - Various corrections (dead links, typos etc.).
-
+- The former Twitter-account @OpenDataBerlin is no longer active, so datasets are no longer announced there. The corresponding text and image have been removed. In the future, we might decide to announce datasets again on a different channel.
 
 ## [1.2.0](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.2.0)
 
