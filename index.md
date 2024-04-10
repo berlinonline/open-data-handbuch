@@ -735,9 +735,6 @@ Im Anschluss werden die einzelnen Veröffentlichungswege detailliert vorgestellt
 Obwohl sich alle Veröffentlichungswege in ihren Details unterscheiden, gibt es einige Aspekte, die allen gemeinsam sind.
 
 - **Zeitliche Verzögerung**: Mit der Speicherung bzw. Freischaltung eines neuen Datensatzes oder einer Änderung im Eingabesystem (Imperia, Datenregister etc.), ist der Datensatz nicht unmittelbar im Datenportal auf daten.berlin.de zu sehen. Das liegt daran, dass das Datenportal in regelmäßigen Abständen (aktuell stündlich) das Datenregister nach Änderung und neuen Datensätzen abfragt und diese erst anschließend importiert und sichtbar macht. Weitere Verzögerungen könen auftreten, wenn mehrere Systeme hintereinandergeschaltet sind (z.&nbsp;B. Datenrubrik in Imperia → Datenregister → Datenportal).
-- **Ankündigung neuer Datensätze**: Das Berliner Datenportal verfügt über einen eigenen Twitter-Account [@OpenDataBerlin](https://twitter.com/OpenDataBerlin), auf dem neue Datensätze automatisch angekündigt werden, sobald Sie vom Datenportal importiert wurden (s. Abbildung).
-
-![Ankündigung eines neuen Datensatzes auf Twitter](images/twitter-neuer-datensatz.png "Ankündigung des Datensatzes „Kriminalitätsatlas Berlin“ auf Twitter, mit Likes und Retweets"){:width="500px"}{: .centered }
 
 ### Imperia: Datenrubrik
 
@@ -797,7 +794,7 @@ Bitte wählen Sie daher die für Ihren Datensatz am ehesten passende Kategorie u
 
 #### Datenressourcen hinzufügen
 
-Im Bereich _Datenrubrik-Ressourcen_ können Sie Dateien oder Verlinkungen zum Datensatz hinzufügen.
+Hinter dem Reiter _Flex-Module_ finden Sie den Bereich _Datenrubrik-Ressourcen_, über den Sie Dateien oder Verlinkungen zum Datensatz hinzufügen können.
 Datensätze müssen mindestens eine Ressource enthalten.
 Die Ressource beinhaltet die eigentlichen Daten und sollte daher in einem [maschinenlesbaren Format](#formatwahl) oder in Form einer URL zu einer Schnittstelle hinterlegt werden.
 Sie können beliebig viele Ressourcen hinzufügen.
@@ -828,8 +825,15 @@ Auf der Datenrubrik-Startseite werden alle Datensätze angezeigt, die in dieser 
 Die Datensätze erscheinen automatisch in einer A–Z-Liste. 
 Zusätzlich können Sie ein Einleitungsbild und einen Einleitungstext hinzufügen, die oberhalb der A–Z-Liste angezeigt werden (s. Abbildung).
 
+{::options parse_block_html="true" /}
+<div class="bo-box">
+
 Bitte beachten Sie, dass auf der Startseite nur Datensätze angezeigt werden, die über den Veröffentlichungsweg _Datenrubrik_ erstellt wurden.
 Datensätze aus anderen Veröffentlichungswegen erscheinen hier nicht.
+Es bietet sich daher an, im Einleitungstext der Datenrubrik einen Link zu den Daten ihrer Behörde im Datenportal zu hinterlegen.
+
+</div>
+{::options parse_block_html="false" /}
 
 ![Startseite der Datenrubrik](images/datenrubrik-startseite.png "Screenshot der alphabetischen Übersicht aller Datensätze in der Datenrubrik in Imperia")
 
@@ -1724,9 +1728,9 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 ## Quellenverzeichnis
 
-**[<a name="AFS2015">AFS2015</a>]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR)- Planungsräume - \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-wfs>. [Gesehen 06.10.2021]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+**[<a name="AFS2015">AFS2015</a>]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2019) - \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012019-wfs>. [Gesehen 09.04.2024]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
-**[<a name="AFS2020">AFS2020</a>]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2021) - \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012021-wfs>. [Gesehen 06.10.2021]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+**[<a name="AFS2020">AFS2020</a>]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2021) - \[WFS\]_. 2020. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012021-wfs>. [Gesehen 06.10.2021]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
 **[<a name="BOTH2012">BOTH2012</a>]** W. Both und I. Schieferdecker (Hrsg.). _Berliner Open Data-Strategie: organisatorische, rechtliche und technische Aspekte offener Daten in Berlin; Konzept, Pilot und Handlungsempfehlungen_. <https://nbn-resolving.org/urn:nbn:de:0011-n-1955071>. Stuttgart: Fraunhofer Verlag, 2012.
 
@@ -1780,7 +1784,7 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _[Issue](https://github.com/berlinonline/open-data-handbuch/issues)_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2023-05-15
+**Stand**: 2024-04-10
  ([1.2.0](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#120))
 
 ---
