@@ -1190,7 +1190,7 @@ Wenn sie die Zuständigkeit für einen Datensatz haben, der von der HVD-Verordnu
 
 Die _Musterdatensätze_ und der _Musterdatenkatalog_ sollen die  Vergleichbarkeit der Datensätze aus verschiedenen Datenportalen auf allen Ebenen (Kommunen, Länder etc.) in Deutschland zu verbessern (s. auch den Eintrag _Musterdatenkatalog_ im [Glossar](#glossar)).
 
-Das Metadatenschema des Berliner Datenportals erlaubt die Verlinkung von Berliner Datensätzen zu Musterdatensätzen über ein eigenes Attribut.
+Das Metadatenschema des Berliner Datenportals erlaubt, als Teil der neuen Open-Data-Strategie, die Verlinkung von Berliner Datensätzen zu Musterdatensätzen über ein eigenes Attribut.
 Um die Verlinkung zu erleichtern, ist die Suche nach einem passenden Musterdatensatz im Datenregister z.B. über ein Eingabefeld mit automatischer Vervollständigung und Anzeige kurzer Beschreibungstexte möglich (s. Abbildung).
 
 ![Verknüpfung des Datensatzes „Denkmale - [WFS]“ mit dem Musterdatensatz „Kultur – Denkmal“ im Datenregister](images/musterdatensatz_eingabe.png "Eingabe des Links zum passenden Musterdatensatz im Datenregister"){:width="700px"}{: .centered }
