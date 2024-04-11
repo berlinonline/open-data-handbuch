@@ -219,7 +219,7 @@ Daten eignen sich dann besonders gut für eine tabellarische Darstellung, wenn f
 
 Wenn diese Bedingungen nicht erfüllt sind, sollten Sie eine andere Datenstruktur (Baum- oder Graph) in Erwägung ziehen.
 
-Geeignete Open-Data-Formate für tabellarische Daten sind [CSV](#csv) und mit Einschränkungen (s.&nbsp;u.) [Excel-](#excel-formate) bzw. [OpenDocument-Formate](#opendocument_spreadsheet).
+Geeignete Open-Data-Formate für tabellarische Daten sind [CSV](#csv) und mit Einschränkungen (s.&nbsp;u.) [Excel-](#excel-formate) bzw. [OpenDocument-Formate](#opendocument-spreadsheet).
 
 @include(example_tabular_data)
 
@@ -923,7 +923,7 @@ Um etwa einer Kategorie zu folgen, öffnen Sie deren Seite über den _Kategorien
 
 ![Einer Kategorie folgen\label{fig:datenregister_folgen}](images/screenshot_follow_category.png "Einer Kategorie folgen über den Follow Button"){width=250px}{:width="300px"}{: .centered }
 
-Sie öffnen das Dashboard entweder über das [Nutzermenü](#nutzermenu) oder direkt über den Link <https://datenregister.berlin.de/dashboard>. 
+Sie öffnen das Dashboard entweder über das [Nutzermenü](#nutzermenü) oder direkt über den Link <https://datenregister.berlin.de/dashboard>. 
 Auf ihrer Profilseite haben Sie außerdem die Möglichkeit, eine E-Mail-Benachrichtigung über neue Ereignisse auf Ihrem Dashboard zu abonnieren (unter _Bearbeiten_).
 
 ### Nutzerprofil
