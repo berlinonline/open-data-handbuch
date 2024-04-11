@@ -3,6 +3,7 @@
 _site
 temp
 Gemfile.lock
+handreichung_opendata.docx
 
 parts/pages_impressum.md
 parts/latex_impressum.md
