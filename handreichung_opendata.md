@@ -1127,6 +1127,24 @@ Wird vielleicht sogar auf präzise GPS-Koordinaten oder Hausadressen Bezug genom
 Auf welches Gebiet beziehen sich die Daten?
 Wird ganz Berlin abgedeckt, oder vielleicht nur ein bestimmter Bezirk, oder sogar nur eine bestimmte Bezirksregion?
 
+### High-value Datasets
+
+Nach geltendem EU-Recht müssen bestimmte sog. hochwertige Datensätze (_high-value datasets_, HVD) als offene Daten veröffentlicht und als HVD gekennzeichnet werden (s. auch den Eintrag _High-value Datasets_ im [Glossar](#glossar)).
+Die Kennzeichnung bedeutet in der Hauptsache eine Zuordnung zu einem der folgenden sechs thematischen Bereiche:
+
+- Georaum
+- Erdbeobachtung und Umwelt
+- Meteorologie
+- Statistik
+- Unternehmen und Eigentümerschaft von Unternehmen
+- Mobilität
+
+Dazu gibt es im Metadatenschema des Berliner Datenportals ein eigenes Attribut, das etwa im Datenregister über eine Auswahlbox gesetzt werden kann (s. Abb.&nbsp;\ref{fig:hvd_category_eingabe}).
+Wenn sie die Zuständigkeit für einen Datensatz haben, der von der HVD-Verordnung betroffen ist, können sie die Kennzeichnung über dieses Attribut durchführen.
+
+![Zuweisung der HVD-Kategorie „Georaum“ zum Datensatz „Adressen - [WFS]“ im Datenregister\label{fig:hvd_category_eingabe}](images/hvd_category_eingabe.png "Zuweisung einer HVD-Kategorie im Datenregister"){:width="700px"}{: .centered }
+
+
 ### Musterdatensatz
 
 Die _Musterdatensätze_ und der _Musterdatenkatalog_ sollen die  Vergleichbarkeit der Datensätze aus verschiedenen Datenportalen auf allen Ebenen (Kommunen, Länder etc.) in Deutschland zu verbessern (s. auch den Eintrag _Musterdatenkatalog_ im [Glossar](#glossar)).
@@ -1619,6 +1637,15 @@ Ein geeignetes Datenformat für Graphstrukturen ist RDF.
 
 **Hierarchische Daten** → _Baumstruktur_
 
+**High-value Datasets** 2023 ist die _„Durchführungsverordnung zur Festlegung bestimmter hochwertiger Datensätze und der Modalitäten ihrer Veröffentlichung und Weiterverwendung“_ [@link(EURLEX2023)] der EU in Kraft getreten.
+Darin wird eine Liste von hochwertigen Datensätzen (_high-value datasets_) aus sechs thematischen Kategorien festgelegt (_Georaum_, _Erdbeobachtung und Umwelt_, _Meteorologie_, _Statistik_, _Unternehmen und Eigentümerschaft von Unternehmen_ sowie _Mobilität_).
+Die Kategorien selbst sind maschinenlesbar mit Bezeichnern in allen offiziellen Mitgliedssprachen als **Linked Data**-Vokabular definiert [@link(PUBEU2023)].
+Als hochwertig gelten Datensätze, die ein besonderes „Potenzial für die Erzielung sozioökonomischer Vorteile in Verbindung mit harmonisierten Bedingungen für die Weiterverwendung“ haben.
+Die Verordnung verpflichtet die Mitgliedstaaten der EU dazu, diese Datensätze in **maschinenlesbarer** Form, kostenfrei und mit einer offenen **Lizenz** zu veröffentlichen.
+Mit anderen Worten: die Verordnung soll die Veröffentlichung von offenen Daten vorantreiben, allerdings mit dem Fokus auf bestimmte, als besonders wichtig angesehene Datensätze.
+
+Im Blog des bundesweiten Datenportals GovData [@link(GOVDATA2023)] sind die betroffenen Datensätze übersichtlich aufgelistet.
+
 **Imperia** Die Behördenseiten auf berlin.de werden zum großen Teil über das Content-Management-System [Imperia](https://www.pirobase-imperia.com/de/produkte/produktuebersicht/imperia-cms) betrieben.
 Hier können Redakteur\*innen Seiten erstellen und pflegen, Assets wie Bilddateien oder Datenressourcen hochladen und anderes mehr.
 Mit der **Datenrubrik** und dem **SimpleSearch**-Baukasten hat Imperia zwei Komponenten, die direkt für das Veröffentlichen von offenen Daten genutzt werden können.
@@ -1671,13 +1698,13 @@ Deshalb kann man daraus einen abstrakten Musterdatensatz _„Gesundheit – Öff
 Musterdatensätze dienen also als zusätzliches Ordnungskriterium für Datenkataloge bzw. Datenportale.
 Über den Link auf den Musterdatensatz lassen sich so thematisch vergleichbare Datensätze über die Grenzen eines einzelnen Datenportals hinaus finden.
 
-![Beispiel für den Musterdatenkatalog: vier konkrete Datensätze zu öffentlichen Toiletten aus Düsseldorf, Moers, Bonn und Berlin verweisen auf den Musterdatensatz „Gesundheit – Öffentliche Toilette“\label{fig:musterdatensatz_beispiel}](images/musterdatensatz_beispiel.png "Öffentliche Toiletten als Beispiel für den Musterdatenkatalog"){:width="700px"}{: .centered }
+![Beispiel für den Musterdatenkatalog: vier konkrete Datensätze zu öffentlichen Toiletten aus Düsseldorf, Moers, Bonn und Berlin verweisen auf den Musterdatensatz „Gesundheit – Öffentliche Toilette“\label{fig:musterdatensatz_beispiel}](images/musterdatensatz_beispiel.png "Datensätze zu öffentlichen Toiletten als Beispiel für den Musterdatenkatalog"){:width="700px"}{: .centered }
 
 Die aktuelle Version 4.0 des Musterdatenkatalogs enthält 242 Musterdatensätze (z.B. _„Gesundheit – Öffentliche Toilette“_), die in 26 thematische Kategoorien aufgeteilt sind (z.B. _„Gesundheit“_ oder _„Verkehr“_).
-Der Musterdatenkatalog ist damit deutlich feingranularer als etwa die Kategorien des Berliner Datenportals oder die Themengebiete des _„Data Theme“_-Vokabulars der EU [@link(PUBEU2022)].
+Der Musterdatenkatalog ist damit deutlich feingranularer als etwa die Kategorien des Berliner Datenportals oder die Themengebiete des _„Data Theme“_-Linked-Data-Vokabulars der EU [@link(PUBEU2022)].
 Eine Übersicht über alle Musterdatensätze ist auf der Webseite [Liste der Musterdatensätze](https://bertelsmannstift.github.io/Musterdatenkatalog/def/musterdatensatz.html) zu finden.
 
-Auch der [DCAT-AP.de-Standard](#dcat-apde) sieht eine Verknüpfung von Datensätzen mit dem Musterdatenkatalog vor.
+Auch der [DCAT-AP.de-Standard](#dcat-apde) sieht eine Verknüpfung von Datensätzen mit dem Musterdatenkatalog vor [@link(WITTIG2022)], _„Verwendung des Musterdatenkatalogs für Kommunen“_.
 
 **Netzwerkstruktur** → _Graphstruktur_
 
@@ -1742,6 +1769,10 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[@linktarget(EGOVGBLN)]** _Gesetz zur Förderung des E-Government (E-Government-Gesetz Berlin - EGovG Bln)_. 2016. <https://gesetze.berlin.de/perma?a=EGovG_BE>.
 
+**[@linktarget(EURLEX2023)]** EUR-Lex. 2023. _DURCHFÜHRUNGSVERORDNUNG (EU) 2023/138 DER KOMMISSION vom 21. Dezember 2022 zur Festlegung bestimmter hochwertiger Datensätze und der Modalitäten ihrer Veröffentlichung und Weiterverwendung_. <http://data.europa.eu/eli/reg_impl/2023/138/oj>.
+
+**[@linktarget(GOVDATA2023)]** GovData. _Hochwertige Datensätze_. Webseite. <https://www.govdata.de/neues/-/blogs/hochwertige-datensatze>. [Gesehen 11.04.2024].
+
 **[@linktarget(ODIS2021a)]** Open Data Informationsstelle. _Handout zum Thema Dateninventur_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninventur>. [Gesehen 26.11.2021].
 
 **[@linktarget(ODIS2021b)]** Open Data Informationsstelle. _Vorlage für ein Dateninformationsblatt_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninformationsblatt>. [Gesehen 26.11.2021].
@@ -1762,9 +1793,13 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[@linktarget(PUBEU2022)]** Publications Office of the European Union. _Data Theme_. 2022. Webseite. <https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/data-theme>. [Gesehen 11.04.2024].
 
+**[@linktarget(PUBEU2023)]** Publications Office of the European Union. _High-value dataset categories_. 2023. Webseite. <https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category>. [Gesehen 11.04.2024].
+
 **[@linktarget(SENSTADT2020)]** Senatsverwaltung für Stadtentwicklung und Wohnen Berlin und Amt für Statistik Berlin-Brandenburg. _Dokumentation zur Modifikation der Lebensweltlich orientierten Räume (LOR)_. Onlinedokument. <https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/download/Dokumentation_zur_Modifikation_LOR_2020.pdf>. [Gesehen 06.10.2021].
 
 **[@linktarget(SENWEB2018)]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. 2018. Datensatz. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). [Gesehen 05.07.2019]. Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
+
+**[@linktarget(WITTIG2022)]** Wittig, Christian, Antje Göldner et al. 28.02.2022. _DCAT-AP.de Konventionenhandbuch 2.0 – Technische, semantische und organisatorische Konventionen für „GovData“_. Onlinedokument. <https://www.dcat-ap.de/def/dcatde/2.0/implRules/>. [Gesehen 10.04.2024].
 
 # Bildverzeichnis {-}
 

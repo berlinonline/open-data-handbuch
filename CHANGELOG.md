@@ -6,6 +6,7 @@
 
 _(2024-04-12)_
 
+- New content about _High-value datasets_ has been added to the section about the [metadata schema](https://berlinonline.github.io/open-data-handbuch/#high-value-datasets) and the [glossary](https://berlinonline.github.io/open-data-handbuch/#glossar).
 - New content about the topic _Musterdatenkatalog/Musterdatensatz_ has been added to the section about the [metadata schema](https://berlinonline.github.io/open-data-handbuch/#musterdatensatz) and the [glossary](https://berlinonline.github.io/open-data-handbuch/#glossar).
 - Screenshots have been changed to reflect the current berlin.de design system.
 - The font in all illustrations has been changed from BMFChange to Wir.Berlin to reflect the [Berlin corporate design](https://wir.berlin/kampagnen/die-typo).
