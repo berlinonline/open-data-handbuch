@@ -1127,6 +1127,19 @@ Wird vielleicht sogar auf präzise GPS-Koordinaten oder Hausadressen Bezug genom
 Auf welches Gebiet beziehen sich die Daten?
 Wird ganz Berlin abgedeckt, oder vielleicht nur ein bestimmter Bezirk, oder sogar nur eine bestimmte Bezirksregion?
 
+### Musterdatensatz
+
+Die _Musterdatensätze_ und der _Musterdatenkatalog_ sollen die  Vergleichbarkeit der Datensätze aus verschiedenen Datenportalen auf allen Ebenen (Kommunen, Länder etc.) in Deutschland zu verbessern (s. auch den Eintrag _Musterdatenkatalog_ im [Glossar](#glossar)).
+
+Das Metadatenschema des Berliner Datenportals erlaubt die Verlinkung von Berliner Datensätzen zu Musterdatensätzen über ein eigenes Attribut.
+Um die Verlinkung zu erleichtern, ist die Suche nach einem passenden Musterdatensatz im Datenregister z.B. über ein Eingabefeld mit automatischer Vervollständigung und Anzeige kurzer Beschreibungstexte möglich (s. Abb.&nbsp;\ref{fig:musterdatensatz_eingabe}).
+
+![Verknüpfung des Datensatzes „Denkmale - [WFS]“ mit dem Musterdatensatz „Kultur – Denkmal“ im Datenregister\label{fig:musterdatensatz_eingabe}](images/musterdatensatz_eingabe.png "Eingabe des Links zum passenden Musterdatensatz im Datenregister"){:width="700px"}{: .centered }
+
+Berliner Datensätze, die mit einem Musterdatensatz verknüpft wurden, weisen diese Information im Datenportal als Verlinkung zum Musterdatenkatalog auf (s. Abb.&nbsp;\ref{fig:musterdatensatz_datenportal}).
+
+![Die Verknüpfung des Datensatzes „Denkmale - [WFS]“ mit dem Musterdatensatz „Kultur – Denkmal“ wird im Datenportal als externer Link dargestellt.\label{fig:musterdatensatz_datenportal}](images/musterdatensatz_datenportal.png "Anzeige einer Verknüpfung mit dem Musterdatenkatalog im Berliner Datenportal"){:width="400px"}{: .centered }
+
 ### Tags
 
 Schlüsselwörter, so genannte _Tags_, können frei vergeben werden.
@@ -1378,6 +1391,7 @@ bln-dataset:d_9bc0bdcb-1211-474e-a3a7-5991b0dc1539
         alle Datensätze für jeden Monat.\r\n\r\nDer Datensatz
         wird monatlich erneuert.""" ;
     dct:title "Zugriffsstatistik daten.berlin.de" ;
+    dct:references <https://musterdatenkatalog.de/def/musterdatensatz/digitalisierung/openData/zugriffszahl> ;
     dcat:distribution 
         bln-distrib:d_b6fe190c-e91a-435a-84fb-371ab848ddc5 ,
         ... ;
@@ -1641,6 +1655,30 @@ Details zum Metadatenschema des Berliner Datenportals sind im Kapitel [_Metadate
 
 **Metadatenschema** → _Datenschema_
 
+**Musterdatensatz** → _Musterdatenkatalog_
+
+**Musterdatenkatalog** Der _Musterdatenkatalog_ soll die Vergleichbarkeit von Datensätzen aus verschiedenen Datenportalen auf allen Ebenen in Deutschland verbessern (Kommunen, Länder etc.).
+Dazu wird versucht, aus thematisch vergleichbaren Datensätzen aus unterschiedlichen Portalen einen abstrakten _Musterdatensatz_ abzuleiten.
+Ein Beispiel (leicht abgeändert aus [@link(BM2023)]) sind die folgenden vier Datensätze:
+
+- Düsseldorf: _„Standorte öffentlicher Toiletten Düsseldorf“_
+- Moers: _„Öffentliche Toiletten in Moers mit Hinweisen für Menschen mit Behinderung“_
+- Bonn: _„Stadt Bonn: Standorte öffentlicher Toiletten“_
+- Berlin: _„Standorte der öffentlichen Toiletten“_
+
+Diese vier (und andere) Datensätze sind unterschiedlich benannt, aber inhaltlich sehr ähnlich.
+Deshalb kann man daraus einen abstrakten Musterdatensatz _„Gesundheit – Öffentliche Toilette“_ ableiten (s. Abb.&nbsp;\ref{fig:musterdatensatz_beispiel}).
+Musterdatensätze dienen also als zusätzliches Ordnungskriterium für Datenkataloge bzw. Datenportale.
+Über den Link auf den Musterdatensatz lassen sich so thematisch vergleichbare Datensätze über die Grenzen eines einzelnen Datenportals hinaus finden.
+
+![Beispiel für den Musterdatenkatalog: vier konkrete Datensätze zu öffentlichen Toiletten aus Düsseldorf, Moers, Bonn und Berlin verweisen auf den Musterdatensatz „Gesundheit – Öffentliche Toilette“\label{fig:musterdatensatz_beispiel}](images/musterdatensatz_beispiel.png "Öffentliche Toiletten als Beispiel für den Musterdatenkatalog"){:width="700px"}{: .centered }
+
+Die aktuelle Version 4.0 des Musterdatenkatalogs enthält 242 Musterdatensätze (z.B. _„Gesundheit – Öffentliche Toilette“_), die in 26 thematische Kategoorien aufgeteilt sind (z.B. _„Gesundheit“_ oder _„Verkehr“_).
+Der Musterdatenkatalog ist damit deutlich feingranularer als etwa die Kategorien des Berliner Datenportals oder die Themengebiete des _„Data Theme“_-Vokabulars der EU [@link(PUBEU2022)].
+Eine Übersicht über alle Musterdatensätze ist auf der Webseite [Liste der Musterdatensätze](https://bertelsmannstift.github.io/Musterdatenkatalog/def/musterdatensatz.html) zu finden.
+
+Auch der [DCAT-AP.de-Standard](#dcat-apde) sieht eine Verknüpfung von Datensätzen mit dem Musterdatenkatalog vor.
+
 **Netzwerkstruktur** → _Graphstruktur_
 
 **Offene Daten** Daten gelten dann als offen, wenn Sie von jedem ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen [@link(EDP2019a)].
@@ -1692,6 +1730,8 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[@linktarget(AFS2020)]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2021) - \[WFS\]_. 2020. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012021-wfs>. [Gesehen 06.10.2021]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
+**[@linktarget(BM2023)]** Bertelsmann Stiftung. _Musterdatenkatalog für Kommunen_. 2023. Webseite. <https://www.bertelsmann-stiftung.de/de/unsere-projekte/smart-country/musterdatenkatalog>. [Gesehen 11.04.2024].
+
 **[@linktarget(BOTH2012)]** W. Both und I. Schieferdecker (Hrsg.). _Berliner Open Data-Strategie: organisatorische, rechtliche und technische Aspekte offener Daten in Berlin; Konzept, Pilot und Handlungsempfehlungen_. <https://nbn-resolving.org/urn:nbn:de:0011-n-1955071>. Stuttgart: Fraunhofer Verlag, 2012.
 
 **[@linktarget(EC2013)]** Europäische Kommission. _Einführung in Linked Data_. (Zugl. Open Data Support, Trainingsmodul 1.2). 2013. PDF. <https://www.europeandataportal.eu/sites/default/files/d2.1.2_training_module_1.2_introduction_to_linked_data_de_edp.pdf>. [Gesehen 05.07.2019].
@@ -1719,6 +1759,8 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 **[@linktarget(OKF2019)]** Open Knowledge Foundation. „Datenformate“ in _Das Open Data Handbuch_. Webseite. <https://opendatahandbook.org/guide/de/appendices/file-formats/>. [Gesehen 05.07.2019].
 
 **[@linktarget(OPENDATAV)]** _Verordnung zur Bereitstellung von allgemein zugänglichen Datenbeständen (Open Data) durch die Behörden der Berliner Verwaltung (Open Data Verordnung - OpenDataV)_. 2020. <https://gesetze.berlin.de/perma?a=OpenDataBerV_BE>.
+
+**[@linktarget(PUBEU2022)]** Publications Office of the European Union. _Data Theme_. 2022. Webseite. <https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/data-theme>. [Gesehen 11.04.2024].
 
 **[@linktarget(SENSTADT2020)]** Senatsverwaltung für Stadtentwicklung und Wohnen Berlin und Amt für Statistik Berlin-Brandenburg. _Dokumentation zur Modifikation der Lebensweltlich orientierten Räume (LOR)_. Onlinedokument. <https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/download/Dokumentation_zur_Modifikation_LOR_2020.pdf>. [Gesehen 06.10.2021].
 
