@@ -7,6 +7,20 @@ Denn nach [§&nbsp;13](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) des E-
 Das zentrale Datenportal ist Bestandteil des elektronischen Stadtinformationssystems für das Land Berlin.
 Wenn Informationen in anderen Datenportalen maschinenlesbar bereitgestellt werden, wird im zentralen Datenportal ein Verweis auf diese Informationen eingerichtet.
 
+Die erste Auflage des Berliner Open-Data-Handbuchs erschien im Oktober 2019.
+Seitdem ist in Berlin im Hinblick auf Open Data viel geschehen: 
+
+- Die Verantwortung für das Thema Open Data ging im Rahmen der Konsolidierung der Verwaltungsdigitalisierung von der Senatsverwaltung für Wirtschaft, Energie und Betriebe zunächst zur Innenverwaltung und liegt nun bei der Senatskanzlei.
+- Mehr und mehr etabliert sich in den Behörden der Berliner Verwaltung die in der Open-Data-Verordnung festgelegte Rolle der Open-Data-Beauftragten.
+Auch eine zentrale Open-Data-Verantwortliche des Landes Berlin wurde ernannt.
+- Regelmäßige Seminare, Workshops und andere Formate fördern den Austausch zum Thema Open Data in der Berliner Verwaltung.
+- Berlin hat sich, 12 Jahre nach der ersten, eine [neue Open-Data-Strategie](https://www.berlin.de/moderne-verwaltung/e-government/open-data/strategieprozess/artikel.1257333.php) gegeben, in der die Schwerpunkte und Maßnahmen für die kommenden Jahre bis 2026 festgelegt sind [@link(SKZL2023)].
+Damit bekommen Themen wie z.B. Data Governance, Stärkung der Datenkompetenz, Linked Open Data oder auch Fragen der Vergabeverfahren mehr Aufmerksamkeit und Schwung.
+- Wie das gesamte Landesportal berlin.de hat auch das Open-Data-Portal daten.berlin.de ein neues Layout und Designsystem bekommen, und wurde gleichzeitig auf ein neues und solideres technisches Fundament gestellt.
+
+Zwar ist auch die Online-Ausgabe des Open-Data-Handbuch seit 2019 als lebendes Dokument beständig verbessert und erweitert worden.
+Angesichts der großen Veränderungen ist es aber an der Zeit, auch das gedruckte Handbuch mit einer neuen Ausgabe auf den neuesten Stand zu bringen. 
+
 ## Ziele von Open Data
 
 Bürger\*innen, Unternehmen und zivilgesellschaftliche Akteure können mit offenen Daten innovative Anwendungen entwickeln und neue Geschäftsmodelle erschließen, die unseren Alltag erleichtern.
@@ -97,7 +111,8 @@ Die Veröffentlichung soll ohne Zeitverzögerung geschehen.
 Auch verwaltungsnahe Einrichtungen, die nicht zur unmittelbaren Landesverwaltung gehören, sind eingeladen, im Datenportal zu veröffentlichen.
 Die Frage nach einer Vorauswahl oder Priorisierung bei der Veröffentlichung stellt sich also im Grunde genommen nicht mehr.
 Trotzdem kann es hilfreich sein, eine behördeninterne **Dateninventur** durchzuführen, um den Prozess der Veröffentlichung vorzubereiten und zu unterstützen.
-Die ODIS hat zu diesem Zweck ein _Handout zum Thema Dateninventur_ [@link(ODIS2021a)] erstellt, das alle wichtigen Informationen aufzeigt.
+Die ODIS leistet zum Thema Dateninventur Unterstützung in Zusammenarbeit mit der jeweiligen Behörde.
+Auch eine Reihe von Online-Ressourcen sind verfügbar, angefangen mit einem _Handout zum Thema Dateninventur_ [@link(ODIS2021a)], das alle wichtigen Informationen aufzeigt, bis hin zu einem kompletten _Dateninventurprozess_ [@link(ODIS2023)].
 Dazu gehört auch die _Vorlage für ein Dateninformationsblatt_ [@link(ODIS2021b)], mit dem die Datenbestände in der Behörde dokumentiert werden können.
 
 Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc. liefert die [Rechtsverordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13).
@@ -180,6 +195,7 @@ Dabei wird auf grundlegende Fragen wie „Was zeichnet gute Open-Data-Formate au
 Nicht alle hier beschriebenen Formate und Anforderungen werden ohne Weiteres von jeder Mitarbeiter\*in der Verwaltung mit den in der Verwaltung zur Verfügung stehenden Werkzeugen umgesetzt werden können.
 Teilweise ist spezielle Software und/oder besonderes technisches Wissen nötig.
 In solchen Fällen sollte [Beratung](#weitere-beratung) hinzugezogen werden, um eine effiziente, nachhaltige und nach Open-Data-Gesichtspunkten gute Lösung zu entwickeln.
+Als guter Einstiegspunkt können hier auch die [Online-Ressourcen der ODIS zum Thema Datenqualität](https://odis-berlin.de/ressourcen/0_datenqualitaet_video_handout/) weiterhelfen. 
 
 @include(box_suffix)
 
@@ -416,6 +432,9 @@ Es gibt für jeden nur erdenklichen Anwendungsfall spezialisierte Formate.
 Diese alle hier aufzulisten, würde den Rahmen des Open-Data-Handbuchs sprengen.
 Die folgenden Formate sollen daher nur als Beispiele dienen.
 
+Die beiden ersten hier erwähnten Formate (GeoJSON und KML) sind speziell für Geodaten geeignet.
+Passend dazu hat die ODIS ein umfangreiches [Video-Tutorial zur Geocodierung](https://odis-berlin.de/ressourcen/0_geocodierung_video/) produziert.
+
 #### GeoJSON
 
 **Datenstruktur**: Baumstruktur (hierarchisch)<br/>
@@ -562,6 +581,8 @@ Attribution xkcd Comic (s. Abb.&nbsp;\ref{fig:xkcd_iso8601}): Comic _ISO 8601_, 
 
 ---
 
+Auch hier sei noch einmal auf die [Online-Ressourcen der ODIS zum Thema Datenqualität](https://odis-berlin.de/ressourcen/0_datenqualitaet_video_handout/) verwiesen.
+
 - **Eindeutige Bezeichner**: Wann immer vorhanden, sollten eindeutige Bezeichner und Codes in den Daten verwendet werden.
 Diese Bezeichner sollten aus möglichst weit verbreiteten und als Standard genutzten Referenzdatensätzen entnommen sein.
 Dies erleichtert die automatische Einordnung der Daten und die Verknüpfung mit anderen Daten. Beispiele sind:
@@ -629,6 +650,7 @@ Die Vorteile sind:
 
 Die Bedingungen, unter welchen veröffentlichte Datensätze oder Dokumente genutzt werden können, werden durch Nutzungsbestimmungen (Lizenzen) festgelegt.
 Welche Lizenz für ihre Datensätze gelten soll, entscheiden dabei Sie als Datenbereitsteller.
+Auch zu diesem Thema bietet die ODIS eine hilfreiche Online-Ressource [@link(ODIS2023b)].
 
 In das Open-Data-Portal können nur Datensätze und Dokumente mit klaren, eindeutigen Nutzungsbestimmungen aufgenommen werden.
 Während des Schritts [_Datenmonitoring_](#datenmonitoring) haben Sie bereits die Datensätze herausgefiltert, zu welchen Sie die Rechte halten.
@@ -642,17 +664,13 @@ Momentan stehen folgende Lizenzen in den verschiedenen Veröffentlichungswegen z
 - [CC0 1.0:  Creative Commons Universell Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/deed.de)
 - [CC BY 4.0: Creative Commons Namensnennung 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)
 - [CC BY-SA 4.0: Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
-- [CC BY-NC 4.0: Creative Commons Namensnennung-Nicht kommerziell 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/deed.de)
 - [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0)
 - [Datenlizenz Deutschland – Namensnennung – Version 2.0](https://www.govdata.de/dl-de/by-2-0)
-- [ODbL: ODC Open Database License](https://opendatacommons.org/licenses/odbl/summary/)
-
-Die [GeoNutzV (19.03.2013)](https://www.gesetze-im-internet.de/geonutzv/BJNR054700013.html) bzw. [GeoNutzV-Berlin](https://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf) stehen seit Juni 2019 in Berlin nicht mehr zur Verfügung. Siehe dazu auch [_Geodatennutzungsverordnung_](#geodatennutzungsverordnung).
 
 
 Es sollte nach Möglichkeit immer die aktuelle Version einer Lizenz gewählt werden. In begründeten Ausnahmen kann auch eine ältere Version einer Lizenz genutzt werden.
 
-Exemplarisch werden im Folgenden drei unterschiedliche Lizenzen vorgestellt.
+Exemplarisch werden im Folgenden zwei unterschiedliche Lizenzen vorgestellt.
 Diese Zusammenfassungen sollen als Einführung dienen.
 Sie ersetzen nicht eine genaue Auseinandersetzung mit den tatsächlichen Lizenztexten.
 
@@ -678,19 +696,6 @@ Die Datennutzung ist entgeltfrei unter Nennung der Datenquelle sowohl für nicht
 Die Nutzungsbestimmungen beziehen sich allgemein auf die Nutzung von Daten (Geodaten sind nicht gesondert genannt) und werden auf Bundesebene wegen ihres Bezugs zum deutschen Rechtsraum als einfachste und sicherste Variante für die Verwaltung angesehen.
 Ihr Nachteil ist der geringe Bekanntheitsgrad in der Öffentlichkeit.
 Weitere Informationen finden Sie unter <https://www.govdata.de/lizenzen>.
-
-### Geodatennutzungsverordnung
-
-Die _Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes_ (GeoNutzV) vom 19. März 2013 (BGBl. I S. 547) gilt formell nur für die geodatenhaltenden Stellen des Bundes und der bundesunmittelbaren juristischen Personen des öffentlichen Rechts in Bezug auf Geodaten, Geodatendienste sowie dazugehörige Metadaten.
-Die Nutzungsbestimmungen sind in kurzer, übersichtlicher und leicht verständlicher Form dargestellt.
-Sie lassen auch die kommerzielle Nutzung zu.
-
-@include(box_prefix)
-
-Für das Land Berlin wurde eine angepasste Form der GeoNutzV durch die Senatsverwaltung für Stadtentwicklung und Wohnen (ehemals Stadtentwicklung und Umwelt) veröffentlicht.
-**Diese berlinspezifischen Nutzungsbestimmungen sind inzwischen veraltet und wurden im Juni 2019 durch die _Datenlizenz Deutschland – Namensnennung_ (Version 2.0) ersetzt,** um so einen Beitrag zur Vereinheitlichung des Lizenzwesens zu leisten.
-
-@include(box_suffix)
 
 # Wege der Veröffentlichung
 
@@ -1519,7 +1524,7 @@ Es ist jedoch selbstverständlich, dass nicht alle Fragen vorhergesehen werden k
 
 Falls Sie daher Beratung zum Thema Open Data wünschen, der über den Inhalt dieser Broschüre hinausgeht, gibt es folgende Beratungsmöglichkeiten:
 
-- **Open-Data-Strategie:** Für die Open-Data-Strategie des Landes Berlin ist Betül Özdemir von der Senatsverwaltung für Inneres, Digitalisierung und Sport als zentrale Verantwortliche des Landes Berlin (<a href="mailto:opendata@seninnds.berlin.de">opendata@seninnds.berlin.de</a>) zuständig. 
+- **Open-Data-Strategie:** Für die Open-Data-Strategie des Landes Berlin ist Betül Özdemir von der Senatskanzlei als zentrale Verantwortliche des Landes Berlin (<a href="mailto:opendata@senatskanzlei.berlin.de">opendata@senatskanzlei.berlin.de</a>) zuständig. 
 - **Inhaltliche Fragen:** „Welche Lizenz soll man wählen?“, „Wie erzeugt man eine CSV-Datei?“, „Welche Daten sollen veröffentlicht werden?“, „Haben meine Daten einen Personenbezug?“ – bei solchen und ähnlichen Fragen können Sie sich an die [Open-Data-Informationsstelle](https://www.odis-berlin.de) des Landes Berlin wenden.
 - **Technische Fragen:** „Wir brauchen einen Nutzeraccount für das Datenregister“, „Der File-Upload bei Imperia funktioniert nicht“ – bei solchen technischen Fragen, die sich direkt auf die Open-Data-Infrastruktur des Landes beziehen, kann Ihnen am ehesten das Team des Open-Data-Portals (<a href="mailto:opendata@berlin.de">opendata@berlin.de</a>) weiterhelfen.
 - **Schulung:** In der Vergangenheit wurden über die [Verwaltungsakademie](https://www.berlin.de/vak/) Schulungen zum Thema Open Data angeboten. Diese sollen in Zukunft fortgeführt und ausgebaut werden. Als Einführung in die Thematik wird es z.B. jährlich eine Schulung mit dem Titel _Crashkurs Open Data_ geben.
@@ -1773,7 +1778,7 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[@linktarget(GOVDATA2023)]** GovData. _Hochwertige Datensätze_. Webseite. <https://www.govdata.de/neues/-/blogs/hochwertige-datensatze>. [Gesehen 11.04.2024].
 
-**[@linktarget(ODIS2021a)]** Open Data Informationsstelle. _Handout zum Thema Dateninventur_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninventur>. [Gesehen 26.11.2021].
+**[@linktarget(ODIS2021a)]** Open Data Informationsstelle. _Handout zum Thema Dateninventur_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninventur_handout/>. [Gesehen 11.04.2024].
 
 **[@linktarget(ODIS2021b)]** Open Data Informationsstelle. _Vorlage für ein Dateninformationsblatt_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninformationsblatt>. [Gesehen 26.11.2021].
 
@@ -1785,6 +1790,10 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[@linktarget(ODIS2021f)]** Open Data Informationsstelle. _Checkliste zur Datenschutzprüfung_. 2021. Webseite. <https://odis-berlin.de/ressourcen/datenschutz>. [Gesehen 29.11.2021].
 
+**[@linktarget(ODIS2023)]** Open Data Informationsstelle. _Dateninventurprozess_. 2023. Webseite. <https://odis-berlin.de/ressourcen/dateninventur_prozess/>. [Gesehen 11.04.2014].
+
+**[@linktarget(ODIS2023b)]** Open Data Informationsstelle. Lizenzen-Handout. 2023. Webseite. <https://odis-berlin.de/ressourcen/lizenzwahl/>. [Gesehen 11.04.2014].
+
 **[@linktarget(OKF2017)]** Open Knowledge Foundation. _Open Definition 2.1_. 2017. Webseite. <https://opendefinition.org/od/2.1/en/>. [Gesehen 05.07.2019].
 
 **[@linktarget(OKF2019)]** Open Knowledge Foundation. „Datenformate“ in _Das Open Data Handbuch_. Webseite. <https://opendatahandbook.org/guide/de/appendices/file-formats/>. [Gesehen 05.07.2019].
@@ -1795,11 +1804,13 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[@linktarget(PUBEU2023)]** Publications Office of the European Union. _High-value dataset categories_. 2023. Webseite. <https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category>. [Gesehen 11.04.2024].
 
+**[@linktarget(SKZL2023)]** Senatskanzlei Berlin. 25.09.2023. _Open-Data-Strategie_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/e-government/open-data/strategieprozess/1finales__dokument__2023_-opendatastrategie.pdf?ts=1705017648>. [Gesehen 10.04.2024].
+
 **[@linktarget(SENSTADT2020)]** Senatsverwaltung für Stadtentwicklung und Wohnen Berlin und Amt für Statistik Berlin-Brandenburg. _Dokumentation zur Modifikation der Lebensweltlich orientierten Räume (LOR)_. Onlinedokument. <https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/download/Dokumentation_zur_Modifikation_LOR_2020.pdf>. [Gesehen 06.10.2021].
 
 **[@linktarget(SENWEB2018)]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. 2018. Datensatz. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). [Gesehen 05.07.2019]. Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
 
-**[@linktarget(WITTIG2022)]** Wittig, Christian, Antje Göldner et al. 28.02.2022. _DCAT-AP.de Konventionenhandbuch 2.0 – Technische, semantische und organisatorische Konventionen für „GovData“_. Onlinedokument. <https://www.dcat-ap.de/def/dcatde/2.0/implRules/>. [Gesehen 10.04.2024].
+**[@linktarget(WITTIG2022)]** Wittig, Christian, Antje Göldner et al. 28.02.2022. _DCAT-AP.de Konventionenhandbuch 2.0 – Technische, semantische und organisatorische Konventionen für „GovData“_. Webseite. <https://www.dcat-ap.de/def/dcatde/2.0/implRules/>. [Gesehen 10.04.2024].
 
 # Bildverzeichnis {-}
 
