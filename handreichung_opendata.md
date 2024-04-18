@@ -118,7 +118,7 @@ Suchen Sie sich Unterstützung oder Mitstreiterinnen und Mitstreiter, um die Sch
 Vielleicht gibt es in Ihrer Einrichtung eine Open-Data-Beauftragte oder einen Open-Data-Beauftragten, die oder der Sie bei diesem Prozess unterstützen kann.
 Vielleicht haben auch Kolleginnen und Kollegen in Ihrer Einrichtung bereits Daten auf ihrer Webseite veröffentlicht, die Sie im Datenportal hinterlegen können.
 
-Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsakademie](https://www.berlin.de/vak/), oder Veranstaltungen und Beratungsangebote der [Open-Data-Informationsstelle (ODIS)](https://www.odis-berlin.de) des Landes Berlin (siehe auch das Kapitel [_Weitere Beratung_](#weitere-beratung)), die in Videotutorials, mit Handouts und anderen Materialien die Veröffentlichung veranschaulichen (Links zu den Materialien s.u.).
+Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsakademie](https://www.berlin.de/vak/), oder Veranstaltungen und Beratungsangebote der [Open-Data-Informationsstelle (ODIS)](https://www.odis-berlin.de) des Landes Berlin (siehe auch das Kapitel [_Weitere Beratung_](#weitere-beratung)), die in Videotutorials, mit Handouts und anderen Materialien die Veröffentlichung veranschaulichen (Links zu den Materialien s.&nbsp;u.).
 
 ![Schritt für Schritt zur Veröffentlichung\label{fig:veroeffentlichungsschritte}](images/schritt-für-schritt.png "Übersicht über die Schritte, die zu einer Veröffentlichung eines Datensatzes im Berliner Datenportal führen"){:width="700px"}{: .centered }
 
@@ -1090,7 +1090,7 @@ Es sollte darauf geachtet werden, dass diese Angabe immer aktuell gehalten wird.
 
 ### Kontakt-E-Mail
 
-Das Feld _Kontakt-E-Mail_ beinhaltet entweder eine E-Mail-Adresse oder den Link auf ein Kontaktformular, über welches Nutzer/innen bei Bedarf mit der veröffentlichenden Stelle in Kontakt treten können.
+Das Feld _Kontakt-E-Mail_ beinhaltet entweder eine E-Mail-Adresse oder den Link auf ein Kontaktformular, über welches Nutzer/innen bei Bedarf mit der veröffentlichenden Stelle in Kontakt treten können, wenn Sie Fragen zum Datensatz haben.
 Es wird empfohlen, hier keine persönlichen E-Mail-Adressen einzutragen, sondern auf Funktionspostfächer zurückzugreifen, die unabhängig von konkreten Personen bearbeitet werden.
 
 ### Webadresse
@@ -1100,7 +1100,7 @@ Das Datenportal ist ein reines Metadatenportal: die eigentlichen Datenressourcen
 
 ### Beschreibung
 
-Die Beschreibung fasst die Inhalte Ihres Datensatzes mit wenigen Sätzen zusammen. Bitte füllen Sie dieses Feld unbedingt aus: Es erleichtert allen Benutzern einen schnellen Überblick über die von Ihnen bereitgestellten Daten.
+Die Beschreibung fasst die Inhalte Ihres Datensatzes mit wenigen Sätzen zusammen. Bitte füllen Sie dieses Feld unbedingt aus: Es erleichtert allen Benutzer/innen einen schnellen Überblick über die von Ihnen bereitgestellten Daten.
 
 Beantworten Sie bei der Beschreibung z.&nbsp;B. folgende Fragen:
 
@@ -1122,7 +1122,7 @@ Dazu zählt auch der [_Leitfaden für Verständliche Sprache_](https://www.berli
 Die Lizenz bestimmt, zu welchen Bedingungen der Datensatz genutzt werden darf.
 Generell gilt: Eine möglichst offene Lizenz, die die Nutzung der Daten ohne oder mit sehr wenigen Einschränkungen zulässt, regt am ehesten zur Weiternutzung an.
 Im Umkehrschluss macht eine restriktive Lizenz die Nutzung unwahrscheinlicher und läuft dem Gedanken von offenen Daten zuwider.
-Am problematischsten sind fehlende oder obskure Lizenzen, da potentielle Nutzer so verunsichert werden.
+Am problematischsten sind fehlende oder obskure Lizenzen, da potenzielle Nutzer/innen so verunsichert werden.
 Siehe auch den ausführlicheren Abschnitt zu [Lizenzen](#lizenz-festlegen).
 
 Damit die Frage nach der Lizenz nicht für jeden Datensatz neu entschieden werden muss, ist es sinnvoll, hier eine einheitliche Regelung für jeden Datenbereitsteller (Verwaltung, Bezirksamt etc.) festzulegen. 
@@ -1223,8 +1223,8 @@ Neben Hinweisen zur Wahl von guten Tags findet man dort auch eine interaktive An
 ### Organisation
 
 Die Organisation ist nicht mit der [Veröffentlichenden Stelle](#veröffentlichende-stelle) zu verwechseln!
-Bei dieser Angabe handelt es sich um ein internes Metadatum des Datenregisters: es regelt, welche Nutzer einen Datensatz bearbeiten dürfen.
-Benutzer können hier nur die Organisation auswählen, der sie selbst angehören.
+Bei dieser Angabe handelt es sich um ein internes Metadatum des Datenregisters: es regelt, welche Nutzer/innen einen Datensatz bearbeiten dürfen.
+Sie können hier nur die Organisation auswählen, der sie selbst angehören.
 Genaueres ist dem Abschnitt [_Organisationen_](#organisationen) zu entnehmen. 
 
 Im SimpleSearch-Baukasten und in der Datenrubrik ist dieses Metadatum nicht sichtbar (die Organisation wird automatisch gesetzt).
@@ -1384,7 +1384,7 @@ Die Grundidee von Linked Data ist es, jede in den Daten beschriebene Entität �
 Diese URL kann im Browser oder anderweitig geöffnet werden, um weitere Informationen über die Entität zu bekommen. 
 Alle Beziehungen zwischen Entitäten – ein Datenportal enthält Datensätze, Datensätze haben Datenressourcen, Personen sind Ansprechpartner für Datensätze, Städte befinden sich in Ländern etc. – werden mit der Beschreibungssprache [RDF](https://www.w3.org/TR/rdf11-concepts/) ausgedrückt.
 
-Grundsätzlich kann DCAT-AP.de sowohl für Lese- als auch für Schreiboperationen von Daten aus einem Datenportal genutzt werden. Im Berliner Datenportal ist allerdings nur der lesende Zugriff freigeschaltet. Über diesen Weg greift das bundesweite Datenportal [govdata.de](https://govdata.de) auf die Metadaten des Berliner Datenportals zu. Die Schnittstelle steht aber auch allen anderen Nutzern zur Verfügung.
+Grundsätzlich kann DCAT-AP.de sowohl für Lese- als auch für Schreiboperationen von Daten aus einem Datenportal genutzt werden. Im Berliner Datenportal ist allerdings nur der lesende Zugriff freigeschaltet. Über diesen Weg greift das bundesweite Datenportal [govdata.de](https://govdata.de) auf die Metadaten des Berliner Datenportals zu. Die Schnittstelle steht aber auch allen anderen Nutzer/innen zur Verfügung.
 
 ### Beispiele
 
