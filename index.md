@@ -112,14 +112,15 @@ Schließlich gibt es sogenannte [**Harvester**](#ckan-harvester)-Erweiterungen z
 
 ## Schritt für Schritt zur Veröffentlichung
 
-Die Veröffentlichung von offenen Daten ist ein mehrstufiger Prozess (s. Abbildung).
-Es sind jedoch weniger Schritte nötig als Sie denken, um gemeinsames Wissen zu schaffen.
+Die Veröffentlichung von offenen Daten ist ein mehrstufiger Prozess (s. Abbildung), aber weniger kompliziert, als es auf den ersten Blick scheinen mag.
+Es sind weniger Schritte nötig als Sie denken, um die Daten auf dem Datenportal zu hinterlegen.
 Suchen Sie sich Unterstützung oder Mitstreitende beim Durchlaufen der Schritte.
-Gibt es in Ihrer Einrichtung eine Open-Data-Beauftragte oder einen Open-Data-Beauftragten?
-Haben Kolleg*innen in Ihrer Einrichtung bereits Daten veröffentlicht?
-Werfen Sie über das Open-Data-Portal auch einen Blick in andere Behörden: Jeder im Datenportal veröffentlichte Datensatz nennt eine E-Mail-Adresse, über die Sie weiteren Kontakt zum Thema finden können.
 
-Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsakademie](https://www.berlin.de/vak/), oder Veranstaltungen und Beratungsangebote der [Open-Data-Informationsstelle (ODIS)](https://www.odis-berlin.de) des Landes Berlin (siehe auch das Kapitel [_Weitere Beratung_](#weitere-beratung)).
+Suchen Sie sich Unterstützung oder Mitstreiterinnen und Mitstreiter, um die Schritte gemeinsam zu durchlaufen.
+Vielleicht gibt es in Ihrer Einrichtung eine Open-Data-Beauftragte oder einen Open-Data-Beauftragten, die oder der Sie bei diesem Prozess unterstützen kann.
+Vielleicht haben auch Kolleginnen und Kollegen in Ihrer Einrichtung bereits Daten auf ihrer Webseite veröffentlicht, die Sie im Datenportal hinterlegen können.
+
+Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsakademie](https://www.berlin.de/vak/), oder Veranstaltungen und Beratungsangebote der [Open-Data-Informationsstelle (ODIS)](https://www.odis-berlin.de) des Landes Berlin (siehe auch das Kapitel [_Weitere Beratung_](#weitere-beratung)), die in Videotutorials, mit Handouts und anderen Materialien die Veröffentlichung veranschaulichen (Links zu den Materialien s.u.).
 
 ![Schritt für Schritt zur Veröffentlichung](images/schritt-für-schritt.png "Übersicht über die Schritte, die zu einer Veröffentlichung eines Datensatzes im Berliner Datenportal führen"){:width="700px"}{: .centered }
 
@@ -127,20 +128,22 @@ Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsa
 
 In den Anfängen der Open-Data-Initiative in Berlin war die Veröffentlichung von Verwaltungsdaten freiwillig.
 Es stand den Behörden frei, ob und welche Daten sie veröffentlichen.
-Mit dem Berliner E-Government-Gesetz (EGovG Bln) hat sich dies geändert:
-Es gilt nun, dass grundsätzlich alle Behörden, die zur unmittelbaren Landesverwaltung gehören, die von ihnen erhobenen oder verarbeiteten Daten als Open Data veröffentlichen sollen.
-Die Veröffentlichung soll ohne Zeitverzögerung geschehen.
-Auch verwaltungsnahe Einrichtungen, die nicht zur unmittelbaren Landesverwaltung gehören, sind eingeladen, im Datenportal zu veröffentlichen.
-Die Frage nach einer Vorauswahl oder Priorisierung bei der Veröffentlichung stellt sich also im Grunde genommen nicht mehr.
-Trotzdem kann es hilfreich sein, eine behördeninterne **Dateninventur** durchzuführen, um den Prozess der Veröffentlichung vorzubereiten und zu unterstützen.
-Die ODIS leistet zum Thema Dateninventur Unterstützung in Zusammenarbeit mit der jeweiligen Behörde.
-Auch eine Reihe von Online-Ressourcen sind verfügbar, angefangen mit einem _Handout zum Thema Dateninventur_ [[ODIS2021a](#ODIS2021a)], das alle wichtigen Informationen aufzeigt, bis hin zu einem kompletten _Dateninventurprozess_ [[ODIS2023](#ODIS2023)].
-Dazu gehört auch die _Vorlage für ein Dateninformationsblatt_ [[ODIS2021b](#ODIS2021b)], mit dem die Datenbestände in der Behörde dokumentiert werden können.
 
-Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc. liefert die [Rechtsverordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13).
+Mit der Verabschiedung des Berliner E-Government-Gesetzes (EGovG Bln) und der festen Verankerung von Open Data im §13 dieses Gesetzes sowie dem Inkrafttreten der Open-Data-Verordnung hat sich diese Situation grundlegend geändert:
+Grundsätzlich sind nun alle Behörden, die nach § 2 AZG zur unmittelbaren Landesverwaltung gehören, verpflichtet, die von ihnen erhobenen oder verarbeiteten Daten als Open Data zu veröffentlichen.
+Diese Veröffentlichung sollte unverzüglich und ohne Zeitverzögerung erfolgen, um sicherzustellen, dass stets aktuelle Daten verfügbar sind.
+Auch verwaltungsnahe Einrichtungen, die nicht zur unmittelbaren Landesverwaltung gehören, sind herzlich eingeladen, im Datenportal zu veröffentlichen.
+
+Angesichts dieser rechtlichen Vorgaben stellt sich die Frage nach einer Vorauswahl oder Priorisierung bei der Veröffentlichung im Grunde nicht mehr.
+Dennoch kann es hilfreich sein, eine behördeninterne **Dateninventur** durchzuführen, um einen Überblick über die vorhandenen Daten zu erhalten und den Prozess der Veröffentlichung vorzubereiten und zu unterstützen.
+Die ODIS leistet in Zusammenarbeit mit den jeweiligen Behörden Unterstützung zum Thema Dateninventur.
+Es stehen auch eine Reihe von Online-Ressourcen zur Verfügung, beginnend mit einem _Handout zum Thema Dateninventur_ [[ODIS2021a](#ODIS2021a)], das alle wichtigen Informationen zusammenfasst, bis hin zu einem vollständigen _Dateninventurprozess_ [[ODIS2023](#ODIS2023)].
+Dies beinhaltet auch die _Vorlage für ein Dateninformationsblatt_ [[ODIS2021b](#ODIS2021b)], mit dem die Datenbestände in der Behörde dokumentiert werden können.
+
+Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc. liefert der §4 _Anwendungsbereich_ der  [Rechtsverordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13).
 
 Die folgenden Beispiele für Datenarten und Themenfelder sollen einen Eindruck davon vermitteln, welche Daten erwartet werden. 
-Auch diese Beispiele werden in der Rechtsverordnung näher ausgeführt.
+Auch diese Beispiele werden in der Open-Data-Verordnung näher ausgeführt.
 
 #### Beispiele Datenarten
 
@@ -179,17 +182,20 @@ Auch diese Beispiele werden in der Rechtsverordnung näher ausgeführt.
 
 ### Datenmonitoring
 
-Beim Datenmonitoring geht es um die **Prüfung von Zuständigkeit** und um **rechtliche Aspekte**, die der Veröffentlichung eines Datensatzes möglicherweise entgegenstehen könnten.
+Beim Datenmonitoring geht vor allem es um die **Prüfung der Zuständigkeit** für die Datensätze innerhalb der Behörde sowie um **rechtliche Aspekte**, die gemäß § 5 der Open-Data-Verordnung der Veröffentlichung eines Datensatzes möglicherweise entgegenstehen könnten.
 
-Bei der Prüfung der Zuständigkeit stellen sich folgende Fragen:
+Bei der Prüfung der Zuständigkeit sollten folgende Fragen berücksichtigt werden:
 
-- Fallen die Daten tatsächlich unter den öffentlichen Auftrag Ihrer Behörde oder Einrichtung? Wenn nicht, sollten Sie die Veröffentlichung überdenken.
-- Falls Ihre Behörde Daten nutzt, die von einer anderen Behörde erstellt wurden: Wurden die Daten von Ihrer Behörde so verarbeitet, dass dadurch ein Mehrwert entstanden ist (etwa durch Interpretation oder Integration mit anderen Daten)? 
+- Fallen die Daten tatsächlich unter den öffentlichen Auftrag Ihrer Behörde oder Einrichtung?
+Wurden die Daten von Ihrer Behörde generiert oder haben Sie Dritten den Auftrag erteilt, Daten zu erheben, zu bearbeiten oder in einem Fachverfahren zu speichern?
+Wenn nicht, sollten Sie die Veröffentlichung überdenken.
+- Falls Ihre Behörde Daten nutzt, die von einer anderen Behörde erstellt wurden:
+Wurden die Daten von Ihrer Behörde so verarbeitet, dass dadurch ein Mehrwert entstanden ist (etwa durch Interpretation oder Integration mit anderen Daten)? 
 Wenn Sie dies bejahen können, sollten die Daten von Ihrer Behörde veröffentlicht werden. 
 Wenn nicht, sollten die Daten von der ursprünglichen Behörde veröffentlicht werden.
 
-Verschiedene Ausnahmebedingungen schränken die allgemeine Veröffentlichungspflicht ein.
-Diese rechtlichen Aspekte sind im Detail der [Rechtsverordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu entnehmen.
+Es gibt verschiedene Ausnahmebedingungen, die die allgemeine Veröffentlichungspflicht einschränken.
+Diese rechtlichen Aspekte sind im Detail dem §5 _Ausnahmetatbestände_ der [Open-Data-Verordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu entnehmen.
 Die hier angeführten Ausnahmen sollen nur einen ersten Eindruck vermitteln.
 Folgende Sachverhalte stehen einer Veröffentlichung entgegen:
 
@@ -204,7 +210,7 @@ Folgende Sachverhalte stehen einer Veröffentlichung entgegen:
 
 Zur Unterstützung dieses Prozesses und um den Einstieg zu erleichtern, hat die ODIS zwei Checklisten veröffentlicht.
 Zum einen den _Veröffentlichungs-Check_ [[ODIS2021e](#ODIS2021e)], der neben Fragen des Monitorings auch die Qualität von Daten und Metadaten anspricht.
-Zum anderen die _Checkliste zur Datenschutzprüfung_ [[ODIS2021f](#ODIS2021f)], mit der sich die verschiedenen Ausschlusskriterien zur Veröffentlichung von Daten prüfen lassen.
+Zum anderen die _Checkliste zur Datenschutzprüfung_ [[ODIS2021f](#ODIS2021f)], mit der sich die verschiedenen Ausschlusskriterien zur Veröffentlichung von Daten entsprechend des §5 _Ausnahmetatbestände_ prüfen lassen.
 
 </div>
 {::options parse_block_html="false" /}
@@ -232,12 +238,14 @@ Alle Formate, die für Offene Daten in Frage kommen, sollten folgende Grundeigen
 **Maschinenlesbarkeit** ist das wichtigste Kriterium bei der Wahl eines Daten- bzw. Dateiformats. Formate gelten dann als maschinenlesbar (auch: **strukturiert**), wenn sie die softwaregestützte Erkennung und Verarbeitung von Daten erlauben.
 Denn erst wenn Ihre Daten maschinenlesbar sind, können sie mit entsprechendem Spezialwissen zur Dateninterpretation, -analyse und -visualisierung verarbeitet, aufbereitet und nutzbar gemacht werden.
 Tabellarische Daten zum Beispiel sind zwar im PDF gut für Menschen lesbar, jedoch für Maschinen schwierig zu interpretieren.
+Maschinenlesbare Formate für tabellarische Daten sind z.B. CSV und (bei richtiger Nutzung) auch Excel-Formate wie XLSX.
 
 **Standardisierung**: Neben der Maschinenlesbarkeit ist die Standardisierung eines Formats ein wichtiges Kriterium: Das Format sollte nach Möglichkeit in Form eines offen und unentgeltlich nutzbaren Standards präzise definiert und dokumentiert sein.
 Das Vorhandensein eines offenen Standards garantiert, dass Daten in diesem Format jederzeit und von jedem korrekt verarbeitet werden können.
 
 **Offenheit**: Schließlich hat die Offenheit eines Formats großes Gewicht.
 Statt eines proprietären Formats sollte nach Möglichkeit immer ein offenes gewählt werden, um die Verarbeitung der Daten nicht zu erschweren.
+Proprietär soll hier heißen: ein Format, dem kein offener Standard zugrunde liegt, und das z.B. nur mit der Software eines bestimmten Anbieters genutzt werden kann.
 
 Offene Verwaltungsdaten sollen von einer möglichst breiten Zielgruppe verwendet werden können.
 Um dieses Ziel zu erreichen, müssen die Daten in Formaten bereitgestellt werden, die die oben genannten Kriterien erfüllen.
