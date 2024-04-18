@@ -28,7 +28,7 @@ Die erste Auflage des Berliner Open-Data-Handbuchs erschien im Oktober 2019.
 Seitdem hat sich die Open-Data-Berlin-Inititative technisch, rechtlich und organisatorisch weiter entwickelt: 
 
 - Im Zuge der Konsolidierung der E-Government-Maßnahmen im Bereich der Verwaltungsdigitalisierung wurde die Verantwortung für das Thema Open Data von der Senatsverwaltung für Wirtschaft, Energie und Betriebe zunächst auf die Innenverwaltung übertragen und liegt nun bei der Senatskanzlei Berlin unter der Leitung des Regierenden Bürgermeisters.
-- Die Rolle der Open-Data-Beauftragten gemäß §8 der Open-Data-Verordnung hat sich in den Behörden der Berliner Verwaltung etabliert.
+- Die Rolle der Open-Data-Beauftragten gemäß §&nbsp;8 der Open-Data-Verordnung hat sich in den Behörden der Berliner Verwaltung etabliert.
 Alle Bezirksverwaltungen und nahezu alle Senatsverwaltungen haben mittlerweile Open-Data-Beauftragte ernannt.
 Insgesamt sind 21 Open-Data-Beauftragte tätig (ZUM JETZIGEN ZEITPUNKT?).
 Zusätzlich wurde eine zentrale Open-Data-Verantwortliche des Landes Berlin ernannt, die die Aktivitäten für Open Data im Land Berlin koordiniert und die Umsetzung der Open-Data-Verordnung sowie der Maßnahmen der Open-Data-Strategie überwacht.
@@ -107,6 +107,22 @@ Schließlich gibt es sogenannte [**Harvester**](#ckan-harvester)-Erweiterungen z
 
 ![Der Weg der Metadaten im Berliner Datenportal\label{fig:uebersicht_datenportal}](images/offene_daten_uebersicht.png "Die Grafik zeigt den Weg der Metadaten im Berliner Datenportal. Datenbereitsteller können Datensätze manuell über Imperia und Datenregister bereitstellen, oder automatisch über Harvester und API. Datennutzende können manuell suchen und browsen über das Datenportal, oder für automatische Auswertungen über die APIs gehen.")
 
+@include(box_prefix)
+
+## Wer darf im Datenportal veröffentlichen?
+
+Lange Zeit waren es ausschließlich Verwaltung und verwaltungsnahe Einrichtungen, die im Open-Data-Portal veröffentlichen sollten und konnten.
+Als zentrales Datenportal des Landes ist daten.berlin.de der Ort, an dem alle Behörden der unmittelbaren Landesverwaltung (s. [Datenauswahl](#datenauswahl)) laut E-Government-Gesetz ihre Daten veröffentlichen.
+Auch verwaltungsnahe Einrichtungen wie landeseigene Betriebe sind eingeladen, maschinenlesbare Daten im Open-Data-Portal zu veröffentlichen.
+Anderen Datenbereitstellern war eine Veröffentlichung im Datenportal nicht möglich.
+
+Seit Dezember 2023 ist diese Regelung gelockert, so dass nun in begründeten Ausnahmen auch Daten aus anderen Quellen veröffentlicht werden können, wenn sie relevant für Berlin sind und den Ansprüchen an Open Data genügen.
+Bevor Datensätze veröffentlicht werden, muss die Zustimmung der zentralen Open-Data-Verantwortlichen erfolgen.
+Datensätze, die aus Nicht-Verwaltungsquellen stammen, sind im Datenportal als solche gekennzeichnet.
+
+Als erste Datenbereisteller, die nicht zur Verwaltung gehören, haben [ADFC Berlin](https://berlin.adfc.de/) und [DLR](https://www.dlr.de/de/das-dlr/standorte-und-bueros/berlin) am 10. Dezember 2023 den Datensatz [Berlin zählt Mobilität](https://daten.berlin.de/datensaetze/berlin-zaehlt-mobilitaet) mit Verkehrszähldaten veröffentlicht.
+
+@include(box_suffix)
 
 # Schritt für Schritt zur Veröffentlichung
 
@@ -127,8 +143,8 @@ Nutzen Sie auch Angebote wie Schulungen zum Thema Open Data in der [Verwaltungsa
 In den Anfängen der Open-Data-Initiative in Berlin war die Veröffentlichung von Verwaltungsdaten freiwillig.
 Es stand den Behörden frei, ob und welche Daten sie veröffentlichen.
 
-Mit der Verabschiedung des Berliner E-Government-Gesetzes (EGovG Bln) und der festen Verankerung von Open Data im §13 dieses Gesetzes sowie dem Inkrafttreten der Open-Data-Verordnung hat sich diese Situation grundlegend geändert:
-Grundsätzlich sind nun alle Behörden, die nach § 2 AZG zur unmittelbaren Landesverwaltung gehören, verpflichtet, die von ihnen erhobenen oder verarbeiteten Daten als Open Data zu veröffentlichen.
+Mit der Verabschiedung des Berliner E-Government-Gesetzes (EGovG Bln) und der festen Verankerung von Open Data im §&nbsp;13 dieses Gesetzes sowie dem Inkrafttreten der Open-Data-Verordnung hat sich diese Situation grundlegend geändert:
+Grundsätzlich sind nun alle Behörden, die nach [§&nbsp;2 AZG](https://gesetze.berlin.de/perma?j=VwZustG_BE_!_2) zur unmittelbaren Landesverwaltung gehören, verpflichtet, die von ihnen erhobenen oder verarbeiteten Daten als Open Data zu veröffentlichen.
 Diese Veröffentlichung sollte unverzüglich und ohne Zeitverzögerung erfolgen, um sicherzustellen, dass stets aktuelle Daten verfügbar sind.
 Auch verwaltungsnahe Einrichtungen, die nicht zur unmittelbaren Landesverwaltung gehören, sind herzlich eingeladen, im Datenportal zu veröffentlichen.
 
@@ -138,7 +154,7 @@ Die ODIS leistet in Zusammenarbeit mit den jeweiligen Behörden Unterstützung z
 Es stehen auch eine Reihe von Online-Ressourcen zur Verfügung, beginnend mit einem _Handout zum Thema Dateninventur_ [@link(ODIS2021a)], das alle wichtigen Informationen zusammenfasst, bis hin zu einem vollständigen _Dateninventurprozess_ [@link(ODIS2023)].
 Dies beinhaltet auch die _Vorlage für ein Dateninformationsblatt_ [@link(ODIS2021b)], mit dem die Datenbestände in der Behörde dokumentiert werden können.
 
-Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc. liefert der §4 _Anwendungsbereich_ der  [Rechtsverordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13).
+Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc. liefert der §&nbsp;4 _Anwendungsbereich_ der  [Rechtsverordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§&nbsp;13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13).
 
 Die folgenden Beispiele für Datenarten und Themenfelder sollen einen Eindruck davon vermitteln, welche Daten erwartet werden. 
 Auch diese Beispiele werden in der Open-Data-Verordnung näher ausgeführt.
@@ -180,7 +196,7 @@ Auch diese Beispiele werden in der Open-Data-Verordnung näher ausgeführt.
 
 ## Datenmonitoring
 
-Beim Datenmonitoring geht vor allem es um die **Prüfung der Zuständigkeit** für die Datensätze innerhalb der Behörde sowie um **rechtliche Aspekte**, die gemäß § 5 der Open-Data-Verordnung der Veröffentlichung eines Datensatzes möglicherweise entgegenstehen könnten.
+Beim Datenmonitoring geht vor allem es um die **Prüfung der Zuständigkeit** für die Datensätze innerhalb der Behörde sowie um **rechtliche Aspekte**, die gemäß §&nbsp;5 der Open-Data-Verordnung der Veröffentlichung eines Datensatzes möglicherweise entgegenstehen könnten.
 
 Bei der Prüfung der Zuständigkeit sollten folgende Fragen berücksichtigt werden:
 
@@ -193,7 +209,7 @@ Wenn Sie dies bejahen können, sollten die Daten von Ihrer Behörde veröffentli
 Wenn nicht, sollten die Daten von der ursprünglichen Behörde veröffentlicht werden.
 
 Es gibt verschiedene Ausnahmebedingungen, die die allgemeine Veröffentlichungspflicht einschränken.
-Diese rechtlichen Aspekte sind im Detail dem §5 _Ausnahmetatbestände_ der [Open-Data-Verordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu entnehmen.
+Diese rechtlichen Aspekte sind im Detail dem §&nbsp;5 _Ausnahmetatbestände_ der [Open-Data-Verordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu entnehmen.
 Die hier angeführten Ausnahmen sollen nur einen ersten Eindruck vermitteln.
 Folgende Sachverhalte stehen einer Veröffentlichung entgegen:
 
@@ -207,7 +223,7 @@ Folgende Sachverhalte stehen einer Veröffentlichung entgegen:
 
 Zur Unterstützung dieses Prozesses und um den Einstieg zu erleichtern, hat die ODIS zwei Checklisten veröffentlicht.
 Zum einen den _Veröffentlichungs-Check_ [@link(ODIS2021e)], der neben Fragen des Monitorings auch die Qualität von Daten und Metadaten anspricht.
-Zum anderen die _Checkliste zur Datenschutzprüfung_ [@link(ODIS2021f)], mit der sich die verschiedenen Ausschlusskriterien zur Veröffentlichung von Daten entsprechend des §5 _Ausnahmetatbestände_ prüfen lassen.
+Zum anderen die _Checkliste zur Datenschutzprüfung_ [@link(ODIS2021f)], mit der sich die verschiedenen Ausschlusskriterien zur Veröffentlichung von Daten entsprechend des §&nbsp;5 _Ausnahmetatbestände_ prüfen lassen.
 
 @include(box_suffix)
 
@@ -685,7 +701,7 @@ Im Open-Data-Portal können nur Datensätze mit klaren, eindeutigen Nutzungsbest
 Während des Schritts [_Datenmonitoring_](#datenmonitoring) haben Sie bereits die Datensätze herausgefiltert, zu denen Sie die Rechte halten.
 Stellen Sie die Daten anschließend unter eine geeignete Lizenz, die den Nutzer/innen größtmöglichen Spielraum beim Umgang mit den Daten einräumt und den Anforderungen an Offenheit genügt.
 Um den Open-Data-Gedanken nicht zu gefährden, sollen die Nutzungsbestimmungen die weitere kommerzielle und nichtkommerzielle Nutzung der veröffentlichten Daten möglichst wenig einschränken.
-Auch hier gibt die [Open-Data-Verordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) näher Auskunft.
+Auch hier gibt die [Open-Data-Verordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§&nbsp;13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) näher Auskunft.
 Bei der Entscheidung, ob eine Lizenz als „offen“ einzustufen ist, kann die [Open Definition](https://opendefinition.org/od/2.0/de/) von [Open Knowledge International](https://okfn.org) hinzugezogen werden.
 
 Momentan stehen folgende Lizenzen in den verschiedenen Veröffentlichungswegen zur Verfügung:
