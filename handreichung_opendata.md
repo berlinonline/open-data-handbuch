@@ -1551,17 +1551,19 @@ Folgende Links können als Einstiegspunkte für die weitere Vertiefung des Thema
 
 # Weitere Beratung
 
-Das Ziel dieser Broschüre ist es, auf möglichst viele Fragen rund um das Thema Open Data möglichst detaillierte Antworten zu geben.
+Das Ziel dieses Handbuchs ist es, möglichst viele Fragen rund um das Thema Open Data in Berlin detailliert zu beantworten.
 Es ist jedoch selbstverständlich, dass nicht alle Fragen vorhergesehen werden können und nicht jedes Detail berücksichtigt werden kann.
 
-Falls Sie daher Beratung zum Thema Open Data wünschen, der über den Inhalt dieser Broschüre hinausgeht, gibt es folgende Beratungsmöglichkeiten:
+Falls Sie daher Beratung zum Thema Open Data wünschen, die über den Inhalt dieses Handbuchs hinausgeht, stehen Ihnen verschiedene Beratungsmöglichkeiten zur Verfügung:
 
-- **Open-Data-Strategie:** Für die Open-Data-Strategie des Landes Berlin ist Betül Özdemir von der Senatskanzlei als zentrale Verantwortliche des Landes Berlin (<a href="mailto:opendata@senatskanzlei.berlin.de">opendata@senatskanzlei.berlin.de</a>) zuständig. 
-- **Inhaltliche Fragen:** „Welche Lizenz soll man wählen?“, „Wie erzeugt man eine CSV-Datei?“, „Welche Daten sollen veröffentlicht werden?“, „Haben meine Daten einen Personenbezug?“ – bei solchen und ähnlichen Fragen können Sie sich an die [Open-Data-Informationsstelle](https://www.odis-berlin.de) des Landes Berlin wenden.
+- **Open-Data-Strategie:** Für Fragen zur Open-Data-Strategie des Landes Berlin und deren Umsetzung ist Betül Özdemir von der Senatskanzlei als Open-Data-Beauftragte des Landes (<a href="mailto:opendata@senatskanzlei.berlin.de">opendata@senatskanzlei.berlin.de</a>) zuständig. 
+- **Inhaltliche Fragen:** „Welche Lizenz soll man wählen?“, „Wie erzeugt man eine CSV-Datei?“, „Welche Daten sollen veröffentlicht werden?“ – bei solchen und ähnlichen Fragen können Sie sich an die [Open-Data-Informationsstelle](https://www.odis-berlin.de) Berlin wenden.
+- **Datenschutzrechtliche Fragen**: „Haben meine Daten einen Personenbezug?“ – falls Unklarheit über diese Frage herrscht, wenden Sie sich bitte an den oder die Datenschutzbeauftrage Ihrer Behörde.
 - **Technische Fragen:** „Wir brauchen einen Nutzeraccount für das Datenregister“, „Der File-Upload bei Imperia funktioniert nicht“ – bei solchen technischen Fragen, die sich direkt auf die Open-Data-Infrastruktur des Landes beziehen, kann Ihnen am ehesten das Team des Open-Data-Portals (<a href="mailto:opendata@berlin.de">opendata@berlin.de</a>) weiterhelfen.
-- **Schulung:** In der Vergangenheit wurden über die [Verwaltungsakademie](https://www.berlin.de/vak/) Schulungen zum Thema Open Data angeboten. Diese sollen in Zukunft fortgeführt und ausgebaut werden. Als Einführung in die Thematik wird es z.B. jährlich eine Schulung mit dem Titel _Crashkurs Open Data_ geben.
-- **Open-Data-Networking:** Zwei Mal jährlich werden Open-Data-Lunches von der Senatsverwaltung für Inneres, Digitalisierung und Sport mit aktuellen Vorträgen zu den Herausforderungen der Open-Data-Strategie Berlins durchgeführt.
-Ansprechpartnerin für das Programm und die Anmeldung ist auch hier die Open-Data-Beauftragte des Landes: Betül Özdemir (<a href="mailto:opendata@seninnds.berlin.de">opendata@seninnds.berlin.de</a>).
+- **Schulung:** In der Vergangenheit wurden über die [Verwaltungsakademie](https://www.berlin.de/vak/) Schulungen zum Thema Open Data angeboten. Diese sollen in Zukunft fortgeführt und ausgebaut werden. Als Einführung in die Thematik gibt es z.B. jährlich eine Schulung mit dem Titel _Crashkurs Open Data_.
+- **Open-Data-Networking:** Zwei Mal jährlich werden Digitale Open-Data-Lunches von der Senatskanzlei Berlin organisiert.
+Dort werden aktuelle Vorträge zur Umsetzung der Maßnahmen der Open-Data-Strategie Berlins und Möglichkeiten zur Vernetzung mit der Civic-Tech-Community angeboten.
+Ansprechpartnerin für das Programm und die Anmeldung ist ebenfalls die Open-Data-Beauftragte des Landes: Betül Özdemir (<a href="mailto:opendata@senatskanzlei.berlin.de">opendata@senatskanzlei.berlin.de</a>).
 
 # Glossar {-}
 
