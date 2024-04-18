@@ -56,26 +56,26 @@ Das Open-Data-Handbuch bietet Anleitungen und Tipps für die Veröffentlichung v
 
 ### Kapitelübersicht
 
-Im Kapitel [_Das Berliner Datenportal_](#das-berliner-datenportal) geben wir Ihnen eine knappe Einführung in das Datenportal. Dabei sollen Fragen wie „Was ist es?“, „Welche Bestandteile hat es?“ und „Wer benutzt es?“ beantwortet werden.
-Auch Begriffe wie **Datensatz**, **Datenressource** und **Metadaten** werden hier eingeführt.
+Im Kapitel [_Das Berliner Datenportal_](#das-berliner-datenportal) bieten wir Ihnen eine knappe Einführung in das Datenportal.
+Wir beantworten Fragen wie „Was ist es?“, „Welche Bestandteile hat es?“ und „Wer benutzt es?“.
+Darüber hinaus führen wir Begriffe wie **Datensatz**, **Datenressource** und **Metadaten** ein.
 
-Bevor ein Datensatz veröffentlicht werden kann, müssen bestimmte Vorarbeiten geleistet werden.
-Der Prozess beginnt mit der Auswahl der zu veröffentlichenden Daten, und geht über Datenmonitoring und die Entscheidung für eine passende Nutzungslizenz, bis hin zur Wahl geeigneter Formate.
-Die einzelnen Arbeitsschritte werden im Kapitel [_Schritt für Schritt zur Veröffentlichung_](#schritt-für-schritt-zur-veröffentlichung) erläutert.
-Das Thema Formate erfährt hier besondere Berücksichtigung und wird detailliert behandelt.
+Bevor ein Datensatz auf dem Datenportal veröffentlicht werden kann, sind bestimmte Vorarbeiten erforderlich.
+Der Veröffentlichungsprozess  beginnt mit der Auswahl der zu veröffentlichenden Daten, umfasst das Datenmonitoring und die Entscheidung für eine geeignete Nutzungslizenz, und endet mit der Wahl geeigneter maschinenlesbarer Formate.
+Im Kapitel [_Schritt für Schritt zur Veröffentlichung_](#schritt-für-schritt-zur-veröffentlichung) werden diese Arbeitsschritte detailliert erläutert, wobei dem Thema Formate besondere Aufmerksamkeit gewidmet wird.
 
-Es gibt unterschiedliche technische Möglichkeiten, einen Datensatz im Datenportal zu veröffentlichen.
-Je nach Ausgangslage eignen sich diese mehr oder weniger für einen Datenbereitsteller.
-Das Kapitel [_Wege der Veröffentlichung_](#wege-der-veröffentlichung) gibt Ihnen für jede Option detaillierte Anweisungen.
+Es gibt verschiedene technische Möglichkeiten, einen Datensatz im Datenportal zu veröffentlichen.
+Je nach Ausgangslage eignen sich diese Optionen mehr oder weniger für einen konkreten Datensatz oder ein konkretes Fachverfahren.
+Das Kapitel [_Wege der Veröffentlichung_](#wege-der-veröffentlichung) bietet detaillierte Anweisungen für jede Option.
 
-Metadaten helfen den Nutzer/innen offener Daten, Ihren Datensatz besser finden und einordnen zu können.
+Metadaten helfen den Nutzer/innen offener Daten, einen Datensatz besser zu finden und einzuordnen.
 Im Kapitel [_Metadaten_](#metadaten) werden die verschiedenen Angaben genau beschrieben.
 
-Abschließend stellen wir im Kapitel [_Schnittstellen_](#schnittstellen) kurz zwei verschiedene Möglichkeiten des automatischen Zugriffs auf das Datenportal vor und verweisen daran anschließend in [_Weitere Beratung_](#weitere-beratung) auf Ansprechpartner, die Sie bei weiteren Fragen zu Rate ziehen können.
+Abschließend stellen wir im Kapitel [_Schnittstellen_](#schnittstellen) kurz zwei verschiedene Möglichkeiten des automatischen Zugriffs auf das Datenportal vor und verweisen anschließend in [_Weitere Beratung_](#weitere-beratung) auf Ansprechpersonen, die bei weiteren Fragen gerne weiterhelfen.
 
 <hr/>
 
-Das Berliner Open-Data-Handbuch existiert in zwei Formen: als gedruckte Version, die Sie immer griffbereit am Schreibtisch haben können, und als „lebendiges“ digitales Dokument, das Aktualisierungen und Neuerungen schnell aufnehmen kann. Diese aktuelle Version des Handbuchs ist immer unter folgender URL verfügbar:
+Das Berliner Open-Data-Handbuch ist in zwei Formen verfügbar: als gedruckte Version, die Sie immer griffbereit am Schreibtisch haben können, und als „lebendiges“ digitales Dokument, das Aktualisierungen und Neuerungen schnell aufnehmen kann. Diese aktuelle Version des Handbuchs ist immer unter folgender URL verfügbar:
 
 <https://daten.berlin.de/datenbereitsteller>
 
@@ -461,7 +461,7 @@ Die verschiedenen Schreibweisen sind gesondert definiert: z.&nbsp;B. [RDF 1.1 Tu
 **Media Type**: `text/plain` – Spezialisierte Plain-Text-Formate können eigene Media Types haben.<br/>
 **Beschreibung**: Der Begriff „Plain Text“ soll hier als Gegensatz zum Begriff „Binärformat“ verstanden werden: eine Datei, die ausschließlich aus darstellbaren Zeichen in einem bestimmten Encoding (UTF-8 etc.) besteht.
 Hinzu kommen Steuerzeichen wie Tabulatoren oder Zeilenumbrüche, die klar definieren, was von der verarbeitenden Software als Zeile interpretiert werden soll.<br/>
-Auch strukturierte Formate wie CSV, XML, JSON, HTML und verschiedene RDF Schreibweisen gelten nach diesem Verständnis als Plain Text.
+Auch strukturierte Formate wie CSV, XML, JSON, HTML und verschiedene RDF-Schreibweisen gelten nach diesem Verständnis als Plain Text.
 Aber auch, wenn Plain Text ohne weitere (oder ohne bekannte) Struktur verwendet wird, hat das Format dennoch Eigenschaften, die es für den Einsatz im Bereich Offene Daten geeignet machen:
 
 - Plain Text kann von jedem Nutzer in einem Texteditor oder einer Textverarbeitung gelesen werden.
