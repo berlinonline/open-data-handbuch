@@ -1220,7 +1220,7 @@ Wird ganz Berlin abgedeckt, oder vielleicht nur ein bestimmter Bezirk, oder soga
 
 #### High-value Datasets
 
-Nach geltendem EU-Recht müssen bestimmte sog. hochwertige Datensätze (_high-value datasets_, HVD) als offene Daten veröffentlicht und als HVD gekennzeichnet werden (s. auch den Eintrag _High-value Datasets_ im [Glossar](#glossar)).
+Nach geltendem EU-Recht müssen bestimmte sog. hochwertige Datensätze (_high-value datasets_, HVD) als offene Daten veröffentlicht und als HVD gekennzeichnet werden (s. auch den Eintrag [_High-value Datasets_](#glossar_highvalue-datasets) im Glossar).
 Die Kennzeichnung bedeutet in der Hauptsache eine Zuordnung zu einem der folgenden sechs thematischen Bereiche:
 
 - Georaum
@@ -1238,7 +1238,7 @@ Wenn sie die Zuständigkeit für einen Datensatz haben, der von der HVD-Verordnu
 
 #### Musterdatensatz
 
-Die _Musterdatensätze_ und der _Musterdatenkatalog_ sollen die  Vergleichbarkeit der Datensätze aus verschiedenen Datenportalen auf allen Ebenen (Kommunen, Länder etc.) in Deutschland zu verbessern (s. auch den Eintrag _Musterdatenkatalog_ im [Glossar](#glossar)).
+Die _Musterdatensätze_ und der _Musterdatenkatalog_ sollen die  Vergleichbarkeit der Datensätze aus verschiedenen Datenportalen auf allen Ebenen (Kommunen, Länder etc.) in Deutschland zu verbessern (s. auch den Eintrag [_Musterdatenkatalog_](#glossar_musterdatenkatalog) im Glossar).
 
 Das Metadatenschema des Berliner Datenportals erlaubt, als Teil der neuen Open-Data-Strategie, die Verlinkung von Berliner Datensätzen zu Musterdatensätzen über ein eigenes Attribut.
 Um die Verlinkung zu erleichtern, ist die Suche nach einem passenden Musterdatensatz im Datenregister z.B. über ein Eingabefeld mit automatischer Vervollständigung und Anzeige kurzer Beschreibungstexte möglich (s. Abbildung).
@@ -1623,7 +1623,7 @@ Ansprechpartnerin für das Programm und die Anmeldung ist ebenfalls die Open-Dat
 
 ## Glossar
 
-**API** Die Abkürzung _API_ steht für _Application Programming Interface_, zu deutsch _Programmierschnittstelle_.
+**<a name="glossar_api">API</a>** Die Abkürzung _API_ steht für _Application Programming Interface_, zu deutsch _Programmierschnittstelle_.
 Plattformen wie das Datenportal werden in der Regel händisch von Menschen bedient: eine Webseite wird im Browser geöffnet, Buttons werden gedrückt, Textfelder ausgefüllt.
 Eine API dient dazu, es Programmen zu ermöglichen, solche Plattformen automatisch zu bedienen, um etwa im Datenportal zu suchen, Datensätze anzulegen oder zu modifizieren.
 In anderen Fällen ist eine API auch die einzige Möglichkeit, ein System zu bedienen.
@@ -1633,154 +1633,162 @@ Zum anderen kann es sich auch bei den Datenressourcen eines Datensatzes um APIs 
 Manche Fachverfahren bieten bereits öffentliche APIs, die sich als Datenressource nutzen lassen.
 Beispiele sind die API für die [Fahrplandaten des VBB](https://daten.berlin.de/datensaetze/vbb-fahrplandaten-api) oder viele Datensätze aus dem Berliner Geoinformationssystem [FIS-Broker](https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/).
 
-**Baumstruktur** Eine Baumstruktur ist eine hierarchische Datenstruktur, bei der sich die Daten von einer Wurzel ausgehend immer weiter verzweigen.
+**<a name="glossar_baumstruktur">Baumstruktur</a>** Eine Baumstruktur ist eine hierarchische Datenstruktur, bei der sich die Daten von einer Wurzel ausgehend immer weiter verzweigen.
 Typische Beispiele für Baumstrukturen sind geografische Gliederungen, Organigramme oder Thesauri.
 Übliche Datenformate für Baumstrukturen sind JSON und XML.
 Die Relationen (die Bedeutung der Verzweigungen) zwischen den Knoten im Baum sind je nach Anwendungsfall unterschiedlich.
 Es können alle Relationen gleichbedeutend sein (z.&nbsp;B. _enthalten-in_ für geografische Gliederungen oder _unter/-übergeordnet_ für Organigramme) oder auch von Fall zu Fall unterschiedlich (etwa bei JSON und XML).
-Baumstrukturen sind eine Sonderform der **Graphstruktur**. 
+Baumstrukturen sind eine Sonderform der [**Graphstruktur**](#glossar_graphstruktur). 
 
-**CKAN** Das _Comprehensive Knowledge Archive Network_ ([CKAN](https://ckan.org)) ist eine Open-Source-Software zum Betrieb von Datenportalen.
+**<a name="glossar_ckan">CKAN</a>** Das _Comprehensive Knowledge Archive Network_ ([CKAN](https://ckan.org)) ist eine Open-Source-Software zum Betrieb von Datenportalen.
 Man könnte CKAN auch als „Content-Management-System für Daten“ umschreiben.
 Konzeptioniert und entwickelt wird CKAN von der [Open Knowledge Foundation (OKFN)](https://okfn.org), einer NGO, die sich für Offene Daten und Offenes Wissen einsetzt.
 CKAN hat eine große Entwicklergemeinde (für ein Projekt mit vergleichbar speziellem Einsatzgebiet) und wird weltweit in zahlreichen Datenportalen eingesetzt.
 Auch das Berliner Datenportal basiert auf CKAN.
-API und **Metadatenschema** des Berliner Datenportals sind Erweiterungen der API und des Metadatenschemas von CKAN.
+API und [**Metadatenschema**](#glossar_metadatenschema) des Berliner Datenportals sind Erweiterungen der API und des Metadatenschemas von CKAN.
 
-**CSV** _Comma-separated Values_ (CSV) ist ein einfaches tabellarisches Datenformat.
+**<a name="glossar_csv">CSV</a>** _Comma-separated Values_ (CSV) ist ein einfaches tabellarisches Datenformat.
 CSV verzichtet sowohl auf visuelle Aspekte wie Formatierungen oder Grafiken, als auch auf komplexe Features wie Formeln, Makros etc. Stattdessen beschränkt sich CSV auf die reinen Daten, gegliedert in Zeilen (eine Zeile je Objekt) und Spalten (eine Spalte je Eigenschaft).
 Aus diesen Gründen sind CSV-Daten vergleichsweise einfach zu verarbeiten, von allen Programmiersprachen unterstützt und daher für Open Data in der Regel sehr gut geeignet.
 Trotzdem eignet sich CSV nicht für alle Daten: in bestimmten Fällen sind hierarchische Formate (JSON, XML etc.) oder auch spezialisierte Formate (Geodaten etc.) sinnvoller.
 CSV ist nicht offiziell standardisiert, aber es gibt weithin akzeptierte Best Practices, die befolgt werden sollten (siehe auch [_CSV_](#csv) und [_Werteformatierung_](#werteformatierung)).
 
-**Datenformat** Mit Datenformat ist hier eine bestimmte Art und Weise gemeint, wie Daten bei Speicherung oder Austausch strukturiert werden.
-Dies geht über die allgemeine **Datenstruktur** hinaus und betrifft Details wie die Auszeichnung einzelner Datenelemente, deren Relationen, Zeichencodierung etc.
+**<a name="glossar_datenformat">Datenformat</a>** Mit Datenformat ist hier eine bestimmte Art und Weise gemeint, wie Daten bei Speicherung oder Austausch strukturiert werden.
+Dies geht über die allgemeine [**Datenstruktur**](#glossar_datenstruktur) hinaus und betrifft Details wie die Auszeichnung einzelner Datenelemente, deren Relationen, Zeichencodierung etc.
 Für Open Data geeignete Datenformate sollten nach Möglichkeit offen standardisiert sein. 
 Beispiele für Datenformate sind CSV, JSON, XML, RDF oder das Excel-Format XLSX.
 Für weitere Details siehe das Kapitel [_Formatwahl_](#formatwahl).
 
-**Datenportal** Ein Datenportal ist eine Webanwendung, über die in einem Bestand von Datensätzen gesucht und gebrowst (navigiert), und über die auf Datensätze zugegriffen werden kann.
-Jeder Datensatz ist dabei durch **Metadaten** beschrieben, durch die er besser auffindbar gemacht wird.
+**<a name="glossar_datenportal">Datenportal</a>** Ein Datenportal ist eine Webanwendung, über die in einem Bestand von Datensätzen gesucht und gebrowst (navigiert), und über die auf Datensätze zugegriffen werden kann.
+Jeder Datensatz ist dabei durch [**Metadaten**](#glossar_metadaten) beschrieben, durch die er besser auffindbar gemacht wird.
 Im Zuge von Open Data werden Datenportale von Behörden, Verwaltungen und Regierungen eingesetzt, um die von Ihnen erhobenen und genutzten Daten verfügbar zu machen.
 Dies kann auf allen organisatorischen Ebenen geschehen, von einzelnen Behörden über Länder und Staaten bis hoch zu internationalen Organisationen wie der Europäischen Union.
-Oft werden dabei die Datensätze der untergeordneten Einheiten von den Datenportalen der übergeordneten Einheiten gesammelt und aggregiert („geharvestet“) (siehe auch **Harvester**).
+Oft werden dabei die Datensätze der untergeordneten Einheiten von den Datenportalen der übergeordneten Einheiten gesammelt und aggregiert („geharvestet“) (siehe auch [**Harvester**](#glossar_harvester)).
 Das zentrale Berliner Portal für Offene Daten ist [daten.berlin.de](https://daten.berlin.de).
 
-**Datenregister** Das Datenregister ist eine Komponente des Berliner Datenportals.
+**<a name="glossar_datenregister">Datenregister</a>** Das Datenregister ist eine Komponente des Berliner Datenportals.
 Es bezeichnet das nicht-öffentliche Redaktionssystem des Datenportals und den Speicherort für die Metadaten der Datensätze.
-Das Datenregister ist auf der Basis der **CKAN**-Software entwickelt und bietet eine entsprechende API.
+Das Datenregister ist auf der Basis der [**CKAN**](#glossar_ckan)-Software entwickelt und bietet eine entsprechende API.
 Das Datenregister ist unter <https://datenregister.berlin.de> erreichbar (Nutzungskonto erforderlich).
 
-**Datenressource** Eine Datenressource (auch kurz **Ressource**) ist die physische Form eines Datensatzes, z.&nbsp;B. eine Datei oder eine API.
+**<a name="glossar_datenressource">Datenressource</a>** Eine Datenressource (auch kurz [**Ressource**](#glossar_ressource)) ist die physische Form eines Datensatzes, z.&nbsp;B. eine Datei oder eine API.
 Die Datenressource wird dabei von den Metadaten unterschieden, die die Ressource und den Datensatz beschreiben.
 Ein Datensatz kann mehrere Datenressourcen beinhalten.
 Dabei können die verschiedenen Ressourcen entweder dieselben Daten in verschiedenen Formaten enthalten, oder auch verschiedenen Unterteilungen der Daten.
-Datenressourcen sollten immer maschinenlesbare, also strukturierte Daten enthalten.
+Datenressourcen sollten immer maschinenlesbare, also strukturierte Daten enthalten ([**Maschinenlesbarkeit**](#glossar_maschinenlesbarkeit)).
 Eine Ausnahme sind Ressourcen, die als Dokumentation zu den eigentlichen Datenressourcen dienen. 
 
-**Datenrubrik** Die Datenrubrik ist eine Komponente von **Imperia**, um offene Daten unabhängig von anderen Seiten im Imperia-Auftritt einer Behörde zu veröffentlichen.
+**<a name="glossar_datenrubrik">Datenrubrik</a>** Die Datenrubrik ist eine Komponente von [**Imperia**](#glossar_imperia), um offene Daten unabhängig von anderen Seiten im Imperia-Auftritt einer Behörde zu veröffentlichen.
 Ohne die Datenrubrik musste eine in Imperia hochgeladene Datenressource immer erst von einer Seite im Imperia-Auftritt der Behörde verlinkt werden, um für Nutzer/innen zugänglich gemacht zu werden.
 Sollte die Ressource als Teil eines Datensatzes im Datenportal veröffentlicht werden, musste der Datensatz zudem händisch im Datenregister angelegt und die Ressource von dort verlinkt werden.
 Die Datenrubrik vereinfacht dies, indem das Hochladen der Ressource und das Anlegen des Datensatzes vor Ort in Imperia erfolgen können, und indem das Verlinken von anderer Stelle nicht länger notwendig ist.
 Es besteht zudem die Möglichkeit, eine alphabetische Übersicht aller per Datenrubrik erzeugten Datensätze im Imperia-Auftritt der Behörde einzubinden.
 Siehe auch das Kapitel [_Imperia: Datenrubrik_](#imperia-datenrubrik).
 
-**Datensatz** Im Kontext von Open Data entspricht der Begriff „Datensatz“ dem englischen „dataset“, also einer Sammlung von (zusammengehörigen) Daten.
+**<a name="glossar_datensatz">Datensatz</a>** Im Kontext von Open Data entspricht der Begriff „Datensatz“ dem englischen „dataset“, also einer Sammlung von (zusammengehörigen) Daten.
 Die Bedeutung unterscheidet sich daher von dem deutschen IT-Fachbegriff „Datensatz“.
 Konkret meint Datensatz in diesem Handbuch eine oder mehrere Datenressourcen, sowie eine Reihe von Metadaten, die diese Ressourcen gemeinsam beschreiben.
 Die Metadaten sind dabei im Datenportal enthalten, während die Datenressourcen nur von dort verlinkt sind.
 
-**Datenschema** Ein Datenschema ist eine formale Vorgabe, wie die Daten in einer Datenressource im Detail strukturiert und gegliedert sein müssen.
-Wie genau das Datenschema aussieht, ist abhängig von der **Datenstruktur** bzw. dem **Datenformat**.
+**<a name="glossar_datenschema">Datenschema</a>** Ein Datenschema ist eine formale Vorgabe, wie die Daten in einer Datenressource im Detail strukturiert und gegliedert sein müssen.
+Wie genau das Datenschema aussieht, ist abhängig von der [**Datenstruktur**](#glossar_datenstruktur) bzw. dem [**Datenformat**](#glossar_datenformat).
 Das Schema einer Tabelle könnte beispielsweise die Namen und Datentypen der Spalten beinhalten, während das Schema einer XML- oder JSON-Datei die zu benutzenden Elemente oder Attribute und deren mögliche Werte und eventuell Reihenfolge vorschreibt.
 
-**Datenstruktur** Maschinenlesbare bzw. strukturierte Daten lassen sich grob nach der Art ihrer Gliederung unterscheiden.
+**<a name="glossar_datenstruktur">Datenstruktur</a>** Maschinenlesbare bzw. strukturierte Daten lassen sich grob nach der Art ihrer Gliederung unterscheiden.
 Diese grundsätzlichen Arten der Gliederung sind mit dem Begriff „Datenstruktur“ gemeint.
-Im Open-Data-Handbuch werden tabellarische Daten (**Tabelle**), hierarchische Daten (**Baumstruktur**) und Graphen (**Graphstruktur**) unterschieden.
-Für jede Datenstruktur gibt es verschiedene **Datenformate**.
+Im Open-Data-Handbuch werden tabellarische Daten ([**Tabelle**](#glossar_tabelle)), hierarchische Daten ([**Baumstruktur**](#glossar_baumstruktur)) und Graphen ([**Graphstruktur**](#glossar_graphstruktur)) unterschieden.
+Für jede Datenstruktur gibt es verschiedene [**Datenformate**](#glossar_datenformat).
 Im Veröffentlichungsprozess sollte die Datenstruktur mit Bedacht gewählt werden, da sich z.&nbsp;B. nicht alle Daten sinnvoll als Tabelle strukturieren lassen.
 
-**DCAT** Das _Data Catalog Vocabulary_ (DCAT) ist ein RDF-Vokabular zur formalen Beschreibung von Datenportalen („data catalog“ kann synonym zu **Datenportal** verstanden werden).
+**<a name="glossar_dcat">DCAT</a>** Das _Data Catalog Vocabulary_ (DCAT) ist ein RDF-Vokabular zur formalen Beschreibung von Datenportalen („data catalog“ kann synonym zu [**Datenportal**](#glossar_datenportal) verstanden werden).
 [DCAT](https://www.w3.org/TR/vocab-dcat/) ist ein W3C-Standard und soll der Interoperabilität zwischen Datenportalen dienen.
 Zudem kann DCAT als standardisierte API (lesend) für Datenportale verstanden werden.
 Die zentralen Gliederungselemente in DCAT sind der `Catalog` (das Portal an sich), das `Dataset` (der Datensatz) und die `Distribution` (entspricht der Datenressource).
 
-**DCAT-AP** Das _DCAT Application Profile for data portals in Europe_ ([DCAT-AP](https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe)) ist eine Erweiterung von **DCAT** zur Vereinheitlichung der Beschreibung von Datenportalen und ihren Inhalten in Europa.
-Abgeleitet von DCAT-AP gibt es eine Reihe von weiteren Spezialisierungen, die nationale Anforderungen und Besonderheiten erfüllen sollen, wie z.&nbsp;B. **DCAT-AP.de** für Deutschland.
+**<a name="glossar_dcatap">DCAT-AP</a>** Das _DCAT Application Profile for data portals in Europe_ ([DCAT-AP](https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe)) ist eine Erweiterung von [**DCAT**](#glossar_dcat) zur Vereinheitlichung der Beschreibung von Datenportalen und ihren Inhalten in Europa.
+Abgeleitet von DCAT-AP gibt es eine Reihe von weiteren Spezialisierungen, die nationale Anforderungen und Besonderheiten erfüllen sollen, wie z.&nbsp;B. [**DCAT-AP.de**](#glossar_dcatapde) für Deutschland.
 
-**DCAT-AP.de** [DCAT-AP.de](https://www.dcat-ap.de) ist eine Spezialisierung von DCAT-AP für Deutschland.
+**<a name="glossar_dcatapde">DCAT-AP.de</a>** [DCAT-AP.de](https://www.dcat-ap.de) ist eine Spezialisierung von DCAT-AP für Deutschland.
 Das Berliner Datenportal unterstützt DCAT-AP.de im lesenden Zugriff, und ermöglicht so die Integration der Berliner Daten in das bundesweite Datenportal [govdata.de](https://www.govdata.de), und von dort aus in das [europäische Datenportal](https://www.europeandataportal.eu/de/).
 
-**FIS-Broker** Der [FIS-Broker](https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/) ist das Geodatenportal des Landes Berlin.
+**<a name="glossar_fachverfahren-anbindung">Fachverfahren, Anbindung</a>** Ein Fachverfahren ist abgekürzt „eine IT-Anwendung, die speziell für die Verwaltung entwickelt wird“ [[SKZL2024b](#SKZL2024b)].
+Fachverfahren enthalten oder erzeugen in der Regel Daten, die als [**offene Daten**](#glossar_offene-daten) im Berliner Datenportal veröffentlicht werden sollen.
+Die _Anbindung_ eines Fachverfahrens an das Berliner Datenportal kann zwei Dinge bedeuten: 
+1. Wenn das Fachverfahren einzelne oder mehrere Datenquellen (Dateien oder APIs) öffentlich bereitstellt, so können diese jeweils als Datensatz im Datenregister eingetragen und dort mit Metadaten versehen werden.
+Ein Beispiel ist etwa der Datensatz [Schnittstelle zum Informationssystem der BVV Tempelhof-Schöneberg](https://daten.berlin.de/datensaetze/schnittstelle-zum-informationssystem-der-bvv-tempelhof-schöneberg), bei der ein Link zur öffentlichen [OParl](https://oparl.org)-Schnittstelle des Fachverfahrens als Datenressource eingetragen wurde.
+1. Wenn das Fachverfahren selbst eine Art Datenportal ist, sollte die Anbindung z.&nbsp;B. in Form eines [**Harvesters**](#glossar_harvester) erfolgen, so dass alle Datensätze des Fachverfahrens auch im Berliner Datenportal als Datensätze verfügbar sind.
+Ein Beispiel hierfür ist der FIS-Broker, der als Geoinformationssystem des Landes alle Geo-Datensätze und -Dienste enthält.
+
+**<a name="glossar_fisbroker">FIS-Broker</a>** Der [FIS-Broker](https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/) ist das Geodatenportal des Landes Berlin.
 Die meisten in Berlin veröffentlichten Geodaten (Karten und Sachdaten mit starkem Geobezug) werden hier veröffentlicht.
 Der FIS-Broker bietet eine Weboberfläche für die händische Benutzung, sowie eine API, die den _Catalog Service for the Web_ (CSW) Standard für Geoportale implementiert.
 Die meisten Datensätze des FIS-Brokers sind auch im Berliner Datenportal zu finden.
 
-**GeoJSON** GeoJSON ist ein einfaches und weit verbreitetes, JSON-basiertes Datenformat für Geodaten.
+**<a name="glossar_geojson">GeoJSON</a>** GeoJSON ist ein einfaches und weit verbreitetes, JSON-basiertes Datenformat für Geodaten.
 GeoJSON wird von der [IETF](https://www.ietf.org) standardisiert. Siehe [_GeoJSON_](#geojson).
 
-**GovData** [GovData](https://govdata.de) ist das bundesweite Portal für offene Daten, das vom [IT-Planungsrat](https://www.it-planungsrat.de) betrieben wird.
+**<a name="glossar_govdata">GovData</a>** [GovData](https://govdata.de) ist das bundesweite Portal für offene Daten, das vom [IT-Planungsrat](https://www.it-planungsrat.de) betrieben wird.
 Am Portal beteiligt sind der Bund und aktuell elf Bundesländer (darunter Berlin), deren jeweilige Portale von GovData geharvestet werden.
 GovData wiederum wird vom [European Data Portal](https://www.europeandataportal.eu/de/) geharvestet.
 
-**Graphstruktur** Eine Graphstruktur ist eine sehr allgemeine Datenstruktur.
+**<a name="glossar_graphstruktur">Graphstruktur</a>** Eine Graphstruktur ist eine sehr allgemeine Datenstruktur.
 Bestandteile eines Graphen sind Knoten, die über Kanten miteinander verbunden sind.
 Jeder Knoten und jede Kante kann dabei mit Informationen versehen sein.
 Typische Anwendungsfälle für Graphstrukturen sind Organigramme, soziale Netzwerke jeder Art, Verkehrsnetze etc. Grundsätzlich können aber die meisten Daten als Graph abgebildet werden. 
 Ein geeignetes Datenformat für Graphstrukturen ist RDF.
 
-**Harvester** Der Begriff „Harvester“ kommt vom englischen Begriff „to harvest“, also „ernten“. Im Kontext des Open-Data-Handbuchs ist ein spezielles Plugin für **CKAN** gemeint, mit dessen Hilfe andere Datenportale sozusagen abgeerntet werden können, um die darin enthaltenen Datensätze (alle oder bestimmte) in CKAN zu überführen. Im CKAN-basierten **Datenregister** des Berliner Datenportals laufen derzeit Harvester für den **FIS-Broker** und das Sozial-Informations-System (SIS) Berlins.
+**<a name="glossar_harvester">Harvester</a>** Der Begriff „Harvester“ kommt vom englischen Begriff „to harvest“, also „ernten“. Im Kontext des Open-Data-Handbuchs ist ein spezielles Plugin für [**CKAN**](#glossar_ckan) gemeint, mit dessen Hilfe andere Datenportale sozusagen abgeerntet werden können, um die darin enthaltenen Datensätze (alle oder bestimmte) in CKAN zu überführen. Im CKAN-basierten [**Datenregister**](#glossar_datenregister) des Berliner Datenportals laufen derzeit Harvester für den [**FIS-Broker**](#glossar_fisbroker) und das Sozial-Informations-System (SIS) Berlins.
 
-**Hierarchische Daten** → _Baumstruktur_
+**<a name="glossar_hierarchische-daten">Hierarchische Daten</a>** → [_Baumstruktur_](#glossar_baumstruktur)
 
-**High-value Datasets** 2023 ist die _„Durchführungsverordnung zur Festlegung bestimmter hochwertiger Datensätze und der Modalitäten ihrer Veröffentlichung und Weiterverwendung“_ [[EURLEX2023](#EURLEX2023)] der EU in Kraft getreten.
+**<a name="glossar_highvalue-datasets">High-value Datasets</a>** 2023 ist die _„Durchführungsverordnung zur Festlegung bestimmter hochwertiger Datensätze und der Modalitäten ihrer Veröffentlichung und Weiterverwendung“_ [[EURLEX2023](#EURLEX2023)] der EU in Kraft getreten.
 Darin wird eine Liste von hochwertigen Datensätzen (_high-value datasets_) aus sechs thematischen Kategorien festgelegt (_Georaum_, _Erdbeobachtung und Umwelt_, _Meteorologie_, _Statistik_, _Unternehmen und Eigentümerschaft von Unternehmen_ sowie _Mobilität_).
-Die Kategorien selbst sind maschinenlesbar mit Bezeichnern in allen offiziellen Mitgliedssprachen als **Linked Data**-Vokabular definiert [[PUBEU2023](#PUBEU2023)].
+Die Kategorien selbst sind maschinenlesbar mit Bezeichnern in allen offiziellen Mitgliedssprachen als [**Linked Data**](#glossar_linked-data)-Vokabular definiert [[PUBEU2023](#PUBEU2023)].
 Als hochwertig gelten Datensätze, die ein besonderes „Potenzial für die Erzielung sozioökonomischer Vorteile in Verbindung mit harmonisierten Bedingungen für die Weiterverwendung“ haben.
-Die Verordnung verpflichtet die Mitgliedstaaten der EU dazu, diese Datensätze in **maschinenlesbarer** Form, kostenfrei und mit einer offenen **Lizenz** zu veröffentlichen.
+Die Verordnung verpflichtet die Mitgliedstaaten der EU dazu, diese Datensätze in [**maschinenlesbarer**](#glossar_maschinenlesbarkeit) Form, kostenfrei und mit einer offenen [**Lizenz**](#glossar_lizenz) zu veröffentlichen.
 Mit anderen Worten: die Verordnung soll die Veröffentlichung von offenen Daten vorantreiben, allerdings mit dem Fokus auf bestimmte, als besonders wichtig angesehene Datensätze.
 
 Im Blog des bundesweiten Datenportals GovData [[GOVDATA2023](#GOVDATA2023)] sind die betroffenen Datensätze übersichtlich aufgelistet.
 
-**Imperia** Die Seiten des Stadtportals berlin.de werden zum großen Teil über das Content-Management-System [Imperia](https://www.pirobase-imperia.com/de/produkte/produktuebersicht/imperia-cms) betrieben.
+**<a name="glossar_imperia">Imperia</a>** Die Seiten des Stadtportals berlin.de werden zum großen Teil über das Content-Management-System [Imperia](https://www.pirobase-imperia.com/de/produkte/produktuebersicht/imperia-cms) betrieben.
 Hier können Redakteur/innen Seiten erstellen und pflegen, Assets wie Bilddateien oder Datenressourcen hochladen und anderes mehr.
-Mit der **Datenrubrik** und dem **SimpleSearch**-Baukasten hat Imperia zwei Komponenten, die direkt für das Veröffentlichen von offenen Daten genutzt werden können.
+Mit der [**Datenrubrik**](#glossar_datenrubrik) und dem [**SimpleSearch**](#glossar_simplesearch)-Baukasten hat Imperia zwei Komponenten, die direkt für das Veröffentlichen von offenen Daten genutzt werden können.
 
-**JSON** Die _JavaScript Object Notation_ (JSON) ist ein einfaches, hierarchisches Datenformat, das in den letzten Jahren große Verbreitung erfahren hat und an vielen Stellen die Rolle von **XML** übernommen hat.
+**<a name="glossar_json">JSON</a>** Die _JavaScript Object Notation_ (JSON) ist ein einfaches, hierarchisches Datenformat, das in den letzten Jahren große Verbreitung erfahren hat und an vielen Stellen die Rolle von [**XML**](#glossar_xml) übernommen hat.
 Siehe auch [_JSON_](#json).
 
-**KML** Die _Keyhole Markup Language_ (KML) ist ein einfaches, XML-basiertes Datenformat für Geodaten.
+**<a name="glossar_kml">KML</a>** Die _Keyhole Markup Language_ (KML) ist ein einfaches, XML-basiertes Datenformat für Geodaten.
 KML ist ein [Standard des Open Geospatial Consortium](http://www.opengeospatial.org/standards/kml).
 Siehe auch [_KML_](#kml).
 
-**Linked Data** Die Idee von Linked Data ist, dass zuvor separate Datensätze miteinander verknüpft werden.
+**<a name="glossar_linked-data">Linked Data</a>** Die Idee von Linked Data ist, dass zuvor separate Datensätze miteinander verknüpft werden.
 So wird die Integration von Daten erleichtert, neue Sichten werden ermöglicht, und die Nutzbarkeit der Daten wird insgesamt erhöht.
-Dies wird erreicht, indem alle wichtigen Begriffe in den Datensätzen mit eindeutigen **URL**-Bezeichnern versehen werden.
+Dies wird erreicht, indem alle wichtigen Begriffe in den Datensätzen mit eindeutigen [**URL**](#glossar_url)-Bezeichnern versehen werden.
 Diese URLs können mit einem Browser oder anderweitig besucht werden, um dort sofort weitere Informationen zu einem Begriff zu erhalten.
 Wenn zwei oder mehr Datensätze dieselben URL-Bezeichner verwenden, entstehen die besagten Links, also Verknüpfungen.
 Linked Data ist die höchste Stufe des [5-Sterne-Modells für Offene Daten](https://5stardata.info/de/) und wurde bereits 2012 in der [_Berliner Open Data-Strategie_](https://nbn-resolving.org/urn:nbn:de:0011-n-1955071) als Ziel definiert [[BOTH2012](#BOTH2012)].
 
-**Lizenz** Die Lizenz im Kontext von Offenen Daten bezeichnet die Nutzungsbedingungen für einen Datensatz, bzw. eine Datenressource.
+**<a name="glossar_lizenz">Lizenz</a>** Die Lizenz im Kontext von Offenen Daten bezeichnet die Nutzungsbedingungen für einen Datensatz, bzw. eine Datenressource.
 Sie schreibt vor, unter welchen Bedingungen, von wem, zu welchem Zweck etc. ein Datensatz genutzt werden kann.
 Für Offene Daten in Deutschland werden z.&nbsp;B. die [Datenlizenz Deutschland](ttps://www.govdata.de/lizenzen), aber vielfach auch die verschiedenen [Creative Commons-Lizenzen](https://creativecommons.org/licenses) genutzt.
 Siehe auch das Kapitel [_Lizenz festlegen_](#lizenz-festlegen).
 
-**Maschinenlesbarkeit** Der Begriff Maschinenlesbarkeit im Zusammenhang mit Offenen Daten bedeutet, dass Daten formal strukturiert sind und somit von Computern direkt verarbeitet und „verstanden“ werden können.
+**<a name="glossar_maschinenlesbarkeit">Maschinenlesbarkeit</a>** Der Begriff Maschinenlesbarkeit im Zusammenhang mit Offenen Daten bedeutet, dass Daten formal strukturiert sind und somit von Computern direkt verarbeitet und „verstanden“ werden können.
 Natürlich lassen sich auch PDF-Dateien oder ein gescanntes Dokument vom Computer lesen – es ist aber nicht möglich, die Struktur, einzelne Werte und deren Beziehungen zueinander direkt aus dem Dokument herauszulesen.
-Konkret bedeutet Maschinenlesbarkeit, dass ein strukturiertes **Datenformat** genutzt wird.
-Maschinenlesbarkeit ist eine zentrale Bedingung für **Offene Daten**.
+Konkret bedeutet Maschinenlesbarkeit, dass ein strukturiertes [**Datenformat**](#glossar_datenformat) genutzt wird.
+Maschinenlesbarkeit ist eine zentrale Bedingung für [**Offene Daten**](#glossar_offene-daten).
 Siehe auch das Kapitel [_Formatwahl_](#formatwahl).
 
-**Metadaten** Metadaten sind Daten über Daten.
+**<a name="glossar_metadaten">Metadaten</a>** Metadaten sind Daten über Daten.
 Im Kontext von Open Data sind konkret die Metadaten eines Datensatzes oder einer Datenressource gemeint.
 Dazu gehören etwa die Herkunft der Daten (welche Behörde), Veröffentlichungs- und Änderungsdatum, zeitlicher und geografischer Bezug oder auch die thematische Kategorisierung.
 Details zum Metadatenschema des Berliner Datenportals sind im Kapitel [_Metadaten_](#metadaten) zu finden.
 
-**Metadatenschema** → _Datenschema_
+**<a name="glossar_metadatenschema">Metadatenschema</a>** → [_Datenschema_](#glossar_datenschema)
 
-**Musterdatensatz** → _Musterdatenkatalog_
+**<a name="glossar_musterdatensatz">Musterdatensatz</a>** → [_Musterdatenkatalog_](#glossar_musterdatenkatalog)
 
-**Musterdatenkatalog** Der _Musterdatenkatalog_ soll die Vergleichbarkeit von Datensätzen aus verschiedenen Datenportalen auf allen Ebenen in Deutschland verbessern (Kommunen, Länder etc.).
+**<a name="glossar_musterdatenkatalog">Musterdatenkatalog</a>** Der _Musterdatenkatalog_ soll die Vergleichbarkeit von Datensätzen aus verschiedenen Datenportalen auf allen Ebenen in Deutschland verbessern (Kommunen, Länder etc.).
 Dazu wird versucht, aus thematisch vergleichbaren Datensätzen aus unterschiedlichen Portalen einen abstrakten _Musterdatensatz_ abzuleiten.
 Ein Beispiel (leicht abgeändert aus [[BM2023](#BM2023)]) sind die folgenden vier Datensätze:
 
@@ -1802,36 +1810,36 @@ Eine Übersicht über alle Musterdatensätze ist auf der Webseite [Liste der Mus
 
 Auch der [DCAT-AP.de-Standard](#dcat-apde) sieht eine Verknüpfung von Datensätzen mit dem Musterdatenkatalog vor [[WITTIG2022](#WITTIG2022)], _„Verwendung des Musterdatenkatalogs für Kommunen“_.
 
-**Netzwerkstruktur** → _Graphstruktur_
+**<a name="glossar_netzwerkstruktur">Netzwerkstruktur</a>** → [_Graphstruktur_](#glossar_graphstruktur)
 
-**Offene Daten** Daten gelten dann als offen, wenn Sie von jedem ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen [[EDP2019a](#EDP2019a)].
+**<a name="glossar_offene-daten">Offene Daten</a>** Daten gelten dann als offen, wenn Sie von jedem ohne Einschränkung genutzt, weiterverbreitet und weiterverwendet werden dürfen [[EDP2019a](#EDP2019a)].
 Dies schließt kommerzielle Nutzung explizit ein.
 „Ohne Einschränkung“ kann höchstens durch Maßnahmen abgemildert werden, die Ursprung und Offenheit der Daten bewahren, etwa durch Attribution [[OKF2017](#OKF2017)].
 Zwar kann es offene Daten auch in der Wirtschaft oder anderen Bereichen geben, in diesem Handbuch sind aber in der Regel offene Verwaltungsdaten gemeint.
-Die Offenheit von Daten wird den Nutzenden durch eine entsprechende **Lizenz** signalisiert und garantiert.
+Die Offenheit von Daten wird den Nutzenden durch eine entsprechende [**Lizenz**](#glossar_lizenz) signalisiert und garantiert.
 
-**Open Data** → _Offene Daten_
+**<a name="glossar_open-data">Open Data</a>** → [_Offene Daten_](#glossar_offene-daten)
 
-**RDF** Das _Resource Description Framework_ (RDF) ist ein vom W3C standardisiertes Datenformat für Graphdaten. Durch die Nutzung von URLs (bzw. URIs) als zentraler Bestandteil von RDF eignet sich das Format ideal für **Linked Data**. Siehe auch [_RDF_](#rdf).
+**<a name="glossar_rdf">RDF</a>** Das _Resource Description Framework_ (RDF) ist ein vom W3C standardisiertes Datenformat für Graphdaten. Durch die Nutzung von URLs (bzw. URIs) als zentraler Bestandteil von RDF eignet sich das Format ideal für [**Linked Data**](#glossar_linked-data). Siehe auch [_RDF_](#rdf).
 
-**Ressource** → _Datenressource_
+**<a name="glossar_ressource">Ressource</a>** → [_Datenressource_](#glossar_datenressource)
 
-**Schema** → _Datenschema_
+**<a name="glossar_schema">Schema</a>** → [_Datenschema_](#glossar_datenschema)
 
-**Schnittstelle** → _API_
+**<a name="glossar_schnittstelle">Schnittstelle</a>** → [_API_](#glossar_api)
 
-**SimpleSearch** Der SimpleSearch-Baukasten von **Imperia** erlaubt es, auf Basis einer CSV-Datei eine einfache, dynamische Datenbankanwendung für den Imperia-Auftritt einer Behörde zu erzeugen.
+**<a name="glossar_simplesearch">SimpleSearch</a>** Der SimpleSearch-Baukasten von [**Imperia**](#glossar_imperia) erlaubt es, auf Basis einer CSV-Datei eine einfache, dynamische Datenbankanwendung für den Imperia-Auftritt einer Behörde zu erzeugen.
 Die so erzeugte Anwendung kann auch über eine API angesteuert werden, die Daten in verschiedenen Formaten bereitstellen kann.
 Es ist möglich, auf einfache Weise aus einer SimpleSearch-Anwendung einen Datensatz für das Berliner Datenportal zu erzeugen.
 Siehe auch das Kapitel [_Imperia: SimpleSearch_](#imperia-simplesearch).
 
-**Tabelle** Eine Tabelle im Kontext von Offenen Daten meint eine weitverbreitete Datenstruktur, die Daten in ein zweidimensionales Raster aus Zeilen und Spalten gliedert.
+**<a name="glossar_tabelle">Tabelle</a>** Eine Tabelle im Kontext von Offenen Daten meint eine weitverbreitete Datenstruktur, die Daten in ein zweidimensionales Raster aus Zeilen und Spalten gliedert.
 In der Regel wird dabei jede Zeile als ein Objekt und jede Spalte als eine Eigenschaft des Objekts verstanden.
-Im Sinne einer hohen **Maschinenlesbarkeit** sollten tabellarische Daten von dieser Interpretation nicht abweichen (etwa durch Leerzeilen oder -spalten, Summenzeilen etc.). Siehe auch das Kapitel [_Tabelle_](#tabelle).
-Ein gebräuchliches und gut zu verarbeitendes Format für tabellarische Daten ist **CSV**.
+Im Sinne einer hohen [**Maschinenlesbarkeit**](#glossar_maschinenlesbarkeit) sollten tabellarische Daten von dieser Interpretation nicht abweichen (etwa durch Leerzeilen oder -spalten, Summenzeilen etc.). Siehe auch das Kapitel [_Tabelle_](#tabelle).
+Ein gebräuchliches und gut zu verarbeitendes Format für tabellarische Daten ist [**CSV**](#glossar_csv).
 Auch Excel-Formate sind mit Einschränkungen geeignet (siehe auch [_Excel-Formate_](#excel-formate)).
 
-**URL** Der Begriff _Uniform Resource Locator_ (URL) deckt sich größtenteils mit dem, was gemeinhin als „Webadresse“ bezeichnet wird. 
+**<a name="glossar_url">URL</a>** Der Begriff _Uniform Resource Locator_ (URL) deckt sich größtenteils mit dem, was gemeinhin als „Webadresse“ bezeichnet wird. 
 Es handelt sich also um eine eindeutige Adresse für eine Informationsressource wie z.&nbsp;B. eine Webseite, ein Bild oder eine beliebige andere Datei.
 Im Web-Kontext beginnen alle URLs mit `http://` bzw. `https://`.
 Es gibt aber noch zahlreiche andere sogenannte Protokolle, die sich nicht auf das Web beziehen, wie z.&nbsp;B. `ftp://`, `ssh://`, `mailto:` etc.
@@ -1840,9 +1848,9 @@ Bei einer URL wird angenommen, dass sie aufgelöst werden kann.
 Das heißt, wenn man einen Browser oder eine andere Software diese URL öffnen lässt, erhält man als Antwort die entsprechende Ressource.
 Im Gegensatz dazu bezeichnet der Begriff _Uniform Resource Identifier_ (URI) einen eindeutigen Bezeichner, der zwar formal einer URL gleicht, sich aber nicht unbedingt auflösen lässt.
 Trotzdem kann eine Ressource über die URI eindeutig identifiziert werden.
-URIs und URLs sind von zentraler Bedeutung für **Linked Data**.
+URIs und URLs sind von zentraler Bedeutung für [**Linked Data**](#glossar_linked-data).
 
-**XML** Die _Extensible Markup Language_ (XML) ist ein weit verbreitetes, hierarchisches Datenformat.
+**<a name="glossar_xml">XML</a>** Die _Extensible Markup Language_ (XML) ist ein weit verbreitetes, hierarchisches Datenformat.
 Der XML-Standard wird von der W3C betreut, ebenso wie ein breit gefächertes Ökosystem an verwandten Standards, wie etwa eine Abfragesprache oder eine Schemadefinition. 
 Siehe das Kapitel [XML](#xml).
 XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezialisierten Standards (z.&nbsp;B. [KML](#kml)).
@@ -1900,6 +1908,8 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 **[<a name="SKZL2024">SKZL2024</a>]** Senatskanzlei Berlin. 02.2024. _Open Data Berlin –
 Jahresbericht 2023_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/e-government/open-data/allgemeine-informationen/neuwebauftritt_final__2023_open-data-jahresbericht.pdf>. [Gesehen 18.04.2024].
 
+**[<a name="SKZL2024b">SKZL2024b</a>]** Senatskanzlei Berlin. 2024. _IT-Fachverfahren_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/prozesse-und-technik/technische-standards/it-fachverfahren/artikel.977641.php>. [Gesehen 19.04.2024].
+
 **[<a name="SENSTADT2020">SENSTADT2020</a>]** Senatsverwaltung für Stadtentwicklung und Wohnen Berlin und Amt für Statistik Berlin-Brandenburg. _Dokumentation zur Modifikation der Lebensweltlich orientierten Räume (LOR)_. Onlinedokument. <https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/download/Dokumentation_zur_Modifikation_LOR_2020.pdf>. [Gesehen 06.10.2021].
 
 **[<a name="SENWEB2018">SENWEB2018</a>]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. 2018. Datensatz. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). [Gesehen 05.07.2019]. Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
@@ -1926,7 +1936,7 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _[Issue](https://github.com/berlinonline/open-data-handbuch/issues)_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2024-04-18
+**Stand**: 2024-04-19
  ([2.0.0](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#200))
 
 ---
