@@ -1612,6 +1612,7 @@ In anderen Fällen ist eine API auch die einzige Möglichkeit, ein System zu bed
 
 Im Rahmen des Berliner Open-Data-Ökosystems treten APIs an verschiedenen Stellen auf: zum einen hat das Datenportal selbst verschiedene APIs (siehe das Kapitel [_Schnittstellen_](#schnittstellen)).
 Zum anderen kann es sich auch bei den Datenressourcen eines Datensatzes um APIs handeln.
+Manche Fachverfahren bieten bereits öffentliche APIs, die sich als Datenressource nutzen lassen.
 Beispiele sind die API für die [Fahrplandaten des VBB](https://daten.berlin.de/datensaetze/vbb-fahrplandaten-api) oder viele Datensätze aus dem Berliner Geoinformationssystem [FIS-Broker](https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/).
 
 **Baumstruktur** Eine Baumstruktur ist eine hierarchische Datenstruktur, bei der sich die Daten von einer Wurzel ausgehend immer weiter verzweigen.
@@ -1660,7 +1661,7 @@ Datenressourcen sollten immer maschinenlesbare, also strukturierte Daten enthalt
 Eine Ausnahme sind Ressourcen, die als Dokumentation zu den eigentlichen Datenressourcen dienen. 
 
 **Datenrubrik** Die Datenrubrik ist eine Komponente von **Imperia**, um offene Daten unabhängig von anderen Seiten im Imperia-Auftritt einer Behörde zu veröffentlichen.
-Ohne die Datenrubrik musste eine in Imperia hochgeladene Datenressource immer erst von einer Seite im Imperia-Auftritt der Behörde verlinkt werden, um für Nutzer zugänglich gemacht zu werden.
+Ohne die Datenrubrik musste eine in Imperia hochgeladene Datenressource immer erst von einer Seite im Imperia-Auftritt der Behörde verlinkt werden, um für Nutzer/innen zugänglich gemacht zu werden.
 Sollte die Ressource als Teil eines Datensatzes im Datenportal veröffentlicht werden, musste der Datensatz zudem händisch im Datenregister angelegt und die Ressource von dort verlinkt werden.
 Die Datenrubrik vereinfacht dies, indem das Hochladen der Ressource und das Anlegen des Datensatzes vor Ort in Imperia erfolgen können, und indem das Verlinken von anderer Stelle nicht länger notwendig ist.
 Es besteht zudem die Möglichkeit, eine alphabetische Übersicht aller per Datenrubrik erzeugten Datensätze im Imperia-Auftritt der Behörde einzubinden.
@@ -1707,10 +1708,10 @@ GovData wiederum wird vom [European Data Portal](https://www.europeandataportal.
 **Graphstruktur** Eine Graphstruktur ist eine sehr allgemeine Datenstruktur.
 Bestandteile eines Graphen sind Knoten, die über Kanten miteinander verbunden sind.
 Jeder Knoten und jede Kante kann dabei mit Informationen versehen sein.
-Typische Anwendungsfälle für Graphstrukturen sind soziale Netzwerke jeder Art, Verkehrsnetze etc. Grundsätzlich können aber die meisten Daten als Graph abgebildet werden. 
+Typische Anwendungsfälle für Graphstrukturen sind Organigramme, soziale Netzwerke jeder Art, Verkehrsnetze etc. Grundsätzlich können aber die meisten Daten als Graph abgebildet werden. 
 Ein geeignetes Datenformat für Graphstrukturen ist RDF.
 
-**Harvester** Der Begriff „Harvester“ kommt vom englischen Begriff „to harvest“, also „ernten“. Im Kontext des Open-Data-Handbuchs ist ein spezielles Plugin für **CKAN** gemeint, mit dessen Hilfe andere Datenportale sozusagen abgeerntet werden können, um die darin enthaltenen Datensätze (alle oder bestimmte) in CKAN zu überführen. Im CKAN-basierten **Datenregister** des Berliner Datenportals laufen derzeit Harvester für den **FIS-Broker** und das Datenportal von [Stromnetz Berlin](https://www.stromnetz.berlin).
+**Harvester** Der Begriff „Harvester“ kommt vom englischen Begriff „to harvest“, also „ernten“. Im Kontext des Open-Data-Handbuchs ist ein spezielles Plugin für **CKAN** gemeint, mit dessen Hilfe andere Datenportale sozusagen abgeerntet werden können, um die darin enthaltenen Datensätze (alle oder bestimmte) in CKAN zu überführen. Im CKAN-basierten **Datenregister** des Berliner Datenportals laufen derzeit Harvester für den **FIS-Broker** und das Sozial-Informations-System (SIS) Berlins.
 
 **Hierarchische Daten** → _Baumstruktur_
 
@@ -1723,7 +1724,7 @@ Mit anderen Worten: die Verordnung soll die Veröffentlichung von offenen Daten 
 
 Im Blog des bundesweiten Datenportals GovData [[GOVDATA2023](#GOVDATA2023)] sind die betroffenen Datensätze übersichtlich aufgelistet.
 
-**Imperia** Die Behördenseiten auf berlin.de werden zum großen Teil über das Content-Management-System [Imperia](https://www.pirobase-imperia.com/de/produkte/produktuebersicht/imperia-cms) betrieben.
+**Imperia** Die Seiten des Stadtportals berlin.de werden zum großen Teil über das Content-Management-System [Imperia](https://www.pirobase-imperia.com/de/produkte/produktuebersicht/imperia-cms) betrieben.
 Hier können Redakteur/innen Seiten erstellen und pflegen, Assets wie Bilddateien oder Datenressourcen hochladen und anderes mehr.
 Mit der **Datenrubrik** und dem **SimpleSearch**-Baukasten hat Imperia zwei Komponenten, die direkt für das Veröffentlichen von offenen Daten genutzt werden können.
 
@@ -1777,7 +1778,7 @@ Musterdatensätze dienen also als zusätzliches Ordnungskriterium für Datenkata
 
 ![Beispiel für den Musterdatenkatalog: vier konkrete Datensätze zu öffentlichen Toiletten aus Düsseldorf, Moers, Bonn und Berlin verweisen auf den Musterdatensatz „Gesundheit – Öffentliche Toilette“](images/musterdatensatz_beispiel.png "Datensätze zu öffentlichen Toiletten als Beispiel für den Musterdatenkatalog"){:width="700px"}{: .centered }
 
-Die aktuelle Version 4.0 des Musterdatenkatalogs enthält 242 Musterdatensätze (z.B. _„Gesundheit – Öffentliche Toilette“_), die in 26 thematische Kategoorien aufgeteilt sind (z.B. _„Gesundheit“_ oder _„Verkehr“_).
+Die aktuelle Version 4.0 des Musterdatenkatalogs enthält 242 Musterdatensätze (z.B. _„Gesundheit – Öffentliche Toilette“_), die in 26 thematische Kategorien aufgeteilt sind (z.B. _„Gesundheit“_ oder _„Verkehr“_).
 Der Musterdatenkatalog ist damit deutlich feingranularer als etwa die Kategorien des Berliner Datenportals oder die Themengebiete des _„Data Theme“_-Linked-Data-Vokabulars der EU [[PUBEU2022](#PUBEU2022)].
 Eine Übersicht über alle Musterdatensätze ist auf der Webseite [Liste der Musterdatensätze](https://bertelsmannstift.github.io/Musterdatenkatalog/def/musterdatensatz.html) zu finden.
 
