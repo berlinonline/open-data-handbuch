@@ -703,15 +703,16 @@ Die Vorteile sind:
 
 ### Lizenz festlegen
 
-Die Bedingungen, unter welchen veröffentlichte Datensätze oder Dokumente genutzt werden können, werden durch Nutzungsbestimmungen (Lizenzen) festgelegt.
-Welche Lizenz für ihre Datensätze gelten soll, entscheiden dabei Sie als Datenbereitsteller.
+Die Bedingungen, unter denen veröffentlichte Datensätze oder Dokumente genutzt werden können, werden durch Nutzungsbestimmungen (Lizenzen) festgelegt.
+Eine Lizenz stellt einen Vertrag zwischen der Rechteinhaber/in und der Nachnutzer/in dar, der festlegt, unter welchen Voraussetzungen und in welchem Umfang eine Verwendung der veröffentlichten Daten erfolgen kann. 
+Als Datenbereitsteller/in entscheiden Sie, welche Lizenz für Ihre Datensätze gelten soll.
 Auch zu diesem Thema bietet die ODIS eine hilfreiche Online-Ressource [[ODIS2023b](#ODIS2023b)].
 
-In das Open-Data-Portal können nur Datensätze und Dokumente mit klaren, eindeutigen Nutzungsbestimmungen aufgenommen werden.
-Während des Schritts [_Datenmonitoring_](#datenmonitoring) haben Sie bereits die Datensätze herausgefiltert, zu welchen Sie die Rechte halten.
-Stellen Sie die Daten anschließend unter eine geeignete Lizenz, die den Nutzern größtmöglichen Spielraum beim Umgang mit den Daten einräumt und den Anforderungen an Offenheit genügt.
+Im Open-Data-Portal können nur Datensätze mit klaren, eindeutigen Nutzungsbestimmungen aufgenommen werden.
+Während des Schritts [_Datenmonitoring_](#datenmonitoring) haben Sie bereits die Datensätze herausgefiltert, zu denen Sie die Rechte halten.
+Stellen Sie die Daten anschließend unter eine geeignete Lizenz, die den Nutzer/innen größtmöglichen Spielraum beim Umgang mit den Daten einräumt und den Anforderungen an Offenheit genügt.
 Um den Open-Data-Gedanken nicht zu gefährden, sollen die Nutzungsbestimmungen die weitere kommerzielle und nichtkommerzielle Nutzung der veröffentlichten Daten möglichst wenig einschränken.
-Auch hier gibt die [Rechtsverordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) näher Auskunft.
+Auch hier gibt die [Open-Data-Verordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) näher Auskunft.
 Bei der Entscheidung, ob eine Lizenz als „offen“ einzustufen ist, kann die [Open Definition](https://opendefinition.org/od/2.0/de/) von [Open Knowledge International](https://okfn.org) hinzugezogen werden.
 
 Momentan stehen folgende Lizenzen in den verschiedenen Veröffentlichungswegen zur Verfügung:
@@ -754,7 +755,8 @@ Weitere Informationen finden Sie unter <https://www.govdata.de/lizenzen>.
 
 ## Wege der Veröffentlichung
 
-Es gibt verschiedene Möglichkeiten, offene Daten im Berliner Datenportal zu veröffentlichen. Je nach Situation und Ausgangslage in Ihrer Behörde sind diese besser oder schlechter für Sie geeignet. 
+Es gibt verschiedene Möglichkeiten, offene Daten im Berliner Datenportal zu veröffentlichen.
+Je nach Situation und Ausgangslage in Ihrer Behörde sind diese besser oder weniger gut für Sie geeignet. 
 Die folgende Grafik (s. Abbildung) kann bei der Auswahl des Weges als grobe Entscheidungshilfe dienen. 
 Im Anschluss werden die einzelnen Veröffentlichungswege detailliert vorgestellt.
 
@@ -765,7 +767,8 @@ Im Anschluss werden die einzelnen Veröffentlichungswege detailliert vorgestellt
 
 Obwohl sich alle Veröffentlichungswege in ihren Details unterscheiden, gibt es einige Aspekte, die allen gemeinsam sind.
 
-- **Zeitliche Verzögerung**: Mit der Speicherung bzw. Freischaltung eines neuen Datensatzes oder einer Änderung im Eingabesystem (Imperia, Datenregister etc.), ist der Datensatz nicht unmittelbar im Datenportal auf daten.berlin.de zu sehen. Das liegt daran, dass das Datenportal in regelmäßigen Abständen (aktuell stündlich) das Datenregister nach Änderung und neuen Datensätzen abfragt und diese erst anschließend importiert und sichtbar macht. Weitere Verzögerungen könen auftreten, wenn mehrere Systeme hintereinandergeschaltet sind (z.&nbsp;B. Datenrubrik in Imperia → Datenregister → Datenportal).
+- **Zeitliche Verzögerung**: Mit der Speicherung bzw. Freischaltung eines neuen Datensatzes oder einer Änderung im Eingabesystem (Imperia, Datenregister etc.), ist der Datensatz nicht immer unmittelbar im Datenportal auf daten.berlin.de zu sehen.
+Diese Verzögerungen können auftreten, wenn mehrere Systeme hintereinandergeschaltet sind (z.&nbsp;B. Datenrubrik in Imperia → Datenregister → Datenportal).
 
 ### Imperia: Datenrubrik
 
@@ -778,14 +781,14 @@ Wählen Sie diesen Weg, wenn:
 
 Die Datenrubrik ermöglicht es, Datensätze unabhängig von redaktionellen Seiten in ihrem Imperia-Auftritt zu veröffentlichen (s. Abbildung). 
 Zum Anlegen eines Datensatzes müssen die [Metadaten](#metadaten) in ein Formular eingegeben und dann mit der eigentlichen Datenressource verknüpft werden.
-Dazu kann entweder eine Datei hochgeladen werden, oder eine bereits online verfügbare Ressource (File oder API) verlinkt werden.
+Dazu kann entweder eine Datei im _Media Asset Management_ von Imperia (MAM) hochgeladen werden, oder eine bereits online verfügbare Ressource (File oder API) verlinkt werden.
 Schließlich wird der Datensatz automatisch ans Datenportal übergeben und kann dann dort gefunden werden.
 Alle so erzeugten Datensätze erscheinen außerdem gesammelt in einer alphabetischen Liste in einem gesonderten Bereich Ihres Imperia-Auftritts, evtl. gegliedert nach Unterkategorien.
-Für jeden Datensatz wird dort ein Link aufgeführt, der die Nutzer zu der entsprechenden Seite im Datenportal führt.
+Für jeden Datensatz wird dort ein Link aufgeführt, der die Nutzer/innen zu der entsprechenden Seite im Datenportal führt.
 
 ![Output des Datenrubrik-Formulars in Imperia](images/output_datenrubrik.png "Aus den Eingaben im Datenrubrik-Formular wird ein Eintrag in der Datenrubrik und ein Datensatz im Datenportal erzeugt.")
 
-Die aktuelle [Dokumentation zur Datenrubrik](https://support.berlin.de/wiki/Datenrubrik_für_die_Veröffentlichung_im_Berliner_Datenportal) finden Sie im Support-Wiki von Imperia. Im Folgenden werden die wichtigsten Aspekte zusammenfassend wiedergegeben.
+Die aktuelle [Dokumentation zur Datenrubrik](https://support.berlin.de/imperia/templates/datenrubrik/) finden Sie im Support-Wiki von Imperia. Im Folgenden werden die wichtigsten Aspekte zusammenfassend wiedergegeben.
 
 #### Datenrubrik einrichten
 
@@ -894,8 +897,9 @@ Ihre Daten sind dann in verschiedenen Formaten (CSV, JSON, XML und evtl. andere)
 #### Datensatz aus SimpleSearch-Anwendung erzeugen
 
 Die Details zum Erstellen einer SimpleSearch-Anwendung würden den Rahmen dieses Dokuments sprengen.
-Eine detaillierte Dokumentation zu diesem Thema finden Sie im [Support-Wiki](https://support.berlin.de/wiki/SimpleSearch-Baukasten) von Imperia.
-An dieser Stelle soll nur kurz erläutert werden, welche Schritte nötig sind, um aus einer bestehenden SimpleSearch-Anwendung einen Datensatz für das Datenportal zu erzeugen.
+Eine detaillierte Dokumentation zu diesem Thema finden Sie im [Support-Wiki](https://support.berlin.de/imperia/templates/simplesearch/) von Imperia.
+Die [Verwaltungsakademie](https://www.berlin.de/vak/) bietet zwei Mal im Jahr den Kurs „Imperia-Modul SimpleSearch“ an.
+An dieser Stelle soll im Handbuch nur kurz erläutert werden, welche Schritte nötig sind, um aus einer bestehenden SimpleSearch-Anwendung einen Datensatz für das Datenportal zu erzeugen.
 
 ![Veröffentlichung einer SimpleSearch-Anwendung als Open Data](images/opendata-sise-imperia.png "Das Formular zur Veröffentlichung einer SimpleSearch-Anwendung als Open Data")
 
@@ -1006,7 +1010,7 @@ Stattdessen kann man über den Service gravatar.com ein Bild mit seiner E-Mail-A
 
 #### Organisationen
 
-Alle Datensätze und Nutzer im Datenregister sind einer **Organisation** zugeordnet.
+Alle Datensätze und Nutzer/innen im Datenregister sind einer **Organisation** zugeordnet.
 Das Konzept der Organisation dient hauptsächlich der Steuerung der Zugriffsrechte im Datenregister: alle Mitglieder einer Organisation können Datensätze für diese (und nur diese) Organisation anlegen und bearbeiten.
 
 Die Organisation eines Datensatzes ist nicht gleichzusetzen mit der [**Veröffentlichenden Stelle**](#veröffentlichende-stelle): 
@@ -1060,7 +1064,7 @@ Wählen Sie diesen Weg, wenn:
 * Sie große Mengen an Daten automatisch im Datenportal veröffentlichen wollen.
 * Der Weg über einen CKAN-Harvester nicht gangbar ist.
 
-Bei dieser Art der Veröffentlichung setzt der Datenbereitsteller selbst auf eigenen Servern Software ein, die aus eigenen Datenbeständen JSON-Beschreibungen erzeugt und diese über die CKAN-API des Datenregisters automatisch veröffentlicht.
+Bei dieser Art der Veröffentlichung setzt die veröffentlichende Stelle selbst auf eigenen Servern Software ein, die aus eigenen Datenbeständen JSON-Beschreibungen erzeugt und diese über die CKAN-API des Datenregisters automatisch veröffentlicht.
 Da dieser Veröffentlichungsweg spezialisierte Softwareentwicklung erfordert, die je nach Situation sehr unterschiedlich ausfallen kann, kann an dieser Stelle nicht weiter auf diesen Weg eingegangen werden.
 Sollten Sie Interesse an dieser Art der Veröffentlichung haben, kontaktieren Sie gerne <a href="mailto:opendata@berlin.de">opendata@berlin.de</a>, um weitere Informationen zu erhalten.
 
@@ -1296,7 +1300,7 @@ Auch für die Beschreibung der Datenressourcen gilt, dass diese in verständlich
 Im Falle einer Datei ist diese Angabe der Formats in der Regel übereinstimmend mit der Dateieindung der Ressource (also `csv`, `json`, `xlsx` etc.).
 Für eine API kann hier der Wert `API` angegeben werden.
 Bei einigen Veröffentlichungswegen wird diese Angabe über eine Auswahlliste eingeschränkt.
-Falls Ihnen hier ein Format fehlt, melden Sie sich bitte beim [berlin.de Support](https://support.berlin.de/wiki/Hilfe_und_Support).
+Falls Ihnen hier ein Format fehlt, melden Sie sich bitte beim [berlin.de Support](https://support.berlin.de/kontakt/).
 Gegebenenfalls kann die Menge der zugelassenen Formate erweitert werden.
 Wenn das nicht möglich ist, können Sie Ihre Datenressourcen auch in einem Archiv verpacken (ZIP oder ähnliches) und dieses anschließend hochladen.
 In diesem Fall sollten Sie das eigentliche Format in der Beschreibung der Ressource angeben.
