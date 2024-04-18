@@ -85,16 +85,16 @@ Das Berliner Open-Data-Handbuch ist in zwei Formen verfügbar: als gedruckte Ver
 Das Berliner Datenportal [daten.berlin.de](https://daten.berlin.de) (online seit 2011) macht die Datenbestände der Berliner Verwaltung für die Öffentlichkeit auffindbar. 
 Jede **Datenressource** – Dateien, Datenbanken etc. – wird dafür durch eine Reihe von **Metadaten** – Titel, Beschreibung, geografischer und zeitlicher Bezug etc. – beschrieben.
 Datenressource und Metadaten bilden jeweils gemeinsam einen **Datensatz**, der im Datenportal seine eigene Seite und URL erhält.
-Dabei werden die Datenressourcen selbst nicht ins Datenportal importiert, sondern bleiben an Ort und Stelle.
+Dabei werden die Datenressourcen selbst nicht ins Datenportal importiert, sondern bleiben an Ort und Stelle: z.B. auf den Webseiten der Behörden, in einem Fachverfahren oder anderswo.
 Voraussetzung ist lediglich, dass sie im Internet verfügbar sind, damit sie vom Datensatz aus verlinkt werden können (s. Abbildung).
-Man spricht deshalb auch von einem **Metadatenportal**.
+Man spricht deshalb auch von einem **Metadatenportal**, da die Daten selbst nicht auf dem Datenportal hochgeladen werden, sondern lediglich die Weblinks zu den Datenressourcen.
 
 ![Datensätze im Datenportal verlinken zu Datenressourcen im Internet](images/metadaten_daten.png "Datensätze im Datenportal bestehen aus Metadaten und einer Verlinkung zu den eigentlichen Datenressourcen im Internet."){:width="400px"}{: .centered }
 
 Das Datenportal besteht aus zwei Teilen: Zum einen gibt es das öffentlich sichtbare eigentliche **Portal**, das unter <https://daten.berlin.de> zu erreichen ist.
 Das Portal wird von  Nutzer*innen für die Suche und das Browsen im Inhalt des Datenportals genutzt.
 Jeder Datensatz hat hier eine Detailseite, die im Browser angesehen werden kann und von der aus die Datenressourcen verlinkt sind.
-Die Zielgruppe des Datenportals ist offen gehalten, und umfasst Zivilgesellschaft, Presse und Wirtschaft, aber auch die Verwaltung selbst.
+Die Zielgruppe des Datenportals ist offen gehalten, und umfasst Zivilgesellschaft, Presse und Wirtschaft, aber auch die Verwaltung selbst, die auf dem Datenportal alle offenen Daten der Verwaltung finden kann.
 
 Parallel existiert das nicht-öffentliche **Datenregister**.
 Bei diesem handelt es sich gewissermaßen um das Redaktionssystem des Datenportals, über das Verwaltungsmitarbeiter/innen Datensätze einstellen oder ändern können.
@@ -102,7 +102,7 @@ Es ist unter <https://datenregister.berlin.de> zu erreichen.
 
 Das Datenregister verfügt über mehrere Schnittstellen (s. Abbildung): zum einen gibt es die Möglichkeit, Datensätze über ein Web-Formular direkt im Browser anzulegen oder zu bearbeiten (siehe Kapitel [_Datenregister manuell_](#datenregister-manuell)). 
 Dazu gibt es noch zwei Schnittstellen für den automatischen Zugriff, nämlich die sogenannte [**CKAN-API**](#ckan-api) und die [**DCAT-AP.de**](#dcat-apde) Schnittstelle.
-Diese Schnittstellen werden z.&nbsp;B. für automatische Abfragen durch das bundesweite Datenportal govdata.de genutzt, stehen aber auch anderen Nutzern für automatische Auswertungen oder Analysen zur Verfügung.
+Diese Schnittstellen werden z.&nbsp;B. für automatische Abfragen durch das bundesweite Datenportal govdata.de genutzt, stehen aber auch anderen Nutzer/innen für automatische Auswertungen oder Analysen zur Verfügung.
 Insbesondere die CKAN-API wird auch von Imperia-Werkzeugen wie der [**Datenrubrik**](#imperia-datenrubrik) oder dem [**SimpleSearch**](#imperia-simplesearch)-Baukasten für die Erstellung von Datensätzen genutzt.
 Andere Datenportale können die CKAN-API ebenfalls zu diesem Zweck nutzen.
 Schließlich gibt es sogenannte [**Harvester**](#ckan-harvester)-Erweiterungen zum Datenregister, die in regelmäßigen Abständen Datensätze automatisch aus anderen Portalen des Landes (z.&nbsp;B. aus dem [FIS-Broker](https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/)) ins Datenportal überführen.
