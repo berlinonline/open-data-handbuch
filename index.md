@@ -2,37 +2,57 @@
 
 ## Einleitung
 
-Seit der Veröffentlichung der ersten [_Berliner Open Data-Strategie_](https://nbn-resolving.org/urn:nbn:de:0011-n-1955071) und dem Start des Berliner Datenportals im Jahr 2011 ist das Angebot an offenen Verwaltungsdaten in Berlin kontinuierlich gewachsen.
-Viele Verwaltungen und deren Beschäftigte haben sich in den letzten Jahren erstmals mit den Potenzialen offener Daten auseinandergesetzt, einige auch mit der Veröffentlichung begonnen.
-Mit der Verabschiedung des [E-Government-Gesetzes Berlin](https://gesetze.berlin.de/perma?a=EGovG_BE) im Juni 2016 [[EGOVGBLN](#EGOVGBLN)] und der vertiefenden [Open-Data-Verordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) im Juli 2020 [[OPENDATAV](#OPENDATAV)] ist das Thema Open Data fest auf Landesebene verankert.
-Denn nach [§&nbsp;13](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) des E-Government-Gesetzes müssen die Behörden der Berliner Verwaltung in einem zentralen Datenportal Informationen bereitstellen, die sie in Erfüllung ihres öffentlichen Auftrags im Rahmen ihrer jeweiligen Zuständigkeit erstellt haben und die in maschinenlesbaren Formaten darstellbar sind.
-Das zentrale Datenportal ist Bestandteil des elektronischen Stadtinformationssystems für das Land Berlin.
-Wenn Informationen in anderen Datenportalen maschinenlesbar bereitgestellt werden, wird im zentralen Datenportal ein Verweis auf diese Informationen eingerichtet.
+Das Berliner Open-Data-Handbuch wurde entwickelt, um die Verwaltungsbeschäftigten durch den Prozess der Veröffentlichung von Daten als Open Data zu führen.
+Es bietet klare Anleitungen und praktische Tipps, wie Sie Ihre Daten eigenständig vorbereiten, veröffentlichen und die erforderlichen Eingabefelder ausfüllen können.
+
+Die Verwaltungsbeschäftigten spielen eine entscheidende Rolle bei der Bereitstellung von Informationen, die die Transparenz erhöhen, die Zusammenarbeit fördern und die Innovation für die Smart City vorantreiben.
+
+Indem Sie Ihre Daten als Open Data veröffentlichen, tragen Sie dazu bei, dass Informationen für Bürger/innen, Forscher/innen, Unternehmen und andere Organisationen leicht zugänglich sind.
+Sie unterstützen die Entwicklung innovativer Anwendungen, fördern das Verständnis für öffentliche Angelegenheiten und stärken das Vertrauen der Öffentlichkeit in die Arbeit der Verwaltung.
+
+Wir laden Sie ein, dieses Handbuch zu nutzen, um Ihre Daten zu veröffentlichen und einen positiven Beitrag zur offenen Datenlandschaft Berlins zu leisten.
+
+### Open-Data-Berlin-Initiative
+
+Seit der Veröffentlichung der ersten [_Berliner Open Data-Strategie_](https://nbn-resolving.org/urn:nbn:de:0011-n-1955071) im Jahr 2010 und dem Start des Berliner Datenportals im Jahr 2011 hat das Angebot an offenen Verwaltungsdaten in Berlin kontinuierlich zugenommen.
+Die Statistiken zur Anzahl der Datenveröffentlichungen und zur Integration von Fachverfahren in das Datenportal in den jährlich veröffentlichten Open-Data-Jahresberichten belegen diese Entwicklung eindrucksvoll [[SKZL2024](#SKZL2024)].
+
+In den letzten Jahren haben sich viele Verwaltungen und ihre Beschäftigten intensiv mit den Möglichkeiten offener Verwaltungsdaten auseinandergesetzt, wobei ein Großteil bereits mit der Veröffentlichung begonnen hat.
+
+
+Mit der Verabschiedung des [E-Government-Gesetzes Berlin](https://gesetze.berlin.de/perma?a=EGovG_BE) im Juni 2016 [[EGOVGBLN](#EGOVGBLN)] und der seit dem 1. Januar 2021 in Kraft getretenen [Open-Data-Verordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) [[OPENDATAV](#OPENDATAV)] ist das Thema Open Data fest auf Landesebene verankert.
+Gemäß [§&nbsp;13](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) des E-Government-Gesetzes sind die Behörden der Berliner Verwaltung verpflichtet, im Rahmen ihres öffentlichen Auftrags erstellte Informationen in ihren jeweiligen Zuständigkeitsbereichen in maschinenlesbaren Formaten bereitzustellen.
+Dies geschieht über das zentrale Datenportal, das integraler Bestandteil des elektronischen Stadtinformationssystems für das Land Berlin ist.
+
+Wenn Informationen in anderen Datenportalen maschinenlesbar verfügbar sind, erfolgt über das Prinzip eines Metadatenportals im zentralen Datenportal ein Verweis auf diese Informationen. Das Berliner Datenportal übermittelt gemäß der Verwaltungsvereinbarung GovData (LINK?) zwischen dem Bund und den Ländern die Metadaten an das [GovData-Portal](https://govdata.de), was eine effiziente und koordinierte Datennutzung auf föderaler Ebene ermöglicht.
 
 Die erste Auflage des Berliner Open-Data-Handbuchs erschien im Oktober 2019.
-Seitdem ist in Berlin im Hinblick auf Open Data viel geschehen: 
+Seitdem hat sich die Open-Data-Berlin-Inititative technisch, rechtlich und organisatorisch weiter entwickelt: 
 
-- Die Verantwortung für das Thema Open Data ging im Rahmen der Konsolidierung der Verwaltungsdigitalisierung von der Senatsverwaltung für Wirtschaft, Energie und Betriebe zunächst zur Innenverwaltung und liegt nun bei der Senatskanzlei.
-- Mehr und mehr etabliert sich in den Behörden der Berliner Verwaltung die in der Open-Data-Verordnung festgelegte Rolle der Open-Data-Beauftragten.
-Auch eine zentrale Open-Data-Verantwortliche des Landes Berlin wurde ernannt.
-- Regelmäßige Seminare, Workshops und andere Formate fördern den Austausch zum Thema Open Data in der Berliner Verwaltung.
-- Berlin hat sich, 12 Jahre nach der ersten, eine [neue Open-Data-Strategie](https://www.berlin.de/moderne-verwaltung/e-government/open-data/strategieprozess/artikel.1257333.php) gegeben, in der die Schwerpunkte und Maßnahmen für die kommenden Jahre bis 2026 festgelegt sind [[SKZL2023](#SKZL2023)].
-Damit bekommen Themen wie z.B. Data Governance, Stärkung der Datenkompetenz, Linked Open Data oder auch Fragen der Vergabeverfahren mehr Aufmerksamkeit und Schwung.
-- Wie das gesamte Landesportal berlin.de hat auch das Open-Data-Portal daten.berlin.de ein neues Layout und Designsystem bekommen, und wurde gleichzeitig auf ein neues und solideres technisches Fundament gestellt.
+- Im Zuge der Konsolidierung der E-Government-Maßnahmen im Bereich der Verwaltungsdigitalisierung wurde die Verantwortung für das Thema Open Data von der Senatsverwaltung für Wirtschaft, Energie und Betriebe zunächst auf die Innenverwaltung übertragen und liegt nun bei der Senatskanzlei Berlin unter der Leitung des Regierenden Bürgermeisters.
+- Die Rolle der Open-Data-Beauftragten gemäß §8 der Open-Data-Verordnung hat sich in den Behörden der Berliner Verwaltung etabliert.
+Alle Bezirksverwaltungen und nahezu alle Senatsverwaltungen haben mittlerweile Open-Data-Beauftragte ernannt.
+Insgesamt sind 21 Open-Data-Beauftragte tätig (ZUM JETZIGEN ZEITPUNKT?).
+Zusätzlich wurde eine zentrale Open-Data-Verantwortliche des Landes Berlin ernannt, die die Aktivitäten für Open Data im Land Berlin koordiniert und die Umsetzung der Open-Data-Verordnung sowie der Maßnahmen der Open-Data-Strategie überwacht.
+- Regelmäßige Weiterbildungsmaßnahmen, wie der _Crashkurs Open Data_ und _Imperia Simple Search_ in der Verwaltungsakademie Berlin sowie Workshops der [Open Data Informationsstelle](https://odis-berlin.de) (ODIS) zu Datenveröffentlichungen und Datenvisualisierungen fördern die Datenkompetenz und den Austausch zum Thema Open Data und Datenmanagement innerhalb der Berliner Verwaltung.
+- Am 7. November 2023 hat der Senat eine neue Open-Data-Strategie verabschiedet, die in einem breiten partizipativen Prozess mit den Stakeholdern der Verwaltung, Wirtschaft, Wissenschaft und Zivilgesellschaft entwickelt wurde [[SKZL2023](#SKZL2023)].
+Die Strategie umfasst drei Handlungsfelder und zwölf Maßnahmen für die kommenden Jahre bis 2026.
+Sie betont die Bedeutung von Themen wie Data Governance, Stärkung der Datenkompetenz, Linked Open Data sowie die Berücksichtigung von Open-Data-Musterklauseln in den Vergabeverfahren und gibt diesen Aspekten in der Berliner Verwaltung neuen Schwung.
+- Sowohl das gesamte Landesportal [berlin.de](https://berlin.de) als auch das Open-Data-Portal [daten.berlin.de](https://daten.berlin.de) haben ein neues Layout und Designsystem erhalten und wurden auf ein neues und solideres technisches Fundament gestellt.
 
-Zwar ist auch die Online-Ausgabe des Open-Data-Handbuch seit 2019 als lebendes Dokument beständig verbessert und erweitert worden.
-Angesichts der großen Veränderungen ist es aber an der Zeit, auch das gedruckte Handbuch mit einer neuen Ausgabe auf den neuesten Stand zu bringen. 
+Zwar wurde die [Online-Ausgabe des Open-Data-Handbuchs](https://berlinonline.github.io/open-data-handbuch/) seit 2019 kontinuierlich verbessert und erweitert, um als lebendes Dokument den aktuellen Entwicklungen Rechnung zu tragen.
+Angesichts der bedeutenden technischen, rechtlichen und organisatorischen Veränderungen im Themenfeld Open Data Berlin ist es jedoch an der Zeit, auch das gedruckte Handbuch mit einer neuen Ausgabe auf den neuesten Stand zu bringen. 
 
 ### Ziele von Open Data
 
-Bürger\*innen, Unternehmen und zivilgesellschaftliche Akteure können mit offenen Daten innovative Anwendungen entwickeln und neue Geschäftsmodelle erschließen, die unseren Alltag erleichtern.
-Die Nutzung und Auswertung der offenen Daten kann zudem das Vertrauen zwischen Politik, Zivilgesellschaft und Verwaltung stärken.
-Offene Daten sind ein wichtiger Baustein dafür, Entscheidungsprozesse der Verwaltung transparenter zu machen und eine Beteiligung der Bürger\*innen an diesen zu ermöglichen.
-Auch die Verwaltung selbst kann von offenen Daten profitieren: 
-Dadurch dass Behörden die Daten anderer Behörden einfacher finden, können sie diese auch besser für ihre eigenen Aufgaben nutzen.
+Bürger/innen, Unternehmen und zivilgesellschaftliche Akteure können durch die Nutzung offener Daten innovative Anwendungen entwickeln und neue Geschäftsmodelle erschließen, die unseren Alltag erleichtern.
+Darüber hinaus trägt die Nutzung und Auswertung offener Daten dazu bei, das Vertrauen zwischen Politik, Zivilgesellschaft und Verwaltung zu stärken.
+Offene Daten spielen eine wichtige Rolle dabei, Entscheidungsprozesse der Verwaltung transparenter zu gestalten und eine Beteiligung der Bürgerinnen und Bürger zu ermöglichen.
+Auch die Verwaltung selbst profitiert von offenen Daten: 
+Durch die verbesserte Zugänglichkeit von Daten anderer Behörden können diese effektiver für eigene Aufgaben genutzt werden.
 
-Neue wirtschaftliche Impulse, mehr Transparenz und Partizipation,  eine effektivere Verwaltung – dies sind die Ziele von offenen Daten in Berlin.
-Das Open-Data-Handbuch gibt Anleitung und Tipps für die Veröffentlichung von Verwaltungsdaten, um diese Ziele zu erreichen.
+Neue wirtschaftliche Impulse, eine gesteigerte Transparenz und Partizipation, sowie eine effizientere Verwaltung sind die Ziele der offenen Daten in Berlin.
+Das Open-Data-Handbuch bietet Anleitungen und Tipps für die Veröffentlichung von Verwaltungsdaten, um diese Ziele zu erreichen.
 
 ### Kapitelübersicht
 
@@ -48,7 +68,7 @@ Es gibt unterschiedliche technische Möglichkeiten, einen Datensatz im Datenport
 Je nach Ausgangslage eignen sich diese mehr oder weniger für einen Datenbereitsteller.
 Das Kapitel [_Wege der Veröffentlichung_](#wege-der-veröffentlichung) gibt Ihnen für jede Option detaillierte Anweisungen.
 
-Metadaten helfen den Nutzer\*innen offener Daten, Ihren Datensatz besser finden und einordnen zu können.
+Metadaten helfen den Nutzer/innen offener Daten, Ihren Datensatz besser finden und einordnen zu können.
 Im Kapitel [_Metadaten_](#metadaten) werden die verschiedenen Angaben genau beschrieben.
 
 Abschließend stellen wir im Kapitel [_Schnittstellen_](#schnittstellen) kurz zwei verschiedene Möglichkeiten des automatischen Zugriffs auf das Datenportal vor und verweisen daran anschließend in [_Weitere Beratung_](#weitere-beratung) auf Ansprechpartner, die Sie bei weiteren Fragen zu Rate ziehen können.
@@ -77,7 +97,7 @@ Jeder Datensatz hat hier eine Detailseite, die im Browser angesehen werden kann 
 Die Zielgruppe des Datenportals ist offen gehalten, und umfasst Zivilgesellschaft, Presse und Wirtschaft, aber auch die Verwaltung selbst.
 
 Parallel existiert das nicht-öffentliche **Datenregister**.
-Bei diesem handelt es sich gewissermaßen um das Redaktionssystem des Datenportals, über das Verwaltungsmitarbeiter\*innen Datensätze einstellen oder ändern können.
+Bei diesem handelt es sich gewissermaßen um das Redaktionssystem des Datenportals, über das Verwaltungsmitarbeiter/innen Datensätze einstellen oder ändern können.
 Es ist unter <https://datenregister.berlin.de> zu erreichen. 
 
 Das Datenregister verfügt über mehrere Schnittstellen (s. Abbildung): zum einen gibt es die Möglichkeit, Datensätze über ein Web-Formular direkt im Browser anzulegen oder zu bearbeiten (siehe Kapitel [_Datenregister manuell_](#datenregister-manuell)). 
@@ -177,7 +197,7 @@ Folgende Sachverhalte stehen einer Veröffentlichung entgegen:
 - Die Veröffentlichung würde Betriebs- oder Geschäftsgeheimnisse offenbaren.
 - Die Veröffentlichung würde Urheberrechte o.&nbsp;ä. verletzen.
 - Die Veröffentlichung würde sich nachteilig auf die öffentliche Sicherheit, Informationssicherheit, die Durchführung von Gerichtsverfahren o.&nbsp;ä. auswirken.
-- Die Daten haben einen Personenbezug. Hier gibt es Ausnahmen wie z.&nbsp;B. die Namen der Verfasser\*innen von Gutachten oder Studien, Empfänger\*innen von Förderungen etc.
+- Die Daten haben einen Personenbezug. Hier gibt es Ausnahmen wie z.&nbsp;B. die Namen der Verfasser/innen von Gutachten oder Studien, Empfänger/innen von Förderungen etc.
 
 {::options parse_block_html="true" /}
 <div class="bo-box">
@@ -1092,7 +1112,7 @@ Es sollte darauf geachtet werden, dass diese Angabe immer aktuell gehalten wird.
 
 #### Kontakt-E-Mail
 
-Das Feld _Kontakt-E-Mail_ beinhaltet entweder eine E-Mail-Adresse oder den Link auf ein Kontaktformular, über welches Nutzer\*innen bei Bedarf mit der veröffentlichenden Stelle in Kontakt treten können.
+Das Feld _Kontakt-E-Mail_ beinhaltet entweder eine E-Mail-Adresse oder den Link auf ein Kontaktformular, über welches Nutzer/innen bei Bedarf mit der veröffentlichenden Stelle in Kontakt treten können.
 Es wird empfohlen, hier keine persönlichen E-Mail-Adressen einzutragen, sondern auf Funktionspostfächer zurückzugreifen, die unabhängig von konkreten Personen bearbeitet werden.
 
 #### Webadresse
@@ -1114,7 +1134,7 @@ Beantworten Sie bei der Beschreibung z.&nbsp;B. folgende Fragen:
 {::options parse_block_html="true" /}
 <div class="bo-box">
 
-Damit die Beschreibungstexte für möglichst viele Nutzer\*innen zugänglich sind, sollten die Texte einfach strukturiert und formuliert sein, und auf Stolpersteine wie Amtsdeutsch, Fremdwörter oder über-komplexe Formulierungen verzichten.
+Damit die Beschreibungstexte für möglichst viele Nutzer/innen zugänglich sind, sollten die Texte einfach strukturiert und formuliert sein, und auf Stolpersteine wie Amtsdeutsch, Fremdwörter oder über-komplexe Formulierungen verzichten.
 In der Berliner IKT-Architektur sind zu diesem Zweck die [_Berliner Standards für barrierefreie Sprache und Texte_](https://www.berlin.de/moderne-verwaltung/barrierefreie-it/fuer-verwaltungen/berliner-standards/sprache/artikel.982212.php) festgelegt.
 Dazu zählt auch der [_Leitfaden für Verständliche Sprache_](https://www.berlin.de/moderne-verwaltung/barrierefreie-it/fuer-verwaltungen/berliner-standards/sprache/artikel.982503.php), dem die Berliner Verwaltungen beim Schreiben ihrer digitalen Texte folgen sollen.
 
@@ -1133,7 +1153,7 @@ Damit die Frage nach der Lizenz nicht für jeden Datensatz neu entschieden werde
 
 #### Text für Namensnennung
 
-Diese Angabe gibt präzise den Text an, den Nutzer\*innen bei Verwendung der Daten als Namensnennung angeben müssen, sofern die ausgewählte Lizenz das vorsieht (etwa bei Nutzung von CC-BY Lizenzen, der _Datenlizenz Deutschland – Namensnennung_ und anderer).
+Diese Angabe gibt präzise den Text an, den Nutzer/innen bei Verwendung der Daten als Namensnennung angeben müssen, sofern die ausgewählte Lizenz das vorsieht (etwa bei Nutzung von CC-BY Lizenzen, der _Datenlizenz Deutschland – Namensnennung_ und anderer).
 Oftmals entspricht diese Angabe der [Veröffentlichenden Stelle](#veröffentlichende-stelle).
 
 #### Veröffentlichungsdatum
@@ -1690,7 +1710,7 @@ Mit anderen Worten: die Verordnung soll die Veröffentlichung von offenen Daten 
 Im Blog des bundesweiten Datenportals GovData [[GOVDATA2023](#GOVDATA2023)] sind die betroffenen Datensätze übersichtlich aufgelistet.
 
 **Imperia** Die Behördenseiten auf berlin.de werden zum großen Teil über das Content-Management-System [Imperia](https://www.pirobase-imperia.com/de/produkte/produktuebersicht/imperia-cms) betrieben.
-Hier können Redakteur\*innen Seiten erstellen und pflegen, Assets wie Bilddateien oder Datenressourcen hochladen und anderes mehr.
+Hier können Redakteur/innen Seiten erstellen und pflegen, Assets wie Bilddateien oder Datenressourcen hochladen und anderes mehr.
 Mit der **Datenrubrik** und dem **SimpleSearch**-Baukasten hat Imperia zwei Komponenten, die direkt für das Veröffentlichen von offenen Daten genutzt werden können.
 
 **JSON** Die _JavaScript Object Notation_ (JSON) ist ein einfaches, hierarchisches Datenformat, das in den letzten Jahren große Verbreitung erfahren hat und an vielen Stellen die Rolle von **XML** übernommen hat.
@@ -1842,7 +1862,10 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[<a name="PUBEU2023">PUBEU2023</a>]** Publications Office of the European Union. _High-value dataset categories_. 2023. Webseite. <https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category>. [Gesehen 11.04.2024].
 
-**[<a name="SKZL2023">SKZL2023</a>]** Senatskanzlei Berlin. 25.09.2023. _Open-Data-Strategie_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/e-government/open-data/strategieprozess/1finales__dokument__2023_-opendatastrategie.pdf?ts=1705017648>. [Gesehen 10.04.2024].
+**[<a name="SKZL2023">SKZL2023</a>]** Senatskanzlei Berlin. 25.09.2023. _Open-Data-Strategie_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/e-government/open-data/strategieprozess/1finales__dokument__2023_-opendatastrategie.pdf>. [Gesehen 10.04.2024].
+
+**[<a name="SKZL2024">SKZL2024</a>]** Senatskanzlei Berlin. 02.2024. _Open Data Berlin –
+Jahresbericht 2023_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/e-government/open-data/allgemeine-informationen/neuwebauftritt_final__2023_open-data-jahresbericht.pdf>. [Gesehen 18.04.2024].
 
 **[<a name="SENSTADT2020">SENSTADT2020</a>]** Senatsverwaltung für Stadtentwicklung und Wohnen Berlin und Amt für Statistik Berlin-Brandenburg. _Dokumentation zur Modifikation der Lebensweltlich orientierten Räume (LOR)_. Onlinedokument. <https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/download/Dokumentation_zur_Modifikation_LOR_2020.pdf>. [Gesehen 06.10.2021].
 
@@ -1870,7 +1893,7 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _[Issue](https://github.com/berlinonline/open-data-handbuch/issues)_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2024-04-11
+**Stand**: 2024-04-18
  ([2.0.0](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md#200))
 
 ---
