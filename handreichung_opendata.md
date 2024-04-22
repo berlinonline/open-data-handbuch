@@ -128,8 +128,6 @@ Als erste Datenbereisteller, die nicht zur Verwaltung gehören, haben [ADFC Berl
 
 Die Veröffentlichung von offenen Daten ist ein mehrstufiger Prozess (s. Abb.&nbsp;\ref{fig:veroeffentlichungsschritte}), aber weniger kompliziert, als es auf den ersten Blick scheinen mag.
 Es sind weniger Schritte nötig als Sie denken, um die Daten auf dem Datenportal zu hinterlegen.
-Suchen Sie sich Unterstützung oder Mitstreitende beim Durchlaufen der Schritte.
-
 Suchen Sie sich Unterstützung oder Mitstreiterinnen und Mitstreiter, um die Schritte gemeinsam zu durchlaufen.
 Vielleicht gibt es in Ihrer Einrichtung eine Open-Data-Beauftragte oder einen Open-Data-Beauftragten, die oder der Sie bei diesem Prozess unterstützen kann.
 Vielleicht haben auch Kolleginnen und Kollegen in Ihrer Einrichtung bereits Daten auf ihrer Webseite veröffentlicht, die Sie im Datenportal hinterlegen können.
@@ -154,7 +152,7 @@ Die ODIS leistet in Zusammenarbeit mit den jeweiligen Behörden Unterstützung z
 Es stehen auch eine Reihe von Online-Ressourcen zur Verfügung, beginnend mit einem _Handout zum Thema Dateninventur_ [@link(ODIS2021a)], das alle wichtigen Informationen zusammenfasst, bis hin zu einem vollständigen _Dateninventurprozess_ [@link(ODIS2023)].
 Dies beinhaltet auch die _Vorlage für ein Dateninformationsblatt_ [@link(ODIS2021b)], mit dem die Datenbestände in der Behörde dokumentiert werden können.
 
-Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc. liefert der §&nbsp;4 _Anwendungsbereich_ der  [Rechtsverordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§&nbsp;13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13).
+Detaillierte Angaben zu den von der Veröffentlichungspflicht betroffenenen Daten und Behörden, den Einschränkungen, der Form der Veröffentlichung etc. liefert der §&nbsp;4 _Anwendungsbereich_ der  [Open-Data-Verordnung](https://gesetze.berlin.de/perma?a=OpenDataBerV_BE) zu [§&nbsp;13 EGovG Bln](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13).
 
 Die folgenden Beispiele für Datenarten und Themenfelder sollen einen Eindruck davon vermitteln, welche Daten erwartet werden. 
 Auch diese Beispiele werden in der Open-Data-Verordnung näher ausgeführt.

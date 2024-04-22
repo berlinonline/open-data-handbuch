@@ -132,8 +132,6 @@ Als erste Datenbereisteller, die nicht zur Verwaltung gehören, haben [ADFC Berl
 
 Die Veröffentlichung von offenen Daten ist ein mehrstufiger Prozess (s. Abbildung), aber weniger kompliziert, als es auf den ersten Blick scheinen mag.
 Es sind weniger Schritte nötig als Sie denken, um die Daten auf dem Datenportal zu hinterlegen.
-Suchen Sie sich Unterstützung oder Mitstreitende beim Durchlaufen der Schritte.
-
 Suchen Sie sich Unterstützung oder Mitstreiterinnen und Mitstreiter, um die Schritte gemeinsam zu durchlaufen.
 Vielleicht gibt es in Ihrer Einrichtung eine Open-Data-Beauftragte oder einen Open-Data-Beauftragten, die oder der Sie bei diesem Prozess unterstützen kann.
 Vielleicht haben auch Kolleginnen und Kollegen in Ihrer Einrichtung bereits Daten auf ihrer Webseite veröffentlicht, die Sie im Datenportal hinterlegen können.
