@@ -628,7 +628,7 @@ Auch hier sei noch einmal auf die [Online-Ressourcen der ODIS zum Thema Datenqua
 - **Eindeutige Bezeichner**: Wann immer vorhanden, sollten eindeutige Bezeichner und Codes in den Daten verwendet werden.
 Diese Bezeichner sollten aus möglichst weit verbreiteten und als Standard genutzten Referenzdatensätzen entnommen sein.
 Dies erleichtert die automatische Einordnung der Daten und die Verknüpfung mit anderen Daten. Beispiele sind:
-  - **Lebensweltlich orientierte Räume (LOR)**: Berlin ist geografisch in eine vierstufige Hierarchie von sogenannten [_Lebensweltlich orientierten Räumen_](https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/) gegliedert, von Bezirken über Prognoseräume und Bezirksregionen bis hin zu Planungsräumen.
+  - **Lebensweltlich orientierte Räume (LOR)**: Berlin ist geografisch in eine vierstufige Hierarchie von sogenannten [_Lebensweltlich orientierten Räumen_](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/) gegliedert, von Bezirken über Prognoseräume und Bezirksregionen bis hin zu Planungsräumen.
   Jeder LOR hat einen Schlüssel, der als eindeutiger Bezeichner dient.
   So hat zum Beispiel der Planungsraum _Oranienplatz_ den Schlüssel `02300314` und der Prognoseraum _Tegel_ den Schlüssel `1220`.
   Wenn in einem Datensatz auf einen LOR (z.&nbsp;B. einen Bezirk) Bezug genommen wird, sollte immer auch der Schlüssel als gesonderter Wert (z.&nbsp;B. in einer Spalte `LOR-Schlüssel`) mit angegeben werden, nicht nur der Name.
