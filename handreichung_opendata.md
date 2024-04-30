@@ -1126,8 +1126,8 @@ Beantworten Sie bei der Beschreibung z.&nbsp;B. folgende Fragen:
 @include(box_prefix)
 
 Damit die Beschreibungstexte für möglichst viele Nutzer/innen zugänglich sind, sollten die Texte einfach strukturiert und formuliert sein, und auf Stolpersteine wie Amtsdeutsch, Fremdwörter oder über-komplexe Formulierungen verzichten.
-In der Berliner IKT-Architektur sind zu diesem Zweck die [_Berliner Standards für barrierefreie Sprache und Texte_](https://www.berlin.de/moderne-verwaltung/barrierefreie-it/fuer-verwaltungen/berliner-standards/sprache/artikel.982212.php) festgelegt.
-Dazu zählt auch der [_Leitfaden für Verständliche Sprache_](https://www.berlin.de/moderne-verwaltung/barrierefreie-it/fuer-verwaltungen/berliner-standards/sprache/artikel.982503.php), dem die Berliner Verwaltungen beim Schreiben ihrer digitalen Texte folgen sollen.
+In der Berliner IKT-Architektur sind zu diesem Zweck die [_Berliner Standards für barrierefreie Sprache und Texte_](https://www.berlin.de/lb/digitale-barrierefreiheit/anforderungen/berliner-standards/) festgelegt.
+Dazu zählt auch der [_Leitfaden für Verständliche Sprache_](https://www.berlin.de/lb/digitale-barrierefreiheit/umsetzung/leitfaeden/), dem die Berliner Verwaltungen beim Schreiben ihrer digitalen Texte folgen sollen.
 
 @include(box_suffix)
 
