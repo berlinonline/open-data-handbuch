@@ -1,7 +1,7 @@
 
 # Impressum {-}
 
-**Herausgeber:** Land Berlin, [Senatskanzlei](https://www.berlin.de/rbmskzl/)<br/>
+**Herausgeber:** Der Regierende Bürgermeister von Berlin, [Senatskanzlei](https://www.berlin.de/rbmskzl/)<br/>
 **Text:** Knud Hinnerk Möller ([BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net))<br/>
 **Grafiken:** Nadine Wohlfahrt ([BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net))<br/>
 **Lizenz**: Der Text des Handbuchs ist unter einer [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0) veröffentlicht.
