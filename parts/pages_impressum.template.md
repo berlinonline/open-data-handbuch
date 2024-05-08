@@ -14,6 +14,5 @@ Wer mag, kann auch gleich einen Pull Request stellen!<br/>
 
 ---
 
-![Europäischer Fonds für regionale Entwicklung (EFRE)](images/eu_efre_zusatz_unten.png "Logo und Schriftzug 'Europäischer Fonds für regionale Entwicklung (EFRE)'"){:width="205px"}&nbsp;&nbsp;
 ![Senatskanzlei Berlin](images/B_RBm_Skzl_Logo_DE_V_PW_RGB.png "Logo und Schriftzug 'Der regierende Bürgermeister von Berlin, Senatskanzlei'"){:width="240px"}
 

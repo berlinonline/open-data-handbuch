@@ -18,6 +18,7 @@ _(2024-04-12)_
 - Various corrections (dead links, typos etc.).
 - The former Twitter-account @OpenDataBerlin is no longer active, so datasets are no longer announced there. The corresponding text and image have been removed. In the future, we might decide to announce datasets again on a different channel.
 - Graphics and text in the print version now use the [Berlin Type font](https://wir.berlin/kampagnen/die-typo) instead of the old BMF Change font.
+- Remove attribution of European Union EFRE, since the Open-Data-Handbuch no longer uses these funds.
 
 ## [1.2.0](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.2.0)
 
