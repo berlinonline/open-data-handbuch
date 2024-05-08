@@ -12,7 +12,5 @@ Dort können über die _[Issue](https://github.com/berlinonline/open-data-handbu
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
 **Stand**: @include(date) ([2.0.0](https://github.com/berlinonline/open-data-handbuch/blob/master/CHANGELOG.md))
 
----
-
-![Senatskanzlei Berlin](images/B_RBm_Skzl_Logo_DE_V_PW_RGB.png "Logo und Schriftzug 'Der regierende Bürgermeister von Berlin, Senatskanzlei'"){width=120px}
+![Senatskanzlei Berlin](images/B_RBm_Skzl_Logo_DE_V_PW_RGB.png "Logo und Schriftzug 'Der regierende Bürgermeister von Berlin, Senatskanzlei'"){width=120px}\ 
 
