@@ -22,7 +22,7 @@ Mit der Verabschiedung des [E-Government-Gesetzes Berlin](https://gesetze.berlin
 Gemäß [§&nbsp;13](https://gesetze.berlin.de/perma?d=jlr-EGovGBEpP13) des E-Government-Gesetzes sind die Behörden der Berliner Verwaltung verpflichtet, im Rahmen ihres öffentlichen Auftrags erstellte Informationen in ihren jeweiligen Zuständigkeitsbereichen in maschinenlesbaren Formaten bereitzustellen.
 Dies geschieht über das zentrale Datenportal, das integraler Bestandteil des elektronischen Stadtinformationssystems für das Land Berlin ist.
 
-Wenn Informationen in anderen Datenportalen maschinenlesbar verfügbar sind, erfolgt über das Prinzip eines Metadatenportals im zentralen Datenportal ein Verweis auf diese Informationen. Das Berliner Datenportal übermittelt gemäß der Verwaltungsvereinbarung GovData (LINK?) zwischen dem Bund und den Ländern die Metadaten an das [GovData-Portal](https://govdata.de), was eine effiziente und koordinierte Datennutzung auf föderaler Ebene ermöglicht.
+Wenn Informationen in anderen Datenportalen maschinenlesbar verfügbar sind, erfolgt über das Prinzip eines Metadatenportals im zentralen Datenportal ein Verweis auf diese Informationen. Das Berliner Datenportal übermittelt gemäß der Verwaltungsvereinbarung GovData zwischen dem Bund und den Ländern die Metadaten an das [GovData-Portal](https://govdata.de), was eine effiziente und koordinierte Datennutzung auf föderaler Ebene ermöglicht.
 
 Die erste Auflage des Berliner Open-Data-Handbuchs erschien im Oktober 2019.
 Seitdem hat sich die Open-Data-Berlin-Inititative technisch, rechtlich und organisatorisch weiter entwickelt: 
@@ -30,7 +30,7 @@ Seitdem hat sich die Open-Data-Berlin-Inititative technisch, rechtlich und organ
 - Im Zuge der Konsolidierung der E-Government-Maßnahmen im Bereich der Verwaltungsdigitalisierung wurde die Verantwortung für das Thema Open Data von der Senatsverwaltung für Wirtschaft, Energie und Betriebe zunächst auf die Innenverwaltung übertragen und liegt nun bei der Senatskanzlei Berlin unter der Leitung des Regierenden Bürgermeisters.
 - Die Rolle der Open-Data-Beauftragten gemäß §&nbsp;8 der Open-Data-Verordnung hat sich in den Behörden der Berliner Verwaltung etabliert.
 Alle Bezirksverwaltungen und nahezu alle Senatsverwaltungen haben mittlerweile Open-Data-Beauftragte ernannt.
-Insgesamt sind 21 Open-Data-Beauftragte tätig (ZUM JETZIGEN ZEITPUNKT?).
+Insgesamt sind 21 Open-Data-Beauftragte tätig (Stand 08.05.2024).
 Zusätzlich wurde eine zentrale Open-Data-Verantwortliche des Landes Berlin ernannt, die die Aktivitäten für Open Data im Land Berlin koordiniert und die Umsetzung der Open-Data-Verordnung sowie der Maßnahmen der Open-Data-Strategie überwacht.
 - Regelmäßige Weiterbildungsmaßnahmen, wie der _Crashkurs Open Data_ und _Imperia Simple Search_ in der Verwaltungsakademie Berlin sowie Workshops der [Open Data Informationsstelle](https://odis-berlin.de) (ODIS) zu Datenveröffentlichungen und Datenvisualisierungen fördern die Datenkompetenz und den Austausch zum Thema Open Data und Datenmanagement innerhalb der Berliner Verwaltung.
 - Am 7. November 2023 hat der Senat eine neue Open-Data-Strategie verabschiedet, die in einem breiten partizipativen Prozess mit den Stakeholdern der Verwaltung, Wirtschaft, Wissenschaft und Zivilgesellschaft entwickelt wurde [@link(SKZL2023)].
@@ -314,7 +314,7 @@ Diese Variante wurde abgelöst von der aktualisierten Variante mit nun 542 Planu
 Die beiden Varianten sind nur in den Codes der Bezirke kompatibel.
 Auf allen anderen Ebenen haben sich die Codes zum Teil stark geändert.
 
-- Dokumentation zum LOR-System: [Lebensweltlich orientierte Räume (LOR) in Berlin](https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/) und [@link(SENSTADT2020)]
+- Dokumentation zum LOR-System: [Lebensweltlich orientierte Räume (LOR) in Berlin](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/) und [@link(SENSTADT2020)]
 - Datensatz zu LOR 2006: [@link(AFS2015)]
 - Datensatz zu LOR 2021: [@link(AFS2020)]
 
@@ -910,7 +910,7 @@ Falls kein Imperia-Zugang vorhanden ist und automatisierte Wege wie der CKAN-Har
 Zusätzlich zu der Dokumentation in den folgenden Abschnitten hat die [Open-Data-Informationsstelle](https://www.odis-berlin.de) (ODIS) ein Video-Tutorial produziert, das die Veröffentlichung von Datensätzen mit dem Datenregister sehr anschaulich zeigt.
 Das Video ist etwa 13 Minuten lang und behandelt alle Aspekte von der Anmeldung im Datenregister bis hin zum Anlegen des Datensatzes inklusive aller Metadaten und Ressourcen.
 
-[Hier kommen Sie zum Video-Tutorial zum Berliner Datenregister](https://odis-berlin.de/ressourcen/datenregister.html "Video-Tutorial zum Berliner Datenregister").
+[Hier kommen Sie zum Video-Tutorial zum Berliner Datenregister](https://odis-berlin.de/ressourcen/daten_portal_veroeffentlichung/ "Video-Tutorial zum Berliner Datenregister").
 
 @include(box_suffix)
 
@@ -1847,9 +1847,9 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[@linktarget(ODIS2021f)]** Open Data Informationsstelle. _Checkliste zur Datenschutzprüfung_. 2021. Webseite. <https://odis-berlin.de/ressourcen/datenschutz>. [Gesehen 29.11.2021].
 
-**[@linktarget(ODIS2023)]** Open Data Informationsstelle. _Dateninventurprozess_. 2023. Webseite. <https://odis-berlin.de/ressourcen/dateninventur_prozess/>. [Gesehen 11.04.2014].
+**[@linktarget(ODIS2023)]** Open Data Informationsstelle. _Dateninventurprozess_. 2023. Webseite. <https://odis-berlin.de/ressourcen/dateninventur_prozess/>. [Gesehen 11.04.2024].
 
-**[@linktarget(ODIS2023b)]** Open Data Informationsstelle. Lizenzen-Handout. 2023. Webseite. <https://odis-berlin.de/ressourcen/lizenzwahl/>. [Gesehen 11.04.2014].
+**[@linktarget(ODIS2023b)]** Open Data Informationsstelle. Lizenzen-Handout. 2023. Webseite. <https://odis-berlin.de/ressourcen/lizenzwahl/>. [Gesehen 11.04.2024].
 
 **[@linktarget(OKF2017)]** Open Knowledge Foundation. _Open Definition 2.1_. 2017. Webseite. <https://opendefinition.org/od/2.1/en/>. [Gesehen 05.07.2019].
 
