@@ -24,6 +24,13 @@ indesign: clean temp/handreichung_opendata.nolatex.md | temp
 	@echo "creating indesign file ..."
 	@pandoc temp/handreichung_opendata.nolatex_01.md -s -o handreichung_opendata.icml
 
+.PHONY: docx
+docx: clean temp/handreichung_opendata.nolatex.md | temp
+	@echo "replacing <br/> with double space ..."
+	@sed 's:<br/>:  :g' temp/handreichung_opendata.nolatex.md > temp/handreichung_opendata.nolatex_01.md
+	@echo "creating docx file ..."
+	@pandoc temp/handreichung_opendata.nolatex_01.md -s -o handreichung_opendata.docx
+
 .PHONY: gfm
 gfm: clean images/format-example-tree.png images/metadaten_daten.png images/offene_daten_uebersicht.png images/output_datenrubrik.png images/output_simplesearch.png images/schritt-für-schritt.png images/veroeffentlichungsweg_waehlen.png parts/example_tabular_data.gfm parts/pages_impressum.md | temp
 	@echo "combining parts ..."

@@ -4,6 +4,7 @@ _site
 temp
 material
 Gemfile.lock
+handreichung_opendata.docx
 
 parts/pages_impressum.md
 parts/latex_impressum.md

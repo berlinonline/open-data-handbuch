@@ -2,6 +2,24 @@
 
 ## Development
 
+## [2.0.0](https://github.com/berlinonline/open-data-handbuch/releases/tag/2.0.0)
+
+_(2024-05-29)_
+
+- New content about _High-value datasets_ has been added to the section about the [metadata schema](https://berlinonline.github.io/open-data-handbuch/#high-value-datasets) and the [glossary](https://berlinonline.github.io/open-data-handbuch/#glossar).
+- New content about the topic _Musterdatenkatalog/Musterdatensatz_ has been added to the section about the [metadata schema](https://berlinonline.github.io/open-data-handbuch/#musterdatensatz) and the [glossary](https://berlinonline.github.io/open-data-handbuch/#glossar).
+- Add content about Berlin's new open data strategy from 2023.
+- Extend the introduction for the new edition of the Open-Data-Handbuch.
+- Extend information about available online resources.
+- Removed information on the old GeonutzV license and its Berlin variant, which are no longer used.
+- Screenshots have been changed to reflect the current berlin.de design system.
+- The font in all illustrations has been changed from BMFChange to Wir.Berlin to reflect the [Berlin corporate design](https://wir.berlin/kampagnen/die-typo).
+- Various small changes in the text to reflect e.g. changes in the Imperia CMS, changes in the workflow etc.
+- Various corrections (dead links, typos etc.).
+- The former Twitter-account @OpenDataBerlin is no longer active, so datasets are no longer announced there. The corresponding text and image have been removed. In the future, we might decide to announce datasets again on a different channel.
+- Graphics and text in the print version now use the [Berlin Type font](https://wir.berlin/kampagnen/die-typo) instead of the old BMF Change font.
+- Remove attribution of European Union EFRE, since the Open-Data-Handbuch no longer uses these funds.
+- Change the title image to reflect the printed book.
 - Fix info about `detail`-method in SimpleSearch-docs (it's not always available).
 
 ## [1.2.1](https://github.com/berlinonline/open-data-handbuch/releases/tag/1.2.1)
