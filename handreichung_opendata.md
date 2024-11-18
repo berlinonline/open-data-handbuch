@@ -1349,7 +1349,7 @@ Zum Testen können die Beispiel-URLs im Browser eingegeben werden.
     "temporal_coverage_from": "2011-09-01",
     "temporal_coverage_to": "2018-12-31",
     "maintainer_email": "opendata@berlin.de",
-    "author": "BerlinOnline Stadtportal GmbH & Co. KG",
+    "author": "BerlinOnline GmbH",
     "license_id": "cc-by",
     "notes": "Zugriffsstatistik des Berliner Datenportals
       (daten.berlin.de). Enthalten sind die Gesamtzugriffe
@@ -1544,7 +1544,7 @@ bln-distrib:d_b6fe190c-e91a-435a-84fb-371ab848ddc5
 
 bln-org:o_ec19c71d-6f16-47fd-8378-2d3ac4c6182f
     a foaf:Organization ;
-    foaf:name "BerlinOnline Stadtportal GmbH & Co KG" .
+    foaf:name "BerlinOnline GmbH" .
 
 mdrlang: 
     rdfs:seeAlso <http://publications.europa.eu/mdr/resource/authority/language/skos-ap-eu/languages-skos-ap-act.rdf> .

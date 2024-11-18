@@ -2,6 +2,12 @@
 
 ## Development
 
+## [2.0.1](https://github.com/berlinonline/open-data-handbuch/releases/tag/2.0.1)
+
+_(2024-11-18)_
+
+- Change BerlinOnline company name to "BerlinOnline GmbH".
+
 ## [2.0.0](https://github.com/berlinonline/open-data-handbuch/releases/tag/2.0.0)
 
 _(2024-05-29)_

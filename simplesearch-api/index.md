@@ -595,8 +595,8 @@ Alle anderen Elemente sind abhängig von der jeweiligen Anwendung und müssen in
 ## Impressum
 
 **Herausgeber:** Land Berlin, [Senatskanzlei](https://www.berlin.de/rbmskzl/)<br/>
-**Text:** Knud Hinnerk Möller ([BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net))<br/>
-**Grafiken:** Nadine Wohlfahrt ([BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net))<br/>
+**Text:** Knud Hinnerk Möller ([BerlinOnline GmbH](https://www.berlinonline.net))<br/>
+**Grafiken:** Nadine Wohlfahrt ([BerlinOnline GmbH](https://www.berlinonline.net))<br/>
 **Lizenz**: Der Text des Handbuchs ist unter einer [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0) veröffentlicht.
 Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenommen.
 [Quellenverzeichnis](../#quellenverzeichnis) und [Bildverzeichnis](../#bildverzeichnis) mit entsprechenden Urheberrechtsangaben sind im Handbuch enthalten.<br/>
