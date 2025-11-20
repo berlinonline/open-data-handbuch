@@ -2,6 +2,8 @@
 
 ## Development
 
+- Add [.ruby-version](/.ruby-version) file for a local ruby environment.
+
 ## [2.0.1](https://github.com/berlinonline/open-data-handbuch/releases/tag/2.0.1)
 
 _(2024-11-18)_
