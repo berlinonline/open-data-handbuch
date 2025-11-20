@@ -9,6 +9,7 @@ _(2025-11-20)_
 - Add information about the new [`data_anonymized`](https://berlinonline.github.io/open-data-handbuch/#anonymisierung) field in the dataset metadata schema.
 - Rename default branch vom `master` to `main`.
 - Add [.ruby-version](/.ruby-version) file for a local ruby environment.
+- Fix PDF creation.
 
 ## [2.0.1](https://github.com/berlinonline/open-data-handbuch/releases/tag/2.0.1)
 

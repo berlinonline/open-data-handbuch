@@ -15,7 +15,7 @@ pdf: clean temp/date.txt parts/latex_impressum.md | temp
 	@echo "rewrite links ..."
 	@sed -E 's/@link\(([^)]+)\)/\\hyperlink{\1}{\1}/g' temp/handreichung_opendata_04.md > temp/handreichung_opendata_05.md
 	@echo "creating pdf ..."
-	@pandoc --listings -H template/listings-setup.tex -V lang=de --template=template/default.latex --variable urlcolor=cyan temp/handreichung_opendata_05.md template/metadata.yml --pdf-engine=pdflatex --toc -o handreichung_opendata.pdf
+	@pandoc --syntax-highlighting=idiomatic -H template/listings-setup.tex -V lang=de --template=template/default.latex --variable urlcolor=cyan temp/handreichung_opendata_05.md template/metadata.yml --pdf-engine=pdflatex --toc -o handreichung_opendata.pdf
 
 .PHONY: indesign
 indesign: clean temp/handreichung_opendata.nolatex.md | temp
