@@ -1098,6 +1098,7 @@ Insbesondere sollten unterschiedliche Schreibweisen derselben Stelle vermieden w
 Dieses Feld wird möglicherweise in Zukunft durch eine Auswahlliste ersetzt, um Einheitlichkeit und Auffindbarkeit zu verbessern.
 
 ### Kontaktperson
+
 Die Kontaktperson kann inhaltliche Fragen zu einem Datensatz beantworten.
 Hier sollte der Name einer Person eingetragen werden, z.&nbsp;B. „Vera Musterer“.
 Es sollte darauf geachtet werden, dass diese Angabe immer aktuell gehalten wird.
@@ -1248,6 +1249,16 @@ Im SimpleSearch-Baukasten und in der Datenrubrik ist dieses Metadatum nicht sich
 Bei dem Feld _Sichtbarkeit_ kann zwischen _privat_ und _öffentlich_ unterschieden werden. Dieses Feld steht Ihnen bei der Veröffentlichung direkt im Datenregister zur Verfügung.
 Die Angabe _privat_ bedeutet hier, dass der Datensatz noch nicht veröffentlicht werden soll.
 Sobald _öffentlich_ eingestellt wurde, wird der Datensatz freigeschaltet und kann nach kurzer Zeit öffentlich auf [daten.berlin.de](https://daten.berlin.de) gefunden werden.
+
+### Anonymisierung
+
+Bei allen als offene Daten veröffentlichten Datensätzen wird vorausgesetzt, dass sie keine personenbezogenen Daten enthalten (s. auch [_Datenmonitoring_](#datenmonitoring)).
+In manchen Fällen basieren die veröffentlichten Daten jedoch auf Rohdaten, die einen Personenbezug enthalten.
+Diese Daten müssen dann im Vorfeld der Veröffentlichung anonymisiert werden.
+In diesem Fall können die Daten über das Feld _Daten anonymisiert_ (ja/nein) gekennzeichnet werden.
+Auf die genaue Art der Anonymisierung wird dabei nicht eingegangen – es wird lediglich angegeben, dass ein Anonymisierungsschritt durchlaufen wurde.
+
+Falls die Rohdaten keinen Personenbezug enthalten, kann (und sollte) dieses Feld nicht bearbeitet werden.
 
 ## Metadaten der Datenressource
 
