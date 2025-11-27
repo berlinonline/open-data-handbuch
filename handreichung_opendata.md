@@ -1254,11 +1254,20 @@ Sobald _öffentlich_ eingestellt wurde, wird der Datensatz freigeschaltet und ka
 
 Bei allen als offene Daten veröffentlichten Datensätzen wird vorausgesetzt, dass sie keine personenbezogenen Daten enthalten (s. auch [_Datenmonitoring_](#datenmonitoring)).
 In manchen Fällen basieren die veröffentlichten Daten jedoch auf Rohdaten, die einen Personenbezug enthalten.
-Diese Daten müssen dann im Vorfeld der Veröffentlichung anonymisiert werden.
-In diesem Fall können die Daten über das Feld _Daten anonymisiert_ (ja/nein) gekennzeichnet werden.
-Auf die genaue Art der Anonymisierung wird dabei nicht eingegangen – es wird lediglich angegeben, dass ein Anonymisierungsschritt durchlaufen wurde.
+In diesem Fall …
 
-Falls die Rohdaten keinen Personenbezug enthalten, kann (und sollte) dieses Feld nicht bearbeitet werden.
+* müssen die Daten entweder im Vorfeld der Veröffentlichung anonymisiert werden, oder
+* die Bereitstellung der personenbezogenen Daten geschieht aufgrund von Gesetzen. Dazu s. [@link(EGOVGBLN)], §5 Absatz 3 (Ausnahmen).
+
+Um diesen Sachverhalt in den Metadaten zu dokumentieren, gibt es drei Felder:
+
+* Personenbezug (ja/nein)? (`personal_data`)
+* Bereitstellung via Gesetz (ja/nein)? (`personal_data_exemption`)
+* Daten wurde anonymisiert (ja/nein)? (`data_anonymized`)
+
+Im Datenregister erfolgt die Eingabe dieser Felder über Checkboxen (s. Abb.&nbsp;\ref{fig:personenbezug_eingabe}).
+
+![Eingabe der Metadaten zum Personenbezug über Checkboxen: es gibt einen Personenbezug in den Rohdaten und die Daten wurden vor Veröffentlichung anonymisiert.\label{fig:personenbezug_eingabe}](images/personenbezug_eingabe.png "Angabe der Metadaten zu Personenbezug in den Daten"){:width="700px"}{: .centered }
 
 ## Metadaten der Datenressource
 

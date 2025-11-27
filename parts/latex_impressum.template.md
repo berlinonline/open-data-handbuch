@@ -10,7 +10,7 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _[Issue](https://github.com/berlinonline/open-data-handbuch/issues)_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: @include(date) ([2.0.2](https://github.com/berlinonline/open-data-handbuch/blob/main/CHANGELOG.md))
+**Stand**: @include(date) ([2.0.3](https://github.com/berlinonline/open-data-handbuch/blob/main/CHANGELOG.md))
 
 ![Senatskanzlei Berlin](images/B_RBm_Skzl_Logo_DE_V_PW_RGB.png "Logo und Schriftzug 'Der regierende Bürgermeister von Berlin, Senatskanzlei'"){width=120px}\ 
 
