@@ -1,0 +1,30 @@
+# requires imagemagick
+
+magick identify -format "%f,%wx%h\n" metadaten_daten.png
+magick identify -format "%f,%wx%h\n" offene_daten_uebersicht.png
+magick identify -format "%f,%wx%h\n" schritt-für-schritt.png
+magick identify -format "%f,%wx%h\n" format-example-tree.png
+magick identify -format "%f,%wx%h\n" xkcd_iso_8601.png
+magick identify -format "%f,%wx%h\n" datensaetze_vornamen.png
+magick identify -format "%f,%wx%h\n" veroeffentlichungsweg_waehlen.png
+magick identify -format "%f,%wx%h\n" output_datenrubrik.png
+magick identify -format "%f,%wx%h\n" datenrubrik-dokument-erzeugen.png
+magick identify -format "%f,%wx%h\n" datenrubrik-01.png
+magick identify -format "%f,%wx%h\n" datenrubrik-hochladen.png
+magick identify -format "%f,%wx%h\n" datenrubrik-verlinkung.png
+magick identify -format "%f,%wx%h\n" datenrubrik-startseite.png
+magick identify -format "%f,%wx%h\n" output_simplesearch.png
+magick identify -format "%f,%wx%h\n" opendata-sise-imperia.png
+magick identify -format "%f,%wx%h\n" screenshot_pw_zuruecksetzen_anfordern.png
+magick identify -format "%f,%wx%h\n" screenshot_pw_zuruecksetzen.png
+magick identify -format "%f,%wx%h\n" screenshot_einloggen.png
+magick identify -format "%f,%wx%h\n" screenshot_menue.png
+magick identify -format "%f,%wx%h\n" screenshot_dashboard.png
+magick identify -format "%f,%wx%h\n" screenshot_follow_category.png
+magick identify -format "%f,%wx%h\n" screenshot_user_profile.png
+magick identify -format "%f,%wx%h\n" screenshot_neuer_datensatz.png
+magick identify -format "%f,%wx%h\n" screenshot_ressource_hinzufügen.png
+magick identify -format "%f,%wx%h\n" hvd_category_eingabe.png
+magick identify -format "%f,%wx%h\n" musterdatensatz_eingabe.png
+magick identify -format "%f,%wx%h\n" musterdatensatz_datenportal.png
+magick identify -format "%f,%wx%h\n" musterdatensatz_beispiel.png
