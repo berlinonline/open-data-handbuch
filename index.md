@@ -1740,7 +1740,7 @@ Abgeleitet von DCAT-AP gibt es eine Reihe von weiteren Spezialisierungen, die na
 **<a name="glossar_dcatapde">DCAT-AP.de</a>** [DCAT-AP.de](https://www.dcat-ap.de) ist eine Spezialisierung von DCAT-AP für Deutschland.
 Das Berliner Datenportal unterstützt DCAT-AP.de im lesenden Zugriff, und ermöglicht so die Integration der Berliner Daten in das bundesweite Datenportal [govdata.de](https://www.govdata.de), und von dort aus in das [europäische Datenportal](https://www.europeandataportal.eu/de/).
 
-**<a name="glossar_fachverfahren-anbindung">Fachverfahren, Anbindung</a>** Ein Fachverfahren ist abgekürzt „eine IT-Anwendung, die speziell für die Verwaltung entwickelt wird“ [[SKZL2024b](#SKZL2024b)].
+**<a name="glossar_fachverfahren-anbindung">Fachverfahren, Anbindung</a>** Ein Fachverfahren ist abgekürzt „eine IT-Anwendung, die speziell für die Verwaltung entwickelt wird“ [[SKZL2026](#SKZL2026)].
 Fachverfahren enthalten oder erzeugen in der Regel Daten, die als [**offene Daten**](#glossar_offene-daten) im Berliner Datenportal veröffentlicht werden sollen.
 Die _Anbindung_ eines Fachverfahrens an das Berliner Datenportal kann zwei Dinge bedeuten: 
 1. Wenn das Fachverfahren einzelne oder mehrere Datenquellen (Dateien oder APIs) öffentlich bereitstellt, so können diese jeweils als Datensatz im Datenregister eingetragen und dort mit Metadaten versehen werden.
@@ -1904,19 +1904,19 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[<a name="EURLEX2023">EURLEX2023</a>]** EUR-Lex. 2023. _DURCHFÜHRUNGSVERORDNUNG (EU) 2023/138 DER KOMMISSION vom 21. Dezember 2022 zur Festlegung bestimmter hochwertiger Datensätze und der Modalitäten ihrer Veröffentlichung und Weiterverwendung_. <http://data.europa.eu/eli/reg_impl/2023/138/oj>.
 
-**[<a name="GOVDATA2023">GOVDATA2023</a>]** GovData. _Hochwertige Datensätze_. Webseite. <https://www.govdata.de/neues/-/blogs/hochwertige-datensatze>. [Gesehen 11.04.2024].
+**[<a name="GOVDATA2023">GOVDATA2023</a>]** GovData. _Hochwertige Datensätze_. Webseite. <https://www.govdata.de/informationen/hochwertige-datensaetze>. [Gesehen 13.03.2026].
 
 **[<a name="ODIS2021a">ODIS2021a</a>]** Open Data Informationsstelle. _Handout zum Thema Dateninventur_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninventur_handout/>. [Gesehen 11.04.2024].
 
-**[<a name="ODIS2021b">ODIS2021b</a>]** Open Data Informationsstelle. _Vorlage für ein Dateninformationsblatt_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninformationsblatt>. [Gesehen 26.11.2021].
+**[<a name="ODIS2021b">ODIS2021b</a>]** Open Data Informationsstelle. _Vorlage für ein Dateninformationsblatt_. 2021. Webseite. <https://odis-berlin.de/ressourcen/daten_informationsblatt/>. [Gesehen 26.11.2021].
 
-**[<a name="ODIS2021c">ODIS2021c</a>]** Open Data Informationsstelle. _Was sind Metadaten?_ 2021. Webseite. <https://odis-berlin.de/ressourcen/metadaten>. [Gesehen 26.11.2021].
+**[<a name="ODIS2021c">ODIS2021c</a>]** Open Data Informationsstelle. _Was sind Metadaten?_ 2021. Webseite. <https://odis-berlin.de/ressourcen/0_metadaten_leitfaden/>. [Gesehen 26.11.2021].
 
-**[<a name="ODIS2021d">ODIS2021d</a>]** Open Data Informationsstelle. _Metadaten-Tags_. 2021. Webseite. <https://odis-berlin.de/ressourcen/tag_analyse>. [Gesehen 26.11.2021].
+**[<a name="ODIS2021d">ODIS2021d</a>]** Open Data Informationsstelle. _Metadaten-Tags_. 2021. Webseite. <https://odis-berlin.de/ressourcen/0_metadaten_tags/>. [Gesehen 26.11.2021].
 
-**[<a name="ODIS2021e">ODIS2021e</a>]** Open Data Informationsstelle. _Veröffentlichungs-Check_. 2021. Webseite. <https://odis-berlin.de/ressourcen/checkliste>. [Gesehen 29.11.2021].
+**[<a name="ODIS2021e">ODIS2021e</a>]** Open Data Informationsstelle. _Veröffentlichungs-Check_. 2021. Webseite. <https://odis-berlin.de/ressourcen/checkliste_veroeffentlichung/>. [Gesehen 29.11.2021].
 
-**[<a name="ODIS2021f">ODIS2021f</a>]** Open Data Informationsstelle. _Checkliste zur Datenschutzprüfung_. 2021. Webseite. <https://odis-berlin.de/ressourcen/datenschutz>. [Gesehen 29.11.2021].
+**[<a name="ODIS2021f">ODIS2021f</a>]** Open Data Informationsstelle. _Checkliste zur Datenschutzprüfung_. 2021. Webseite. <https://odis-berlin.de/ressourcen/datenschutz_check/>. [Gesehen 29.11.2021].
 
 **[<a name="ODIS2023">ODIS2023</a>]** Open Data Informationsstelle. _Dateninventurprozess_. 2023. Webseite. <https://odis-berlin.de/ressourcen/dateninventur_prozess/>. [Gesehen 11.04.2024].
 
@@ -1932,14 +1932,14 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[<a name="PUBEU2023">PUBEU2023</a>]** Publications Office of the European Union. _High-value dataset categories_. 2023. Webseite. <https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category>. [Gesehen 11.04.2024].
 
-**[<a name="SKZL2023">SKZL2023</a>]** Senatskanzlei Berlin. 25.09.2023. _Open-Data-Strategie_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/e-government/open-data/strategieprozess/1finales__dokument__2023_-opendatastrategie.pdf>. [Gesehen 10.04.2024].
+**[<a name="SKZL2023">SKZL2023</a>]** Senatskanzlei Berlin. 25.09.2023. _Open-Data-Strategie_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/e-government/opendatastrategie_2023.pdf>. [Gesehen 13.03.2026].
 
 **[<a name="SKZL2024">SKZL2024</a>]** Senatskanzlei Berlin. 02.2024. _Open Data Berlin –
-Jahresbericht 2023_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/e-government/open-data/allgemeine-informationen/neuwebauftritt_final__2023_open-data-jahresbericht.pdf>. [Gesehen 18.04.2024].
+Jahresbericht 2023_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/_assets/e-government/neuwebauftritt_final__2023_open-data-jahresbericht.pdf>. [Gesehen 13.03.2026].
 
-**[<a name="SKZL2024b">SKZL2024b</a>]** Senatskanzlei Berlin. 2024. _IT-Fachverfahren_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/prozesse-und-technik/technische-standards/it-fachverfahren/artikel.977641.php>. [Gesehen 19.04.2024].
+**[<a name="SKZL2026">SKZL2026</a>]** Senatskanzlei Berlin. 2026. _Technische Standards_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/sicherheit-technik/technische-standards-1509915.php>. [Gesehen 13.03.2026].
 
-**[<a name="SENSTADT2020">SENSTADT2020</a>]** Senatsverwaltung für Stadtentwicklung und Wohnen Berlin und Amt für Statistik Berlin-Brandenburg. _Dokumentation zur Modifikation der Lebensweltlich orientierten Räume (LOR)_. Onlinedokument. <https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/download/Dokumentation_zur_Modifikation_LOR_2020.pdf>. [Gesehen 06.10.2021].
+**[<a name="SENSTADT2020">SENSTADT2020</a>]** Senatsverwaltung für Stadtentwicklung und Wohnen Berlin und Amt für Statistik Berlin-Brandenburg. _Dokumentation zur Modifikation der Lebensweltlich orientierten Räume (LOR)_. Onlinedokument. <https://digital.zlb.de/viewer/resolver?urn=urn:nbn:de:kobv:109-1-15442012>. [Gesehen 13.03.2026].
 
 **[<a name="SENWEB2018">SENWEB2018</a>]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. 2018. Datensatz. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). [Gesehen 05.07.2019]. Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
 
@@ -1966,7 +1966,7 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 Dort können über die _[Issue](https://github.com/berlinonline/open-data-handbuch/issues)_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
 **Stand**: 2026-03-13
- ([2.0.2](https://github.com/berlinonline/open-data-handbuch/blob/main/CHANGELOG.md#202))
+ ([3.0.0](https://github.com/berlinonline/open-data-handbuch/blob/main/CHANGELOG.md#202))
 
 ---
 
