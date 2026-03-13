@@ -11,6 +11,12 @@ _(2026-03-16)_
 - Style for TOC changed: long headings now break instead of being cut off with ellipsis.
 - Various corrections (dead links, typos, link texts etc.).
 
+## [2.0.3](https://github.com/berlinonline/open-data-handbuch/releases/tag/2.0.3)
+
+_(2025-11-27)_
+
+- Change section about [anonymization](https://berlinonline.github.io/open-data-handbuch/#anonymisierung), add information about `personal_data` and `personal_data_exemption`, which interact with `data_anonymized`.
+
 ## [2.0.2](https://github.com/berlinonline/open-data-handbuch/releases/tag/2.0.2)
 
 _(2025-11-20)_
