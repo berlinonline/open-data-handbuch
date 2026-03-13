@@ -7,6 +7,7 @@
 _(2026-03-16)_
 
 - Content (mainly screenshots) updated to reflect new Datenregister Layout and changes in Berlin Designsystem.
+- Section added about using Datawrapper as a source to Datenrubrik chapter.
 
 ## [2.0.2](https://github.com/berlinonline/open-data-handbuch/releases/tag/2.0.2)
 

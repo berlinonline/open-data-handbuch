@@ -862,6 +862,25 @@ Die Datensätze verlinken direkt ins Datenportal.
 Bitte beachten Sie, dass lediglich Datensätze angezeigt werden, die bereits freigeschaltet sind.
 Bei neu freigeschalteten Datensätzen kann es bis zu 60 Minuten dauern, bis diese im Datenportal zur Verfügung stehen.
 
+### Datenrubrik und Datawrapper
+
+Im Rahmen der Datenrubrik gibt es neben Datenupload oder Verlinkung einen weiteren Weg, um Daten zu veröffentlichen: das Visualisierungstool Datawrapper.
+Mit Datawrapper können Sie ausgehend von einer CSV-Datei Diagramme, Karten und andere Visualisierungen erstellen.
+Diese Visualisierungen können dann über ein spezielles Imperia-Flex-Modul auf einer berlin.de-Seite eingebunden werden.
+Dokumentation dazu finden sie im [Support-Wiki](https://support.berlin.de/imperia/flex-module/datawrapper/ "Dokumentation zum Flex-Modul Datawrapper im Imperia-Support-Wiki") von Imperia.
+Zusätzlich können Sie mit Hilfe der Datenrubrik die Daten ihres Datawrapper-Projekt aber auch als Datensatz im Open-Data-Portal veröffentlichen.
+
+Dazu gehen Sie zunächst genauso vor, wie unter [Datensatz anlegen](#datensatz-anlegen) beschrieben, wählen aber statt _Datenrubrik-Datensatz_ das _Datenrubrik-Datawrapper_-Template.
+Die Angabe der Metadaten erfolgt ebenfalls wie im Datensatz-Template.
+Anders als dort wird aber das Flex-Modul _Ressource: Datawrapper_ gewählt.
+Im Formular des Flex-Moduls müssen Sie nun Ihr Datawrapper-Projekt mit der Datenrubrik verknüpfen, indem Sie den Datawrapper-Link dort einfügen.
+Den Link finden Sie in Schritt 4 („Veröffentlichen & Einbetten“) ihres Datawrapper-Projekts.
+Wählen Sie den „Zum Teilen“-Link aus dem Bereich „Teilen & Einbetten“ (s. Abb.&nbsp;\ref{fig:datawrapper_datenrubrik}).
+
+![Kopieren des Datawrapper-Links ins Datawrapper-Flexmodul\label{fig:datawrapper_datenrubrik}](images/datawrapper-datenrubrik.png "Kopieren des Datawrapper-Links ins Datawrapper-Flexmodul")
+
+Eine detaillierte Anleitung zur Nutzung von Datawrapper in der Datenrubrik können Sie sich in einem passenden  [Video-Tutorial](https://odis-berlin.de/ressourcen/datawrapper_tutorial/ "Video-Tutorial zur Nutzung von Datawrapper in der Imperia-Datenrubrik") der ODIS ansehen.
+
 ## Imperia: SimpleSearch
 
 Wählen Sie diesen Weg, wenn:
