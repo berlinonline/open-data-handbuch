@@ -936,19 +936,15 @@ Um ein Benutzerkonto zu beantragen und zu aktivieren, gehen Sie folgendermaßen 
 
 ### Navigation
 
-Sobald Sie eingeloggt sind, können Sie die Funktionen des Datenregisters nutzen (s. Abb.&nbsp;\ref{fig:datenregister_navigation}).
+Sobald Sie eingeloggt sind, können Sie die Funktionen des Datenregisters nutzen.
+Den Einstiegspunkt bieten dabei die drei von berlin.de bekannten Quicklinks rechts oben: „Barrierefrei“, „Suche“ und „Menü“.
+Über den „Menü“-Link gelangen Sie zur Hauptnavigation des Datenregisters (s. Abb.&nbsp;\ref{fig:datenregister_navigation}).
 
 ![Navigation\label{fig:datenregister_navigation}](images/screenshot_menue.png "Die Navigationselemente des Berliner Datenregisters")
 
-#### Nutzermenü
+#### Hauptnavigation
 
-Im Nutzermenü am oberen Rand des Fensters können Sie auf Funktionen des Datenregisters zugreifen, die Ihr Benutzerkonto betreffen.
-Sie können etwa Ihr [Nutzerprofil](#nutzerprofil) einsehen und ändern, Ihr persönliches [Dashboard](#dashboard) aufrufen oder sich nach getaner Arbeit wieder ausloggen.
-
-#### Hauptmenü
-
-Unter dem Nutzermenü befindet sich das Hauptmenü des Datenregisters.
-Hier können Sie nach Datensätzen suchen sowie in die verschiedenen Hauptbereiche des Datenregisters navigieren:
+Über die oberen Menüpunkte können Sie in die verschiedenen Hauptbereiche des Datenregisters navigieren:
 
 - **Datensätze:** Hier gelangen Sie zur Liste aller Datensätze, die sich über das Suchfeld und die Filterfunktionen auf der linken Seite einschränken lässt.
 An dieser Stelle finden Sie auch die Möglichkeit, einen neuen [Datensatz hinzuzufügen](#datensatz-anlegen-1).
@@ -960,7 +956,13 @@ Wählt man eine Organisation aus, gelangt man zur Liste der Datensätze dieser O
 Hier können Sie eine Liste aller Kategorien aufrufen.
 Wählt man eine Kategorie aus, gelangt man zur Liste der Datensätze in dieser Kategorie.
 
-- **Über uns:** Dies ist das Impressum (und die einzige öffentliche Seite) des Datenregisters.
+- **Über uns:** Dies ist das Impressum (und neben der Datenschutzerklärung die einzige öffentliche Seite) des Datenregisters.
+
+#### Weiteres
+
+Unter „Weiteres“ können Sie auf Funktionen des Datenregisters zugreifen, die Ihr Benutzer:innenkonto betreffen.
+Sie können etwa Ihr [Profil](#nutzerprofil) einsehen und ändern, Ihr persönliches [Dashboard](#dashboard) aufrufen oder sich nach getaner Arbeit wieder abmelden.
+
 
 ### Dashboard
 
@@ -969,17 +971,16 @@ Das Dashboard bietet einen Nachrichtenfeed, der Ereignisse von Objekten anzeigt,
 ![Das Dashboard\label{fig:datenregister_dashboard}](images/screenshot_dashboard.png "Das Dashboard eines Nutzers, mit einer Liste von Ereignissen")
 
 Sie können z.&nbsp;B. Organisationen oder Kategorien folgen und erfahren dann über das Dashboard, wenn neue Datensätze hinzugefügt oder bestehende geändert wurden.
-Sie können auch einzelnen Datensätzen folgen.
-Um etwa einer Kategorie zu folgen, öffnen Sie deren Seite über den _Kategorien_-Reiter im Hauptmenü und klicken Sie dann den _Folgen_ Button (s. Abb.&nbsp;\ref{fig:datenregister_folgen}).
+Um etwa einer Kategorie zu folgen, öffnen Sie deren Seite über den _Kategorien_-Reiter im Hauptmenü und klicken dann den _Folgen_ Button (s. Abb.&nbsp;\ref{fig:datenregister_folgen}).
 
-![Einer Kategorie folgen\label{fig:datenregister_folgen}](images/screenshot_follow_category.png "Einer Kategorie folgen über den Follow Button"){width=250px}{:width="300px"}{: .centered }
+![Einer Organisation folgen\label{fig:datenregister_folgen}](images/screenshot_follow_org.png "Einer Organisation folgen über den Follow-Button"){width=250px}{:width="300px"}{: .centered }
 
-Sie öffnen das Dashboard entweder über das [Nutzermenü](#nutzermenü) oder direkt über den Link <https://datenregister.berlin.de/dashboard>. 
+Sie öffnen das Dashboard entweder über [Weiteres](#weiteres) im Navigationsmenü oder direkt über den Link <https://datenregister.berlin.de/dashboard>.
 Auf ihrer Profilseite haben Sie außerdem die Möglichkeit, eine E-Mail-Benachrichtigung über neue Ereignisse auf Ihrem Dashboard zu abonnieren (unter _Bearbeiten_).
 
-### Nutzerprofil
+### Profil
 
-Im Nutzerprofil können Sie die Daten ansehen und bearbeiten, die das Datenregister zu Ihnen speichert (s. Abb.&nbsp;\ref{fig:datenregister_nutzerprofil}).
+Im Nutzer:innenprofil können Sie die Daten ansehen und bearbeiten, die das Datenregister zu Ihnen speichert (s. Abb.&nbsp;\ref{fig:datenregister_nutzerprofil}).
 Dazu gehören Name, E-Mail-Adresse und optional ein kurzer Beschreibungstext, etwa Ihre Position, weitere Kontaktdaten etc.
 Außerdem ist hier ein Link zu der Organisation zu finden, der man bei der Erstellung des Nutzeraccounts zugeordnet wurde. 
 
@@ -1014,8 +1015,8 @@ Auf diese Weise gelangen Sie zum Eingabeformular für einen neuen Datensatz (s. 
 
 Im ersten Schritt geben Sie die allgemeinen Metadaten zu ihrem Datensatz ein. 
 Zur Bedeutung der verschiedenen Metadatenfelder siehe auch das Kapitel [_Metadaten_](#metadaten).
-Pflichtfelder sind rot markiert; alle anderen Felder sind optional.
-Wenn Sie alle Metadaten eingegeben haben, gelangen Sie über den Button _Daten hinzufügen_ zum nächsten Schritt, in dem Sie die eigentlichen Datenressourcen hinzufügen.
+Pflichtfelder sind mit einem Stern markiert; alle anderen Felder sind optional.
+Wenn Sie alle Metadaten eingegeben haben, gelangen Sie über den Button _Daten hinzufügen_ zum nächsten Schritt, in dem Sie die eigentlichen Datenressourcen angeben.
 
 ### Datenressourcen hinzufügen
 

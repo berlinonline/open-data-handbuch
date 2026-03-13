@@ -2,6 +2,12 @@
 
 ## Development
 
+## [3.0.0](https://github.com/berlinonline/open-data-handbuch/releases/tag/3.0.0)
+
+_(2026-03-16)_
+
+- Content (mainly screenshots) updated to reflect new Datenregister Layout and changes in Berlin Designsystem.
+
 ## [2.0.2](https://github.com/berlinonline/open-data-handbuch/releases/tag/2.0.2)
 
 _(2025-11-20)_
