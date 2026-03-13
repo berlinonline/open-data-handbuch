@@ -60,17 +60,13 @@ All anchors inside the menu should be styled like this.
 }
 
 
-.pure-menu {
-    white-space: nowrap;
-}
-
 .pure-menu-list {
     list-style-type: none;
 }
 
 .bo-menu-item-wrapper {
-    overflow: hidden;
-    text-overflow: ellipsis;
+    padding-left: 20px;
+    text-indent: -20px;
 }
 
 /*
