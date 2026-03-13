@@ -2,6 +2,7 @@
 
 ## Development
 
+<<<<<<< HEAD
 ## [3.0.0](https://github.com/berlinonline/open-data-handbuch/releases/tag/3.0.0)
 
 _(2026-03-16)_
@@ -11,6 +12,8 @@ _(2026-03-16)_
 - Style for TOC changed: long headings now break instead of being cut off with ellipsis.
 - Various corrections (dead links, typos, link texts etc.).
 
+=======
+>>>>>>> main
 ## [2.0.3](https://github.com/berlinonline/open-data-handbuch/releases/tag/2.0.3)
 
 _(2025-11-27)_
