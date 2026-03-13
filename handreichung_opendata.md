@@ -1700,7 +1700,7 @@ Abgeleitet von DCAT-AP gibt es eine Reihe von weiteren Spezialisierungen, die na
 **<a name="glossar_dcatapde">DCAT-AP.de</a>** [DCAT-AP.de](https://www.dcat-ap.de) ist eine Spezialisierung von DCAT-AP für Deutschland.
 Das Berliner Datenportal unterstützt DCAT-AP.de im lesenden Zugriff, und ermöglicht so die Integration der Berliner Daten in das bundesweite Datenportal [govdata.de](https://www.govdata.de), und von dort aus in das [europäische Datenportal](https://www.europeandataportal.eu/de/).
 
-**<a name="glossar_fachverfahren-anbindung">Fachverfahren, Anbindung</a>** Ein Fachverfahren ist abgekürzt „eine IT-Anwendung, die speziell für die Verwaltung entwickelt wird“ [@link(SKZL2024b)].
+**<a name="glossar_fachverfahren-anbindung">Fachverfahren, Anbindung</a>** Ein Fachverfahren ist abgekürzt „eine IT-Anwendung, die speziell für die Verwaltung entwickelt wird“ [@link(SKZL2026)].
 Fachverfahren enthalten oder erzeugen in der Regel Daten, die als [**offene Daten**](#glossar_offene-daten) im Berliner Datenportal veröffentlicht werden sollen.
 Die _Anbindung_ eines Fachverfahrens an das Berliner Datenportal kann zwei Dinge bedeuten: 
 1. Wenn das Fachverfahren einzelne oder mehrere Datenquellen (Dateien oder APIs) öffentlich bereitstellt, so können diese jeweils als Datensatz im Datenregister eingetragen und dort mit Metadaten versehen werden.
@@ -1846,9 +1846,9 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 # Quellenverzeichnis {-}
 
-**[@linktarget(AFS2015)]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2019) - \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012019-wfs>. [Gesehen 09.04.2024]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+**[@linktarget(AFS2015)]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) (01.01.2019) – \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-raume-lor-01-01-2019-wfs-af5bb606>. [Gesehen 13.03.2026]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
-**[@linktarget(AFS2020)]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2021) - \[WFS\]_. 2020. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012021-wfs>. [Gesehen 06.10.2021]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+**[@linktarget(AFS2020)]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) (01.01.2021) - \[WFS\]_. 2020. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-raume-lor-01-01-2021-wfs-34c86848>. [Gesehen 13.03.2026]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
 **[@linktarget(BM2023)]** Bertelsmann Stiftung. _Musterdatenkatalog für Kommunen_. 2023. Webseite. <https://www.bertelsmann-stiftung.de/de/unsere-projekte/smart-country/musterdatenkatalog>. [Gesehen 11.04.2024].
 
@@ -1864,19 +1864,19 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[@linktarget(EURLEX2023)]** EUR-Lex. 2023. _DURCHFÜHRUNGSVERORDNUNG (EU) 2023/138 DER KOMMISSION vom 21. Dezember 2022 zur Festlegung bestimmter hochwertiger Datensätze und der Modalitäten ihrer Veröffentlichung und Weiterverwendung_. <http://data.europa.eu/eli/reg_impl/2023/138/oj>.
 
-**[@linktarget(GOVDATA2023)]** GovData. _Hochwertige Datensätze_. Webseite. <https://www.govdata.de/neues/-/blogs/hochwertige-datensatze>. [Gesehen 11.04.2024].
+**[@linktarget(GOVDATA2023)]** GovData. _Hochwertige Datensätze_. Webseite. <https://www.govdata.de/informationen/hochwertige-datensaetze>. [Gesehen 13.03.2026].
 
 **[@linktarget(ODIS2021a)]** Open Data Informationsstelle. _Handout zum Thema Dateninventur_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninventur_handout/>. [Gesehen 11.04.2024].
 
-**[@linktarget(ODIS2021b)]** Open Data Informationsstelle. _Vorlage für ein Dateninformationsblatt_. 2021. Webseite. <https://odis-berlin.de/ressourcen/dateninformationsblatt>. [Gesehen 26.11.2021].
+**[@linktarget(ODIS2021b)]** Open Data Informationsstelle. _Vorlage für ein Dateninformationsblatt_. 2021. Webseite. <https://odis-berlin.de/ressourcen/daten_informationsblatt/>. [Gesehen 26.11.2021].
 
-**[@linktarget(ODIS2021c)]** Open Data Informationsstelle. _Was sind Metadaten?_ 2021. Webseite. <https://odis-berlin.de/ressourcen/metadaten>. [Gesehen 26.11.2021].
+**[@linktarget(ODIS2021c)]** Open Data Informationsstelle. _Was sind Metadaten?_ 2021. Webseite. <https://odis-berlin.de/ressourcen/0_metadaten_leitfaden/>. [Gesehen 26.11.2021].
 
-**[@linktarget(ODIS2021d)]** Open Data Informationsstelle. _Metadaten-Tags_. 2021. Webseite. <https://odis-berlin.de/ressourcen/tag_analyse>. [Gesehen 26.11.2021].
+**[@linktarget(ODIS2021d)]** Open Data Informationsstelle. _Metadaten-Tags_. 2021. Webseite. <https://odis-berlin.de/ressourcen/0_metadaten_tags/>. [Gesehen 26.11.2021].
 
-**[@linktarget(ODIS2021e)]** Open Data Informationsstelle. _Veröffentlichungs-Check_. 2021. Webseite. <https://odis-berlin.de/ressourcen/checkliste>. [Gesehen 29.11.2021].
+**[@linktarget(ODIS2021e)]** Open Data Informationsstelle. _Veröffentlichungs-Check_. 2021. Webseite. <https://odis-berlin.de/ressourcen/checkliste_veroeffentlichung/>. [Gesehen 29.11.2021].
 
-**[@linktarget(ODIS2021f)]** Open Data Informationsstelle. _Checkliste zur Datenschutzprüfung_. 2021. Webseite. <https://odis-berlin.de/ressourcen/datenschutz>. [Gesehen 29.11.2021].
+**[@linktarget(ODIS2021f)]** Open Data Informationsstelle. _Checkliste zur Datenschutzprüfung_. 2021. Webseite. <https://odis-berlin.de/ressourcen/datenschutz_check/>. [Gesehen 29.11.2021].
 
 **[@linktarget(ODIS2023)]** Open Data Informationsstelle. _Dateninventurprozess_. 2023. Webseite. <https://odis-berlin.de/ressourcen/dateninventur_prozess/>. [Gesehen 11.04.2024].
 
@@ -1892,14 +1892,14 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 **[@linktarget(PUBEU2023)]** Publications Office of the European Union. _High-value dataset categories_. 2023. Webseite. <https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category>. [Gesehen 11.04.2024].
 
-**[@linktarget(SKZL2023)]** Senatskanzlei Berlin. 25.09.2023. _Open-Data-Strategie_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/e-government/open-data/strategieprozess/1finales__dokument__2023_-opendatastrategie.pdf>. [Gesehen 10.04.2024].
+**[@linktarget(SKZL2023)]** Senatskanzlei Berlin. 25.09.2023. _Open-Data-Strategie_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/e-government/opendatastrategie_2023.pdf>. [Gesehen 13.03.2026].
 
 **[@linktarget(SKZL2024)]** Senatskanzlei Berlin. 02.2024. _Open Data Berlin –
-Jahresbericht 2023_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/e-government/open-data/allgemeine-informationen/neuwebauftritt_final__2023_open-data-jahresbericht.pdf>. [Gesehen 18.04.2024].
+Jahresbericht 2023_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/_assets/e-government/neuwebauftritt_final__2023_open-data-jahresbericht.pdf>. [Gesehen 13.03.2026].
 
-**[@linktarget(SKZL2024b)]** Senatskanzlei Berlin. 2024. _IT-Fachverfahren_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/prozesse-und-technik/technische-standards/it-fachverfahren/artikel.977641.php>. [Gesehen 19.04.2024].
+**[@linktarget(SKZL2026)]** Senatskanzlei Berlin. 2026. _Technische Standards_. Onlinedokument. <https://www.berlin.de/moderne-verwaltung/sicherheit-technik/technische-standards-1509915.php>. [Gesehen 13.03.2026].
 
-**[@linktarget(SENSTADT2020)]** Senatsverwaltung für Stadtentwicklung und Wohnen Berlin und Amt für Statistik Berlin-Brandenburg. _Dokumentation zur Modifikation der Lebensweltlich orientierten Räume (LOR)_. Onlinedokument. <https://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/download/Dokumentation_zur_Modifikation_LOR_2020.pdf>. [Gesehen 06.10.2021].
+**[@linktarget(SENSTADT2020)]** Senatsverwaltung für Stadtentwicklung und Wohnen Berlin und Amt für Statistik Berlin-Brandenburg. _Dokumentation zur Modifikation der Lebensweltlich orientierten Räume (LOR)_. Onlinedokument. <https://digital.zlb.de/viewer/resolver?urn=urn:nbn:de:kobv:109-1-15442012>. [Gesehen 13.03.2026].
 
 **[@linktarget(SENWEB2018)]** Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin. _Aus- und Einfuhr (Außenhandel)_. 2018. Datensatz. [https://daten.berlin.de/datensaetze/aus-und-einfuhr-außenhandel](https://daten.berlin.de/datensaetze/aus-und-einfuhr-au%C3%9Fenhandel). [Gesehen 05.07.2019]. Lizenziert unter [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0). 
 

@@ -804,7 +804,7 @@ Für jeden Datensatz wird dort ein Link aufgeführt, der die Nutzer/innen zu der
 
 ![Output des Datenrubrik-Formulars in Imperia](images/output_datenrubrik.png "Aus den Eingaben im Datenrubrik-Formular wird ein Eintrag in der Datenrubrik und ein Datensatz im Datenportal erzeugt.")
 
-Die aktuelle [Dokumentation zur Datenrubrik](https://support.berlin.de/imperia/templates/datenrubrik/) finden Sie im Support-Wiki von Imperia. Im Folgenden werden die wichtigsten Aspekte zusammenfassend wiedergegeben.
+Die aktuelle [Dokumentation zur Datenrubrik](https://support.berlin.de/imperia/templates/datenrubrik/ "Dokumentation zur Datenrubrik im Imperia-Support-Wiki") finden Sie im Support-Wiki von Imperia. Im Folgenden werden die wichtigsten Aspekte zusammenfassend wiedergegeben.
 
 #### Datenrubrik einrichten
 
@@ -894,6 +894,25 @@ Die Datensätze verlinken direkt ins Datenportal.
 Bitte beachten Sie, dass lediglich Datensätze angezeigt werden, die bereits freigeschaltet sind.
 Bei neu freigeschalteten Datensätzen kann es bis zu 60 Minuten dauern, bis diese im Datenportal zur Verfügung stehen.
 
+#### Datenrubrik und Datawrapper
+
+Im Rahmen der Datenrubrik gibt es neben Datenupload oder Verlinkung einen weiteren Weg, um Daten zu veröffentlichen: das Visualisierungstool Datawrapper.
+Mit Datawrapper können Sie ausgehend von einer CSV-Datei Diagramme, Karten und andere Visualisierungen erstellen.
+Diese Visualisierungen können dann über ein spezielles Imperia-Flex-Modul auf einer berlin.de-Seite eingebunden werden.
+Dokumentation dazu finden sie im [Support-Wiki](https://support.berlin.de/imperia/flex-module/datawrapper/ "Dokumentation zum Flex-Modul Datawrapper im Imperia-Support-Wiki") von Imperia.
+Zusätzlich können Sie mit Hilfe der Datenrubrik die Daten ihres Datawrapper-Projekt aber auch als Datensatz im Open-Data-Portal veröffentlichen.
+
+Dazu gehen Sie zunächst genauso vor, wie unter [Datensatz anlegen](#datensatz-anlegen) beschrieben, wählen aber statt _Datenrubrik-Datensatz_ das _Datenrubrik-Datawrapper_-Template.
+Die Angabe der Metadaten erfolgt ebenfalls wie im Datensatz-Template.
+Anders als dort wird aber das Flex-Modul _Ressource: Datawrapper_ gewählt.
+Im Formular des Flex-Moduls müssen Sie nun Ihr Datawrapper-Projekt mit der Datenrubrik verknüpfen, indem Sie den Datawrapper-Link dort einfügen.
+Den Link finden Sie in Schritt 4 („Veröffentlichen & Einbetten“) ihres Datawrapper-Projekts.
+Wählen Sie den „Zum Teilen“-Link aus dem Bereich „Teilen & Einbetten“ (s. Abbildung).
+
+![Kopieren des Datawrapper-Links ins Datawrapper-Flexmodul](images/datawrapper-datenrubrik.png "Kopieren des Datawrapper-Links ins Datawrapper-Flexmodul")
+
+Eine detaillierte Anleitung zur Nutzung von Datawrapper in der Datenrubrik können Sie sich in einem passenden  [Video-Tutorial](https://odis-berlin.de/ressourcen/datawrapper_tutorial/ "Video-Tutorial zur Nutzung von Datawrapper in der Imperia-Datenrubrik") der ODIS ansehen.
+
 ### Imperia: SimpleSearch
 
 Wählen Sie diesen Weg, wenn:
@@ -913,7 +932,7 @@ Ihre Daten sind dann in verschiedenen Formaten (CSV, JSON, XML und evtl. andere)
 #### Datensatz aus SimpleSearch-Anwendung erzeugen
 
 Die Details zum Erstellen einer SimpleSearch-Anwendung würden den Rahmen dieses Dokuments sprengen.
-Eine detaillierte Dokumentation zu diesem Thema finden Sie im [Support-Wiki](https://support.berlin.de/imperia/templates/simplesearch/) von Imperia.
+Eine detaillierte Dokumentation zu diesem Thema finden Sie im [Support-Wiki](https://support.berlin.de/imperia/templates/simplesearch/ "Dokumentation zu SimpleSearch im Imperia-Support-Wiki") von Imperia.
 Die [Verwaltungsakademie](https://www.berlin.de/vak/) bietet zwei Mal im Jahr den Kurs „Imperia-Modul SimpleSearch“ an.
 An dieser Stelle soll im Handbuch nur kurz erläutert werden, welche Schritte nötig sind, um aus einer bestehenden SimpleSearch-Anwendung einen Datensatz für das Datenportal zu erzeugen.
 
@@ -970,19 +989,15 @@ Um ein Benutzerkonto zu beantragen und zu aktivieren, gehen Sie folgendermaßen 
 
 #### Navigation
 
-Sobald Sie eingeloggt sind, können Sie die Funktionen des Datenregisters nutzen (s. Abbildung).
+Sobald Sie eingeloggt sind, können Sie die Funktionen des Datenregisters nutzen.
+Den Einstiegspunkt bieten dabei die drei von berlin.de bekannten Quicklinks rechts oben: „Barrierefrei“, „Suche“ und „Menü“.
+Über den „Menü“-Link gelangen Sie zur Hauptnavigation des Datenregisters (s. Abbildung).
 
 ![Navigation](images/screenshot_menue.png "Die Navigationselemente des Berliner Datenregisters")
 
-##### Nutzermenü
+##### Hauptnavigation
 
-Im Nutzermenü am oberen Rand des Fensters können Sie auf Funktionen des Datenregisters zugreifen, die Ihr Benutzerkonto betreffen.
-Sie können etwa Ihr [Nutzerprofil](#nutzerprofil) einsehen und ändern, Ihr persönliches [Dashboard](#dashboard) aufrufen oder sich nach getaner Arbeit wieder ausloggen.
-
-##### Hauptmenü
-
-Unter dem Nutzermenü befindet sich das Hauptmenü des Datenregisters.
-Hier können Sie nach Datensätzen suchen sowie in die verschiedenen Hauptbereiche des Datenregisters navigieren:
+Über die oberen Menüpunkte können Sie in die verschiedenen Hauptbereiche des Datenregisters navigieren:
 
 - **Datensätze:** Hier gelangen Sie zur Liste aller Datensätze, die sich über das Suchfeld und die Filterfunktionen auf der linken Seite einschränken lässt.
 An dieser Stelle finden Sie auch die Möglichkeit, einen neuen [Datensatz hinzuzufügen](#datensatz-anlegen-1).
@@ -994,7 +1009,13 @@ Wählt man eine Organisation aus, gelangt man zur Liste der Datensätze dieser O
 Hier können Sie eine Liste aller Kategorien aufrufen.
 Wählt man eine Kategorie aus, gelangt man zur Liste der Datensätze in dieser Kategorie.
 
-- **Über uns:** Dies ist das Impressum (und die einzige öffentliche Seite) des Datenregisters.
+- **Über uns:** Dies ist das Impressum (und neben der Datenschutzerklärung die einzige öffentliche Seite) des Datenregisters.
+
+##### Weiteres
+
+Unter „Weiteres“ können Sie auf Funktionen des Datenregisters zugreifen, die Ihr Benutzer:innenkonto betreffen.
+Sie können etwa Ihr [Profil](#nutzerprofil) einsehen und ändern, Ihr persönliches [Dashboard](#dashboard) aufrufen oder sich nach getaner Arbeit wieder abmelden.
+
 
 #### Dashboard
 
@@ -1003,17 +1024,16 @@ Das Dashboard bietet einen Nachrichtenfeed, der Ereignisse von Objekten anzeigt,
 ![Das Dashboard](images/screenshot_dashboard.png "Das Dashboard eines Nutzers, mit einer Liste von Ereignissen")
 
 Sie können z.&nbsp;B. Organisationen oder Kategorien folgen und erfahren dann über das Dashboard, wenn neue Datensätze hinzugefügt oder bestehende geändert wurden.
-Sie können auch einzelnen Datensätzen folgen.
-Um etwa einer Kategorie zu folgen, öffnen Sie deren Seite über den _Kategorien_-Reiter im Hauptmenü und klicken Sie dann den _Folgen_ Button (s. Abbildung).
+Um etwa einer Kategorie zu folgen, öffnen Sie deren Seite über den _Kategorien_-Reiter im Hauptmenü und klicken dann den _Folgen_ Button (s. Abbildung).
 
-![Einer Kategorie folgen](images/screenshot_follow_category.png "Einer Kategorie folgen über den Follow Button"){:width="300px"}{: .centered }
+![Einer Organisation folgen](images/screenshot_follow_org.png "Einer Organisation folgen über den Follow-Button"){:width="300px"}{: .centered }
 
-Sie öffnen das Dashboard entweder über das [Nutzermenü](#nutzermenü) oder direkt über den Link <https://datenregister.berlin.de/dashboard>. 
+Sie öffnen das Dashboard entweder über [Weiteres](#weiteres) im Navigationsmenü oder direkt über den Link <https://datenregister.berlin.de/dashboard>.
 Auf ihrer Profilseite haben Sie außerdem die Möglichkeit, eine E-Mail-Benachrichtigung über neue Ereignisse auf Ihrem Dashboard zu abonnieren (unter _Bearbeiten_).
 
-#### Nutzerprofil
+#### Profil
 
-Im Nutzerprofil können Sie die Daten ansehen und bearbeiten, die das Datenregister zu Ihnen speichert (s. Abbildung).
+Im Nutzer:innenprofil können Sie die Daten ansehen und bearbeiten, die das Datenregister zu Ihnen speichert (s. Abbildung).
 Dazu gehören Name, E-Mail-Adresse und optional ein kurzer Beschreibungstext, etwa Ihre Position, weitere Kontaktdaten etc.
 Außerdem ist hier ein Link zu der Organisation zu finden, der man bei der Erstellung des Nutzeraccounts zugeordnet wurde. 
 
@@ -1048,8 +1068,8 @@ Auf diese Weise gelangen Sie zum Eingabeformular für einen neuen Datensatz (s. 
 
 Im ersten Schritt geben Sie die allgemeinen Metadaten zu ihrem Datensatz ein. 
 Zur Bedeutung der verschiedenen Metadatenfelder siehe auch das Kapitel [_Metadaten_](#metadaten).
-Pflichtfelder sind rot markiert; alle anderen Felder sind optional.
-Wenn Sie alle Metadaten eingegeben haben, gelangen Sie über den Button _Daten hinzufügen_ zum nächsten Schritt, in dem Sie die eigentlichen Datenressourcen hinzufügen.
+Pflichtfelder sind mit einem Stern markiert; alle anderen Felder sind optional.
+Wenn Sie alle Metadaten eingegeben haben, gelangen Sie über den Button _Daten hinzufügen_ zum nächsten Schritt, in dem Sie die eigentlichen Datenressourcen angeben.
 
 #### Datenressourcen hinzufügen
 
@@ -1866,9 +1886,9 @@ XML ist generisch gehalten, bildet aber die Basis für eine Vielzahl von spezial
 
 ## Quellenverzeichnis
 
-**[<a name="AFS2015">AFS2015</a>]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2019) - \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012019-wfs>. [Gesehen 09.04.2024]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+**[<a name="AFS2015">AFS2015</a>]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) (01.01.2019) – \[WFS\]_. 2015. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-raume-lor-01-01-2019-wfs-af5bb606>. [Gesehen 13.03.2026]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
-**[<a name="AFS2020">AFS2020</a>]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2021) - \[WFS\]_. 2020. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-räume-lor-planungsräume-01012021-wfs>. [Gesehen 06.10.2021]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
+**[<a name="AFS2020">AFS2020</a>]** Amt für Statistik Berlin-Brandenburg. _Lebensweltlich orientierte Räume (LOR) (01.01.2021) - \[WFS\]_. 2020. Datensatz. <https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-raume-lor-01-01-2021-wfs-34c86848>. [Gesehen 13.03.2026]. Lizenziert unter [Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)](http://creativecommons.org/licenses/by/3.0/de/).
 
 **[<a name="BM2023">BM2023</a>]** Bertelsmann Stiftung. _Musterdatenkatalog für Kommunen_. 2023. Webseite. <https://www.bertelsmann-stiftung.de/de/unsere-projekte/smart-country/musterdatenkatalog>. [Gesehen 11.04.2024].
 
@@ -1945,7 +1965,7 @@ Bilder und andere Elemente, deren Urheberrecht bei Dritten liegen, sind ausgenom
 **Quelle**: Der Quelltext für das Handbuch befindet sich in folgendem Repository: <https://github.com/berlinonline/open-data-handbuch>.
 Dort können über die _[Issue](https://github.com/berlinonline/open-data-handbuch/issues)_-Funktion auch Anregungen gemacht oder Fehler gemeldet werden (github-Account erforderlich). 
 Wer mag, kann auch gleich einen Pull Request stellen!<br/>
-**Stand**: 2025-11-20
+**Stand**: 2026-03-13
  ([2.0.2](https://github.com/berlinonline/open-data-handbuch/blob/main/CHANGELOG.md#202))
 
 ---
