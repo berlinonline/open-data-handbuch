@@ -774,7 +774,7 @@ Für jeden Datensatz wird dort ein Link aufgeführt, der die Nutzer/innen zu der
 
 ![Output des Datenrubrik-Formulars in Imperia\label{fig:datenrubrik_uebersicht}](images/output_datenrubrik.png "Aus den Eingaben im Datenrubrik-Formular wird ein Eintrag in der Datenrubrik und ein Datensatz im Datenportal erzeugt.")
 
-Die aktuelle [Dokumentation zur Datenrubrik](https://support.berlin.de/imperia/templates/datenrubrik/) finden Sie im Support-Wiki von Imperia. Im Folgenden werden die wichtigsten Aspekte zusammenfassend wiedergegeben.
+Die aktuelle [Dokumentation zur Datenrubrik](https://support.berlin.de/imperia/templates/datenrubrik/ "Dokumentation zur Datenrubrik im Imperia-Support-Wiki") finden Sie im Support-Wiki von Imperia. Im Folgenden werden die wichtigsten Aspekte zusammenfassend wiedergegeben.
 
 ### Datenrubrik einrichten
 
@@ -900,7 +900,7 @@ Ihre Daten sind dann in verschiedenen Formaten (CSV, JSON, XML und evtl. andere)
 ### Datensatz aus SimpleSearch-Anwendung erzeugen
 
 Die Details zum Erstellen einer SimpleSearch-Anwendung würden den Rahmen dieses Dokuments sprengen.
-Eine detaillierte Dokumentation zu diesem Thema finden Sie im [Support-Wiki](https://support.berlin.de/imperia/templates/simplesearch/) von Imperia.
+Eine detaillierte Dokumentation zu diesem Thema finden Sie im [Support-Wiki](https://support.berlin.de/imperia/templates/simplesearch/ "Dokumentation zu SimpleSearch im Imperia-Support-Wiki") von Imperia.
 Die [Verwaltungsakademie](https://www.berlin.de/vak/) bietet zwei Mal im Jahr den Kurs „Imperia-Modul SimpleSearch“ an.
 An dieser Stelle soll im Handbuch nur kurz erläutert werden, welche Schritte nötig sind, um aus einer bestehenden SimpleSearch-Anwendung einen Datensatz für das Datenportal zu erzeugen.
 
