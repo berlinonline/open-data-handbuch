@@ -4,7 +4,9 @@ This is the source for the "Berliner Open-Data-Handbuch". From the source, diffe
 
 The following versions exist:
 
-- A professionally produced printed version. The production of this version is not done directly from source, but involves several manual steps. The content is mostly identical, but the printed version contains some things that aren't included in the source (background graphics, an introductory greeting, etc.). The version of the source that was used as the basis for the printed version is tagged as [version 1.0.0](https://github.com/berlinonline/open-data-handbuch/tree/1.0.0).
+- A professionally produced printed version. The production of this version is not done directly from source, but involves several manual steps. The content is mostly identical, but the printed version contains some things that aren't included in the source (background graphics, an introductory greeting, etc.).
+- The version of the source that was used as the basis for the original printed version is tagged as [version 1.0.0](https://github.com/berlinonline/open-data-handbuch/tree/1.0.0).
+- The second edition of the printed version is based on [version 2.0.0](https://github.com/berlinonline/open-data-handbuch/tree/2.0.0).
 - A PDF generated directly from the source via [pandoc](https://pandoc.org) (and additional processing).
 - An HTML version generated directly from the source via [jekyll](https://jekyllrb.com) (and additional processing) and served through github pages: https://berlinonline.github.io/open-data-handbuch/
 
